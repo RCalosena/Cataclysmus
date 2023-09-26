@@ -1,0 +1,166 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "theCommunityHouse",
+  "items": [
+    {
+      "weight": 99.99998474121094,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "betteranimalsplus:wolf_cape_classic",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            },
+            "EA_ENABLED": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "RARITY": {
+              "nbtType": "int",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "qualitytools:emerald_amulet",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "qualitytools:emerald_ring",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "potioncraft:potionbag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 5.889627456665039,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "lycanitesmobs:cooked_aspid_meat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 99.99998474121094,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:spawn_egg",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Ananias the Silky"
+                }
+              }
+            },
+            "EntityTag": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "mysticalworld:entity_silkworm"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 99.99998474121094,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:spawn_egg",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RepairCost": {
+              "nbtType": "int",
+              "nbt": 0
+            },
+            "display": {
+              "nbtType": "compound",
+              "nbt": {
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "Orion"
+                }
+              }
+            },
+            "EntityTag": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "minecraft:wolf"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
