@@ -1,0 +1,275 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "PyramidGraveGoodsCheap",
+  "items": [
+    {
+      "weight": 3.48,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:web",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.02,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mysticalworld:antler_hat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.02,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mysticalworld:beetle_mask",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.50,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "quark:archaeologist_hat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.50,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "quark:soul_bead",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cqrepoured:alchemy_bag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.40,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:salve",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:plaster",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.30,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:bandage",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.01,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "lycanitesmobs:frostweb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.01,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "lycanitesmobs:quickweb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.21,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "lycanitesmobs:poisongland",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.21,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "lycanitesmobs:frostyfur",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "lycanitesmobs:immunizer",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18,
+      "min": 2,
+      "max": 5,
+      "item": {
+        "id": "lycanitesmobs:cleansingcrystal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.04,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:artifact_generation_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RC_HIDDEN_ITEM": {
+              "nbtType": "string",
+              "nbt": "reccomplex:artifact_generation_tag"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.71,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:book_generation_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RC_HIDDEN_ITEM": {
+              "nbtType": "string",
+              "nbt": "reccomplex:book_generation_tag"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "useless_sword:lapislazulisword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "minecraft:leather",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.68,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "minecraft:gold_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_helmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_boots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_leggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:leather_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

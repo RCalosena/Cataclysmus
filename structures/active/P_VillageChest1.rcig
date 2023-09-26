@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "VillageChest",
+  "items": [
+    {
+      "weight": 0.4858947992324829,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "harvestcraft:tomatoitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 15,
+      "item": {
+        "id": "harvestcraft:garlicitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "harvestcraft:sweetpotatoitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "harvestcraft:bellpepperitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 20,
+      "item": {
+        "id": "harvestcraft:peasitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4858947992324829,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "harvestcraft:cabbageitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "harvestcraft:lettuceitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "harvestcraft:onionitem",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "The_Lich"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "global"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "aMessageToAndrew"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "global"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "aStrangeDisc"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "disc quest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "The_Necromancer"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "global"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
