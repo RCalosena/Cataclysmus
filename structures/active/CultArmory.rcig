@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "CultArmory",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.60,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "primitivemobs:camouflage_boots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.60,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "primitivemobs:camouflage_leggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.60,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "primitivemobs:camouflage_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.60,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "primitivemobs:camouflage_helmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:salve",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.10,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:plaster",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:bandage",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "minecraft:sea_lantern",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "minecraft:wooden_button",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

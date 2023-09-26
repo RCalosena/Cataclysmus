@@ -1,0 +1,1792 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "AbandonedChest",
+  "items": [
+    {
+      "weight": 2.01,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:web",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "The_Lich"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "global"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "aMessageToAndrew"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "global"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "aStrangeDisc"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "disc quest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "The_Necromancer"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "global"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:olives",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:wildberries",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:grapes",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:chili_pepper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:tomato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:marsh_mallow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:ginseng",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:core_root",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:brewing_barrel",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:barrel",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:crushing_tub",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.01,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "rustic:apiary",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.01,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "lycanitesmobs:frostweb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.01,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "lycanitesmobs:quickweb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.09,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+	{
+      "weight": 0.4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bountifulbaubles:trinketballoon",
+        "damage": 0,
+        "count": 1
+      }
+    },
+	{
+      "weight": 0.4,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "artifacts:bottled_cloud",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.7,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "hooked:hook",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.40,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "primitivemobs:camouflage_boots",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.40,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "primitivemobs:camouflage_leggings",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.40,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "primitivemobs:camouflage_chestplate",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.40,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "primitivemobs:camouflage_helmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.40,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "minecraft:slime_ball",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.60,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "primitivemobs:camouflage_dye",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.09,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cqrepoured:ball_slime",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.80,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "mysticalworld:carapace",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.80,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "mysticalworld:antlers",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.90,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "mysticalworld:pelt",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.21,
+      "min": 1,
+      "max": 7,
+      "item": {
+        "id": "minecraft:rotten_flesh",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.30,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "lycanitesmobs:poisongland",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.30,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "lycanitesmobs:frostyfur",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "lycanitesmobs:immunizer",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.18,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "lycanitesmobs:cleansingcrystal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:brown_mushroom",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.40,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:salve",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:plaster",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.30,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:bandage",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:red_mushroom",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.05,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cqrepoured:alchemy_bag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:cure"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:cure"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_repair"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_repair"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_recoil"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_fire"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_fire"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:long_climb"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:long_climb"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:teleport"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:teleport"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_rust"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:long_perplexity"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:long_perplexity"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_hunger"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splashpotion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_hunger"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_vulnerable"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_reach"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_reach"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_levitation"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_mining_fatigue"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:solid_core"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_step_up"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_step_up"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_haste"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_haste"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:long_glowing"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:long_glowing"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:long_drown"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:extension"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:love"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:love"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:disorganization"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:disorganization"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_wither"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_explode"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:unluck"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:unluck"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:spidertrapeffect"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:spidertrapeffect"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_blindness"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_blindness"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_broken_magic_shield"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_broken_armor"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:lightning"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:lightning"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:chance"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:chance"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:invert"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:invert"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_magic_inhibition"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_weight"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_weight"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_klutz"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_klutz"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_launch"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:dispel"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:luck"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_archery"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_archery"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_curse"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_curse"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_spin"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:strong_spin"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:antidote"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.15,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:splash_potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "potioncore:antidote"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.40,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:book_generation_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "RC_HIDDEN_ITEM": {
+              "nbtType": "string",
+              "nbt": "reccomplex:book_generation_tag"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
