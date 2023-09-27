@@ -1,0 +1,34 @@
+name: metallurgy_oureclase_ore
+mod: metallurgy
+block: {
+  location: metallurgy:oureclase_ore
+  hardness: 4
+  level: 3
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/oureclase_ore
+}
+recipe: {
+  result: metallurgy:oureclase_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:oureclase_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 10, 100 ]
+    size: 6
+    count: 24
+    chance: 1.0
+    blacklistDimensions: false
+    dimensions: [10]
+  }
+]

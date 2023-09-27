@@ -1,0 +1,32 @@
+name: metallurgy_lutetium_ore
+mod: metallurgy
+block: {
+  location: metallurgy:lutetium_ore
+  level: 4
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/lutetium_ore
+}
+recipe: {
+  result: metallurgy:lutetium_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:lutetium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    blacklistDimensions: true
+    dimensions: [0, 1, -1, 23, -23, 10]
+    height: [ 20, 50 ]
+    size: 3
+    count: 3
+  }
+]

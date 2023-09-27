@@ -1,0 +1,32 @@
+name: metallurgy_mithril_ore
+mod: metallurgy
+block: {
+  location: metallurgy:mithril_ore
+  level: 4
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/mithril_ore
+}
+recipe: {
+  result: metallurgy:mithril_ingot
+  xp: 0.6
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:mithril_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+  }
+]
+gen: [
+  {
+    height: [ 50, 100 ]
+    size: 8
+    count: 24
+    chance: 1.0
+    blacklistDimensions: false
+    dimensions: [10]
+  }
+]

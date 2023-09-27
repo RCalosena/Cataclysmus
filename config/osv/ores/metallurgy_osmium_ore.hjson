@@ -1,0 +1,33 @@
+name: metallurgy_osmium_ore
+mod: metallurgy
+block: {
+  location: metallurgy:osmium_ore
+  level: 2
+  resistance: 60
+}
+texture: {
+  original: metallurgy:blocks/osmium_ore
+}
+recipe: {
+  result: metallurgy:osmium_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:osmium_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 200, 210 ]
+    size: 4
+    count: 1
+    chance: 1.0
+    blacklistDimensions: false
+    dimensions: [10]
+  }
+]
