@@ -1,0 +1,159 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWorldSelection
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = &2 Play Selected World
+}
+
+customization {
+  identifier = %id=346948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=346948%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=504948%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=504948%
+  action = setbuttonlabel
+  value = &2 Create New World
+}
+
+customization {
+  identifier = %id=504948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=504948%
+  action = sethoverlabel
+  label = §a Start Falling...
+}
+
+customization {
+  identifier = %id=582972%
+  action = setbuttonlabel
+  value = &2 Cancel
+}
+
+customization {
+  identifier = %id=582972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=582972%
+  action = sethoverlabel
+  label = §a Cancel
+}
+
+customization {
+  identifier = %id=346972%
+  action = setbuttonlabel
+  value = &2 Edit
+}
+
+customization {
+  identifier = %id=346972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=346972%
+  action = sethoverlabel
+  label = §a Edit
+}
+
+customization {
+  identifier = %id=424972%
+  action = setbuttonlabel
+  value = &2 Delete
+}
+
+customization {
+  identifier = %id=424972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=424972%
+  action = sethoverlabel
+  label = §a Delete
+}
+
+customization {
+  identifier = %id=504972%
+  action = setbuttonlabel
+  value = &2 Re-Create
+}
+
+customization {
+  identifier = %id=504972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=504972%
+  action = sethoverlabel
+  label = §a Re-Create
+}
+

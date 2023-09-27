@@ -1,0 +1,23 @@
+[  
+    {
+        "timeout": 20,
+        "dimension": 0,
+        "minheight": 254,
+        "potion": "minecraft:wither,220,3"
+    },
+    {
+        "timeout": 10,
+        "dimension": 0,
+        "minheight": 255,
+        "potion": "minecraft:levitation,220,3"
+    },
+    {
+        "timeout": 10,
+        "dimension": 1,
+        "maxheight": 1,
+        "fire": 60
+    },
+    {
+        
+    }
+]

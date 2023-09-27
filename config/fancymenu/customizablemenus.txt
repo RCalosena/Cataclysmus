@@ -1,0 +1,23 @@
+type = customizablemenus
+
+net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+net.minecraft.client.gui.inventory.GuiInventory {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiGameOver {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
+org.zeith.improvableskills.client.gui.GuiDiscord {
+}
+
+org.zeith.improvableskills.client.gui.GuiAbilityBook {
+}
+

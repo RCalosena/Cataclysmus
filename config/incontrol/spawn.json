@@ -1,0 +1,29 @@
+[    
+    {
+      "dimension": 0,
+      "mod": "mod_lavacow",
+      "mincount": {
+        "amount": 10,
+        "mod": "mod_lavacow",
+        "hostile": true,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
+    {
+      "dimension": [0,-1],
+      "mob": "mutantbeasts:mutant_enderman",
+      "result": "deny"
+    },
+    {
+      "dimension": -23,
+      "mod": "srparasites",
+      "result": "allow"
+    },
+    {
+      "mob": ["minecraft:creeper", "minecraft:skeleton","minecraft:zombie"],
+      "dimension": 0,
+      "mincount": 10,
+      "result": "deny"
+    }
+  ]
