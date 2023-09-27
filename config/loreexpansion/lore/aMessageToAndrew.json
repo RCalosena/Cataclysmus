@@ -1,0 +1,17 @@
+{
+  "key": {
+    "id": "aMessageToAndrew",
+    "category": "global"
+  },
+  "content": {
+    "title": "A Message to Andrew - By Mom",
+    "body": "Hello little Andy! I left this note to tell you that I'm out on a trip. I also wanted to remind you to sleep early. You don't want the grue to come into your house and eat you, do you?",
+    "autoplay": false
+  },
+  "sortingIndex": 0,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}
