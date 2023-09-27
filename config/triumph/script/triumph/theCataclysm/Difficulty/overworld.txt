@@ -1,0 +1,15 @@
+setShowToast(false)
+setAnnounceToChat(false)
+setIcon("minecraft:grass")
+setTranslatedTitle("Nature's Grace")
+setTranslatedDescription("The Overworld is your home")
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("entered_overworld", "minecraft:location")
+criteria.setDimID(0)
+
+setRepeatTime(5)
+
+setRewardFunction("triumph:difficulty_overworld")
+setPos(-139,40)

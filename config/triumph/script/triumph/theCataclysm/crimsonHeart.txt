@@ -1,0 +1,15 @@
+setTitle("The First Sentinel")
+
+setIcon("erebus:materials", 39)
+
+setDescription("Obtain Crimson Hearts")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("crimsoneart", "minecraft:inventory_changed")
+criteria.setItem("erebus:materials", 39)
+
+//Rewards
+setPos(31,146)

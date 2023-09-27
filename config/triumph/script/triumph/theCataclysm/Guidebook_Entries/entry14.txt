@@ -1,0 +1,18 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("God Killer")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/vile")
+
+criteria = addCriteria("vile", "minecraft:inventory_changed")
+criteria.addItem("erebus:spider_t_shirt")
+criteria.addItem("erebus:materials", 64)
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,327)

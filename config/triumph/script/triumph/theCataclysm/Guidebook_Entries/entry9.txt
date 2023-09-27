@@ -1,0 +1,17 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("Post Dragon")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/legg")
+
+criteria = addCriteria("scale", "minecraft:inventory_changed")
+criteria.addItem("minecraft:dragon_egg")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,171)

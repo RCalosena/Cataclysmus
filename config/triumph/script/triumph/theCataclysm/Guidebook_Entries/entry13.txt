@@ -1,0 +1,17 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("Final Rush")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/jade")
+
+criteria = addCriteria("jad", "minecraft:inventory_changed")
+criteria.addItem("erebus:materials", 1)
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,302)

@@ -1,0 +1,15 @@
+setTitle("Bad Breath")
+
+setIcon("useless_sword:dragonbreathdiamond")
+
+setDescription("Obtain the Dragonbreath Diamond")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("bug", "minecraft:inventory_changed")
+criteria.setItem("useless_sword:dragonbreathdiamond")
+
+//Rewards
+setPos(31,277)

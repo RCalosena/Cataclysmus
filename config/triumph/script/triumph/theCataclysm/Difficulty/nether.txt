@@ -1,0 +1,12 @@
+setShowToast(false)
+setAnnounceToChat(false)
+setIcon("minecraft:flint_and_steel")
+setTranslatedTitle("The World of Carnage")
+setTranslatedDescription("Difficulty is higher in this dimension")
+
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")
+
+setRewardFunction("triumph:difficulty_nether")
+
+setRepeatTime(1)

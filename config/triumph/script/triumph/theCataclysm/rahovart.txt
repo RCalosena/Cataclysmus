@@ -1,0 +1,15 @@
+setTitle("Inferni Caedem")
+setIcon(<lycanitesmobs:demoncrystal>)
+setDescription("Defeat the great Rahovart")
+setFrameType("challenge")
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("Rahovart", "minecraft:player_killed_entity")
+criteria.setEntityType("lycanitesmobs:rahovart")
+
+setRewardExperience(10000)
+setRewardFunction("triumph:difficulty_1")
+
+setRequirements("any")
+setPos(44,118)

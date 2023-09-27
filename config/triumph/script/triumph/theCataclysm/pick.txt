@@ -1,0 +1,15 @@
+setTitle("Beyond Our World")
+
+setIcon("minecraft:diamond_pickaxe")
+
+setDescription("Craft a Diamond Pickaxe")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("diamondPick", "minecraft:inventory_changed")
+criteria.setItem("minecraft:diamond_pickaxe")
+
+//Rewards
+setPos(31,40)

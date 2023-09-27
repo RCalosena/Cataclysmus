@@ -1,0 +1,17 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("The Hidden World")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/dragonbreathDiamond")
+
+criteria = addCriteria("breath", "minecraft:inventory_changed")
+criteria.addItem("useless_sword:dragonbreathdiamond")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,277)

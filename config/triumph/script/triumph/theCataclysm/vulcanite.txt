@@ -1,0 +1,15 @@
+setTitle("Underworld Armory")
+
+setIcon("metallurgy:vulcanite_ingot")
+
+setDescription("Smelt Vulcanite")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("vulIng", "minecraft:inventory_changed")
+criteria.setItem("metallurgy:vulcanite_ingot")
+
+//Rewards
+setPos(31,65)

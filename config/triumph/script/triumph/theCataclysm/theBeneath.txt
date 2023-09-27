@@ -1,0 +1,23 @@
+//Set icon item
+setIcon(<minecraft:stone>)
+
+//Set title String
+setTitle("Way Too Deep")
+
+//Set description String
+setDescription("Enter the Deep Caverns")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:theCataclysm/root")
+
+//Set the position
+setPos(-21,28)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "entered_nether" with the trigger type "minecraft:location". This function returns the criteria as an object
+criteria = addCriteria("entered_beneath", "minecraft:location")
+
+//Sets the required dimension id for the criteria. This is the dimension the player must be in.
+criteria.setDimID(10)

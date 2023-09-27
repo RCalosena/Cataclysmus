@@ -1,0 +1,15 @@
+setTitle("God Killer")
+setIcon(<srparasites:vile_shell>)
+setDescription("Defeat the Last Sentinel")
+setFrameType("challenge")
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("Amalgalich", "minecraft:player_killed_entity")
+criteria.setEntityType("lycanitesmobs:amalgalich")
+
+setRewardExperience(10000)
+setRewardFunction("triumph:difficulty_kirby")
+
+setRequirements("any")
+setPos(44,401)

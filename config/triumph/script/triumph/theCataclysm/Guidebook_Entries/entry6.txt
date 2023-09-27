@@ -1,0 +1,17 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("Demon Massacre")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/netherStar")
+
+criteria = addCriteria("netherStar", "minecraft:inventory_changed")
+criteria.addItem("minecraft:nether_star")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,90)

@@ -1,0 +1,15 @@
+setTitle("item.Registry.Exception")
+
+setIcon("useless_sword:buggeddiamond")
+
+setDescription("Obtain the Bugged Diamond")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("bug", "minecraft:inventory_changed")
+criteria.setItem("useless_sword:buggeddiamond")
+
+//Rewards
+setPos(31,252)

@@ -1,0 +1,16 @@
+setShowToast(false)
+setAnnounceToChat(false)
+setTitle("waw")
+setIcon("erebus:materials", 1)
+setDescription("Necromancer Remove")
+
+//Criteria
+criteria = addCriteria("NecromancerTrigger", "minecraft:inventory_changed")
+
+setRequirements("any")
+
+setRepeatTime(1)
+
+setRewardFunction("triumph:Necromancer_remove")
+
+setPos(31,302)

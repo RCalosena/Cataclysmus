@@ -1,0 +1,16 @@
+setTitle("For the Moon")
+
+setIcon("erebus:spider_t_shirt")
+
+setDescription("Kill Both Erebus Bosses")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("l", "minecraft:inventory_changed")
+criteria.addItem("erebus:spider_t_shirt")
+criteria.addItem("erebus:materials", 64)
+
+//Rewards
+setPos(31,327)

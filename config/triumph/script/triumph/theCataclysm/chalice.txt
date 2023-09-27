@@ -1,0 +1,15 @@
+setTitle("The Magic Bottle")
+
+setIcon("everlastingabilities:ability_bottle")
+
+setDescription("Obtain the Ability Bottle")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("ab", "minecraft:inventory_changed")
+criteria.setItem("everlastingabilities:ability_bottle")
+
+//Rewards
+setPos(31,196)

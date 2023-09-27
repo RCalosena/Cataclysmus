@@ -1,0 +1,12 @@
+setShowToast(false)
+setAnnounceToChat(false)
+setIcon("minecraft:bucket")
+setTranslatedTitle("breh")
+setTranslatedDescription("Necromancer")
+
+criteria = addCriteria("Necromancer", "minecraft:effects_changed")
+criteria.addEffect("quark:black")
+
+setRepeatTime(1)
+
+setRewardFunction("triumph:Necromancer")

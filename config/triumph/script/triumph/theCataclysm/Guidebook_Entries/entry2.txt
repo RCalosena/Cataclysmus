@@ -1,0 +1,19 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("The Deep Caverns")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/TDK")
+
+criteria = addCriteria("hasOrb", "minecraft:inventory_changed")
+criteria.setItem("srparasites:ada_manducater_drop")
+criteria.setItem("srparasites:ada_summoner_drop")
+criteria.setItem("nocubessrparmory:overlordcore")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,15)

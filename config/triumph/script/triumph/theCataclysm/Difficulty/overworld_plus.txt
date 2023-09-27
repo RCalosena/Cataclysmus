@@ -1,0 +1,12 @@
+setShowToast(false)
+setAnnounceToChat(false)
+setIcon("minecraft:flint_and_steel")
+setTranslatedTitle("Natur")
+setTranslatedDescription("m")
+
+criteria = addCriteria("changed_overworld", "minecraft:changed_dimension")
+criteria.setDimensionDestination("overworld")
+
+setRewardFunction("triumph:difficulty_overworld")
+
+setRepeatTime(1)

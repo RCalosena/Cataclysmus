@@ -1,0 +1,15 @@
+setTitle("The Genesis")
+
+setIcon("minecraft:dragon_egg")
+
+setDescription("Obtain the Dragon Egg")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("dragonEgg", "minecraft:inventory_changed")
+criteria.setItem("minecraft:dragon_egg")
+
+//Rewards
+setPos(31,171)

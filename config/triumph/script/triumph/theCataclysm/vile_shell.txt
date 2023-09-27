@@ -1,0 +1,15 @@
+setTitle("Look What You Have Become")
+
+setIcon("srparasites:vile_shell")
+
+setDescription("Kill the Final Boss")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("le", "minecraft:inventory_changed")
+criteria.addItem("srparasites:vile_shell")
+
+//Rewards
+setPos(31,430)

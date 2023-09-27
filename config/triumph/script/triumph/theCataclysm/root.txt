@@ -1,0 +1,17 @@
+setIcon(<customdisc:rcalosena_-_mister_mistery>)
+
+setTitle("The Cataclysm")
+
+setDescription("Wake up From the Fall")
+
+setBackground("rustic:textures/blocks/slate.png")
+
+setShowToast(true)
+
+setAnnounceToChat(true)
+
+setPos(-139,65)
+
+setFrameType("TASK")
+
+addCriteria("loc", "minecraft:location")

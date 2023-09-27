@@ -1,0 +1,17 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("The Hunting")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/vulcanite")
+
+criteria = addCriteria("vulcanite", "minecraft:inventory_changed")
+criteria.addItem("metallurgy:vulcanite_ingot")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,65)

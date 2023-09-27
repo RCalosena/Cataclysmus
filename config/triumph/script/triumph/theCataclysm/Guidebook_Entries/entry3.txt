@@ -1,0 +1,17 @@
+setTitle("Manual Chapter Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("Mid Game")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:vanilla/story/mine_diamond")
+
+criteria = addCriteria("diamond", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(160,1)

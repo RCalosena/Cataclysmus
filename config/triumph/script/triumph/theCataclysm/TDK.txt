@@ -1,0 +1,20 @@
+setTitle("The Dungeon Keepers")
+
+setIcon("srparasites:ada_summoner_drop")
+
+setDescription("Acquire The Dungeon Orbs")
+
+addParent("triumph:theCataclysm/root")
+
+//Criteria
+criteria = addCriteria("hasOrb", "minecraft:inventory_changed")
+criteria.setItem("srparasites:ada_manducater_drop")
+criteria.setItem("srparasites:ada_summoner_drop")
+criteria.setItem("nocubessrparmory:overlordcore")
+criteria.setItem("srparasites:bone")
+
+setRequirements("any")
+
+//Rewards
+setRewardFunction("triumph:guide2")
+setPos(31,15)

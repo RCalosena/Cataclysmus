@@ -1,0 +1,15 @@
+setTitle("Dwarf Star")
+
+setIcon("minecraft:nether_star")
+
+setDescription("Obtain Nether Stars")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("dwarfStar", "minecraft:inventory_changed")
+criteria.setItem("minecraft:nether_star")
+
+//Rewards
+setPos(31,90)
