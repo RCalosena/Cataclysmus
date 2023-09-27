@@ -1,0 +1,52 @@
+[
+  {
+    "ore": "minecraft:magma",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 26,
+    "size": 24,
+    "miny": 0,
+    "maxy": 256
+  },
+  {
+    "ore": "notreepunching:cobblestone/slate",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 100,
+    "size": 10,
+    "miny": 0,
+    "maxy": 256
+  },
+  {
+    "ore": "quark:jasper",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 33,
+    "size": 24,
+    "miny": 0,
+    "maxy": 256
+  },
+  {
+    "ore": "minecraft:stone",
+    "oremeta": 5,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 33,
+    "size": 24,
+    "miny": 0,
+    "maxy": 160
+  },
+  {
+    "ore": "quark:biome_cobblestone",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 33,
+    "size": 24,
+    "miny": 0,
+    "maxy": 160
+  }
+]
