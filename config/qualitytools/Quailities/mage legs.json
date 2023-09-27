@@ -1,0 +1,82 @@
+{
+    "comment": "These qualities will apply for all leggings! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "legs",
+    "whitelist": [
+      {
+        "item": "minecraft:golden_leggings"
+      },
+      {
+        "item": "cqrepoured:leggings_inquisition"
+      },
+      {
+        "item": "enderenhancement:item_empowered_ender_leggings"
+      },
+      {
+        "item": "cactusmod:cactus_leggings"
+      },
+      {
+        "item": "metallurgy:inolashite_leggings"
+      },
+      {
+        "item": "mod_lavacow:swinearmor_leggings"
+      },
+      {
+        "item": "metallurgy:platinum_leggings"
+      },
+      {
+        "item": "metallurgy:ceruclase_leggings"
+      },
+      {
+        "item": "metallurgy:damascus_steel_leggings"
+      },
+      {
+        "item": "metallurgy:ignatius_leggings"
+      },
+      {
+        "item": "metallurgy:atlarus_leggings"
+      },
+      {
+        "item": "metallurgy:vyroxeres_leggings"
+      },
+      {
+        "item": "midnight:rockshroom_leggings"
+      },
+      {
+        "item": "metallurgy:midasium_leggings"
+      },
+      {
+        "item": "nocubessrparmory:twistedarmorlegs"
+      },
+      {
+        "item": "metallurgy:prometheum_leggings"
+      },
+      {
+        "item": "mod_lavacow:felarmor_leggings"
+      },
+      {
+        "item": "srparasites:armor_pants"
+      },
+      {
+        "item": "srparasites:armor_pants_sentient"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "xat.jump",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

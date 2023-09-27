@@ -1,0 +1,82 @@
+{
+    "comment": "These qualities will apply for all boots! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "feet",
+    "whitelist": [
+      {
+        "item": "minecraft:golden_boots"
+      },
+      {
+        "item": "cqrepoured:boots_inquisition"
+      },
+      {
+        "item": "enderenhancement:item_empowered_ender_boots"
+      },
+      {
+        "item": "mod_lavacow:swinearmor_boots"
+      },
+      {
+        "item": "metallurgy:platinum_boots"
+      },
+      {
+        "item": "cactusmod:cactus_boots"
+      },
+      {
+        "item": "metallurgy:inolashite_boots"
+      },
+      {
+        "item": "metallurgy:ceruclase_boots"
+      },
+      {
+        "item": "metallurgy:damascus_steel_boots"
+      },
+      {
+        "item": "metallurgy:ignatius_boots"
+      },
+      {
+        "item": "metallurgy:atlarus_boots"
+      },
+      {
+        "item": "metallurgy:vyroxeres_boots"
+      },
+      {
+        "item": "midnight:rockshroom_boots"
+      },
+      {
+        "item": "metallurgy:midasium_boots"
+      },
+      {
+        "item": "nocubessrparmory:twistedarmorboots"
+      },
+      {
+        "item": "metallurgy:prometheum_boots"
+      },
+      {
+        "item": "mod_lavacow:felarmor_boots"
+      },
+      {
+        "item": "srparasites:armor_boots"
+      },
+      {
+        "item": "srparasites:armor_boots_sentient"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.08,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

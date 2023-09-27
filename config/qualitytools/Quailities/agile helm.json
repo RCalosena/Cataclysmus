@@ -1,0 +1,82 @@
+{
+    "comment": "These qualities will apply for all helmet! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "head",
+    "whitelist": [
+      {
+        "item": "minecraft:iron_helmet"
+      },
+      {
+        "item": "metallurgy:hepatizon_helmet"
+      },
+      {
+        "item": "minecraft:diamond_helmet"
+      },
+      {
+        "item": "mysticalworld:copper_helmet"
+      },
+      {
+        "item": "cqrepoured:helmet_slime"
+      },
+      {
+        "item": "mutantbeasts:mutant_skeleton_skull"
+      },
+      {
+        "item": "metallurgy:eximite_helmet"
+      },
+      {
+        "item": "metallurgy:oureclase_helmet"
+      },
+      {
+        "item": "metallurgy:shadow_steel_helmet"
+      },
+      {
+        "item": "metallurgy:amordrine_helmet"
+      },
+      {
+        "item": "metallurgy:quicksilver_helmet"
+      },
+      {
+        "item": "metallurgy:astral_silver_helmet"
+      },
+      {
+        "item": "metallurgy:desichalkos_helmet"
+      },
+      {
+        "item": "metallurgy:shadow_iron_helmet"
+      },
+      {
+        "item": "cqrepoured:helmet_iron_dyable"
+      },
+      {
+        "item": "cqrepoured:helmet_diamond_dyable"
+      },
+      {
+        "item": "erebus:jade_helmet"
+      },
+      {
+        "item": "nocubessrparmory:adaptivearmorhelmet"
+      },
+      {
+        "item": "nocubessrparmory:gorearmorhelmet"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.10,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "comment": "These qualities will apply for all helmets! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "head",
+    "whitelist": [
+      {
+        "item": "minecraft:golden_helmet"
+      },
+      {
+        "item": "cqrepoured:helmet_inquisition"
+      },
+      {
+        "item": "enderenhancement:item_empowered_ender_helmet"
+      },
+      {
+        "item": "mod_lavacow:swinemask"
+      },
+      {
+        "item": "metallurgy:platinum_helmet"
+      },
+      {
+        "item": "metallurgy:ceruclase_helmet"
+      },
+      {
+        "item": "metallurgy:damascus_steel_helmet"
+      },
+      {
+        "item": "metallurgy:ignatius_helmet"
+      },
+      {
+        "item": "metallurgy:atlarus_helmet"
+      },
+      {
+        "item": "metallurgy:vyroxeres_helmet"
+      },
+      {
+        "item": "cactusmod:cactus_helmet"
+      },
+      {
+        "item": "midnight:rockshroom_helmet"
+      },
+      {
+        "item": "metallurgy:midasium_helmet"
+      },
+      {
+        "item": "metallurgy:inolashite_helmet"
+      },
+      {
+        "item": "nocubessrparmory:twistedarmorhelmet"
+      },
+      {
+        "item": "nocubessrpsurvival:devourerarmorhelmet"
+      },
+      {
+        "item": "metallurgy:prometheum_helmet"
+      },
+      {
+        "item": "mod_lavacow:felarmor_helmet"
+      },
+      {
+        "item": "srparasites:armor_helm"
+      },
+      {
+        "item": "srparasites:armor_helm_sentient"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.1,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

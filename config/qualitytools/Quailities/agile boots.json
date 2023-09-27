@@ -1,0 +1,82 @@
+{
+    "comment": "These qualities will apply for all boots! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "feet",
+    "whitelist": [
+      {
+        "item": "minecraft:iron_boots"
+      },
+      {
+        "item": "metallurgy:hepatizon_boots"
+      },
+      {
+        "item": "minecraft:diamond_boots"
+      },
+      {
+        "item": "mysticalworld:copper_boots"
+      },
+      {
+        "item": "cqrepoured:boots_slime"
+      },
+      {
+        "item": "mutantbeasts:mutant_skeleton_boots"
+      },
+      {
+        "item": "metallurgy:eximite_boots"
+      },
+      {
+        "item": "metallurgy:oureclase_boots"
+      },
+      {
+        "item": "metallurgy:shadow_steel_boots"
+      },
+      {
+        "item": "metallurgy:amordrine_boots"
+      },
+      {
+        "item": "metallurgy:quicksilver_boots"
+      },
+      {
+        "item": "metallurgy:astral_silver_boots"
+      },
+      {
+        "item": "metallurgy:desichalkos_boots"
+      },
+      {
+        "item": "metallurgy:shadow_iron_boots"
+      },
+      {
+        "item": "cqrepoured:boots_iron_dyable"
+      },
+      {
+        "item": "cqrepoured:boots_diamond_dyable"
+      },
+      {
+        "item": "erebus:jade_boots"
+      },
+      {
+        "item": "nocubessrparmory:adaptivearmorboots"
+      },
+      {
+        "item": "nocubessrparmory:gorearmorboots"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

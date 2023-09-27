@@ -1,0 +1,82 @@
+{
+    "comment": "These qualities will apply for all leggings! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "legs",
+    "whitelist": [
+      {
+        "item": "minecraft:iron_leggings"
+      },
+      {
+        "item": "metallurgy:hepatizon_leggings"
+      },
+      {
+        "item": "minecraft:diamond_leggings"
+      },
+      {
+        "item": "metallurgy:eximite_leggings"
+      },
+      {
+        "item": "metallurgy:oureclase_leggings"
+      },
+      {
+        "item": "mutantbeasts:mutant_skeleton_leggings"
+      },
+      {
+        "item": "metallurgy:shadow_steel_leggings"
+      },
+      {
+        "item": "metallurgy:amordrine_leggings"
+      },
+      {
+        "item": "metallurgy:quicksilver_leggings"
+      },
+      {
+        "item": "metallurgy:astral_silver_leggings"
+      },
+      {
+        "item": "metallurgy:desichalkos_leggings"
+      },
+      {
+        "item": "metallurgy:shadow_iron_leggings"
+      },
+      {
+        "item": "mysticalworld:copper_leggings"
+      },
+      {
+        "item": "cqrepoured:leggings_slime"
+      },
+      {
+        "item": "cqrepoured:leggings_iron_dyable"
+      },
+      {
+        "item": "cqrepoured:leggings_diamond_dyable"
+      },
+      {
+        "item": "erebus:jade_leggings"
+      },
+      {
+        "item": "nocubessrparmory:adaptivearmorlegs"
+      },
+      {
+        "item": "nocubessrparmory:gorearmorlegs"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.stepHeight",
+            "amount": 0.5,
+            "operation": 0
+          }
+        ]
+      }
+    ]
+}

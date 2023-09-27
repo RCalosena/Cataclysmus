@@ -1,0 +1,73 @@
+{
+    "comment": "These qualities will apply for all boots! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "feet",
+    "whitelist": [
+      {
+        "item": "minecraft:leather_boots"
+      },
+      {
+        "item": "minecraft:chainmail_boots"
+      },
+      {
+        "item": "mysticalworld:silver_boots"
+      },
+      {
+        "item": "cqrepoured:boots_spider"
+      },
+      {
+        "item": "mod_lavacow:faminearmor_boots"
+      },
+      {
+        "item": "metallurgy:brass_boots"
+      },
+      {
+        "item": "metallurgy:deep_iron_boots"
+      },
+      {
+        "item": "metallurgy:krik_boots"
+      },
+      {
+        "item": "metallurgy:carmot_boots"
+      },
+      {
+        "item": "metallurgy:kalendrite_boots"
+      },
+      {
+        "item": "metallurgy:celenegil_boots"
+      },
+      {
+        "item": "metallurgy:tartarite_boots"
+      },
+      {
+        "item": "nyx:meteor_boots"
+      },
+      {
+        "item": "erebus:rein_exoskeleton_boots"
+      },
+      {
+        "item": "nocubessrparmory:livingarmorboots"
+      },
+      {
+        "item": "nocubessrparmory:pestilentarmorboots"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.12,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

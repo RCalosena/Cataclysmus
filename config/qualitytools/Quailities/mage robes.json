@@ -1,0 +1,91 @@
+{
+    "comment": "These qualities will apply for all chestplates, which also includes
+                the vanilla elytra. For more info about how to edit this file and
+                add more files, visit
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "chest",
+    "whitelist": [
+      {
+        "item": "minecraft:golden_chestplate"
+      },
+      {
+        "item": "cactusmod:cactus_chestplate"
+      },
+      {
+        "item": "cqrepoured:chestplate_inquisition"
+      },
+      {
+        "item": "enderenhancement:item_empowered_ender_chestplate"
+      },
+      {
+        "item": "metallurgy:inolashite_chestplate"
+      },
+      {
+        "item": "mod_lavacow:swinearmor_chestplate"
+      },
+      {
+        "item": "metallurgy:platinum_chestplate"
+      },
+      {
+        "item": "metallurgy:ceruclase_chestplate"
+      },
+      {
+        "item": "metallurgy:damascus_steel_chestplate"
+      },
+      {
+        "item": "metallurgy:ignatius_chestplate"
+      },
+      {
+        "item": "metallurgy:atlarus_chestplate"
+      },
+      {
+        "item": "metallurgy:vyroxeres_chestplate"
+      },
+      {
+        "item": "midnight:rockshroom_chestplate"
+      },
+      {
+        "item": "metallurgy:midasium_chestplate"
+      },
+      {
+        "item": "nocubessrparmory:twistedarmorbody"
+      },
+      {
+        "item": "nocubessrpsurvival:devourerarmorbody"
+      },
+      {
+        "item": "metallurgy:prometheum_chestplate"
+      },
+      {
+        "item": "mod_lavacow:felarmor_chestplate"
+      },
+      {
+        "item": "srparasites:armor_chest"
+      },
+      {
+        "item": "srparasites:armor_chest_sentient"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": 0.3,
+            "operation": 2
+          },
+          {
+            "name": "xat.entityMagic.regen",
+            "amount": 0.5,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

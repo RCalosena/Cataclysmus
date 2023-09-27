@@ -1,0 +1,79 @@
+{
+    "comment": "These qualities will apply for all chestplates, which also includes
+                the vanilla elytra. For more info about how to edit this file and
+                add more files, visit
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "chest",
+    "whitelist": [
+      {
+        "item": "minecraft:leather_chestplate"
+      },
+      {
+        "item": "minecraft:chainmail_chestplate"
+      },
+      {
+        "item": "mysticalworld:silver_chestplate"
+      },
+      {
+        "item": "nyx:meteor_chest"
+      },
+      {
+        "item": "metallurgy:tartarite_chestplate"
+      },
+      {
+        "item": "metallurgy:brass_chestplate"
+      },
+      {
+        "item": "metallurgy:deep_iron_chestplate"
+      },
+      {
+        "item": "metallurgy:krik_chestplate"
+      },
+      {
+        "item": "metallurgy:carmot_chestplate"
+      },
+      {
+        "item": "metallurgy:kalendrite_chestplate"
+      },
+      {
+        "item": "metallurgy:celenegil_chestplate"
+      },
+      {
+        "item": "mod_lavacow:faminearmor_chestplate"
+      },
+      {
+        "item": "cqrepoured:chestplate_spider"
+      },
+      {
+        "item": "erebus:glider_chestplate_powered"
+      },
+      {
+        "item": "nocubessrparmory:livingarmorbody"
+      },
+      {
+        "item": "nocubessrparmory:pestilentarmorbody"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "mysticalworld.blessed",
+            "amount": 3.0,
+            "operation": 0
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "comment": "These qualities will apply for all leggings! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "legs",
+    "whitelist": [
+      {
+        "item": "minecraft:leather_leggings"
+      },
+      {
+        "item": "minecraft:chainmail_leggings"
+      },
+      {
+        "item": "cqrepoured:leggings_spider"
+      },
+      {
+        "item": "mod_lavacow:faminearmor_leggings"
+      },
+      {
+        "item": "metallurgy:brass_leggings"
+      },
+      {
+        "item": "metallurgy:tartarite_leggings"
+      },
+      {
+        "item": "mysticalworld:silver_leggings"
+      },
+      {
+        "item": "metallurgy:deep_iron_leggings"
+      },
+      {
+        "item": "metallurgy:krik_leggings"
+      },
+      {
+        "item": "metallurgy:carmot_leggings"
+      },
+      {
+        "item": "nyx:meteor_pants"
+      },
+      {
+        "item": "metallurgy:kalendrite_leggings"
+      },
+      {
+        "item": "metallurgy:celenegil_leggings"
+      },
+      {
+        "item": "erebus:sprint_leggings"
+      },
+      {
+        "item": "nocubessrparmory:livingarmorlegs"
+      },
+      {
+        "item": "nocubessrparmory:pestilentarmorlegs"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "xat.jump",
+            "amount": 0.2,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

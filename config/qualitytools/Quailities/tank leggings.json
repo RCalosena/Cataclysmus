@@ -1,0 +1,76 @@
+{
+    "comment": "These qualities will apply for all boots! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "legs",
+    "whitelist": [
+      {
+        "item": "cqrepoured:leggings_heavy_iron"
+      },
+      {
+        "item": "cqrepoured:leggings_heavy_diamond"
+      },
+      {
+        "item": "metallurgy:lutetium_leggings"
+      },
+      {
+        "item": "cqrepoured:leggings_bull"
+      },
+      {
+        "item": "midnight:tenebrum_leggings"
+      },
+      {
+        "item": "metallurgy:steel_leggings"
+      },
+      {
+        "item": "metallurgy:haderoth_leggings"
+      },
+      {
+        "item": "cqrepoured:leggings_turtle"
+      },
+      {
+        "item": "metallurgy:vulcanite_leggings"
+      },
+      {
+        "item": "metallurgy:bronze_leggings"
+      },
+      {
+        "item": "metallurgy:electrum_leggings"
+      },
+      {
+        "item": "metallurgy:black_steel_leggings"
+      },
+      {
+        "item": "metallurgy:osmium_leggings"
+      },
+      {
+        "item": "metallurgy:orichalcum_leggings"
+      },
+      {
+        "item": "erebus:rhino_exoskeleton_leggings"
+      },
+      {
+        "item": "nocubessrparmory:evolutionarmorlegs"
+      },
+      {
+        "item": "nocubessrparmory:carapacearmorlegs"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.02,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

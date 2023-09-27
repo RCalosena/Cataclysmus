@@ -1,0 +1,73 @@
+{
+    "comment": "These qualities will apply for all helmets! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "head",
+    "whitelist": [
+      {
+        "item": "minecraft:leather_helmet"
+      },
+      {
+        "item": "minecraft:chainmail_helmet"
+      },
+      {
+        "item": "mysticalworld:silver_helmet"
+      },
+      {
+        "item": "metallurgy:brass_helmet"
+      },
+      {
+        "item": "metallurgy:deep_iron_helmet"
+      },
+      {
+        "item": "metallurgy:krik_helmet"
+      },
+      {
+        "item": "metallurgy:carmot_helmet"
+      },
+      {
+        "item": "metallurgy:kalendrite_helmet"
+      },
+      {
+        "item": "metallurgy:celenegil_helmet"
+      },
+      {
+        "item": "cqrepoured:helmet_spider"
+      },
+      {
+        "item": "mod_lavacow:faminearmor_helmet"
+      },
+      {
+        "item": "metallurgy:tartarite_helmet"
+      },
+      {
+        "item": "nyx:meteor_helm"
+      },
+      {
+        "item": "erebus:rein_compound_goggles"
+      },
+      {
+        "item": "nocubessrparmory:livingarmorhelmet"
+      },
+      {
+        "item": "nocubessrparmory:pestilentarmorhelmet"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.07,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

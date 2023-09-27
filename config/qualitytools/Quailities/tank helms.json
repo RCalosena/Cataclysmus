@@ -1,0 +1,76 @@
+{
+    "comment": "These qualities will apply for all helmet! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "head",
+    "whitelist": [
+      {
+        "item": "cqrepoured:helmet_heavy_iron"
+      },
+      {
+        "item": "cqrepoured:helmet_heavy_diamond"
+      },
+      {
+        "item": "metallurgy:steel_helmet"
+      },
+      {
+        "item": "cqrepoured:helmet_turtle"
+      },
+      {
+        "item": "metallurgy:lutetium_helmet"
+      },
+      {
+        "item": "cqrepoured:helmet_bull"
+      },
+      {
+        "item": "midnight:tenebrum_helmet"
+      },
+      {
+        "item": "metallurgy:haderoth_helmet"
+      },
+      {
+        "item": "metallurgy:vulcanite_helmet"
+      },
+      {
+        "item": "metallurgy:bronze_helmet"
+      },
+      {
+        "item": "metallurgy:electrum_helmet"
+      },
+      {
+        "item": "metallurgy:black_steel_helmet"
+      },
+      {
+        "item": "metallurgy:osmium_helmet"
+      },
+      {
+        "item": "metallurgy:orichalcum_helmet"
+      },
+      {
+        "item": "erebus:rhino_exoskeleton_helmet"
+      },
+      {
+        "item": "nocubessrparmory:evolutionarmorhelmet"
+      },
+      {
+        "item": "nocubessrparmory:carapacearmorhelmet"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.03,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

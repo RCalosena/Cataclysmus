@@ -1,0 +1,16 @@
+agile boots.json: Unknown item metallurgy:hepatizon_boots
+agile chest.json: Unknown item metallurgy:hepatizon_chestplate
+agile helm.json: Unknown item metallurgy:hepatizon_helmet
+agile legs.json: Unknown item metallurgy:hepatizon_leggings
+mage boots.json: Unknown item cqrepoured:boots_inquisition
+mage helmet.json: Unknown item cqrepoured:helmet_inquisition
+mage legs.json: Unknown item cqrepoured:leggings_inquisition
+mage robes.json: Unknown item cqrepoured:chestplate_inquisition
+ranger boots.json: Unknown item cqrepoured:boots_spider
+ranger chestplates.json: Unknown item metallurgy:tartarite_chestplate
+ranger helmets.json: Unknown item metallurgy:brass_helmet
+ranger leggings.json: Unknown item cqrepoured:leggings_spider
+tank boots.json: Unknown item cqrepoured:boots_heavy_iron
+tank chestplate.json: Unknown item cqrepoured:chestplate_heavy_iron
+tank helms.json: Unknown item cqrepoured:helmet_heavy_iron
+tank leggings.json: Unknown item cqrepoured:leggings_heavy_iron

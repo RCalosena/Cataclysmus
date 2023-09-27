@@ -1,0 +1,87 @@
+{
+    "comment": "These qualities will apply for all chestplate! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "chest",
+    "whitelist": [
+      {
+        "item": "minecraft:iron_chestplate"
+      },
+      {
+        "item": "metallurgy:hepatizon_chestplate"
+      },
+      {
+        "item": "minecraft:diamond_chestplate"
+      },
+      {
+        "item": "mysticalworld:copper_chestplate"
+      },
+      {
+        "item": "cqrepoured:chestplate_slime"
+      },
+      {
+        "item": "metallurgy:oureclase_chestplate"
+      },
+      {
+        "item": "metallurgy:shadow_steel_chestplate"
+      },
+      {
+        "item": "metallurgy:amordrine_chestplate"
+      },
+      {
+        "item": "metallurgy:quicksilver_chestplate"
+      },
+      {
+        "item": "metallurgy:astral_silver_chestplate"
+      },
+      {
+        "item": "metallurgy:desichalkos_chestplate"
+      },
+      {
+        "item": "metallurgy:shadow_iron_chestplate"
+      },
+      {
+        "item": "cqrepoured:chestplate_iron_dyable"
+      },
+      {
+        "item": "cqrepoured:chestplate_diamond_dyable"
+      },
+      {
+        "item": "metallurgy:eximite_chestplate"
+      },
+      {
+        "item": "mutantbeasts:mutant_skeleton_chestplate"
+      },
+      {
+        "item": "erebus:jade_chestplate"
+      },
+      {
+        "item": "nocubessrparmory:adaptivearmorbody"
+      },
+      {
+        "item": "nocubessrparmory:gorearmorbody"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.reachDistance",
+            "amount": 0.25,
+            "operation": 0
+          },
+          {
+            "name": "generic.maxHealth",
+            "amount": 0.10,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

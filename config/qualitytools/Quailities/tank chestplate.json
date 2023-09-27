@@ -1,0 +1,86 @@
+{
+    "comment": "These qualities will apply for all boots! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "chest",
+    "whitelist": [
+      {
+        "item": "cqrepoured:chestplate_heavy_iron"
+      },
+      {
+        "item": "cqrepoured:chestplate_heavy_diamond"
+      },
+      {
+        "item": "metallurgy:lutetium_chestplate"
+      },
+      {
+        "item": "cqrepoured:chestplate_bull"
+      },
+      {
+        "item": "midnight:tenebrum_chestplate"
+      },
+      {
+        "item": "metallurgy:haderoth_chestplate"
+      },
+      {
+        "item": "metallurgy:vulcanite_chestplate"
+      },
+      {
+        "item": "metallurgy:bronze_chestplate"
+      },
+      {
+        "item": "metallurgy:electrum_chestplate"
+      },
+      {
+        "item": "metallurgy:steel_chestplate"
+      },
+      {
+        "item": "cqrepoured:chestplate_turtle"
+      },
+      {
+        "item": "metallurgy:black_steel_chestplate"
+      },
+      {
+        "item": "metallurgy:osmium_chestplate"
+      },
+      {
+        "item": "metallurgy:orichalcum_chestplate"
+      },
+      {
+        "item": "erebus:rhino_exoskeleton_chestplate"
+      },
+      {
+        "item": "nocubessrparmory:evolutionarmorbody"
+      },
+      {
+        "item": "nocubessrparmory:carapacearmorbody"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": 0.2,
+            "operation": 2
+          },
+          {
+            "name": "generic.armor",
+            "amount": 0.1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.05,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

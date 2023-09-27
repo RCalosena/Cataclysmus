@@ -1,0 +1,76 @@
+{
+    "comment": "These qualities will apply for all boots! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "feet",
+    "whitelist": [
+      {
+        "item": "cqrepoured:boots_heavy_iron"
+      },
+      {
+        "item": "cqrepoured:boots_heavy_diamond"
+      },
+      {
+        "item": "metallurgy:steel_boots"
+      },
+      {
+        "item": "cqrepoured:boots_turtle"
+      },
+      {
+        "item": "metallurgy:lutetium_boots"
+      },
+      {
+        "item": "cqrepoured:boots_bull"
+      },
+      {
+        "item": "midnight:tenebrum_boots"
+      },
+      {
+        "item": "metallurgy:haderoth_boots"
+      },
+      {
+        "item": "metallurgy:vulcanite_boots"
+      },
+      {
+        "item": "metallurgy:bronze_boots"
+      },
+      {
+        "item": "metallurgy:electrum_boots"
+      },
+      {
+        "item": "metallurgy:black_steel_boots"
+      },
+      {
+        "item": "metallurgy:osmium_boots"
+      },
+      {
+        "item": "metallurgy:orichalcum_boots"
+      },
+      {
+        "item": "erebus:rhino_exoskeleton_boots"
+      },
+      {
+        "item": "nocubessrparmory:evolutionarmorboots"
+      },
+      {
+        "item": "nocubessrparmory:carapacearmorboots"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.knockbackResistance",
+            "amount": 0.5,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

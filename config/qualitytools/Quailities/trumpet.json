@@ -1,0 +1,93 @@
+{
+    "comment": "These qualities will apply for bows, and possibly for guns from
+                other mods if they extend the vanilla bow class. For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": [
+        "mainhand",
+        "offhand"
+    ],
+    "whitelist": [
+      {
+        "item": "trumpetskeleton:trumpet"
+      }
+    ],
+    "blacklist": [
+    
+    ],
+    "qualities": [
+      {
+        "name": "unhealthy",
+        "color": "dark_gray",
+        "weight": 20,
+        "attributes": [
+          {
+            "name": "generic.maxHealth",
+            "amount": -0.20,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "Turtle Master",
+        "color": "green",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.65,
+            "operation": 2
+          },
+          {
+            "name": "generic.movementSpeed",
+            "amount": -1,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.jumpHeight",
+            "amount": -1,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "normal",
+        "weight": 50
+      },
+      {
+        "name": "Speedy",
+        "color": "blue",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.85,
+            "operation": 2
+          },
+          {
+            "name": "potioncore.damageResistance",
+            "amount": -3.2,
+            "operation": 2
+          }
+        ]
+      },
+      {
+        "name": "swingy?",
+        "color": "aqua",
+        "weight": 1,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.50,
+            "operation": 2
+          },
+          {
+            "name": "generic.attackDamage",
+            "amount": -0.38,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}
