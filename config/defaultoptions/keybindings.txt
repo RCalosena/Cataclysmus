@@ -1,0 +1,142 @@
+key_key.attack:-100:NONE
+key_key.use:-99:NONE
+key_key.forward:17:NONE
+key_key.left:30:NONE
+key_key.back:31:NONE
+key_key.right:32:NONE
+key_key.jump:57:NONE
+key_key.sneak:29:NONE
+key_key.sprint:42:NONE
+key_key.drop:16:NONE
+key_key.inventory:18:NONE
+key_key.chat:20:NONE
+key_key.playerlist:0:NONE
+key_key.pickItem:-98:NONE
+key_key.command:0:NONE
+key_key.screenshot:60:NONE
+key_key.togglePerspective:63:NONE
+key_key.smoothCamera:0:NONE
+key_key.fullscreen:87:NONE
+key_key.spectatorOutlines:0:NONE
+key_key.swapHands:33:NONE
+key_key.saveToolbarActivator:0:NONE
+key_key.loadToolbarActivator:0:NONE
+key_key.advancements:0:NONE
+key_key.hotbar.1:2:NONE
+key_key.hotbar.2:3:NONE
+key_key.hotbar.3:4:NONE
+key_key.hotbar.4:5:NONE
+key_key.hotbar.5:6:NONE
+key_key.hotbar.6:7:NONE
+key_key.hotbar.7:8:NONE
+key_key.hotbar.8:9:NONE
+key_key.hotbar.9:10:NONE
+key_Reload Menu | CTRL + ALT + :0:NONE
+key_Toggle Customization Overlay | CTRL + ALT + :0:NONE
+key_quark.emote.no:0:NONE
+key_quark.emote.yes:0:NONE
+key_quark.emote.wave:0:NONE
+key_quark.emote.salute:0:NONE
+key_quark.emote.cheer:0:NONE
+key_quark.emote.clap:0:NONE
+key_quark.emote.think:0:NONE
+key_quark.emote.point:0:NONE
+key_quark.emote.shrug:0:NONE
+key_quark.emote.headbang:0:NONE
+key_quark.emote.weep:0:NONE
+key_quark.emote.facepalm:0:NONE
+key_quark.emote.dance:0:NONE
+key_quark.emote.tpose:0:NONE
+key_quark.emote.dab:0:NONE
+key_quark.emote.jet:0:NONE
+key_quark.emote.exorcist:0:NONE
+key_quark.emote.zombie:0:NONE
+key_quark.keybind.toggleAutojump:0:NONE
+key_quark.keybind.dropoff:0:NONE
+key_quark.keybind.chestSort:0:NONE
+key_quark.keybind.chestDropoff:0:NONE
+key_quark.keybind.chestMerge:0:NONE
+key_quark.keybind.chestRestock:0:NONE
+key_quark.keybind.chestExtract:0:NONE
+key_quark.keybind.playerSort:0:NONE
+key_quark.keybind.lockBuilding:0:NONE
+key_key.personalBackpack:47:SHIFT
+key_keybind.baublesinventory:47:NONE
+key_key.betterfoliage.gui:0:NONE
+key_key.ebwizardry.next_spell:49:NONE
+key_key.ebwizardry.previous_spell:48:NONE
+key_key.ebwizardry.spell_1:2:ALT
+key_key.ebwizardry.spell_2:3:ALT
+key_key.ebwizardry.spell_3:4:ALT
+key_key.ebwizardry.spell_4:5:ALT
+key_key.ebwizardry.spell_5:6:ALT
+key_key.ebwizardry.spell_6:7:ALT
+key_key.ebwizardry.spell_7:8:ALT
+key_key.ebwizardry.spell_8:9:ALT
+key_keybind.openSelectionWheel:184:NONE
+key_keybind.openBaubleBag:47:CONTROL
+key_cos.key.opencosarmorinventory:0:NONE
+key_key.erebus.glide:34:NONE
+key_key.erebus.poweredglide:35:NONE
+key_key.erebus.beetleram:44:NONE
+key_key.erebus.beetlemine:56:NONE
+key_Open Menu:0:NONE
+key_Toggle Freeze Effect:0:NONE
+key_Enable/Disable:0:NONE
+key_Kill Particles:0:NONE
+key_Blacklist Block:0:NONE
+key_keybind.hammercorerenderstack:0:NONE
+key_key.loreexpansion.openJournal:0:NONE
+key_key.mount.dismount:21:NONE
+key_key.mount.descend:42:NONE
+key_key.mount.ability:45:NONE
+key_key.mount.inventory:18:ALT
+key_key.index:0:NONE
+key_key.beastiary:0:NONE
+key_key.pets:0:NONE
+key_key.summoning:0:NONE
+key_key.minions:0:NONE
+key_neat.keybind.toggle:0:NONE
+key_Difficulty Meter - Show:0:NONE
+key_Difficulty Meter - Show Always:0:NONE
+key_key.xat.trinket_gui.desc:0:NONE
+key_key.xat.trinket_target.desc:46:NONE
+key_key.xat.trinket_toggle_effect.desc:43:CONTROL
+key_key.xat.magnet_toggle_effect.desc:43:SHIFT
+key_key.xat.trinket_arcing_attack.desc:43:NONE
+key_key.xat.aux_key.desc:29:NONE
+key_key.xat.race_ability.desc:15:NONE
+key_key.spartanweaponry.access_quiver:47:ALT
+key_key.stellarapi.focusgui.description:0:NONE
+key_Enchantment Gui:0:NONE
+key_Granis Soul Dash:56:CONTROL
+key_walljump.key.walljump:29:NONE
+key_key.pickup.item:0:NONE
+key_smoothfont.key.guiOpen:0:NONE
+key_key.jei.toggleOverlay:0:NONE
+key_key.jei.focusSearch:0:NONE
+key_key.jei.toggleCheatMode:0:NONE
+key_key.jei.toggleEditMode:0:NONE
+key_key.jei.showRecipe:0:NONE
+key_key.jei.showUses:0:NONE
+key_key.jei.recipeBack:0:NONE
+key_key.jei.previousPage:0:NONE
+key_key.jei.nextPage:0:NONE
+key_key.jei.bookmark:0:NONE
+key_key.jei.toggleBookmarkOverlay:0:NONE
+key_tombstone.message.knowledge_of_death:11:NONE
+key_key.carry.desc:42:NONE
+key_Reputation GUI:0:NONE
+key_key.clienttweaks.disable_step_assist:0:NONE
+key_key.clienttweaks.hide_offhand_item:0:NONE
+key_key.elenaidodge2.dodge:56:NONE
+key_key.gui.weapon_interface:37:NONE
+key_key.mod_lavacow.special:45:NONE
+key_FpsReducer.key.guiOpen:0:NONE
+key_FpsReducer.key.forceIdle:0:NONE
+key_keywizard.keybind.openKeyboardWizard:0:NONE
+key_Mo' Bends Menu:0:NONE
+key_Refresh Animations:0:NONE
+key_key.musictriggers.gui:0:NONE
+key_key.switchbow.switchup:0:NONE
+key_key.switchbow.switchdown:0:NONE
