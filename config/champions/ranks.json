@@ -1,0 +1,34 @@
+[
+  {
+    "tier": 1,
+    "color": 16776960,
+    "affixes": 2,
+    "growthFactor": 3,
+    "chance": 0.02,
+    "potions": []
+  },
+  {
+    "tier": 2,
+    "color": 16750848,
+    "affixes": 3,
+    "growthFactor": 6,
+    "chance": 0.4,
+    "potions": ["health_boost"]
+  },
+  {
+    "tier": 3,
+    "color": 6750207,
+    "affixes": 4,
+    "growthFactor": 11,
+    "chance": 0.35,
+    "potions": ["minecraft:speed","health_boost"]
+  },
+  {
+    "tier": 4,
+    "color": 13382655,
+    "affixes": 5,
+    "growthFactor": 18,
+    "chance": 0.3,
+    "potions": ["minecraft:speed","health_boost;2"]
+  }
+]
