@@ -1,0 +1,188 @@
+{
+  "name": "midnight",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 8,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "groupLimitRange": 64,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        -23
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.75,
+      "tickRate": 800
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        32,
+        0,
+        32
+      ],
+      "rangeMax": [
+        42,
+        70,
+        42
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true,
+      "underground": false
+    }
+  ],
+  "mobSpawns" : [ 
+    {
+      "mobId": "srparasites:bomber_light"
+    },
+    {
+      "mobId": "srparasites:carrier_flying"
+    },
+    {
+      "mobId": "srparasites:sim_adventurer"
+    },
+    {
+      "mobId": "srparasites:sim_bear"
+    },
+    {
+      "mobId": "srparasites:sim_bigspider"
+    },
+    {
+      "mobId": "srparasites:sim_cow"
+    },
+    {
+      "mobId": "srparasites:sim_cowhead"
+    },
+    {
+      "mobId": "srparasites:sim_enderman"
+    },
+    {
+      "mobId": "srparasites:sim_horse"
+    },
+    {
+      "mobId": "srparasites:sim_horsehead"
+    },
+    {
+      "mobId": "srparasites:sim_human"
+    },
+    {
+      "mobId": "srparasites:sim_humanhead"
+    },
+    {
+      "mobId": "srparasites:sim_pig"
+    },
+    {
+      "mobId": "srparasites:sim_pighead"
+    },
+    {
+      "mobId": "srparasites:sim_sheep"
+    },
+    {
+      "mobId": "srparasites:sim_sheephead"
+    },
+    {
+      "mobId": "srparasites:sim_villager"
+    },
+    {
+      "mobId": "srparasites:sim_villagerhead"
+    },
+    {
+      "mobId": "srparasites:sim_wolf"
+    },
+    {
+      "mobId": "srparasites:sim_wolfhead"
+    },
+    {
+      "mobId": "srparasites:carrier_heavy"
+    },
+    {
+      "mobId": "srparasites:incompleteform_medium"
+    },
+    {
+      "mobId": "srparasites:overseer"
+    },
+    {
+      "mobId": "srparasites:rupter"
+    },
+    {
+      "mobId": "srparasites:tendril"
+    },
+    {
+      "mobId": "srparasites:vigilante"
+    },
+    {
+      "mobId": "srparasites:warden"
+    },
+    {
+      "mobId": "srparasites:worker"
+    },
+    {
+      "mobId": "srparasites:kyphosis"
+    },
+    {
+      "mobId": "srparasites:marauder"
+    },
+    {
+      "mobId": "srparasites:movingflesh"
+    },
+    {
+      "mobId": "srparasites:ada_arachnida"
+    },
+    {
+      "mobId": "srparasites:ada_bolster"
+    },
+    {
+      "mobId": "srparasites:ada_longarms"
+    },
+    {
+      "mobId": "srparasites:ada_manducater"
+    },
+    {
+      "mobId": "srparasites:ada_reeker"
+    },
+    {
+      "mobId": "srparasites:ada_summoner"
+    },
+    {
+      "mobId": "srparasites:ada_yelloweye"
+    },
+    {
+      "mobId": "srparasites:overseer"
+    },
+    {
+      "mobId": "srparasites:pri_arachnida"
+    },
+    {
+      "mobId": "srparasites:pri_bolster"
+    },
+    {
+      "mobId": "srparasites:pri_devourer"
+    },
+    {
+      "mobId": "srparasites:pri_longarms"
+    },
+    {
+      "mobId": "srparasites:pri_manducater"
+    },
+    {
+      "mobId": "srparasites:pri_reeker"
+    },
+    {
+      "mobId": "srparasites:pri_summoner"
+    },
+    {
+      "mobId": "srparasites:pri_yelloweye"
+    }
+  ]
+}
