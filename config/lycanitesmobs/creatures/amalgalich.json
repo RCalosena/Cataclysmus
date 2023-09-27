@@ -1,0 +1,162 @@
+{
+  "name": "amalgalich",
+  "creatureType": "undead",
+  "groups": [
+    "boss"
+  ],
+  "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAmalgalich",
+  "modelClass": "com.lycanitesmobs.client.model.creature.ModelAmalgalich",
+  "loadDefault": false,
+  "enabled": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": [],
+    "disableSubspecies": false,
+    "dimensionIds": [
+      -23
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "spawnWeight": 1,
+    "dungeonWeight": 0,
+    "spawnAreaLimit": 5,
+    "spawnGroupMin": 1,
+    "spawnGroupMax": 1,
+    "spawnsInLight": true,
+    "spawnsInDark": true,
+    "worldDayMin": -1,
+    "despawnNatural": true,
+    "despawnForced": false
+  },
+  "width": 18.0,
+  "height": 24.0,
+  "experience": 10000,
+  "health": 10000,
+  "defense": 2,
+  "armor": 0,
+  "speed": 32,
+  "damage": 100,
+  "attackSpeed": 1,
+  "rangedSpeed": 1,
+  "effectDuration": 5,
+  "effectAmplifier": 0,
+  "pierce": 2,
+  "sight": 64,
+  "knockbackResistance": 1,
+  "eggBackColor": "#340101",
+  "eggForeColor": "#960000",
+  "boss": true,
+  "subspecies": [
+    {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "ashen",
+          "type": "uncommon"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    "nether",
+    "phase",
+    "shadow"
+  ],
+  "diets": [
+    "carnivore",
+    "piscivore",
+    "insectivore",
+    "herbivore",
+    "frugivore",
+    "fungivore",
+    "detritivore"
+  ],
+  "peaceful": false,
+  "summonable": false,
+  "tameable": false,
+  "mountable": false,
+  "summonCost": 2,
+  "dungeonLevel": 1,
+  "drops": [
+    {
+      "item": "lycanitesmobs:spectralboltcharge",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:lobdarklingscharge",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:shadowstone",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:shadowstonebrick",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:shadowstonetile",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:shadowcrystal",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_beast",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_imp",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_avian",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_plant",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "srparasites:vile_shell",
+      "minAmount": 10,
+      "maxAmount": 10,
+      "chance": 1
+    },
+    {
+      "item": "srparasites:living_core",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 1
+    }
+  ],
+  "sizeScale": 1,
+  "hitboxScale": 1
+}
