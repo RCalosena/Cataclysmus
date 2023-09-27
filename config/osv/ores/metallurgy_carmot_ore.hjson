@@ -1,0 +1,33 @@
+mame: metallurgy_carmot_ore
+mod: metallurgy
+block: {
+  location: metallurgy:carmot_ore
+  level: 4
+  resistance: 45
+}
+texture: {
+  original: metallurgy:blocks/carmot_ore
+}
+recipe: {
+  result: metallurgy:carmot_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:carmot_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 10, 30 ]
+    size: 10
+    count: 2
+    chance: 1.0
+    blacklistDimensions: false
+    dimensions: [10]
+  }
+]
