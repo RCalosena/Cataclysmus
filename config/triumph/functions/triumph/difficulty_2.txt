@@ -1,0 +1,12 @@
+nyxforce full_moon
+
+say §d"Silence §dhas §dnever §dfelt §dso §drewarding..."
+
+title @a title {"text":"---","color":"red","italic":true}
+
+title @a subtitle {"text":"The overworld has become more dangerous...","color":"red","italic":true}
+
+time set night
+
+gamestage silentremove @p one
+gamestage silentadd @p two

@@ -1,0 +1,8 @@
+gamestage silentremove @p two
+gamestage silentadd @p oatmeal
+
+say §d*All §dthe §dParasites §dhave §denraged...*
+
+say §d*The §doverworld §dhas §dbecome §dmore §ddangerous...*
+
+time set night

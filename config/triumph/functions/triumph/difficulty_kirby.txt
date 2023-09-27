@@ -1,0 +1,12 @@
+nyxforce star_shower
+
+say §d"The §dLast §dSentinel... §dnot §dthe §dsource §dof §dall §dthis §dchaos..."
+
+title @a title {"text":"---","color":"red","italic":true}
+
+title @a subtitle {"text":"The overworld has become more dangerous...","color":"red","italic":true}
+
+time set night
+
+gamestage silentremove @p oatmeal
+gamestage silentadd @p kirby
