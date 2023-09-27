@@ -1,0 +1,214 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+[triggers]
+	[triggers.generic]
+	[triggers.universal]
+		fade_out = "60"
+		persistence = "0"
+		trigger_delay = "600"
+		song_delay = "600"
+		start_delay = "0"
+		fade_in = "60"
+	[[triggers.biome]]
+		trigger_delay = "200"
+		song_delay = "200"
+		persistence = "100"
+		identifier = "dusk"
+		resource_name = [ "srparasites:biome_parasite" ]
+		fade_in = "100"
+		priority = "2"
+	[triggers.dead]
+		fade_in = "160"
+		trigger_delay = "1"
+		priority = "10"
+	[triggers.raining]
+		fade_in = "100"
+		priority = "2"
+	[triggers.bloodmoon]
+		priority = "3"
+		trigger_delay = "1400"
+	[triggers.height]
+		identifier = "caverns"
+		fade_in = "60"
+		level = "50"
+		priority = "2"
+	[[triggers.mob]]
+		identifier = "village grand"
+		fade_in = "200"
+		level = "50"
+		resource_name = [ "mca:entityvillagermca" ]
+		detection_range = "40"
+		mob_targeting = false
+		persistence = "600"
+		passive_persistence = true
+		horde_health_percentage = "600"
+		priority = "2"
+	[[triggers.mob]]
+		identifier = "village"
+		fade_in = "200"
+		level = "4"
+		resource_name = [ "mca:entityvillagermca" ]
+		detection_range = "40"
+		mob_targeting = false
+		persistence = "600"
+		passive_persistence = true
+		horde_health_percentage = "600"
+		priority = "2"
+	[triggers.fallingstars]
+		priority = "3"
+		trigger_delay = "2200"
+	[triggers.harvestmoon]
+		priority = "3"
+		trigger_delay = "2200"
+	[[triggers.dimension]]
+		identifier = "erebus"
+		fade_in = "40"
+		trigger_delay = "400"
+		resource_name = [ "23" ]
+		song_delay = "3600"
+		priority = "6"
+	[[triggers.dimension]]
+		identifier = "midnight"
+		resource_name = [ "-23" ]
+		priority = "6"
+	[[triggers.dimension]]
+		identifier = "end"
+		resource_name = [ "1" ]
+		priority = "6"
+	[[triggers.dimension]]
+		identifier = "deep"
+		resource_name = [ "10" ]
+		priority = "5"
+	[[triggers.time]]
+		identifier = "rise"
+		time_bundle = "sunrise"
+		trigger_delay = "1"
+		priority = "5"
+	[[triggers.dimension]]
+		identifier = "carnage"
+		resource_name = [ "-1" ]
+		priority = "6"
+	[[triggers.time]]
+		identifier = "night"
+		persistence = "200"
+		fade_out = "60"
+		song_delay = "1200"
+		trigger_delay = "2200"
+		time_bundle = "night"
+		priority = "3"
+	[[triggers.time]]
+		identifier = "set"
+		trigger_delay = "500"
+		start_hour = "13"
+		end_hour = "14"
+		priority = "5"
+	[triggers.menu]
+	[[triggers.biome]]
+		identifier = "ocean"
+		persistence = "100"
+		biome_category = [ "OCEAN" ]
+		trigger_delay = "2400"
+		song_delay = "2400"
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "desert"
+		priority = "1"
+		persistence = "100"
+		trigger_delay = "2400"
+		song_delay = "2400"
+		biome_category = [ "WARM" ]
+	[[triggers.biome]]
+		biome_category = [ "COLD" ]
+		identifier = "heart"
+		persistence = "100"
+		trigger_delay = "2400"
+		song_delay = "2400"
+		priority = "1"
+	[triggers.loading]
+	[[triggers.biome]]
+		identifier = "Natur"
+		biome_category = [ "MEDIUM" ]
+		song_delay = "2400"
+		trigger_delay = "2400"
+		passive_persistence = true
+		priority = "1"
+[songs]
+	[[songs.longing_gleam]]
+		triggers = [ "mob-village" ]
+	[[songs.hover]]
+	[[songs.light_and_despair]]
+	[[songs.stegano]]
+	[songs.Dusk]
+		play_once = "2"
+		triggers = [ "biome-dusk" ]
+	[songs.music_box]
+		volume = "0.6"
+		triggers = [ "dead" ]
+	[songs.impending_rain]
+		volume = "0.5"
+		triggers = [ "raining" ]
+	[[songs.fierce]]
+		volume = "0.3"
+		triggers = [ "bloodmoon" ]
+	[[songs.stegano]]
+		triggers = [ "height-caverns" ]
+	[songs.the_fragments_of_home]
+		volume = "0.3"
+		play_once = "2"
+		triggers = [ "mob-village grand" ]
+	[[songs.addled]]
+		volume = "0.5"
+		triggers = [ "fallingstars" ]
+	[[songs.addled]]
+		volume = "0.5"
+		triggers = [ "harvestmoon" ]
+	[songs.ambient_bug_in_the_system]
+		volume = "0.75"
+		triggers = [ "dimension-erebus" ]
+	[[songs.silent]]
+		triggers = [ "dimension-midnight" ]
+	[songs.darker_space]
+		volume = "0.3"
+		triggers = [ "dimension-end" ]
+	[songs.the_beneath]
+		volume = "1"
+		triggers = [ "dimension-deep" ]
+	[[songs.fierce]]
+		volume = "0.3"
+		triggers = [ "dimension-carnage" ]
+	[songs.apprehension]
+		volume = "0.35"
+		triggers = [ "time-night" ]
+	[songs.rift_ambiance]
+		play_once = "2"
+		must_finish = true
+		triggers = [ "time-set" ]
+	[songs.a_venue_of_agony_and_despair]
+		volume = "0.75"
+		must_finish = true
+		play_once = "3"
+		triggers = [ "time-rise" ]
+	[[songs.light_and_despair]]
+		volume = "0.75"
+		triggers = [ "menu" ]
+	[songs.low_gleam]
+		volume = "0.75"
+		triggers = [ "biome-ocean" ]
+	[[songs.silent]]
+		play_once = "2"
+		triggers = [ "biome-desert" ]
+	[songs.frozen_heart]
+		volume = "0.5"
+		play_once = "2"
+		triggers = [ "biome-heart" ]
+	[songs.a_journey_into_the_unknown]
+		volume = "0.75"
+		play_once = "1"
+		triggers = [ "loading" ]
+	[[songs.longing_gleam]]
+		play_once = "2"
+		triggers = [ "biome-Natur" ]
+	[[songs.hover]]
+		triggers = [ "generic" ]
+	[songs.universal]
