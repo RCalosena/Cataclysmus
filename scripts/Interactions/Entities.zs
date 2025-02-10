@@ -232,7 +232,7 @@ if (isNull(event5.target.nbt.ForgeData.targetEntity)) {
     } else { 
         if (player.getNBT().ForgeData.critCombo as int < 4) {
 
-            //Consecutive critical strikes (caps at 8)
+            //Consecutive critical strikes for balloon bauble (caps at 4)
 			player.setNBT({critCombo: player.getNBT().ForgeData.critCombo as int + 1});
  
 		}
