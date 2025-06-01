@@ -1,0 +1,57 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiScreenServerList
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400358%
+  action = setbuttonlabel
+  value = &2Join Server
+}
+
+customization {
+  identifier = %id=400358%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=400358%
+  action = sethoverlabel
+  label = §aJoin Server
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = &2Cancel
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = sethoverlabel
+  label = §aCancel
+}
+

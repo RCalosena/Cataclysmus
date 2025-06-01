@@ -1,0 +1,162 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMultiplayer
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = &2Join Server
+}
+
+customization {
+  identifier = %id=346948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=346948%
+  action = sethoverlabel
+  label = §aJoin Server
+}
+
+customization {
+  identifier = %id=450948%
+  action = setbuttonlabel
+  value = &2Direct Connect
+}
+
+customization {
+  identifier = %id=450948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=450948%
+  action = sethoverlabel
+  label = §aDirect Connect
+}
+
+customization {
+  identifier = %id=580972%
+  action = setbuttonlabel
+  value = &2Cancel
+}
+
+customization {
+  identifier = %id=580972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=580972%
+  action = sethoverlabel
+  label = §aCancel
+}
+
+customization {
+  identifier = %id=504972%
+  action = setbuttonlabel
+  value = &2Refresh
+}
+
+customization {
+  identifier = %id=504972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=504972%
+  action = sethoverlabel
+  label = §aRefresh
+}
+
+customization {
+  identifier = %id=554948%
+  action = setbuttonlabel
+  value = &2Add Server
+}
+
+customization {
+  identifier = %id=554948%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=554948%
+  action = sethoverlabel
+  label = §aAdd Server
+}
+
+customization {
+  identifier = %id=346972%
+  action = setbuttonlabel
+  value = &2Edit
+}
+
+customization {
+  identifier = %id=346972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=346972%
+  action = sethoverlabel
+  label = §aEdit
+}
+
+customization {
+  identifier = %id=426972%
+  action = setbuttonlabel
+  value = &2Delete
+}
+
+customization {
+  identifier = %id=426972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=426972%
+  action = sethoverlabel
+  label = §aDelete
+}
+

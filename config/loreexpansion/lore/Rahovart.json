@@ -1,0 +1,58 @@
+{
+  "key": {
+    "id": "Rahovart",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Rahovart",
+    "body": "You are about to face your first §oSuper Boss. For this reason, it is crucial for you to be as prepared as possible
+    §lHow to Summon
+    - Dimension: Nether
+    - Blocks Required:
+      1. (1) Demonic Soulcube
+      2. (16) Obsidian
+      3. (4) Diamond Blocks
+    
+      - Arrangement (G=Ground, D=Diamond, S=Soulcube, O=Obsidian, X=Air)
+    §lFront POV:
+    X X §lO §rX X
+    §lD §rX §lO §rX §lD
+    §lO §rX §lS §rX §lO
+    §lO §rX §lO §rX §lO
+    §lO §rX §lO §rX §lO
+    §lG G G G G
+    |
+    §lTop-down POV:
+    §lD §rX X X §lD
+    X X X X X
+    X X §lO §rX X
+    X X X X X  
+    §lD §rX X X §lD
+
+    After building the altar, use a §lSoul Key §rto trigger the fight.
+
+    §lRecommended Gear
+      1. Latest Armor for every class.
+      2. Protection IV on most armor pieces, and Fire Protection on at-least one armor piece.
+      3. If possible, also enchant armor with Vitae and Vitality.
+      4. Obsidian Relic/Shield.
+      5. Fully enchanted Flanged Mace for extra Undead Damage.
+      6. Wither Ring or Wither Pearl Amulet.
+      7. Reforged weapons and Baubles (Using the Reforging Station and Devout Crystals).
+      8. Fully Upgraded Magic Wands of every element.
+      9. Lots of healing (If you are inflicted with Decay, you won't be able to heal properly).
+    §lBossfight:
+    Phase 1: Rahovart shoots projectiles while also spawning Belphegors. Damage the boss while also killing the Belphegors because if enough remain in the arena, Rahovart will unleash a wave of fire.
+    Phase 2: Behemophets will start spawning instead, which need to be killed. If enough Behemophets remain in the arena, Rahovart will create giant walls of fire that rotate around him.
+    Phase 3: A variety of mobs will start spawning. Eventually, the spawn rate of the mobs might become overwhelming and impossible to control. Deal as much damage as possible to the boss before he fills the entire arena with his giant walls of fire.
+    Final note: Good luck.",
+    "autoplay": false
+  },
+  "sortingIndex": 13,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

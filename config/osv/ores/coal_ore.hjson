@@ -1,0 +1,31 @@
+name: coal_ore
+mod: minecraft
+block: {
+  location: coal_ore
+  hardness: 3
+  level: 0
+}
+loot: [
+  {
+    item: coal
+    count: [ 1, 1 ]
+    xp: [ 4 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/coal_ore
+}
+recipe: {
+  result: coal
+  xp: 0.3
+  quantity: 1
+}
+gen: [
+  {
+    height: [ 0, 128 ]
+    size: 10
+    count: 20
+  }
+]

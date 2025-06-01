@@ -1,0 +1,15 @@
+setTitle("Force of Nature")
+
+setIcon("erebus:materials", 1)
+
+setDescription("Obtain Jade")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("jade", "minecraft:inventory_changed")
+criteria.setItem("erebus:materials", 1)
+
+//Rewards
+setPos(31,302)

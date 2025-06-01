@@ -1,0 +1,31 @@
+{
+  "key": {
+    "id": "RemExplore",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Stellar Gear",
+    "body": "§lQuick Upgrades:
+    - Dragon Slayer Weapons
+    - Greater Equipment Forge
+    - Tome of Arcana (Advanced)
+    - Black Elytra
+    - Black Dragon Scale
+    - Shield of Honor: Requires the Dragon Egg
+    §lImportant Ores:
+    (Harvest Level 6 Required)
+    - Ender Amethyst
+    - Eximite
+    - Meutoite
+    §lThe Outer Islands
+    - To access them, throw an Ender Pearl into one of the portals that generated in the edges of the main island",
+    "autoplay": false
+  },
+  "sortingIndex": 16,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

@@ -1,0 +1,298 @@
+{
+    "Profession": "minecraft:nitwit",
+    "Career": "nitwit",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:poisonous_potato",
+                    "Count": {
+                        "min": 15,
+                        "max": 19
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 71}]
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 10}]
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:pumpkin",
+                    "tag": {
+                        "ench": [{"lvl": 1, "id": 10}],
+                        "display": {"Name": ";)"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 40,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:spawn_egg",
+                    "tag": {
+                        "EntityTag": {"id": "mutantbeasts:mutant_creeper"},
+                        "display": {"Name": "Lily"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 40,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:spawn_egg",
+                    "tag": {
+                        "EntityTag": {"id": "mutantbeasts:mutant_zombie"},
+                        "display": {"Name": "F1ck3's Best Friend"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:spawn_egg",
+                    "tag": {
+                        "EntityTag": {"id": "minecraft:creeper"},
+                        "display": {"Name": "Girlfriend"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald_block",
+                    "Count": 64
+                },
+                "buyB": {
+                    "id": "minecraft:emerald_block",
+                    "Count": 64
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "tag": {
+                        "Potion": "minecraft:water",
+                        "display": {"Name": "Miapup's Bath Water"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 25
+                },
+                "sell": {
+                    "id": "minecraft:flint_and_steel",
+                    "tag": {
+                        "display": {"Name": "You know what to do with this"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 30,
+                        "max": 45
+                    }
+                },
+                "sell": {
+                    "id": "mod_lavacow:war",
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 28,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "tag": {
+                        "Potion": "potioncore:chance"
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 28,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "tag": {
+                        "Potion": "potioncore:curse"
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 28,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "tag": {
+                        "Potion": "potioncore:teleport"
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 64
+                },
+                "sell": {
+                    "id": "minecraft:lapis_ore",
+                    "tag": {
+                        "display": {"Name": "Diamond Ore"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 15
+                },
+                "sell": {
+                    "id": "minecraft:fire_charge",
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 20
+                },
+                "sell": {
+                    "id": "backpack:stick",
+                    "Damage": 1,
+                    "tag": {
+                        "display": {"Name": "Iron Stick (+dmg while electrified)"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:tnt",
+                    "tag": {
+                        "display": {"Name": "The Friends-No-More-inator 3000"}
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            }
+        ]
+    }
+}

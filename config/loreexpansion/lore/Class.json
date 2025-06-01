@@ -1,0 +1,79 @@
+{
+  "key": {
+    "id": "Class",
+    "category": "Lost"
+  },
+  "content": {
+    "title": "The Four Ancestor Knights",
+    "body": "It is no novelty, that our fighting styles of today originate from four knights with names that have been lost to time. Although time can kill any living being, it could not erase the resonance of their influence.
+    Today, we recognize the knights' fighting styles by their descriptions in Latin: §lDevout§r, §lFuror§r, §lArcum§r, and §lTremor§r. And there are two specialties on every one of them:
+    §lDevout
+    Named after those devoted to the religion and management of the raw source of our energy and weaponry, known by the commoners as Devout Crystals.
+    Devouts are usually seen learning verses of poems and fables of lost profets written in Spell Books, before performing attacks with their crystal-powered wands.
+    - Necromancer
+    Known for the manipulation of dead matter and the ability to reanimate and summon the dead as allies, Necromancer Devouts are often feared, but it is only the souls of the enemy who they are interested in controlling, since for those, there is no need for remorse.
+    Necromancers are also known for wearing armor that doesn't protect them, as they prefer to suck the life out of the foes that dare to challenge them.
+    - Warlock
+    Often opting for causing as much destruction as possible, Warlock Devouts are known for taking advantage of every tiny thing to improve their battle, often even modifying their wands to let them absorb more of the crystal's energy, though due to this, they end up dying young.
+    The ability to take advantage of devout energy absorved though, is what allows for these fierce warriors to have the upper hand in any situation.
+    §lFuror
+    Tough warriors often described to fight with pure barbaric rage. Furors are often recognized as being the ones that can withstand the most damage out of all the others.
+    - Iron Heart
+    These Furors are able to easily take down individual targets by channeling their rage straight to them. They are also known to lose their temper easily, which causes their rage to let them deal more damage at the cost of poor balance.
+    - Horde Tamer
+    Horde Tamers, in contrast to Iron Hearts, have the ability to work better under pressure, using their rage and adrenaline to resist damage more easily. These Furors are also known to throw themselves into crowds of enemies, before somehow flinging all of them out to many different directions.
+    §lTremor
+    Known for intentionally choosing lighter and thinner materials to make their armor, making them more agile and difficult to attack.
+    Their name originates from the fact that many perceive them as either panicked fighters, or those who cause the panic.
+    - Assassin
+    Most people believe that Tremor only has one original specialty, given the name of Assassin, since these fighters are known to be exceptionally skilled with stealth, making backstabs and calculated strikes their main outlier.
+    Assassins often hide inside bushes, leaves and darkness, and many survivors of their attacks have reported extreme anxiety and helpessness while near any of these areas.
+    In rare occassions, Assassins have been seen falling into madness while hiding, making their presence more obvious, but also brutally stabbing anyone who they managed to sneak up on.
+    - Flailer
+    This specialty is often mocked by others and almost never practiced, but it is nonetheless officially reported as one by the great leaders.
+    Flailers, as the name suggests, control their fear in an expressive and chaotic way, presenting absolutely no fighting technique, but being able to attack and flee faster based on how panicked they are.
+    Here are some situations that they have been known to panic on:
+    - Low health.
+    - Empty stomach.
+    - Negative potion effects.
+    - Night time.
+    - In the dark.
+    - Rain intensity.
+    - On fire.
+    - In lava.
+    - In scary biomes. 
+    - They also for some reason panic when sprinting.
+    - Many Flailers also talk about \"traveling to other realities\", some showing more fear than others.
+    §lArcum
+    Their name comes from their mastery of the bow and arrow, though they are also known for being friendly towards many kinds of animals, and often taming beasts that others would consider to be too monstrous to become a companion.
+    - Quick Fingers
+    Those who do not practice the Arcum fighting style, are not able to comprehend how they can draw their bow so fast while riding an animal, but it all depends on how well they can resonate with one of possibly many of their mount's elements.
+    1. Generic: Usually with horses, Quick Fingered Arcums draw faster while moving.
+    2. Acid: While inflicted with Weakness, Wither, Nausea, Broken Armor, Broken Magic Shield, Corroded, Corrosive, Rust, Injured, Magical Decay, Arcane Jammer, Klutz, and/or Infected Bleeding.
+    3. Air: While inflicted with Jump Boost, Feather Fall, Gravity, Weight, Unstable Fall, Feathers, Flight, Launch, Weight, Slow Fall, Explode, Fly, Delayed Launch, and/or Fall Resistance.
+    4. Arbour: While in foliage-rich biomes.
+    5. Arcane: Based on the distance from an enemy.
+    6. Earth: While inflicted with Poison, Blindness, Hunger, Plague, Soiled, Repair, Stunned, Oakflesh, Call of the Hive, Pollinated, Darkness, and/or Insomnia.
+    7. Fae: During the day.
+    8. Frost: While in cold biomes, and/or if the armor is enchanted with Frost Resistance, and/or while inflicted with Mining Fatigue, Frost Resistance, Frostbite, Ice Shroud, Frost Step, Freeze, Freezeaoe, Arrow Freeze.
+    9. Lava: While in hot biomes, and/or if the armor is enchanted with Fire Protection, and/or while inflicted with Blazing Trail, Fireskin, Lesser Fire Resistance, Dragon Guard, Combustion.
+    10. Lightning: If the armor is enchanted with Shock Protection, and/or while inflicted with Speed, Glowing, Lightning Resistance, Static Aura, Paralysis, Lightning, Instability.
+    11. Nether: Based on kill count.
+    12. Order: Based on the rider's percentage of health.
+    13. Quake: While taking damage.
+    14. Shadow: During the night.
+    15. Void: While inflicted with any negative effect.
+    16. Water: While submerged in water.
+    - Keen Eyes
+    Focusing on their own deadly precision, Keen Eyed Arcums are usually slower but calculated. They are also known for being more manipulative.
+    These archers are known for using their expertise of comunication against the enemy, letting them know the location of roughly every nearby foe, if they manage to retrieve this information from one of them.", 
+    "autoplay": false
+  },
+  "sortingIndex": 0,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": true,
+  "trigger": null,
+  "action": null
+}

@@ -1,0 +1,38 @@
+{
+  "key": {
+    "id": "FinalGear",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Soul Crystal Gear",
+    "body": "§lArmor
+    §lTremor:
+    - Jade Armor
+    - Amordrine: Crafted with an §oalloy §rof §oKalendrite §r(Nether: Y = 27-120) and §oPlatinum §r(Deep Caverns: Y = 10-30), alongside §oPetrified Wood§r.
+    §lFuror
+    - Black Steel: Crafted with an §oalloy §rof §oInfuscollium §r(Deep Caverns: Y = 5-64) and §oDeep Iron §r(Deep Caverns: Y = 64-128), alongside §oTemple Rocks§r.
+    - Rhino Plate: Crafted using §oRhinoceros Beetle §rdrops.
+    §lDevout
+    - Inolashite: Crafted with an §oalloy §rof §oAlduorite §r(Nether: 70-127) and §oCeruclase §r(Nether: 0-127).
+    - Vyroxeres: Found in the §oNether §rat §oY = 0-120§r. Crafted with §oBone Shards §rthat are dropped by the §oFossil Ore§r.
+    §lArcum
+    - Krik: Crafted with and §oalloy §rof §oLutetium §r(Made with §oEnd materials§r) and §oOsmium §r(Deep Caverns: Y = 128-192), alongside §oGneiss Rocks§r.
+    - Upgraded Exoskeleton: 
+    1. Helmet: Crafted with §oExoskeleton Plates §rand §oCompound Goggle Lenses §rwhich are crafted using §oFly/Botfly drops§r, alongside §oAmber Glass§r.
+    2. Chestplate: Made with:
+    - Glider Chestplate: Exoskeleton Plates, Sticks and Fly Wings (Drop).
+    - Elastic Fibres: Dropped by §oLocusts §rand §oPunchrooms§r.
+    - Enhanced Glider Wings: Made with §oDragonfly Wings §r(Drop) and §oBamboo §rfrom the dimension.
+    - Velocity Block: Made with §oBio-Velocity§r, which is dropped by §oSolifuges §rand §oCentipedes§r.
+    3. Leggings: Crafted with §oExoskeleton Plates §rand §oBio-Velocity§r.
+    4. Boots: Crafted with §oExoskeleton Plates§r.",
+    "autoplay": false
+  },
+  "sortingIndex": 23,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

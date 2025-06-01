@@ -1,0 +1,17 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Rahovart")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("dSC", "triumph:player_crafted_item")
+criteria.setItem("lycanitesmobs:soulcubedemonic")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,230)

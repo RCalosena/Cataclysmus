@@ -1,0 +1,72 @@
+[
+  {
+    "ore": "minecraft:magma",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 16,
+    "miny": 0,
+    "maxy": 256
+  },
+  {
+    "ore": "erebus:volcanic_rock",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 200,
+    "size": 15,
+    "miny": 0,
+    "maxy": 256
+  },
+  {
+    "ore": "srparasites:parasiterubbledense",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 200,
+    "size": 15,
+    "miny": 0,
+    "maxy": 256
+  },
+  {
+    "ore": "quark:basalt",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 200,
+    "size": 15,
+    "miny": 0,
+    "maxy": 256
+  },
+  {
+    "ore": "quark:jasper",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 33,
+    "size": 24,
+    "miny": 0,
+    "maxy": 256
+  },
+  {
+    "ore": "minecraft:stone",
+    "oremeta": 5,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 33,
+    "size": 24,
+    "miny": 0,
+    "maxy": 160
+  },
+  {
+    "ore": "minecraft:stone",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 20,
+    "size": 50,
+    "miny": 0,
+    "maxy": 160
+  }
+]

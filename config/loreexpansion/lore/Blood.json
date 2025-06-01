@@ -1,0 +1,32 @@
+{
+  "key": {
+    "id": "Blood",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Blood Sample",
+    "body": "§lArmor
+    (Harvest Level 7 Required)
+    §lTremor:
+    - Shadow Steel: Made with an alloy of Shadow Iron and Lemurite (Nether: Y = 0-50).
+    - Mutant Skeleton: Crafted with Mutant Skeleton parts.
+    §lFuror:
+    - Tenebrum: Found deep within the Midnight's caverns.
+    - Haderoth: Made with an alloy of Rubracium (Overworld: Y = 10-40) and Mithril (Deep Caverns: Y = 10-64).
+    §lArcum:
+    - Meteor: Found in the Deep Caverns or in the End.
+    §lDevout:
+    - Rockshroom: Found in the surface of the Midnight
+    - Ceruclase: Found in the Nether at any height
+    §lBaubles
+    - Improved Forsaken Ring",
+    "autoplay": false
+  },
+  "sortingIndex": 19,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

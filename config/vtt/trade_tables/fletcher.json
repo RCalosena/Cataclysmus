@@ -1,0 +1,90 @@
+{
+    "Profession": "minecraft:farmer",
+    "Career": "shepherd",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": ["minecraft:feather","minecraft:flint"],
+                    "Count": [{ "min": 32,"max": 40 },{ "min": 40,"max": 50 }]
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [{ "min": 12,"max": 15 },{ "min": 15,"max": 18 },{ "min": 14,"max": 16 }]
+                },
+                "sell": {
+                    "id": ["minecraft:bow","spartanweaponry:crossbow_wood","spartanweaponry:longbow_wood"],
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "sell": {
+                    "id": "spartanweaponry:arrow_wood",
+                    "Count": {
+                        "min": 20,
+                        "max": 32
+                    }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [{ "min": 20,"max": 25 },{ "min": 20,"max": 25 }]
+                },
+                "sell": {
+                    "id": ["minecraft:arrow","spartanweaponry:bolt"],
+                    "Count": {
+                        "min": 20,
+                        "max": 32
+                    }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [{ "min": 15,"max": 17 },{ "min": 17,"max": 20 }]
+                },
+                "sell": {
+                    "id": ["spartanweaponry:longbow_leather","spartanweaponry:crossbow_leather"],
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 40,"max": 45 }
+                },
+                "sell": {
+                    "id": "spartanweaponry:quiver_arrow",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":1
+            }
+        ]
+    }
+}

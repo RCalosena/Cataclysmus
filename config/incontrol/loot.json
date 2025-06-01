@@ -1,0 +1,240 @@
+[
+  {
+    "remove": [ "minecraft:ender_eye", "cqrepoured:staff_vampiric","mod_lavacow:moltenbeef", "cqrepoured:battle_axe_bull", "minecraft:diamond_pickaxe", "minecraft:iron_helmet", "cqrepoured:helmet_heavy_diamond", "cqrepoured:chestplate_heavy_diamond", "cqrepoured:leggings_heavy_diamond", "cqrepoured:boots_heavy_diamond", "cqrepoured:helmet_heavy_iron", "cqrepoured:chestplate_heavy_iron", "cqrepoured:leggings_heavy_iron", "cqrepoured:boots_heavy_iron", "minecraft:iron_chestplate", "minecraft:iron_leggings", "minecraft:iron_boots", "minecraft:diamond_helmet", "minecraft:diamond_chestplate", "minecraft:diamond_leggings", "minecraft:diamond_boots", "cqrepoured:chestplate_iron_dyable", "cqrepoured:helmet_iron_dyable", "cqrepoured:leggings_iron_dyable", "cqrepoured:boots_iron_dyable", "cqrepoured:chestplate_diamond_dyable", "cqrepoured:helmet_diamond_dyable", "cqrepoured:leggings_diamond_dyable", "cqrepoured:boots_diamond_dyable", "spartanweaponry:longbow_diamond" ]
+  },
+  {
+    "mob": "mod_lavacow:salamander",
+    "player": "true",
+    "item": "lycanitesmobs:cooked_cephignis_meat",
+    "itemcount": "1-2/2-2/2-3"
+  },
+  {
+    "mob": "erebus:erebus.rhino_beetle",
+    "player": "true",
+    "item": "erebus:materials@36",
+    "random": "0.2",
+    "itemcount": "1-2/2-2/2-3"
+  },
+  {
+    "hostile": true,
+    "maxlight": "0",
+    "player": true,
+    "random": "0.1",
+    "item": "behgameon:accessory_33"
+  },
+  {
+    "hostile": true,
+    "maxlight": "0",
+    "player": true,
+    "random": "0.1",
+    "item": "behgameon:accessory_35"
+  },
+  {
+    "hostile": true,
+    "maxlight": "0",
+    "player": true,
+    "random": "0.1",
+    "item": "behgameon:accessory_36"
+  },
+  {
+    "hostile": true,
+    "maxlight": "0",
+    "player": true,
+    "random": "0.1",
+    "item": "behgameon:accessory_38"
+  },
+  {
+    "mob": "minecraft:wither",
+    "player": "true",
+    "item": "minecraft:nether_star",
+    "itemcount": "9"
+  },
+  {
+    "mob": "betteranimalsplus:hirschgeist",
+    "player": "true",
+    "item": "roughtweaks:medikitenchanted"
+  },
+  {
+    "mob": "erebus:erebus.antlion_boss",
+    "player": "true",
+    "item": "erebus:materials@64",
+    "itemcount": "10"
+  },
+  {
+    "hostile": "true",
+    "mod": "cqrepoured",
+    "player": "true",
+    "item": "minecraft:arrow",
+    "random": "0.10",
+    "itemcount": "1-5/3-8/5-10"
+  },
+  {
+    "hostile": "true",
+    "mod": "cqrepoured",
+    "player": "true",
+    "item": "spartanweaponry:bolt",
+    "random": "0.10",
+    "itemcount": "1-5/3-8/5-10"
+  },
+  {
+    "hostile": "true",
+    "mod": "cqrepoured",
+    "player": "true",
+    "item": "ebwizardry:crystal_shard",
+    "random": "0.12",
+    "itemcount": "1-10/3-12/5-15"
+  },
+  {
+    "hostile": "true",
+    "mod": "lycanitesmobs",
+    "player": "true",
+    "item": "tombstone:crafting_ingredient@3"
+  },
+  {
+    "mod": "mod_lavacow",
+    "player": "true",
+    "item": "mod_lavacow:ectoplasm",
+    "itemcount": "1/1-2/1-3"
+  },
+  {
+    "mob": [ "mod_lavacow:scarecrow", "mod_lavacow:ithaqua" ],
+    "player": "true",
+    "random": "0.5",
+    "item": "mod_lavacow:ectoplasm",
+    "itemcount": "1-2/1-3/1-4"
+  },
+  {
+    "mob": "mod_lavacow:forsaken",
+    "player": "true",
+    "random": "0.2",
+    "item": "mod_lavacow:hatred_shard",
+    "itemcount": "1/1-2/1-3"
+  },
+  {
+    "mob": "mod_lavacow:weta",
+    "player": "true",
+    "item": "mod_lavacow:chitin",
+    "itemcount": "2-3/2-4/2-5"
+  },
+  {
+    "mob": ["mod_lavacow:mimic", "mod_lavacow:parasite", "mod_lavacow:piranha", "mod_lavacow:piranha", "mod_lavacow:zombiepiranha", "mod_lavacow:pingu", "mod_lavacow:raven"],
+    "remove": "mod_lavacow:ectoplasm"
+  },
+  {
+    "mob": "mod_lavacow:parasite",
+    "player": "true",
+    "random": "0.25",
+    "item": "mod_lavacow:ectoplasm",
+    "itemcount": "1/1-2/1-3"
+  },
+  {
+    "mob": "mod_lavacow:undeadswine",
+    "player": "true",
+    "item": "mod_lavacow:ectoplasm",
+    "itemcount": "1-3/1-4/1-5"
+  },
+  {
+    "mob": [ "mod_lavacow:sludgelord", "mod_lavacow:undertaker" ],
+    "player": "true",
+    "item": "mod_lavacow:ectoplasm",
+    "itemcount": "1-5/1-6/1-8"
+  },
+  {
+    "mob": [ "lycanitesmobs:serpix", "lycanitesmobs:frostweaver", "lycanitesmobs:reiver", "lycanitesmobs:maug", "lycanitesmobs:wendigo", "lycanitesmobs:arix", "lycanitesmobs:bobeko", "netherex:coolmar_spider", "nether:frost" ],
+    "player": "true",
+    "random": "0.03",
+    "item": "bountifulbaubles:ringoverclocking"
+  },
+  {
+    "mob": [ "lycanitesmobs:makaalpha", "lycanitesmobs:maka", "lycanitesmobs:arisaur", "lycanitesmobs:joust", "lycanitesmobs:joustalpha" ],
+    "player": "true",
+    "random": "0.01",
+    "item": "bountifulbaubles:trinketapple"
+  },
+  {
+    "passive": "true",
+    "player": "true",
+    "random": "0.01",
+    "item": "bountifulbaubles:trinketapple"
+  },
+  {
+    "mob": [ "lycanitesmobs:erepede", "lycanitesmobs:ventoraptor", "minecraft:magma_cube", "minecraft:zombie_pigman" ],
+    "player": "true",
+    "random": "0.03",
+    "item": "bountifulbaubles:trinketvitamins"
+  },
+  {
+    "mob": [ "lycanitesmobs:vorach", "lycanitesmobs:behemoth", "lycanitesmobs:belph", "lycanitesmobs:archvile", "lycanitesmobs:wraith", "lycanitesmobs:cacodemon", "lycanitesmobs:pinky" ],
+    "player": "true",
+    "random": "0.03",
+    "item": "bountifulbaubles:trinketvitamins"
+  },
+  {
+    "mob": [ "minecraft:cave_spider", "lycanitesmobs:gnekk", "lycanitesmobs:vespidqueen", "lycanitesmobs:vespid", "lycanitesmobs:aglebemu", "lycanitesmobs:lycosa", "lycanitesmobs:ostimien", "lycanitesmobs:eechetik", "lycanitesmobs:ghoul", "specialmobs:poisonspider", "specialmobs:poisonskeleton", "specialmobs:poisonsilverfish" ],
+    "player": "true",
+    "random": "0.03",
+    "item": "bountifulbaubles:trinketbezoar"
+  },
+  {
+    "mob": "lycanitesmobs:warg",
+    "remove": "minecraft:leather"
+  },
+  {
+    "mob": "lycanitesmobs:maug",
+    "remove": "minecraft:leather"
+  },
+  {
+    "mob": "cqrepoured:necromancer",
+    "player": "true",
+    "item": [ "mod_lavacow:ectoplasm" ],
+    "itemcount": "12"
+  },
+  {
+    "mob": "cqrepoured:nether_dragon",
+    "player": "true",
+    "item": [ "mod_lavacow:ectoplasm" ],
+    "itemcount": "12"
+  },
+  {
+    "mob": "cqrepoured:lich",
+    "player": "true",
+    "item": [ "mod_lavacow:ectoplasm" ],
+    "itemcount": "20"
+  },
+  {
+    "mob": "cqrepoured:boar_mage",
+    "player": "true",
+    "item": [ "mod_lavacow:ectoplasm" ],
+    "itemcount": "12"
+  },
+  {
+    "mob": "cqrepoured:walker_king",
+    "player": "true",
+    "item": [ "mod_lavacow:ectoplasm" ],
+    "itemcount": "32"
+  },
+  {
+    "mob": "cqrepoured:giant_spider",
+    "player": "true",
+    "item": [ "mod_lavacow:ectoplasm" ],
+    "itemcount": "12"
+  },
+  {
+    "mob": "cqrepoured:ender_calamity",
+    "player": "true",
+    "item": [ "mod_lavacow:ectoplasm" ],
+    "itemcount": "12"
+  },
+  {
+    "mob": "cqrepoured:exterminator",
+    "player": "true",
+    "item": [ "mod_lavacow:ectoplasm" ],
+    "itemcount": "24"
+  },
+  {
+    "dimension": 10,
+    "maxheight": 30,
+    "mob": [ "quark:dweller", "quark:ashen" ],
+    "item":  "mysticalworld:amethyst_gem"
+  }
+]

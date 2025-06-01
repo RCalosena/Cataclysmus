@@ -1,0 +1,23 @@
+{
+  "key": {
+    "id": "Crit",
+    "category": "Lost"
+  },
+  "content": {
+    "title": "The Art of Leap Attacks",
+    "body": "§o\"A torn page from Ancient Battle Techniques\"§r 
+    
+    ...many warriors have too much weight on their armor to move swiftly, but leaping is still useful to them.
+    Dodges help you get out of undesirable situations, and they might also help you end a fight earlier...
+    ...I call it §o\"Leap Attacks\"§r, when they §ododge from the ground§r, then §oattack while falling§r. The more times an enemy is hit in a row, the better the warrior's rythm gets, increasing the force of every strike. How much damage is done from leap attacks varies from fighter to fighter, but the average person is able to perform up to 8 consecutive strikes, before reaching their strength limit... 
+    Over time, you can learn to implement Leap Attacks in your battles too, but without proper training and technique, they will cause more hunger and exhaustion.", 
+    "autoplay": false
+  },
+  "sortingIndex": 1,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": true,
+  "trigger": null,
+  "action": null
+}

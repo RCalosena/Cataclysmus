@@ -1,0 +1,327 @@
+{
+    "Profession": "minecraft:librarian",
+    "Career": "disc",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:paper",
+                    "Count": {
+                        "min": 55,
+                        "max": 64
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:book",
+                    "Count": {
+                        "min": 8,
+                        "max": 10
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:book",
+                    "Count": {
+                        "min": 20,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:writable_book",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "patchouli:guide_book",
+                    "tag": {
+                        "patchouli:book": "mysticalworld:world_guide"
+                    },
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spiceoflife:bookfoodjournal",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "rustic:book",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "mca:book_death",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "mca:book_romance",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "mca:book_family",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "mca:book_infection",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 10
+                },
+                "sell": [{
+                    "id": "minecraft:bookshelf",
+                    "Count": {
+                        "min": 5,
+                        "max": 12
+                    }
+                },
+                {
+                    "id": "quark:custom_bookshelf",
+                    "Count": {
+                        "min": 5,
+                        "max": 12
+                    }
+                },
+                {
+                    "id": "quark:custom_bookshelf",
+                    "Count": {
+                        "min": 5,
+                        "max": 12
+                    },
+                    "Damage":1
+                },
+                {
+                    "id": "quark:custom_bookshelf",
+                    "Count": {
+                        "min": 5,
+                        "max": 12
+                    },
+                    "Damage":2
+                },
+                {
+                    "id": "quark:custom_bookshelf",
+                    "Count": {
+                        "min": 5,
+                        "max": 12
+                    },
+                    "Damage":3
+                },
+                {
+                    "id": "quark:custom_bookshelf",
+                    "Count": {
+                        "min": 5,
+                        "max": 12
+                    },
+                    "Damage":4
+                }],
+                "CareerLevel": 3, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 20
+                },
+                "sell": [{
+                    "id": "ebwizardry:ruined_spell_book",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 87}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 81}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 86}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 102}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 61}]
+                    },
+                    "Count": 1
+                }],
+                "CareerLevel": 4, "maxUses": 1, "chance":0.8
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": [
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 21}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 101}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 35}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 132}]
+                    },
+                    "Count": 1
+                }],
+                "CareerLevel": 4, "maxUses": 1, "chance":0.7
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 40
+                },
+                "sell": [
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 116}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 72}]
+                    },
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {
+                        "StoredEnchantments": [{"lvl": 1, "id": 130}]
+                    },
+                    "Count": 1
+                }],
+                "CareerLevel": 4, "maxUses": 1, "chance":0.5
+            }
+        ]
+    }
+}

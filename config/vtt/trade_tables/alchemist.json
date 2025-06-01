@@ -1,0 +1,503 @@
+{
+    "Profession": "vtt:brewer",
+    "Career": "brewer",
+    "Offers": {
+        "Recipes": [
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:golden_carrot",
+                    "Count": {
+                        "min": 18,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:speckled_melon",
+                    "Count": {
+                        "min": 18,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:fermented_spider_eye",
+                    "Count": {
+                        "min": 18,
+                        "max": 22
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:glass_bottle",
+                    "Count": {
+                        "min": 32,
+                        "max": 41
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:glass_bottle",
+                    "Count": {
+                        "min": 10,
+                        "max": 12
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 15
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:brewing_stand",
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 20,
+                        "max": 32
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:antidote"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "minecraft:leaping"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "minecraft:swiftness"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:step_up"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:climb"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "minecraft:water_breathing"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:slow_fall"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "elenaidodge2:forceful"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "elenaidodge2:endurance"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "minecraft:healing"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "elenaidodge2:feathers"
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:extension"
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:solid_core"
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:recoil"
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:reach"
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncore:health_boost"
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance":0.2
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "minecraft:regeneration"
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance":0.2
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "potioncraft:life_steal"
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance":0.1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 30,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "mod_lavacow:fissionpotion",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance":0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 32,
+                        "max": 40
+                    }
+                },
+                "sell": {
+                    "id": "cqrepoured:alchemy_bag",
+                    "Count": 1
+                },
+                "CareerLevel": 4
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 32,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "bountifulbaubles:potionrecall",
+                    "Count": 1
+                },
+                "CareerLevel": 4
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 32,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "bountifulbaubles:potionwormhole",
+                    "Count": 1
+                },
+                "CareerLevel": 4
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "random"
+                    }
+                },
+                "CareerLevel": 4
+            }
+        ]
+    }
+}

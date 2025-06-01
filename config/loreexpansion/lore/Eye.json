@@ -1,0 +1,21 @@
+{
+  "key": {
+    "id": "Eye",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Finding the Stronghold",
+    "body": "1. Right-Click an §oEye of Rahovart §rin your inventory.
+    2. The Eye will travel to the general direction of the Stronghold.
+    3. After following the Eye for some time, it will eventually §obury itself §rin the ground.
+    4. Once you find the Stronghold, find the §oPortal Room §rand §oplace your remaining Eyes of Rahovart §rin the sockets of every portal piece.",
+    "autoplay": false
+  },
+  "sortingIndex": 15,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

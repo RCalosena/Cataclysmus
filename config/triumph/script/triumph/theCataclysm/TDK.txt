@@ -1,0 +1,19 @@
+setTitle("The Dungeon Keepers")
+
+setIcon(<mod_lavacow:ectoplasm>)
+
+setDescription("Defeat a dungeon boss")
+
+addParent("triumph:theCataclysm/root")
+
+//Criteria
+criteria = addCriteria("hasEcto", "minecraft:inventory_changed")
+criteria.setItem("mod_lavacow:ectoplasm")
+
+setRequirements("all")
+
+//Rewards
+setRewardFunction("triumph:knights")
+setRewardFunction("triumph:great")
+
+setPos(31,15)

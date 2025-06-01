@@ -1,0 +1,17 @@
+setTitle("Magic Lift")
+setIcon(<minecraft:ender_eye>)
+setDescription("Defeat a dungeon boss")
+setFrameType("Goal")
+setShowToast(false)
+setAnnounceToChat(false)
+alwaysHidden()
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("skeleking", "minecraft:player_killed_entity")
+criteria.setEntityType("mod_lavacow:skeletonking")
+
+setRewardFunction("triumph:stagIntro")
+
+setRequirements("any")
+setPos(-247,50)

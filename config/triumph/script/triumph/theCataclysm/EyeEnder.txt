@@ -1,0 +1,17 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Stronghold Finder")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("eye", "triumph:player_crafted_item")
+criteria.setItem("minecraft:ender_eye")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,259)

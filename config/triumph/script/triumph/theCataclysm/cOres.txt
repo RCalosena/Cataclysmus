@@ -1,0 +1,20 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Upgrades #3")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("vulOre", "minecraft:inventory_changed")
+criteria.addItem("metallurgy:vulcanite_ore")
+
+criteria = addCriteria("cinOre", "minecraft:inventory_changed")
+criteria.addItem("betternether:cincinnasite")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,172)

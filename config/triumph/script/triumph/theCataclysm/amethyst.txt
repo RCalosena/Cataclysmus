@@ -1,0 +1,20 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Stellar Gear")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("amethyst", "minecraft:inventory_changed")
+criteria.addItem("biomesoplenty:gem")
+
+criteria = addCriteria("eximite", "minecraft:inventory_changed")
+criteria.addItem("metallurgy:eximite_ore")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,317)

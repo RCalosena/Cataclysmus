@@ -1,0 +1,289 @@
+{
+    "Profession": "minecraft:farmer",
+    "Career": "farmer",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:fish",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                {
+                    "id": "minecraft:fish",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    },
+                    "Damage": 1
+                },
+                {
+                    "id": "minecraft:fish",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    },
+                    "Damage": 2
+                },
+                {
+                    "id": "minecraft:fish",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    },
+                    "Damage": 3
+                }],
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "minecraft:fish",
+                    "Count": {
+                        "min": 20,
+                        "max": 22
+                    }
+                },
+                {
+                    "id": "minecraft:fish",
+                    "Count": {
+                        "min": 20,
+                        "max": 22
+                    },
+                    "Damage": 1
+                },
+                {
+                    "id": "minecraft:fish",
+                    "Count": {
+                        "min": 20,
+                        "max": 22
+                    },
+                    "Damage": 2
+                },
+                {
+                    "id": "minecraft:fish",
+                    "Count": {
+                        "min": 15,
+                        "max": 20
+                    },
+                    "Damage": 3
+                }],
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:fishing_rod",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:cooked_fish",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                {
+                    "id": "minecraft:cooked_fish",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    },
+                    "Damage": 1
+                },
+                {
+                    "id": "minecraft:cooked_fish",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    },
+                    "Damage": 2
+                }],
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "sell": [{
+                    "id": "quark:crab_leg",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:eel_meat_raw",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                {
+                    "id": "mysticalworld:raw_squid",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:crab_meat_raw",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                }],
+                "CareerLevel": 2, "maxUses":5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "lycanitesmobs:raw_silex_meat",
+                    "Count": {
+                        "min": 20,
+                        "max": 22
+                    }
+                },
+                {
+                    "id": "mod_lavacow:piranha",
+                    "Count": {
+                        "min": 20,
+                        "max": 22
+                    }
+                },
+                {
+                    "id": "mod_lavacow:cheirolepis",
+                    "Count": {
+                        "min": 20,
+                        "max": 22
+                    }
+                },
+                {
+                    "id": "mod_lavacow:zombiepiranha_item",
+                    "Count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                }],
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 10
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 12
+                    }
+                },
+                "sell": [{
+                    "id": "lycanitesmobs:cooked_silex_meat",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                {
+                    "id": "mod_lavacow:piranha_cooked",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                {
+                    "id": "mod_lavacow:cheirolepis_cooked",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                {
+                    "id": "mod_lavacow:zombiepiranha_item_cooked",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                }],
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 12,
+                        "max": 20
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:fishing_rod",
+                    "Count": 1,
+                    "tag": {
+                        "ench": "random"
+                    }
+                },
+                "CareerLevel": 3, "maxUses":1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                },
+                "sell": {
+                    "id": "mysticalworld:fish_and_chips",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                "CareerLevel": 4, "maxUses":2, "chance":0.5
+            }
+        ]
+    }
+}

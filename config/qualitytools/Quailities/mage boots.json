@@ -1,0 +1,70 @@
+{
+    "comment": "These qualities will apply for all boots! For more info
+                about how to edit this file and add more files, visit 
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    
+    "slot": "feet",
+    "whitelist": [
+      {
+        "item": "minecraft:golden_boots"
+      },
+      {
+        "item": "cqrepoured:boots_inquisition"
+      },
+      {
+        "item": "mod_lavacow:swinearmor_boots"
+      },
+      {
+        "item": "mod_lavacow:chitinarmor_boots"
+      },
+      {
+        "item": "metallurgy:platinum_boots"
+      },
+      {
+        "item": "metallurgy:inolashite_boots"
+      },
+      {
+        "item": "metallurgy:ceruclase_boots"
+      },
+      {
+        "item": "metallurgy:damascus_steel_boots"
+      },
+      {
+        "item": "metallurgy:ignatius_boots"
+      },
+      {
+        "item": "metallurgy:atlarus_boots"
+      },
+      {
+        "item": "metallurgy:vyroxeres_boots"
+      },
+      {
+        "item": "midnight:rockshroom_boots"
+      },
+      {
+        "item": "metallurgy:midasium_boots"
+      },
+      {
+        "item": "metallurgy:prometheum_boots"
+      },
+      {
+        "item": "mod_lavacow:felarmor_boots"
+      }
+    ],
+    "blacklist": [
+
+    ],
+    "qualities": [
+      {
+        "name": "-",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.08,
+            "operation": 2
+          }
+        ]
+      }
+    ]
+}

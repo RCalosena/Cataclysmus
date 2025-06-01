@@ -1,0 +1,44 @@
+{
+  "name": "nether",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 3,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "groupLimitRange": 8,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        -1
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.20,
+      "tickRate": 400
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        3,
+        0,
+        3
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "sorting": "random",
+      "limit": 8,
+      "solidGround": true
+    }
+  ]
+}

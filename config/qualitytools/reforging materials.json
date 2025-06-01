@@ -1,0 +1,671 @@
+[
+  {
+    "comment": "This file contains custom reforging materials. By default, you can reforge
+                a tool with its repair item (like iron ingots for an iron sword), but some
+                items don't have a repair item, like bows. This adds items to reforge those.
+                It can also add an item for 'any', which will work for any item that can't be
+                reforged otherwise. For more info about how to add materials, visit:
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "tool": "any",
+    "material": {
+        "item": "ebwizardry:magic_crystal"
+    }
+  },
+  {
+    "tool": {
+        "item": "trumpetskeleton:trumpet"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:elytra",
+        "tag": "{\"quark:elytraDye\":0}"
+    },
+    "material": {
+        "ore_dict": "gemEnderBiotite"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:bow"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:dagger_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:longsword_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:katana_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:saber_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:rapier_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:greatsword_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:hammer_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:warhammer_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:spear_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:staff_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:glaive_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:mace_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:battleaxe_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:halberd_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:pike_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:lance_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:longbow_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:crossbow_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:throwing_knife_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:throwing_axe_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:javelin_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:boomerang_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:dagger_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:longsword_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:katana_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:saber_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:rapier_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:greatsword_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:hammer_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:warhammer_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:spear_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:halberd_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:pike_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:lance_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:longbow_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:crossbow_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:throwing_knife_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:throwing_axe_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:javelin_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:boomerang_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:battleaxe_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:mace_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:glaive_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:staff_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:dagger_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:longsword_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:katana_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:saber_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:rapier_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:greatsword_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:hammer_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:warhammer_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:spear_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:battleaxe_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:mace_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:glaive_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:staff_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:halberd_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:pike_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:lance_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:longbow_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:crossbow_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:throwing_knife_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:throwing_axe_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:javelin_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:boomerang_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:fishing_rod"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:wooden_hoe"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:stone_hoe"
+    },
+    "material": {
+        "ore_dict": "cobblestone"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:iron_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:shears"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:iron_horse_armor"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:golden_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:golden_horse_armor"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:diamond_hoe"
+    },
+    "material": {
+        "ore_dict": "gemDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:diamond_horse_armor"
+    },
+    "material": {
+        "ore_dict": "gemDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "qualitytools:emerald_ring"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "qualitytools:emerald_amulet"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:totem_of_undying"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  }
+]

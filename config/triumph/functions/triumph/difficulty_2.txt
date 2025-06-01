@@ -1,0 +1,6 @@
+tellraw @a {"text":"§5Silence has never felt so rewarding..."}
+
+time set night
+
+gamestage silentremove @p one
+gamestage silentadd @p two

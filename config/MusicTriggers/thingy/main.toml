@@ -1,0 +1,520 @@
+#  Main header!
+#  Line 2
+
+[songs]
+	[songs.Stag_Intro]
+		play_once = "3"
+		must_finish = true
+		triggers = [ "advancement-stag" ]
+	[[songs.minute_silence]]
+		chance = "80"
+		triggers = [ "dimension-erebus" ]
+	[[songs.minute_silence]]
+		chance = "80"
+		play_once = "1"
+		triggers = [ "dimension-end" ]
+	[[songs.minute_silence]]
+		chance = "50"
+		play_once = "1"
+		triggers = [ "dimension-carnage" ]
+	[songs.The_Stagnant_Sky_Extended]
+		chance = "999999"
+		play_once = "3"
+		volume = "0.4"
+		triggers = [ "dimension-knights" "gamestage-carnage" ]
+	[[songs.minute_silence]]
+		chance = "40"
+		play_once = "1"
+		triggers = [ "gamestage-nightmare" "dimension-nightmare" "time-night" "time-risepost" ]
+	[[songs.Frozen_Home]]
+		play_once = "2"
+		volume = "0.8"
+		triggers = [ "time-night" "time-risepost" "home" "biome-Froz" "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.Areolis]]
+		play_once = "2"
+		volume = "0.8"
+		triggers = [ "time-night" "time-risepost" "home" "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.Apprehension-Necromancy]]
+		chance = "20"
+		play_once = "1"
+		triggers = [ "time-night" "time-risepost" "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.Apprehension]]
+		chance = "20"
+		play_once = "1"
+		volume = "0.7"
+		triggers = [ "time-night" "time-risepost" "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.Apprehension-Faded_Nightmares]]
+		chance = "20"
+		play_once = "1"
+		triggers = [ "time-night" "time-risepost" "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.minute_silence]]
+		chance = "50"
+		play_once = "1"
+		triggers = [ "dimension-nightmare" "gamestage-nightmare" ]
+	[[songs.Frozen_Heart]]
+		chance = "20"
+		play_once = "1"
+		triggers = [ "dimension-nightmare" "gamestage-nightmare" ]
+	[[songs.After_the_Fall]]
+		chance = "20"
+		play_once = "1"
+		triggers = [ "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.Natures_Grace_Ocean]]
+		chance = "20"
+		play_once = "1"
+		triggers = [ "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.Utopian_Harmony]]
+		chance = "20"
+		play_once = "1"
+		triggers = [ "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.Natures_Grace]]
+		chance = "20"
+		play_once = "1"
+		triggers = [ "gamestage-nightmare" "dimension-nightmare" ]
+	[[songs.minute_silence]]
+		chance = "80"
+		play_once = "2"
+		triggers = [ "dimension-knights" "gamestage-rahovart" ]
+	[[songs.Utopian_Harmony]]
+		play_once = "2"
+		triggers = [ "dimension-knights" "gamestage-rahovart" ]
+		volume = "0.6"
+		chance = "20"
+	[[songs.After_the_Fall]]
+		chance = "20"
+		play_once = "2"
+		triggers = [ "dimension-misery" "gamestage-fall" ]
+		volume = "0.4"
+	[[songs.Apprehension]]
+		play_once = "2"
+		triggers = [ "time-night" "gamestage-prefall" ]
+		volume = "0.7"
+	[[songs.Apprehension-Faded_Nightmares]]
+		chance = "20"
+		play_once = "2"
+		volume = "0.7"
+		triggers = [ "time-night" "time-risepost" "gamestage-rahovart" "dimension-knights" ]
+	[songs.Apprehension-Faded_Nightmares_Extended]
+		chance = "9999"
+		play_once = "3"
+		volume = "0.7"
+		triggers = [ "gamestage-rahovart" "dimension-knights" "time-night" ]
+	[[songs.Apprehension-Necromancy]]
+		play_once = "2"
+		triggers = [ "time-night" "time-risepost" "gamestage-carnage" ]
+	[[songs.Apprehension-Necromancy]]
+		play_once = "2"
+		triggers = [ "time-night" "time-risepost" "gamestage-fall" ]
+	[[songs.Apprehension-Necromancy]]
+		play_once = "2"
+		triggers = [ "time-night" "time-risepost" "gamestage-hope" ]
+	[[songs.Apprehension-Paranoia]]
+		play_once = "2"
+		triggers = [ "gamestage-carnage" "time-night" "height-caverns" ]
+	[[songs.Apprehension-Paranoia]]
+		play_once = "2"
+		triggers = [ "gamestage-fall" "time-night" "height-caverns" ]
+	[[songs.Apprehension-Paranoia]]
+		play_once = "2"
+		triggers = [ "gamestage-hope" "time-night" "height-caverns" ]
+	[[songs.Areolis]]
+		play_once = "2"
+		volume = "0.8"
+		triggers = [ "time-night" "time-risepost" "home" "gamestage-hope" ]
+	[songs.Cosmic_Delusions]
+		triggers = [ "mob-delusion" ]
+	[songs.Dusk]
+		play_once = "2"
+		triggers = [ "biome-dusk" ]
+	[[songs.Frozen_Home]]
+		play_once = "2"
+		triggers = [ "time-night" "time-risepost" "home" "biome-Froz" "gamestage-hope" ]
+		volume = "0.8"
+	[songs.The_Stagnant_Sky]
+		chance = "20"
+		play_once = "2"
+		triggers = [ "dimension-knights" "gamestage-carnage" ]
+		volume = "0.4"
+	[songs.Journey_Into_The_Unknown]
+		play_once = "1"
+		triggers = [ "loading" ]
+		volume = "0.75"
+	[songs.A_Venue_of_Agony_and_Despair]
+		volume = "0.5"
+		must_finish = true
+		play_once = "3"
+		triggers = [ "gamestage-prefall" "time-rise" ]
+	[[songs.Addled]]
+		triggers = [ "fallingstars" ]
+		play_once = "2"
+		volume = "0.7"
+	[[songs.Addled]]
+		triggers = [ "harvestmoon" ]
+		play_once = "2"
+		volume = "0.7"
+	[songs.Erebus-Ambient_Bug_in_the_System]
+		play_once = "1"
+		triggers = [ "dimension-erebus" ]
+		chance = "20"
+		volume = "0.75"
+	[songs.Darker_Space]
+		triggers = [ "dimension-end" ]
+		chance = "20"
+		play_once = "1"
+		volume = "0.8"
+	[[songs.Fierce]]
+		play_once = "2"
+		triggers = [ "bloodmoon" ]
+		volume = "0.2"
+	[[songs.Fierce]]
+		triggers = [ "dimension-carnage" ]
+		chance = "50"
+		play_once = "1"
+		volume = "0.4"
+	[[songs.Frozen_Heart]]
+		play_once = "2"
+		triggers = [ "biome-heart" ]
+	[[songs.silent]]
+		volume = "0"
+		triggers = [ "gamestage-fall" ]
+	[songs.Light_and_Despair]
+		triggers = [ "menu" ]
+		volume = "0.75"
+	[[songs.Natures_Grace]]
+		play_once = "2"
+		triggers = [ "biome-desert" ]
+	[[songs.Natures_Grace]]
+		play_once = "2"
+		triggers = [ "biome-Natur" ]
+	[[songs.Natures_Grace_Ocean]]
+		play_once = "2"
+		triggers = [ "biome-ocean" ]
+	[[songs.minute_silence]]
+		chance = "80"
+		play_once = "2"
+		triggers = [ "gamestage-rahovart" "dimension-knights" "time-night" ]
+	[[songs.minute_silence]]
+		chance = "80"
+		play_once = "2"
+		triggers = [ "dimension-knights" "gamestage-carnage" ]
+	[[songs.minute_silence]]
+		chance = "80"
+		play_once = "2"
+		triggers = [ "dimension-misery" "gamestage-fall" ]
+	[songs.Music_Box]
+		triggers = [ "dead" ]
+		volume = "0.8"
+	[songs.Rift_Ambiance]
+		must_finish = true
+		play_once = "2"
+		triggers = [ "time-set" "gamestage-notcarnage" ]
+	[[songs.sec_silence]]
+		triggers = [ "generic" ]
+		volume = "0"
+	[[songs.sec_silence]]
+		triggers = [ "gamestage-join" ]
+	[[songs.sec_silence]]
+		triggers = [ "gamestage-hope" ]
+	[[songs.silent]]
+		triggers = [ "dimension-midnight" ]
+	[[songs.silent]]
+		triggers = [ "dimension-deep" ]
+	[songs.The_Midnight-Stegano]
+		triggers = [ "height-caverns" ]
+	[songs.The_Fragments_of_Home]
+		play_once = "3"
+		triggers = [ "mob-village_grand" ]
+		volume = "0.2"
+		must_finish = true
+
+[triggers]
+	[triggers.advancement]
+		resource_name = [ "skelekill" ]
+		priority = "999"
+		persistence = "200"
+		song_delay = "1"
+		stop_delay = "1"
+		start_delay = "1"
+		trigger_delay = "100"
+		identifier = "stag"
+	[[triggers.dimension]]
+		song_delay = "4000"
+		priority = "2"
+		resource_name = [ "0" ]
+		fade_out = "60"
+		trigger_delay = "1000"
+		identifier = "nightmare"
+	[[triggers.gamestage]]
+		resource_name = [ "nightmare" ]
+		priority = "2"
+		identifier = "nightmare"
+	[[triggers.biome]]
+		biome_category = [ "COLD" ]
+		fade_out = "60"
+		identifier = "Froz"
+		priority = "9"
+		trigger_delay = "5000"
+	[[triggers.biome]]
+		fade_in = "100"
+		fade_out = "60"
+		identifier = "dusk"
+		persistence = "100"
+		priority = "7"
+		resource_name = [ "srparasites:biome_parasite" ]
+		song_delay = "200"
+		stop_delay = "200"
+		start_delay = "200"
+		trigger_delay = "200"
+	[[triggers.biome]]
+		biome_category = [ "OCEAN" ]
+		fade_in = "0"
+		fade_out = "60"
+		identifier = "ocean"
+		persistence = "100"
+		priority = "1"
+		start_delay = "1200"
+		song_delay = "1200"
+		stop_delay = "1200"
+		trigger_delay = "2400"
+	[[triggers.biome]]
+		biome_category = [ "WARM" ]
+		fade_out = "60"
+		identifier = "desert"
+		persistence = "100"
+		priority = "1"
+		start_delay = "1200"
+		song_delay = "1200"
+		stop_delay = "1200"
+		trigger_delay = "2400"
+	[[triggers.biome]]
+		biome_category = [ "COLD" ]
+		fade_in = "0"
+		fade_out = "60"
+		identifier = "heart"
+		persistence = "100"
+		priority = "1"
+		start_delay = "1200"
+		song_delay = "1200"
+		stop_delay = "1200"
+		trigger_delay = "2400"
+	[[triggers.biome]]
+		biome_category = [ "MEDIUM" ]
+		fade_in = "60"
+		fade_out = "60"
+		identifier = "Natur"
+		priority = "1"
+		song_delay = "1200"
+		start_delay = "1200"
+		stop_delay = "1200"
+		trigger_delay = "2400"
+	[triggers.bloodmoon]
+		fade_out = "60"
+		priority = "10"
+		trigger_delay = "1400"
+	[triggers.dead]
+		fade_in = "160"
+		fade_out = "60"
+		priority = "1000"
+		trigger_delay = "1"
+	[[triggers.dimension]]
+		fade_in = "0"
+		fade_out = "60"
+		identifier = "knights"
+		priority = "2"
+		resource_name = [ "0" ]
+		song_delay = "1000"
+		stop_delay = "1000"
+		start_delay = "1000"
+		trigger_delay = "2000"
+	[[triggers.dimension]]
+		fade_out = "60"
+		identifier = "misery"
+		priority = "2"
+		resource_name = [ "0" ]
+		start_delay = "1000"
+		trigger_delay = "2000"
+		song_delay = "1000"
+	[[triggers.dimension]]
+		fade_in = "40"
+		fade_out = "60"
+		identifier = "erebus"
+		priority = "501"
+		resource_name = [ "23" ]
+		trigger_delay = "400"
+		stop_delay = "400"
+		start_delay = "400"
+		song_delay = "3600"
+	[[triggers.dimension]]
+		identifier = "midnight"
+		priority = "501"
+		resource_name = [ "-23" ]
+	[[triggers.dimension]]
+		fade_out = "60"
+		identifier = "end"
+		priority = "501"
+		song_delay = "1000"
+		stop_delay = "1000"
+		start_delay = "1000"
+		trigger_delay = "2000"
+		resource_name = [ "1" ]
+	[[triggers.dimension]]
+		fade_in = "100"
+		fade_out = "60"
+		identifier = "deep"
+		priority = "11"
+		resource_name = [ "10" ]
+	[[triggers.dimension]]
+		fade_out = "60"
+		identifier = "carnage"
+		priority = "501"
+		resource_name = [ "-1" ]
+	[[triggers.gamestage]]
+		fade_in = "0"
+		fade_out = "60"
+		identifier = "rahovart"
+		priority = "3"
+		resource_name = [ "rahovart" ]
+		song_delay = "1000"
+		stop_delay = "1000"
+		start_delay = "1000"
+		trigger_delay = "1000"
+	[[triggers.gamestage]]
+		fade_in = "0"
+		fade_out = "60"
+		identifier = "carnage"
+		priority = "2"
+		resource_name = [ "Death" ]
+		trigger_delay = "2000"
+	[[triggers.gamestage]]
+		fade_in = "0"
+		fade_out = "60"
+		not = true
+		identifier = "notcarnage"
+		priority = "2"
+		resource_name = [ "Death" ]
+		trigger_delay = "2000"
+	[[triggers.gamestage]]
+		identifier = "join"
+		priority = "2000"
+		resource_name = [ "firstJoin" ]
+	[[triggers.gamestage]]
+		fade_in = "1"
+		fade_out = "60"
+		identifier = "hope"
+		priority = "2"
+		resource_name = [ "hopeless" ]
+	[[triggers.gamestage]]
+		fade_out = "60"
+		identifier = "fall"
+		priority = "2"
+		resource_name = [ "misery" ]
+		start_delay = "1000"
+		trigger_delay = "2000"
+		song_delay = "1000"
+	[[triggers.gamestage]]
+		fade_out = "60"
+		identifier = "prefall"
+		not = true
+		priority = "2"
+		resource_name = [ "misery" "hopeless" "one" "two" "oatmeal" "kirby" ]
+		start_delay = "1000"
+		trigger_delay = "2000"
+		song_delay = "1000"
+	[triggers.generic]
+		trigger_delay = "10000"
+	[triggers.harvestmoon]
+		fade_out = "60"
+		priority = "10"
+		trigger_delay = "2200"
+	[triggers.height]
+		fade_in = "1"
+		fade_out = "60"
+		identifier = "caverns"
+		level = "40"
+		persistence = "500"
+		trigger_delay = "200"
+		priority = "9"
+	[triggers.home]
+		detection_range = "100"
+		fade_in = "100"
+		fade_out = "60"
+		priority = "9"
+		trigger_delay = "3000"
+	[triggers.loading]
+		fade_in = "1"
+		fade_out = "60"
+		start_delay = "1"
+		trigger_delay = "1"
+		song_delay = "1"
+	[triggers.menu]
+		fade_out = "10"
+		start_delay = "1"
+		trigger_delay = "1"
+		song_delay = "1"
+	[[triggers.mob]]
+		detection_range = "50"
+		detection_y_ratio = "1.0"
+		fade_out = "60"
+		identifier = "delusion"
+		mob_targeting = false
+		priority = "10"
+		resource_name = [ "cqrepoured:dummy" ]
+	[[triggers.mob]]
+		detection_range = "40"
+		fade_in = "60"
+		fade_out = "60"
+		horde_health_percentage = "600"
+		identifier = "village_grand"
+		level = "10"
+		mob_targeting = false
+		passive_persistence = true
+		persistence = "600"
+		priority = "6"
+		trigger_delay = "1000"
+		song_delay = "1000"
+		stop_delay = "1000"
+		start_delay = "1000"
+		resource_name = [ "mca:entityvillagermca" ]
+	[triggers.fallingstars]
+		fade_out = "60"
+		priority = "10"
+		trigger_delay = "2200"
+	[[triggers.time]]
+		fade_out = "60"
+		identifier = "rise"
+		priority = "500"
+		trigger_delay = "1"
+		time_bundle = "sunrise"
+	[[triggers.time]]
+		fade_out = "60"
+		identifier = "risepost"
+		priority = "7"
+		trigger_delay = "1"
+		not = true
+		time_bundle = "sunrise"
+	[[triggers.time]]
+		fade_in = "1"
+		fade_out = "60"
+		identifier = "night"
+		persistence = "200"
+		priority = "8"
+		trigger_delay = "500"
+		song_delay = "500"
+		start_delay = "0"
+		time_bundle = "night"
+	[[triggers.time]]
+		end_hour = "14"
+		fade_out = "60"
+		identifier = "set"
+		priority = "500"
+		start_hour = "12"
+		trigger_delay = "500"
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "0"
+		persistence = "0"
+		start_delay = "100"
+		trigger_delay = "100"
+		stop_delay = "100"
+		song_delay = "100"

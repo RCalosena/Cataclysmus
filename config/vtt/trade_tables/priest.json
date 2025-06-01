@@ -1,0 +1,201 @@
+{
+    "Profession": "minecraft:priest",
+    "Career": "nurse",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:glowstone_dust",
+                    "Count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": {
+                        "min": 25,
+                        "max": 40
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:apple",
+                    "Count": {
+                        "min": 25,
+                        "max": 30
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:ender_pearl",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 28
+                    }
+                },
+                "sell": [{
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "wildberrywine", "Amount": 1000, "Tag": {"Quality": 0.75}}},
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "ironwine", "Amount": 1000, "Tag": {"Quality": 0.75}}},
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "wine", "Amount": 1000, "Tag": {"Quality": 0.75}}},
+                    "Count": 1
+                }],
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.7
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {"StoredEnchantments": [{"lvl": 1, "id": 92}]},
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 32,
+                        "max": 47
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:golden_apple",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance": 0.4
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "mod_lavacow:holy_grenade",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 27,
+                        "max": 40
+                    }
+                },
+                "sell": {
+                    "id": "tombstone:ankh_of_prayer",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses": 5, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:potion",
+                    "tag": {"Potion": "potioncore:purity"},
+                    "Count": 1
+                },
+                {
+                    "id": "ebwizardry:purifying_elixir",
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 1, "chance": 0.8
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                },
+                "sell": [{
+                    "id": "bountifulbaubles:amuletcross",
+                    "Count": 1
+                },
+                {
+                    "id": "bountifulbaubles:shieldcobalt",
+                    "Count": 1
+                }],
+                "CareerLevel": 4, "maxUses": 1, "chance": 0.3
+            }
+        ]
+    }
+}

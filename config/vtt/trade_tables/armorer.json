@@ -1,0 +1,652 @@
+{
+    "Profession": "minecraft:smith",
+    "Career": "tool",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "metallurgy:copper_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "cqrepoured:ball_slime",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:iron_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:leather",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:gold_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:prometheum_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:steel_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:bronze_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                }],
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "sell": [{
+                    "id": "mysticalworld:copper_helmet",
+                    "Count": 1
+                },
+                {
+                    "id": "cqrepoured:helmet_slime",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:chainmail_helmet",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:leather_helmet",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:golden_helmet",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:prometheum_helmet",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:steel_helmet",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:bronze_helmet",
+                    "Count": 1
+                }],
+                "CareerLevel": 1, "maxUses": 1, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "metallurgy:copper_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "cqrepoured:ball_slime",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:iron_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:leather",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:gold_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:prometheum_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:steel_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:bronze_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                }],
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "sell": [{
+                    "id": "mysticalworld:copper_chestplate",
+                    "Count": 1
+                },
+                {
+                    "id": "cqrepoured:chestplate_slime",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:chainmail_chestplate",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:leather_chestplate",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:golden_chestplate",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:prometheum_chestplate",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:steel_chestplate",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:bronze_chestplate",
+                    "Count": 1
+                }],
+                "CareerLevel": 1, "maxUses": 1, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "metallurgy:copper_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "cqrepoured:ball_slime",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:iron_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:leather",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:gold_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:prometheum_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:steel_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:bronze_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                }],
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "sell": [{
+                    "id": "mysticalworld:copper_leggings",
+                    "Count": 1
+                },
+                {
+                    "id": "cqrepoured:leggings_slime",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:chainmail_leggings",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:leather_leggings",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:golden_leggings",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:prometheum_leggings",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:steel_leggings",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:bronze_leggings",
+                    "Count": 1
+                }],
+                "CareerLevel": 1, "maxUses": 1, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "metallurgy:copper_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "cqrepoured:ball_slime",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:iron_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:leather",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "minecraft:gold_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:prometheum_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:steel_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "metallurgy:bronze_ingot",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                }],
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "sell": [{
+                    "id": "mysticalworld:copper_boots",
+                    "Count": 1
+                },
+                {
+                    "id": "cqrepoured:boots_slime",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:chainmail_boots",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:leather_boots",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:golden_boots",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:prometheum_boots",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:steel_boots",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:bronze_boots",
+                    "Count": 1
+                }],
+                "CareerLevel": 1, "maxUses": 1, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "metallurgy:tin_ingot",
+                    "Count": {
+                        "min": 50,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "metallurgy:manganese_ingot",
+                    "Count": {
+                        "min": 50,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:iron_ingot",
+                    "Count": {
+                        "min": 45,
+                        "max": 59
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "cqrepoured:ball_slime",
+                    "Count": {
+                        "min": 45,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "metallurgy:prometheum_ingot",
+                    "Count": {
+                        "min": 45,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": {
+                        "min": 45,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "metallurgy:copper_ingot",
+                    "Count": {
+                        "min": 50,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "metallurgy:bronze_ingot",
+                    "Count": {
+                        "min": 20,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "metallurgy:steel_ingot",
+                    "Count": {
+                        "min": 20,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:furnace",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:armor_stand",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:shield",
+                    "Count": 1
+                },
+                {
+                    "id": "mujmajnkraftsbettersurvival:itemsmallshield",
+                    "Count": 1
+                },
+                {
+                    "id": "mujmajnkraftsbettersurvival:itembigshield",
+                    "Count": 1
+                }],
+                "CareerLevel": 1, "maxUses": 5, "chance":0.7
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 8,
+                        "max": 11
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:iron_horse_armor",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:golden_horse_armor",
+                    "Count": 1
+                }],
+                "CareerLevel": 2, "maxUses": 1, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 20,
+                        "max": 25
+                    }
+                },
+                "sell": [{
+                    "id": "metallurgy:alloyer",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:crusher",
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 22,
+                        "max": 30
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:potion",
+                    "tag": {"Potion": "potioncore:iron_skin"},
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:potion",
+                    "tag": {"Potion": "potioncore:diamond_skin"},
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 1
+            }
+        ]
+    }
+}

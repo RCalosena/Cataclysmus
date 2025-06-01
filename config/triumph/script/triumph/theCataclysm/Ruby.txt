@@ -1,0 +1,18 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Blood Sample")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("Ruby", "minecraft:inventory_changed")
+criteria.addItem("biomesoplenty:gem",1)
+
+setRewardFunction("triumph:great")
+setRewardFunction("triumph:blood")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,375)

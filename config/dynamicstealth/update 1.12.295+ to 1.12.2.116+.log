@@ -1,0 +1,489 @@
+* Renaming... general.client settings.hud.light gauge -> 000 Show Light Gauge
+* To... general.client settings.hud -> 040 Show Light Gauge
+* Renaming... general.client settings.main hud style -> Stealth Gauge Mode
+* To... general.client settings.stealth gauge style -> 010 Stealth Gauge Mode
+* Renaming... general.client settings.main hud style -> Stealth Gauge Speed
+* To... general.client settings.stealth gauge style -> 020 Stealth Gauge Speed
+* Renaming... general.client settings.main hud style -> Stealth Gauge X Position
+* To... general.client settings.stealth gauge style -> 030 Stealth Gauge X Position
+* Renaming... general.client settings.main hud style -> Stealth Gauge Y Position
+* To... general.client settings.stealth gauge style -> 040 Stealth Gauge Y Position
+* Renaming... general.client settings.main hud style -> Stealth Gauge Size
+* To... general.client settings.stealth gauge style -> 050 Stealth Gauge Size
+* Renaming... general.client settings.main hud style -> Stealth Gauge Opacity
+* To... general.client settings.stealth gauge style -> 060 Stealth Gauge Opacity
+* Renaming... general.client settings.main hud style -> Stealth Gauge Color
+* To... general.client settings.stealth gauge style -> 070 Stealth Gauge Color
+* Renaming... general.client settings.main hud style -> Stealth Gauge Rim Color
+* To... general.client settings.stealth gauge style -> 080 Stealth Gauge Rim Color
+* Renaming... general.client settings.main hud style -> Cursor Reversion Delay
+* To... general.client settings.stealth gauge style -> 090 Cursor Reversion Delay
+
+
+
+~ Found matching category: "general"...
+
+
+
+~ Found matching category: "general.client settings"...
+
++ Adding new entry: "010 Spider and Enderman Render Fix"
+
+
+~ Found matching category: "general.client settings.entity fading"...
+
+~ Copied values for matching entry: "Full Opacity At..."
+~ Copied values for matching entry: "Minimum Entity Opacity"
+
+
+~ Found matching category: "general.client settings.hud"...
+
++ Adding new entry: "010 Show Stealth Gauge"
++ Adding new entry: "020 Show On-Point HUD"
++ Adding new entry: "030 Show Targeting HUD"
+~ Copied values for matching entry: "040 Show Light Gauge"
+
+
+~ Found matching category: "general.client settings.hud.light gauge"...
+
+~ Copied values for matching entry: "010 Light Gauge Opacity"
+~ Copied values for matching entry: "020 Light Gauge Color (Empty)"
+~ Copied values for matching entry: "025 Light Gauge Color (Full)"
+~ Copied values for matching entry: "040 Light Gauge Size"
+~ Copied values for matching entry: "050 Light Gauge X Position"
+~ Copied values for matching entry: "055 Light Gauge Y Position"
+
+
+~ Found matching category: "general.client settings.hud.on-point hud filter"...
+
+~ Copied values for matching entry: "070 Bypass"
+~ Copied values for matching entry: "071 Idle (Passive)"
+~ Copied values for matching entry: "072 Idle (Non-Passive)"
+~ Copied values for matching entry: "073 Attacking You"
+~ Copied values for matching entry: "074 Attacking Other"
+~ Copied values for matching entry: "075 Searching"
+~ Copied values for matching entry: "076 Fleeing (Passive)"
+~ Copied values for matching entry: "077 Fleeing (Non-Passive)"
+
+
+~ Found matching category: "general.client settings.hud.on-point hud style"...
+
+~ Copied values for matching entry: "0: Use Depth"
+~ Copied values for matching entry: "1: 3D Vertical Percentage"
+~ Copied values for matching entry: "2: Account For Sneaking"
+~ Copied values for matching entry: "3: 3D Vertical Offset"
+~ Copied values for matching entry: "4: 3D Horizontal Percentage"
+~ Copied values for matching entry: "5: 2D Horizontal Offset"
+~ Copied values for matching entry: "5: 2D Vertical Offset"
+~ Copied values for matching entry: "7: Scale"
+~ Copied values for matching entry: "8d: Health Gauge"
+~ Copied values for matching entry: "8e: Show Current and Max HP"
+~ Copied values for matching entry: "8e: Show HP Percentage"
+
+
++ Adding new category: "general.client settings.hud.stealth gauge style"...
+
++ Adding new entry: "010 Stealth Gauge Mode"
++ Adding new entry: "020 Stealth Gauge Speed"
++ Adding new entry: "030 Stealth Gauge X Position"
++ Adding new entry: "040 Stealth Gauge Y Position"
++ Adding new entry: "050 Stealth Gauge Size"
++ Adding new entry: "060 Stealth Gauge Opacity"
++ Adding new entry: "070 Stealth Gauge Color"
++ Adding new entry: "080 Stealth Gauge Rim Color"
++ Adding new entry: "090 Cursor Reversion Delay"
+
+
+~ Found matching category: "general.client settings.hud.targeting filter"...
+
+~ Copied values for matching entry: "020 Max Distance"
+~ Copied values for matching entry: "030 Max Angle"
+~ Copied values for matching entry: "070 Bypass"
+~ Copied values for matching entry: "071 Idle (Passive)"
+~ Copied values for matching entry: "072 Idle (Non-Passive)"
+~ Copied values for matching entry: "073 Attacking You"
+~ Copied values for matching entry: "074 Attacking Other"
+~ Copied values for matching entry: "075 Searching"
+~ Copied values for matching entry: "076 Fleeing (Passive)"
+~ Copied values for matching entry: "077 Fleeing (Non-Passive)"
+~ Copied values for matching entry: "090 Dazed"
+
+
+~ Found matching category: "general.client settings.hud.targeting hud style"...
+
+~ Copied values for matching entry: "Arrow Opacity"
+~ Copied values for matching entry: "Arrow Size"
+~ Copied values for matching entry: "Default Arrow Color"
+~ Copied values for matching entry: "Default Reticle Color"
+~ Copied values for matching entry: "Default Text Color"
+~ Copied values for matching entry: "Glow"
+~ Copied values for matching entry: "Reticle Opacity"
+~ Copied values for matching entry: "Reticle Size"
+~ Copied values for matching entry: "Reticle Spacing"
+~ Copied values for matching entry: "State-Colored Arrow"
+~ Copied values for matching entry: "State-Colored Glow"
+~ Copied values for matching entry: "State-Colored Reticle"
+~ Copied values for matching entry: "State-Colored Text"
+~ Copied values for matching entry: "Text Opacity"
+~ Copied values for matching entry: "Text Scale"
+
+
+~ Found matching category: "general.client settings.hud.targeting hud style.components"...
+
+~ Copied values for matching entry: "010 Name"
+~ Copied values for matching entry: "020 Health"
+~ Copied values for matching entry: "030 Action"
+~ Copied values for matching entry: "040 Threat"
+~ Copied values for matching entry: "050 Distance"
+
+
+~ Found matching category: "general.client settings.tooltips"...
+
+~ Copied values for matching entry: "Alter Tooltips"
+~ Copied values for matching entry: "Always Show Assassination Info"
+
+
+~ Found matching category: "general.server settings"...
+
+~ Copied values for matching entry: "Entity-Specific Full Bypass"
+
+
+~ Found matching category: "general.server settings.ai"...
+
+~ Copied values for matching entry: "Add Null Checks to AI"
+~ Copied values for matching entry: "CNPCs Reset in Water"
+~ Copied values for matching entry: "Head Turn Speed"
+~ Copied values for matching entry: "Prevent Pet Teleport"
+
+
+~ Found matching category: "general.server settings.ai.can't reach"...
+
+~ Copied values for matching entry: "Combat Time"
+~ Copied values for matching entry: "Flee If Unreachable"
+~ Copied values for matching entry: "No Attack Time"
+~ Copied values for matching entry: "No Path Time"
+~ Copied values for matching entry: "Potion Filter"
+~ Copied values for matching entry: "Target Time"
+
+
+~ Found matching category: "general.server settings.ai.entity-specific settings (advanced)"...
+
+~ Copied values for matching entry: "Entity-Specific Flee Threshold"
+~ Copied values for matching entry: "Head Turn Speed"
+
+
+~ Found matching category: "general.server settings.ai.flee"...
+
+~ Copied values for matching entry: "CNPCs flee To Home Position"
+~ Copied values for matching entry: "Damage Increases Flee Duration"
+~ Copied values for matching entry: "HP Threshold"
+
+
+~ Found matching category: "general.server settings.client hud allowances"...
+
+~ Copied values for matching entry: "Allow Stealth Gauge For Clients"
+~ Copied values for matching entry: "Recognize Passives Automatically"
+~ Copied values for matching entry: "Stealth Gauge Blacklist"
+
+
+~ Found matching category: "general.server settings.client hud allowances.ophud allowances"...
+
+~ Copied values for matching entry: "000 Allow On-Point HUD For Clients"
+~ Copied values for matching entry: "010 OPHUD Range"
+~ Copied values for matching entry: "020 OPHUD Update Delay"
+
+
+~ Found matching category: "general.server settings.client hud allowances.targeting allowances"...
+
+~ Copied values for matching entry: "030 Allow 'Name' Element"
+~ Copied values for matching entry: "040 Allow 'HP' Element"
+~ Copied values for matching entry: "050 Allow 'Action' Element"
+~ Copied values for matching entry: "060 Allow 'Threat' Element"
+~ Copied values for matching entry: "070 Allow 'Distance' Element"
+
+
+~ Found matching category: "general.server settings.helper system"...
+
+~ Copied values for matching entry: "Help Same Entity Type"
+
+
+~ Found matching category: "general.server settings.helper system.custom npcs factions"...
+
+~ Copied values for matching entry: "Don't Help If Bad Rep"
+~ Copied values for matching entry: "Help If Good Rep"
+
+
+~ Found matching category: "general.server settings.helper system.ownership"...
+
+~ Copied values for matching entry: "Dedicated"
+~ Copied values for matching entry: "Help If Same Owner"
+~ Copied values for matching entry: "Help Owned"
+~ Copied values for matching entry: "Help Owner"
+
+
+~ Found matching category: "general.server settings.helper system.teams"...
+
+~ Copied values for matching entry: "Don't Help Other Teams"
+~ Copied values for matching entry: "Help Same Team"
+
+
+~ Found matching category: "general.server settings.interactions"...
+
+
+
+~ Found matching category: "general.server settings.interactions.assassination"...
+
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Weapon-Specific Settings"
+
+
+~ Found matching category: "general.server settings.interactions.attack"...
+
+~ Copied values for matching entry: "Armor Penetration"
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Damage Multiplier"
+~ Copied values for matching entry: "Remove Blindness On Hit"
+~ Copied values for matching entry: "Remove Invisibility On Hit"
+~ Copied values for matching entry: "Victim Effects"
+~ Copied values for matching entry: "Weapon-Specific Settings"
+
+
+~ Found matching category: "general.server settings.interactions.attack (blocked)"...
+
+~ Copied values for matching entry: "Armor Penetration"
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Damage Multiplier"
+~ Copied values for matching entry: "Remove Blindness On Hit"
+~ Copied values for matching entry: "Remove Invisibility On Hit"
+~ Copied values for matching entry: "Victim Effects"
+~ Copied values for matching entry: "Weapon-Specific Settings"
+
+
+~ Found matching category: "general.server settings.interactions.calm down"...
+
+~ Copied values for matching entry: "CNPCs Warp Home"
+~ Copied values for matching entry: "Potion Effects"
+~ Copied values for matching entry: "Recover all HP"
+
+
+~ Found matching category: "general.server settings.interactions.can't reach"...
+
+~ Copied values for matching entry: "Potion Effects"
+
+
+~ Found matching category: "general.server settings.interactions.desperation"...
+
+~ Copied values for matching entry: "Potion Effects"
+
+
+~ Found matching category: "general.server settings.interactions.give up search"...
+
+~ Copied values for matching entry: "CNPCs Warp Home"
+~ Copied values for matching entry: "Recover all HP"
+
+
+~ Found matching category: "general.server settings.interactions.rally"...
+
+~ Copied values for matching entry: "Potion Effects"
+
+
+~ Found matching category: "general.server settings.interactions.ramged assassination"...
+
+~ Copied values for matching entry: "Attacker Effects"
+
+
+~ Found matching category: "general.server settings.interactions.ranged attack"...
+
+~ Copied values for matching entry: "Armor Penetration"
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Damage Multiplier"
+~ Copied values for matching entry: "Remove Blindness On Hit"
+~ Copied values for matching entry: "Remove Invisibility On Hit"
+~ Copied values for matching entry: "Victim Effects"
+
+
+~ Found matching category: "general.server settings.interactions.ranged attack (blocked)"...
+
+~ Copied values for matching entry: "Armor Penetration"
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Damage Multiplier"
+~ Copied values for matching entry: "Remove Blindness On Hit"
+~ Copied values for matching entry: "Remove Invisibility On Hit"
+~ Copied values for matching entry: "Victim Effects"
+
+
+~ Found matching category: "general.server settings.interactions.ranged stealth attack"...
+
+~ Copied values for matching entry: "Armor Penetration"
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Damage Multiplier"
+~ Copied values for matching entry: "Victim Effects"
+
+
+~ Found matching category: "general.server settings.interactions.ranged stealth attack (blocked)"...
+
+~ Copied values for matching entry: "Armor Penetration"
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Damage Multiplier"
+~ Copied values for matching entry: "Victim Effects"
+
+
+~ Found matching category: "general.server settings.interactions.stealth attack"...
+
+~ Copied values for matching entry: "Armor Penetration"
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Damage Multiplier"
+~ Copied values for matching entry: "Victim Effects"
+~ Copied values for matching entry: "Weapon-Specific Settings"
+
+
+~ Found matching category: "general.server settings.interactions.stealth attack (blocked)"...
+
+~ Copied values for matching entry: "Armor Penetration"
+~ Copied values for matching entry: "Attacker Effects"
+~ Copied values for matching entry: "Damage Multiplier"
+~ Copied values for matching entry: "Victim Effects"
+~ Copied values for matching entry: "Weapon-Specific Settings"
+
+
+~ Found matching category: "general.server settings.items"...
+
+~ Copied values for matching entry: "Hand Mirror Recipe"
+
+
+~ Found matching category: "general.server settings.items.potions"...
+
+~ Copied values for matching entry: "Blindness Potion Recipes"
+~ Copied values for matching entry: "Blindness Potions"
+~ Copied values for matching entry: "Glowing Potion Recipes"
+~ Copied values for matching entry: "Glowing Potions"
+~ Copied values for matching entry: "Soul Sight Potion Recipes"
+~ Copied values for matching entry: "Soul Sight Potions"
+
+
+~ Found matching category: "general.server settings.senses"...
+
+~ Copied values for matching entry: "PvP Stealth (Requires Player Senses)"
+~ Copied values for matching entry: "Use player senses"
+
+
+~ Found matching category: "general.server settings.senses.hearing"...
+
+~ Copied values for matching entry: "No LOS Multiplier"
+~ Copied values for matching entry: "Notification Range"
+~ Copied values for matching entry: "Warning Range"
+
+
+~ Found matching category: "general.server settings.senses.sight"...
+
+
+
+~ Found matching category: "general.server settings.senses.sight.absolute cases"...
+
+~ Copied values for matching entry: "See Burning"
+~ Copied values for matching entry: "See Glowing"
+
+
+~ Found matching category: "general.server settings.senses.sight.angle"...
+
+~ Copied values for matching entry: "Angle (Large/Wide; Near)"
+~ Copied values for matching entry: "Angle (Small/Thin; Far)"
+
+
+~ Found matching category: "general.server settings.senses.sight.distance"...
+
+~ Copied values for matching entry: "Distance (Far)"
+~ Copied values for matching entry: "Distance (Near)"
+
+
+~ Found matching category: "general.server settings.senses.sight.entity-specific settings (advanced)"...
+
+~ Copied values for matching entry: "Angle"
+~ Copied values for matching entry: "Distance"
+~ Copied values for matching entry: "Lighting"
+~ Copied values for matching entry: "Natural Nightvision"
+~ Copied values for matching entry: "Natural Soul Sight"
+~ Copied values for matching entry: "Naturally Bright"
+
+
+~ Found matching category: "general.server settings.senses.sight.lighting"...
+
+~ Copied values for matching entry: "000 Light Level (High/Bright)"
+~ Copied values for matching entry: "020 Multiplier (High/Bright)"
+~ Copied values for matching entry: "040 Light Level (Low/Dark)"
+~ Copied values for matching entry: "060 Multiplier (Low/Dark)"
+~ Copied values for matching entry: "080 Nightvision Bonus"
++ Adding new entry: "0910 Dimension Sunlight Levels"
++ Adding new entry: "0930 Minimum Dimension Moonlight Levels"
++ Adding new entry: "0940 Maximum Dimension Moonlight Levels"
+~ Copied values for matching entry: "Minimum Dimension Light Levels"
+
+
+~ Found matching category: "general.server settings.senses.sight.stealth multipliers"...
+
+~ Copied values for matching entry: "Blindness Multiplier"
++ Adding new entry: "Corail Tombstone Shadow Step Multiplier"
+~ Copied values for matching entry: "Crouching Multiplier"
+~ Copied values for matching entry: "Invisibility Multiplier"
+~ Copied values for matching entry: "Level Up Stealth Skill Multiplier"
+~ Copied values for matching entry: "Mob Head Multiplier"
+
+
+~ Found matching category: "general.server settings.senses.sight.visibility multipliers"...
+
+~ Copied values for matching entry: "Armor Multiplier (Cumulative)"
+
+
+~ Found matching category: "general.server settings.senses.touch"...
+
+~ Copied values for matching entry: "Enable Touch"
+~ Copied values for matching entry: "Touch Reveals"
+~ Copied values for matching entry: "Unfeeling"
+
+
+~ Found matching category: "general.server settings.threat system"...
+
+~ Copied values for matching entry: "000 Bypass Threat System (Global)"
+~ Copied values for matching entry: "010 'Start of Combat' Threat"
+~ Copied values for matching entry: "020 Dealt Damage Multiplier"
+~ Copied values for matching entry: "025 'Attacked By Same' Multiplier"
+~ Copied values for matching entry: "030 'Attacked By Other' Multiplier"
+~ Copied values for matching entry: "035 'Warned' Threat"
+~ Copied values for matching entry: "040 'Ally Killed' Threat"
+~ Copied values for matching entry: "060 Seen Target Threat Rate"
+~ Copied values for matching entry: "065 Unseen Target Degredation Rate"
+~ Copied values for matching entry: "070 Flee Degredation Rate"
+~ Copied values for matching entry: "075 Owned Can't Reach Degredation Rate"
+
+
+~ Found matching category: "general.server settings.threat system.cnpc threat settings"...
+
+~ Copied values for matching entry: "Faction Threat Bypass"
+
+
+~ Found matching category: "general.server settings.threat system.entity-specific settings (advanced)"...
+
+~ Copied values for matching entry: "Passiveness"
+~ Copied values for matching entry: "Threat Bypass"
+
+
+
+
+- Removing old category: "general.client settings.hud.main hud style"...
+
+- Removing old entry: "Cursor Reversion Delay"
+- Removing old entry: "Stealth Gauge Color"
+- Removing old entry: "Stealth Gauge Mode"
+- Removing old entry: "Stealth Gauge Opacity"
+- Removing old entry: "Stealth Gauge Rim Color"
+- Removing old entry: "Stealth Gauge Size"
+- Removing old entry: "Stealth Gauge Speed"
+- Removing old entry: "Stealth Gauge X Position"
+- Removing old entry: "Stealth Gauge Y Position"
+
+
+- Removing some entries from category: "general.client settings.hud.on-point hud filter"...
+
+- Removing old entry: "090 Dazed"
+
+

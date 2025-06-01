@@ -1,0 +1,31 @@
+{
+  "key": {
+    "id": "Prings",
+    "category": "Lost"
+  },
+  "content": {
+    "title": "Potion Rings",
+    "body": "Nature's Grace is rich in magical resources, with powers that many have tried to extract in the most efficient way. It is even common for people to wear such materials as jewerly, the so called \"Potion Rings\", as they believe that the material's properties would get absorbed by their skin, giving them at least a fraction of power.
+    I took it upon myself to document every Potion Ring, as well as every known resource that could be used to make them, that way I can someday make one of my own:
+    - Ring of Resistance: Made of §oSteel§r and §oIronberries§r harvested fresh from the tall and dark §oIronwood Tree§r.
+    - Ring of Regeneration: Made of §oSlime§r and §oRaw Aspid Meat§r.
+    - Ring of Strength: Made of §oBlazing Powder§r and §oRedstone Blocks§r.
+    - Ring of Archery: Made of §oBlazing Powder§r and §oArrows§r.
+    - Ring of Magic Focus: Made of §oDevout Crystals§r.
+    - Ring of Repairing: Made of §oXP Bottles§r and §oLapis Blocks§r.
+    - Ring of Fireskin: Made of §oMagma Blocks§r and §oEmber Charges§r dropped by the fire creatures hiding within the flames.
+    - Ring of Ice Shroud: Made of §oShattered Ice§r and §oBlizzard Charges§r dropped by the cold creatures hiding within the frost fires.
+    - Ring of Swiftness: Made of §oSugar§r and §oWind Thistles§r found in the mountains.
+    - Ring of Jump Boost: Made of §oRabbit Feet§r and §oGolden Frog Legs§r.
+    - Ring of Haste: Made of §oEmeralds§r and §oGold Dust§r.
+    - Ring of Magic Shielding: Made of §oDevout Crystals§r and §oCrystal Silver Plating§r.", 
+    "autoplay": false
+  },
+  "sortingIndex": 2,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": true,
+  "trigger": null,
+  "action": null
+}

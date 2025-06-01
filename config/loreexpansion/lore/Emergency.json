@@ -1,0 +1,25 @@
+{
+  "key": {
+    "id": "Emergency",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "In Case of an Emergency - By P.A",
+    "body": "If you find yourself lost with no basic tools:
+      §l1. §rFind §oFlint §rinside §oGravel
+      §l2. §rGet §oSticks §rfrom §oLeaves
+      §l3. §rCraft a §oFlint Saw
+      §l4. §rGather §oWood §rwith the saw
+      §l5. §rMake a §oCrafting Table 
+      §l6. §rCraft a §oFlint Pickaxe
+    Note: Try to test which ores can be harvested with a stone/iron pickaxe", 
+    "autoplay": false
+  },
+  "sortingIndex": 0,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": true,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

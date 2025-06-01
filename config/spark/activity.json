@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "RCalosena",
+      "uniqueId": "26aab4cd-b91c-4180-a130-485e9cbc7d01"
+    },
+    "time": 1746828704785,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/liBsFoyqDW"
+    }
+  }
+]

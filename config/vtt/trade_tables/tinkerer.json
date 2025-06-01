@@ -1,0 +1,1551 @@
+{
+    "Profession": "vtt:tinkerer",
+    "Career": "tinkerer",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 15
+                    }
+                },
+                "sell": {
+                    "id": "cqrepoured:spiked_glove",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 18
+                    }
+                },
+                "sell": {
+                    "id": "mysticalworld:beetle_mask",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 18
+                    }
+                },
+                "sell": {
+                    "id": "mysticalworld:antler_hat",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:wooden_sword",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:wooden_sword",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:wooden_hoe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:wooden_hoe",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:wooden_axe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:wooden_axe",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:wooden_pickaxe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:wooden_pickaxe",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:wooden_shovel",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:wooden_shovel",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:hammer_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:hammer_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:greatsword_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:greatsword_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:rapier_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:rapier_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:saber_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:saber_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:scythe_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:scythe_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:katana_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:katana_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:longsword_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:longsword_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:dagger_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:dagger_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "mujmajnkraftsbettersurvival:itemwoodnunchaku",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "mujmajnkraftsbettersurvival:itemwoodnunchaku",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:warhammer_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:warhammer_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:spear_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:spear_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:halberd_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:halberd_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:pike_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:pike_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:lance_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:lance_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:longbow_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:longbow_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:crossbow_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:crossbow_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:throwing_knife_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:throwing_knife_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:throwing_axe_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:throwing_axe_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:javelin_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:javelin_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:boomerang_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:boomerang_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:battleaxe_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:battleaxe_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:mace_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:mace_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:glaive_wood",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:glaive_wood",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:staff",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:staff",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {"min":20,"max":27}
+                },
+                "sell": {
+                    "id": "minecraft:potion",
+                    "tag": {"Potion": "potioncore:repair"},
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:stone_sword",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:stone_sword",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:stone_hoe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:stone_hoe",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:stone_axe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:stone_axe",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:stone_pickaxe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:stone_pickaxe",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:stone_shovel",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:stone_shovel",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:hammer_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:hammer_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:greatsword_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:greatsword_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:rapier_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:rapier_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:saber_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:saber_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:scythe_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:scythe_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:katana_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:katana_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:longsword_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:longsword_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:dagger_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:dagger_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "mujmajnkraftsbettersurvival:itemstonenunchaku",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "mujmajnkraftsbettersurvival:itemstonenunchaku",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:warhammer_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:warhammer_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:spear_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:spear_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:halberd_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:halberd_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:pike_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:pike_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:lance_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:lance_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:longbow_leather",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:longbow_leather",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:crossbow_leather",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:crossbow_leather",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:throwing_knife_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:throwing_knife_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:throwing_axe_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:throwing_axe_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:javelin_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:javelin_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:boomerang_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:boomerang_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:battleaxe_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:battleaxe_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:mace_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:mace_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:glaive_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:glaive_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:staff_stone",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:staff_stone",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:iron_sword",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:iron_sword",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:iron_hoe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:iron_hoe",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:iron_axe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:iron_axe",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:iron_pickaxe",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:iron_pickaxe",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:iron_shovel",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:iron_shovel",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:hammer_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:hammer_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:greatsword_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:greatsword_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:rapier_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:rapier_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:saber_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:saber_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:scythe_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:scythe_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:katana_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:katana_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:longsword_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:longsword_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:dagger_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:dagger_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "mujmajnkraftsbettersurvival:itemironnunchaku",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "mujmajnkraftsbettersurvival:itemironnunchaku",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:warhammer_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:warhammer_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:spear_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:spear_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:halberd_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:halberd_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:pike_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:pike_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:lance_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:lance_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:longbow_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:longbow_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:crossbow_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:crossbow_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:throwing_knife_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:throwing_knife_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:throwing_axe_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:throwing_axe_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:javelin_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:javelin_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:boomerang_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:boomerang_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:battleaxe_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:battleaxe_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:mace_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:mace_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:glaive_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:glaive_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:staff_iron",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "spartanweaponry:staff_iron",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:arrow",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 2
+                },
+                "sell": {
+                    "id": "minecraft:spectral_arrow",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "spartanweaponry:bolt",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 2
+                },
+                "sell": {
+                    "id": "spartanweaponry:bolt_spectral",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:arrow",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 3
+                },
+                "sell": {
+                    "id": "quark:arrow_explosive",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:arrow",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "quark:arrow_torch",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:arrow",
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": 3
+                },
+                "sell": {
+                    "id": "quark:arrow_ender",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "qualitytools:reforging_station",
+                    "Count": 1
+                },
+                "CareerLevel": 4, "maxUses":1
+            }
+        ]
+    }
+}

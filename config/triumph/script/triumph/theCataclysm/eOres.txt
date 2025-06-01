@@ -1,0 +1,41 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Basic Protection")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("iOre", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_ore")
+
+criteria = addCriteria("gOre", "minecraft:inventory_changed")
+criteria.addItem("minecraft:gold_ore")
+
+criteria = addCriteria("pOre", "minecraft:inventory_changed")
+criteria.addItem("metallurgy:prometheum_ore")
+
+criteria = addCriteria("tOre", "minecraft:inventory_changed")
+criteria.addItem("metallurgy:tin_ore")
+
+criteria = addCriteria("cOre", "minecraft:inventory_changed")
+criteria.addItem("metallurgy:copper_ore")
+
+criteria = addCriteria("mOre", "minecraft:inventory_changed")
+criteria.addItem("metallurgy:manganese_ore")
+
+criteria = addCriteria("sBall", "minecraft:inventory_changed")
+criteria.addItem("minecraft:slime_ball")
+
+criteria = addCriteria("aMeat", "minecraft:inventory_changed")
+criteria.addItem("lycanitesmobs:raw_arisaur_meat")
+
+criteria = addCriteria("leather", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,28)

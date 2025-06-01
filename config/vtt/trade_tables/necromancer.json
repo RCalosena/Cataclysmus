@@ -1,0 +1,418 @@
+{
+    "Profession": "minecraft:priest",
+    "Career": "cleric",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 13
+                    }
+                },
+                "sell": [{
+                    "id": "tombstone:dark_marble",
+                    "Count": {
+                        "min": 7,
+                        "max": 9
+                    }
+                },
+                {
+                    "id": "tombstone:dark_marble",
+                    "Count": {
+                        "min": 7,
+                        "max": 9
+                    },
+                    "Damage":1
+                }],
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "sell": {
+                    "id": "mod_lavacow:curseweave_cloth",
+                    "Count": {
+                        "min": 6,
+                        "max": 5
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "sell": {
+                    "id": "tombstone:crafting_ingredient",
+                    "Damage":3,
+                    "Count": {
+                        "min": 6,
+                        "max": 5
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.4
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "tombstone:dark_marble",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                {
+                    "id": "tombstone:dark_marble",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    },
+                    "Damage":1
+                }],
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "mod_lavacow:curseweave_cloth",
+                    "Count": {
+                        "min": 20,
+                        "max": 29
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:rotten_flesh",
+                    "Count": {
+                        "min": 42,
+                        "max": 55
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "tombstone:crafting_ingredient",
+                    "Damage": 3,
+                    "Count": {
+                        "min": 18,
+                        "max": 42
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "tombstone:crafting_ingredient",
+                    "Damage": 3,
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 23
+                    }
+                },
+                "sell": {
+                    "id": "tombstone:grave_plate",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "tombstone:crafting_ingredient",
+                    "Damage": 3,
+                    "Count": {
+                        "min": 2,
+                        "max": 7
+                    }
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "tombstone:crafting_ingredient",
+                    "Damage": 1,
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "tombstone:crafting_ingredient",
+                    "Damage": 3,
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 25,
+                        "max": 29
+                    }
+                },
+                "sell": {
+                    "id": "tombstone:crafting_ingredient",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "tombstone:crafting_ingredient",
+                    "Damage": 3,
+                    "Count": 1
+                },
+                "buyB": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "sell": {
+                    "id": "tombstone:bone_needle",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 25
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {"StoredEnchantments": [{"lvl": 1, "id": 17}]},
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 1, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 27,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "tombstone:ankh_of_prayer",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses": 1, "chance": 0.7
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 22
+                    }
+                },
+                "sell": [{
+                    "id": "mod_lavacow:sonicbomb",
+                    "Count": 1
+                },
+                {
+                    "id": "mod_lavacow:ghostbomb",
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:potion",
+                    "tag": {"Potion": "potioncore:wither"},
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 1, "chance": 0.8
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 18,
+                        "max": 32
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:skull",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:skull",
+                    "Damage": 2,
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 1, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                },
+                "sell": {
+                    "id": "mod_lavacow:halo_necklace",
+                    "Count": 1
+                },
+                "CareerLevel": 4, "maxUses": 1, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 32,
+                        "max": 45
+                    }
+                },
+                "sell": [{
+                    "id": "tombstone:book_of_scribe",
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:book_of_repairing",
+                    "Count": 1
+                }],
+                "CareerLevel": 4, "maxUses": 1, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 64
+                },
+                "sell": [{
+                    "id": "tombstone:scroll_buff",
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 1,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 2,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 3,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 4,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 5,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 6,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 7,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 8,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                },
+                {
+                    "id": "tombstone:scroll_buff",
+                    "Damage": 9,
+                    "tag": {"enchant": 1, "ancient": 1},
+                    "Count": 1
+                }],
+                "CareerLevel": 4, "maxUses": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+setIcon(<customdisc:rcalosena_-_mister_mistery>)
+
+setTitle("Cataclysmus")
+
+setDescription("Wake Up")
+
+setBackground("rustic:textures/blocks/slate.png")
+
+setShowToast(false)
+
+setAnnounceToChat(true)
+
+setPos(-188,-2)
+
+setFrameType("TASK")
+
+addCriteria("loc", "minecraft:location")

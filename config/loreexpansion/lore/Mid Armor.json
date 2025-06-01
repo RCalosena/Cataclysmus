@@ -1,0 +1,37 @@
+{
+  "key": {
+    "id": "Upgrades",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Upgrades",
+    "body": "§lHealth: 
+      - Heart Containers
+      §lCombat:
+      - Iron Melee/Ranged Weapons: Found as rare treasure loot in many dungeons.
+      - Halo Necklace (Bauble): Dropped by §oChampion Mobs §r(Mobs with colored particle effects).
+      - Pride Pendant (Bauble): Crafted using §oGolden Crowns §r(Rare treasure loot).
+      - Arcane Workbench: Allows the player to add spells and upgrades to their wands.
+      - Craftable Spells: Ignite, Snowball, Arc, Dart, Light, Heal, Smoke Bomb, Leap, Muffle.
+      - Mage Baubles: Found in §oObelisks §ror §oShrines§r.
+      - Novice Spells: Treasure loot.
+      - Arrow Quiver (Bauble): Traded by the §oFletcher§r.
+      - Enchantments
+      §lDefense:
+      - Holy Shield (Shield/Bauble): Rare treasure loot. Also Craftable.
+      - Cross Necklace: Dropped by §oChampion Mobs§r. Also Craftable.
+      §lMisc:
+      - Finding Villages: Holding a §oLost Tablet §rin your inventory causes it to reveal §oStructures §rand §oBiomes§r, including §oVillages§r.
+      - Small Backpack: Traded by the §oLeatherworker§r.
+      - Decorative Graves: Used to gather §osouls §rto power §otablets §rand §oscrolls§r. 
+      - Ankh of Prayer: Mainly used to level up §oKnowledge of Death§r.", 
+    "autoplay": false
+  },
+  "sortingIndex": 4,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

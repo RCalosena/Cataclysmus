@@ -1,0 +1,11 @@
+
+setIcon("minecraft:flint_and_steel")
+setTranslatedTitle("advancements.story.enter_the_nether.title")
+setTranslatedDescription("advancements.story.enter_the_nether.description")
+setShowToast(false)
+setAnnounceToChat(false)
+
+addParent("triumph:vanilla/story/form_obsidian")
+
+criteria = addCriteria("entered_nether", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_nether")

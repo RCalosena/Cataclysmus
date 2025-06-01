@@ -1,0 +1,26 @@
+{
+  "key": {
+    "id": "Nightmare",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Nightmare Mode",
+    "body": "Congrats on reaching the end! Difficulty will now initially increase to 2000, and then it will further increase by 50 for every day that is survived. Good luck!
+    §lEndgame Gear
+    §lArmor:
+    - Sentient Armor: Crafted using §oall Armor sets §rfrom your preferred §osubclass §ralongside §oLiving Armor§r, which can be crafted after defeating §oAmalgalich§r. However, the recipe will not work until you manage to §odefeat 100 enemies §rwith your §oclass's damage type§r, while also §owearing Living Armor§r.
+    §lWeapons:
+    - Sentient Weapons: Crafted using a combination of §osoulstones §rdropped by the different §obosses of each of the Nether, End and Midnight dungeons§r.
+    - About Magic: Magic damage §oscales with difficulty§r, meaning that mage spells will also §oget stronger over time§r.
+    §lEnchantments:
+    - There are many enchantments, mostly found in the midnight's dungeons, that you are now able to apply to your weapons and armor.",
+    "autoplay": false
+  },
+  "sortingIndex": 25,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

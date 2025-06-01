@@ -1,0 +1,120 @@
+type = menu
+
+customization-meta {
+  identifier = mod.acgaming.universaltweaks.tweaks.misc.gui.lanserverproperties.UTGuiShareToLan
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345124%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505124%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345100%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505100%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505196%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345972%
+  action = setbuttonlabel
+  value = &2Start LAN World
+}
+
+customization {
+  identifier = %id=345972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345972%
+  action = sethoverlabel
+  label = §aStart LAN World
+}
+
+customization {
+  identifier = %id=505972%
+  action = setbuttonlabel
+  value = &2Cancel
+}
+
+customization {
+  identifier = %id=505972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505972%
+  action = sethoverlabel
+  label = §aCancel
+}
+
+customization {
+  identifier = %id=505172%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505148%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+

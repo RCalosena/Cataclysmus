@@ -1,0 +1,17 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Nightmare")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("vileShell", "minecraft:inventory_changed")
+criteria.addItem("srparasites:vile_shell")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,520)

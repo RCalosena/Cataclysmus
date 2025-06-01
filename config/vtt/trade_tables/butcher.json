@@ -1,0 +1,600 @@
+{
+    "Profession": "minecraft:butcher",
+    "Career": "butcher",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:porkchop",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:beef",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:mutton",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:chicken",
+                    "Count": {
+                        "min": 25,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:rabbit",
+                    "Count": {
+                        "min": 20,
+                        "max": 26
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.4
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:porkchop",
+                    "Count": {
+                        "min": 10,
+                        "max": 13
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:beef",
+                    "Count": {
+                        "min": 6,
+                        "max": 9
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:mutton",
+                    "Count": {
+                        "min": 6,
+                        "max": 11
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:chicken",
+                    "Count": {
+                        "min": 11,
+                        "max": 14
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:rabbit",
+                    "Count": {
+                        "min": 11,
+                        "max": 13
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.2
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:cooked_porkchop",
+                    "Count": {
+                        "min": 10,
+                        "max": 13
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:cooked_beef",
+                    "Count": {
+                        "min": 6,
+                        "max": 9
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:cooked_mutton",
+                    "Count": {
+                        "min": 6,
+                        "max": 11
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:cooked_chicken",
+                    "Count": {
+                        "min": 11,
+                        "max": 14
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:cooked_rabbit",
+                    "Count": {
+                        "min": 11,
+                        "max": 13
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 8
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.1
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "betteranimalsplus:venisonraw",
+                    "Count": {
+                        "min": 18,
+                        "max": 27
+                    }
+                },
+                {
+                    "id": "mysticalworld:venison",
+                    "Count": {
+                        "min": 18,
+                        "max": 27
+                    }
+                }],
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 2
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "betteranimalsplus:pheasantraw",
+                    "Count": {
+                        "min": 16,
+                        "max": 23
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:turkey_leg_raw",
+                    "Count": {
+                        "min": 16,
+                        "max": 23
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:turkey_raw",
+                    "Count": {
+                        "min": 8,
+                        "max": 16
+                    }
+                }],
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 2
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": [{
+                    "id": "betteranimalsplus:venisonraw",
+                    "Count": {
+                        "min": 6,
+                        "max": 9
+                    }
+                },
+                {
+                    "id": "mysticalworld:venison",
+                    "Count": {
+                        "min": 6,
+                        "max": 9
+                    }
+                }],
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 12
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "sell": [{
+                    "id": "betteranimalsplus:pheasantraw",
+                    "Count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:turkey_leg_raw",
+                    "Count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:turkey_raw",
+                    "Count": {
+                        "min": 3,
+                        "max": 6
+                    }
+                }],
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 15
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "mod_lavacow:plagued_porkchop",
+                    "Count": {
+                        "min": 8,
+                        "max": 16
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 2
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "sell": [{
+                    "id": "betteranimalsplus:venisoncooked",
+                    "Count": {
+                        "min": 6,
+                        "max": 9
+                    }
+                },
+                {
+                    "id": "mysticalworld:cooked_venison",
+                    "Count": {
+                        "min": 6,
+                        "max": 9
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:pheasantcooked",
+                    "Count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:turkey_leg_cooked",
+                    "Count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                },
+                {
+                    "id": "betteranimalsplus:turkey_cooked",
+                    "Count": {
+                        "min": 2,
+                        "max": 6
+                    }
+                }],
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 6,
+                        "max": 12
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "sell": [{
+                    "id": "lycanitesmobs:raw_yale_meat",
+                    "Count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_ika_meat",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_joust_meat",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_krake_meat",
+                    "Count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_concapede_meat",
+                    "Count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                }],
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "lycanitesmobs:raw_yale_meat",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_ika_meat",
+                    "Count": {
+                        "min": 10,
+                        "max": 30
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_joust_meat",
+                    "Count": {
+                        "min": 20,
+                        "max": 40
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_krake_meat",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_concapede_meat",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                }],
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 5
+                },
+                "CareerLevel": 3, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "sell": [{
+                    "id": "lycanitesmobs:raw_maka_meat",
+                    "Count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_arisaur_meat",
+                    "Count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_aspid_meat",
+                    "Count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_bobeko_meat",
+                    "Count": {
+                        "min": 1,
+                        "max": 2
+                    }
+                }],
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 20
+                    }
+                },
+                "CareerLevel": 4, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "lycanitesmobs:raw_maka_meat",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_arisaur_meat",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_aspid_meat",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                },
+                {
+                    "id": "lycanitesmobs:raw_bobeko_meat",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                }],
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 4, "maxUses": 1
+            }
+        ]
+    }
+}

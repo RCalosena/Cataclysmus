@@ -1,0 +1,61 @@
+#  Main header!
+#  Line 2
+
+[songs]
+	[songs.Caverns_Layer_1]
+		start_at = ""
+		[songs.Caverns_Layer_1.loop]
+			to = "5000"
+			num_loops = "999999"
+			from = "1195000"
+		triggers = [ "dimension-deep2" "height-LAYER1" ]
+	[songs.Caverns_Layer_3]
+		triggers = [ "dimension-deep2" "height-LAYER3" "height-LAYER3_3" ]
+		start_at = ""
+		[songs.Caverns_Layer_3.loop]
+			to = "9000"
+			num_loops = "999999"
+			from = "1200000"
+
+[triggers]
+	[[triggers.dimension]]
+		fade_in = "0"
+		fade_out = "0"
+		identifier = "deep"
+		priority = "10"
+		resource_name = [ "10" ]
+	[[triggers.dimension]]
+		fade_in = "60"
+		fade_out = "60"
+		identifier = "deep2"
+		priority = "10"
+		resource_name = [ "10" ]
+	[[triggers.height]]
+		check_above_level = true
+		check_for_sky = false
+		fade_in = "60"
+		fade_out = "60"
+		identifier = "LAYER3_3"
+		level = "64"
+		priority = "10"
+	[[triggers.height]]
+		check_above_level = true
+		check_for_sky = false
+		fade_in = "60"
+		fade_out = "60"
+		identifier = "LAYER1"
+		level = "192"
+		priority = "10"
+	[[triggers.height]]
+		check_for_sky = false
+		fade_in = "60"
+		fade_out = "60"
+		identifier = "LAYER3"
+		level = "129"
+		priority = "11"
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "0"
+		persistence = "0"
+

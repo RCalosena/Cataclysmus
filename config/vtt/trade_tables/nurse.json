@@ -1,0 +1,205 @@
+{
+    "Profession": "minecraft:priest",
+    "Career": "necromancer",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 10,"max": 25 }
+                },
+                "sell": {
+                    "id": "mod_lavacow:cursed_bandage",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 3,"max": 5 }
+                },
+                "sell": {
+                    "id": "roughtweaks:salve",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.8
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 12 }
+                },
+                "sell": {
+                    "id": "roughtweaks:bandage",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.4
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "sell": {
+                    "id": "roughtweaks:plaster",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 1,"max": 5 }
+                },
+                "sell": {
+                    "id": "rustic:wildberries",
+                    "Count": { "min": 3,"max": 10 }
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "rustic:wildberries",
+                    "Count": { "min": 22,"max": 50 }
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 1,"max": 5 }
+                },
+                "sell": {
+                    "id": "biomesoplenty:mushroom",
+                    "Damage": 3,
+                    "Count": { "min": 3,"max": 10 }
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "biomesoplenty:mushroom",
+                    "Damage": 3,
+                    "Count": { "min": 22,"max": 50 }
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 3,"max": 5 }
+                },
+                "sell": {
+                    "id": "cqrepoured:potion_healing",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "sell": {
+                    "id": "scalinghealth:healingitem",
+                    "Count": { "min": 1,"max": 2 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 12 }
+                },
+                "sell": {
+                    "id": "scalinghealth:healingitem",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 2 }
+                },
+                "CareerLevel": 2, "maxUses":5, "chance": 0.8
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 2
+                },
+                "buy": {
+                    "id": "scalinghealth:heartdust",
+                    "Count": { "min": 22,"max": 32 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 10,"max": 25 }
+                },
+                "sell": [{
+                    "id": "mod_lavacow:cursed_bandage",
+                    "Damage": 1,
+                    "Count": { "min": 3,"max": 5 }
+                },
+                {
+                    "id": "mod_lavacow:cursed_bandage",
+                    "Damage": 2,
+                    "Count": { "min": 3,"max": 5 }
+                },
+                {
+                    "id": "mod_lavacow:cursed_bandage",
+                    "Damage": 3,
+                    "Count": { "min": 3,"max": 5 }
+                }],
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 64
+                },
+                "sell": {
+                    "id": "ebwizardry:magic_crystal",
+                    "Damage": 7,
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:enchanted_book",
+                    "tag": {"StoredEnchantments": [{"lvl": 1, "id": 139}]},
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5, "chance": 0.7
+            }
+        ]
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "Profession": "mca:baker",
+    "Career": "baker",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 10,"max": 25 }
+                },
+                "sell": {
+                    "id": "minecraft:bread",
+                    "Count": { "min": 10,"max": 12 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:bread",
+                    "Count": { "min": 32,"max": 40 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 10,"max": 25 }
+                },
+                "sell": {
+                    "id": "minecraft:sugar",
+                    "Count": { "min": 8,"max": 15 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:sugar",
+                    "Count": { "min": 28,"max": 35 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 3,"max": 5 }
+                },
+                "sell": [{
+                    "id": "minecraft:milk_bucket",
+                    "Count": 1
+                },
+                {
+                    "id": "betteranimalsplus:goatmilk",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:potion",
+                    "tag": {"Potion": "mujmajnkraftsbettersurvival:milk"},
+                    "Count": 1
+                }],
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 5
+                },
+                "sell": {
+                    "id": "minecraft:egg",
+                    "Count": { "min": 12,"max": 16 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 15 }
+                },
+                "sell": {
+                    "id": "minecraft:melon",
+                    "Count": { "min": 10,"max": 12 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 15 }
+                },
+                "sell": {
+                    "id": "minecraft:apple",
+                    "Count": { "min": 10,"max": 12 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 15 }
+                },
+                "sell": {
+                    "id": "biomesoplenty:peach",
+                    "Count": { "min": 10,"max": 12 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 15 }
+                },
+                "sell": {
+                    "id": "rustic:grapes",
+                    "Count": { "min": 10,"max": 12 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 15 }
+                },
+                "sell": {
+                    "id": "biomesoplenty:pear",
+                    "Count": { "min": 10,"max": 12 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 15 }
+                },
+                "sell": {
+                    "id": "rustic:wildberries",
+                    "Count": { "min": 10,"max": 12 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 14,"max": 25 }
+                },
+                "sell": {
+                    "id": "minecraft:cake",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 15,"max": 22 }
+                },
+                "sell": {
+                    "id": "minecraft:pumpkin_pie",
+                    "Count": { "min": 3,"max": 7 }
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 15 }
+                },
+                "sell": {
+                    "id": "minecraft:cookie",
+                    "Count": { "min": 15,"max": 19 }
+                },
+                "CareerLevel": 3, "maxUses":5
+            }
+        ]
+    }
+}

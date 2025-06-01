@@ -1,0 +1,35 @@
+{
+  "key": {
+    "id": "Prepare",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Prepare For Battle",
+    "body": "Time to slain the bosses that reign over the big structures of the overworld. But first make sure you have a proper loadout.
+    §lWeapons:
+      - Stone weapons: found in §ochests §rinside §oabandoned structures, shipwrecks §rand §ovillage chests; Also dropped by §oZombies§r.
+      - Leather Strengthened Bows/Crossbows
+      - Fire and Poison Staffs
+      - Magic Wand
+      - Spells: §oMagic Missile.
+    §lBaubles:
+      - Emerald Ring/Amulet: Craftable or found as treasure.
+      - Weird Shiny Object: Rarely found in §oruined structures§r.
+      - Wolf/Bear Cape: Crafted using §owolf/bear pelts§r.
+      - Bezoar: 3% chance to drop from §opoisonous mobs§r.
+      - Vitamins: 3% chance to drop from §ofatigue/weakness-inflicting mobs§r.
+      - Charms: 10% chance to drop from §oany hostile mob §rwhile in the dark §r(light level 0)
+      - Potion Rings: Crafted using §oEmpty Rings§r. Might be difficult to make based on if you have §oGlowing Powder§r. A rare treasure material.
+    §lMisc:
+      - Healing: Craftable §oHealing Potions§r. Enemies can also drop §obandages §rand other healing items.
+      - Lunch Bag: Used to store up to three stacks of food.", 
+    "autoplay": false
+  },
+  "sortingIndex": 2,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

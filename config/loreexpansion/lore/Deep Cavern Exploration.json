@@ -1,0 +1,46 @@
+{
+  "key": {
+    "id": "Caveexplore",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Deep Cavern Exploration",
+    "body": "Note: The Y coordinates indicate the depth in The Deep Caverns, not the overworld.
+    §lImportant Ores
+      §l1. §rDiamond Ore (Y = 30-10)
+      §l2. §rSilver Ore (Y = 30-10)
+      §l3. §rPlatinum Ore (Y = 30-10)
+      §l4. §rDevout Crystals (Y = 30-10)
+      §l5. §rHeart Crystal Ore (Y = 246-10)
+    §lCrystal Agony:
+      - Used to craft the next tier of armor. Dropped by the Dweller or Ashen zombie/skeleton variants which spawn at Y = 30.
+    §lArmor:
+      - Tremor: Diamond
+      - Furor: Heavy Diamond
+      - Devout: Platinum
+      - Arcum: Silver
+    §lStructures & loot:
+      - Ruined dungeons:
+      §l1. §rAncient Tome: When combined with an enchanted book, gives a level higher than the max level of the respective enchant.
+      §l2. §rBook of Repairing: Repairs your held item when used in a Decorative Grave.
+      §l3. §rBook of Disenchantment: Disenchants your held item when used in a Decorative Grave.
+      §l4. §rSummoning Staff
+      §l5. §rRune: Cosmetic item that allows for different enchantment glints.
+      §l6. §rDevout Crystal Shards, Devout Crystals, and Grand Devout Crystals. 
+      §l7. §rHook Shot (Extremely Rare): Let's you grapple to different surfaces and also entities.
+      - Flooded dungeons:
+      §l1. §rAquatic Saddle (Extremely Rare): Allows you to ride aquatic pets.
+      §l2. §rPotions: Depth Strider & Water Breathing.
+      §l3. §rFishing Rod of Misadventure
+      §l4. §rUnderwater Arrows
+      §l5. §rWater-based Enchantments", 
+    "autoplay": false
+  },
+  "sortingIndex": 5,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

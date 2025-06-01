@@ -1,0 +1,117 @@
+mod name - enchantment name - enchantment registry name
+Chocolate Quest Repoured Mod - Lightning Protection - cqrepoured:lightning_protection
+Chocolate Quest Repoured Mod - Spectral Balsam - cqrepoured:spectral
+Corail Tombstone - Shadow Step - tombstone:shadow_step
+Corail Tombstone - Blessing - tombstone:blessing
+Corail Tombstone - Curse of Bones - tombstone:curse_of_bones
+Corail Tombstone - Magic Siphon - tombstone:magic_siphon
+Corail Tombstone - Plague Bringer - tombstone:plague_bringer
+Corail Tombstone - Tombstone Soulbound - tombstone:soulbound
+Electroblob's Wizardry - Imbuement - ebwizardry:magic_sword
+Electroblob's Wizardry - Imbuement - ebwizardry:magic_bow
+Electroblob's Wizardry - Shock Protection - ebwizardry:shock_protection
+Electroblob's Wizardry - Frost Imbuement - ebwizardry:freezing_weapon
+Electroblob's Wizardry - Frost Protection - ebwizardry:frost_protection
+Electroblob's Wizardry - Fire Imbuement - ebwizardry:flaming_weapon
+Electroblob's Wizardry - Magic Protection - ebwizardry:magic_protection
+Elenai Dodge 2 - Lightweight - elenaidodge2:lightweight
+Fish's Undead Rising - Poisonous - mod_lavacow:poisonous
+Fish's Undead Rising - Lifesteal - mod_lavacow:lifesteal
+Fish's Undead Rising - Corrosive - mod_lavacow:corrosive
+Minecraft - Respiration - minecraft:respiration
+Minecraft - Fire Protection - minecraft:fire_protection
+Minecraft - Sweeping Edge - minecraft:sweeping
+Minecraft - Power - minecraft:power
+Minecraft - Looting - minecraft:looting
+Minecraft - Bane of Arthropods - minecraft:bane_of_arthropods
+Minecraft - Curse of Vanishing - minecraft:vanishing_curse
+Minecraft - Sharpness - minecraft:sharpness
+Minecraft - Depth Strider - minecraft:depth_strider
+Minecraft - Luck of the Sea - minecraft:luck_of_the_sea
+Minecraft - Frost Walker - minecraft:frost_walker
+Minecraft - Unbreaking - minecraft:unbreaking
+Minecraft - Smite - minecraft:smite
+Minecraft - Protection - minecraft:protection
+Minecraft - Infinity - minecraft:infinity
+Minecraft - Fortune - minecraft:fortune
+Minecraft - Aqua Affinity - minecraft:aqua_affinity
+Minecraft - Flame - minecraft:flame
+Minecraft - Mending - minecraft:mending
+Minecraft - Lure - minecraft:lure
+Minecraft - Thorns - minecraft:thorns
+Minecraft - Projectile Protection - minecraft:projectile_protection
+Minecraft - Knockback - minecraft:knockback
+Minecraft - Silk Touch - minecraft:silk_touch
+Minecraft - Efficiency - minecraft:efficiency
+Minecraft - Punch - minecraft:punch
+Minecraft - Fire Aspect - minecraft:fire_aspect
+Minecraft - Feather Falling - minecraft:feather_falling
+Minecraft - Blast Protection - minecraft:blast_protection
+Minecraft - Curse of Binding - minecraft:binding_curse
+Spartan Weaponry - Expanse - spartanweaponry:expanse
+Spartan Weaponry - Hydrodynamic - spartanweaponry:hydrodynamic
+Spartan Weaponry - Razors Edge - spartanweaponry:razors_edge
+Spartan Weaponry - Rapid Load - spartanweaponry:rapid_load
+Spartan Weaponry - Spreadshot - spartanweaponry:spreadshot
+Spartan Weaponry - Propulsion - spartanweaponry:propulsion
+Spartan Weaponry - Incendiary - spartanweaponry:incendiary
+Spartan Weaponry - Lucky Throw - spartanweaponry:lucky_throw
+Spartan Weaponry - Return - spartanweaponry:return
+Spartan Weaponry - Sharpshooter - spartanweaponry:sharpshooter
+Spartan Weaponry - Supercharge - spartanweaponry:supercharge
+Switch-Bow - Scope - switchbow:activescope
+Switch-Bow - Reduce Cooldown - switchbow:cooldownreduce
+Switch-Bow - Pull-Speed - switchbow:pullspeed
+Unique Battle Enchantments - Ifrit's Judgement - uniqueebattle:ifrits_judgement
+Unique Battle Enchantments - Deep Wounds - uniqueebattle:deep_wounds
+Unique Battle Enchantments - Lunatic Despair - uniqueebattle:lunatic_despair
+Unique Battle Enchantments - Iron Bird - uniqueebattle:iron_bird
+Unique Battle Enchantments - Ares Fragment - uniqueebattle:ares_fragment
+Unique Battle Enchantments - Fury - uniqueebattle:fury
+Unique Battle Enchantments - Ifrit's Blessing - uniqueebattle:ifrits_blessing
+Unique Battle Enchantments - Grani's Soul - uniqueebattle:granis_soul
+Unique Battle Enchantments - Ares Grace - uniqueebattle:ares_grace
+Unique Battle Enchantments - Artemis Soul - uniqueebattle:artemis_soul
+Unique Battle Enchantments - Celestial Blessing - uniqueebattle:celestial_blessing
+Unique Battle Enchantments - Golem Soul - uniqueebattle:golem_soul
+Unique Battle Enchantments - Streaker's Will - uniqueebattle:streakers_will
+Unique Battle Enchantments - War's Odium - uniqueebattle:wars_odium
+Unique Enchantments - Cloud Walker - uniquee:cloudwalker
+Unique Enchantments - Ameliorated Bane of Arthropod - uniquee:arthropods
+Unique Enchantments - Warrior's Grace - uniquee:warriorsgrace
+Unique Enchantments - Swift Blade - uniquee:swiftblade
+Unique Enchantments - Ender Librarian - uniquee:ender_librarian
+Unique Enchantments - Ifrit's Grace - uniquee:ifrits_grace
+Unique Enchantments - Midas Blessing - uniquee:midas_blessing
+Unique Enchantments - Grimoire - uniquee:grimoire
+Unique Enchantments - Nature's Grace - uniquee:naturesgrace
+Unique Enchantments - Ameliorated Smite - uniquee:undead
+Unique Enchantments - Smart Ass - uniquee:smart_ass
+Unique Enchantments - Death's Odium - uniquee:deaths_odium
+Unique Enchantments - Fast Food - uniquee:fastfood
+Unique Enchantments - Ender Mending - uniquee:ender_mending
+Unique Enchantments - Range - uniquee:ranged
+Unique Enchantments - Phoenix's Blessing - uniquee:phoenixs_blessing
+Unique Enchantments - Sage's Blessing - uniquee:sages_blessing
+Unique Enchantments - Swift - uniquee:swift
+Unique Enchantments - Endest Reap - uniquee:endest_reap
+Unique Enchantments - Vitae - uniquee:vitae
+Unique Enchantments - Alchemist's Grace - uniquee:alchemistsgrace
+Unique Enchantments - Berserker - uniquee:berserk
+Unique Enchantments - Pestilence's Odium - uniquee:pestilences_odium
+Unique Enchantments - Ender Eyes - uniquee:ender_eyes
+Unique Enchantments - Bone Crusher - uniquee:bone_crusher
+Unique Enchantments - Treasurer's Eyes - uniquee:treasurers_eyes
+Unique Enchantments - Spartan Weapon - uniquee:spartanweapon
+Unique Enchantments - Ameliorated Sharpness - uniquee:all
+Unique Enchantments - Focus Impact - uniquee:focus_impact
+Unique Enchantments - Ecological - uniquee:ecological
+Unique Enchantments - Icarus Aegis - uniquee:icarus_aegis
+Unique Enchantments - Climate Tranquility - uniquee:climate_tranquility
+Unique Enchantments - Ares Blessing - uniquee:aresblessing
+Unique Enchantments - Momentum - uniquee:momentum
+Unique Enchantments - Ender's Markmen - uniquee:endermarksmen
+Unique Enchantments - Perpetual Strike - uniquee:perpetualstrike
+Wall-Jump! - Double-Jump - walljump:doublejump
+Wall-Jump! - Speed-Boost - walljump:speedboost
+Wall-Jump! - Wall-Jump! - walljump:walljump

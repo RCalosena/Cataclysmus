@@ -1,0 +1,7 @@
+tellraw @a {"text":"§4You hear cries of anguish all around you..."}
+
+gamestage silentadd @p one
+
+gamestage silentadd @p Rahovart
+
+gamestage silentremove @p Death

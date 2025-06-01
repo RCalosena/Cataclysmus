@@ -1,0 +1,294 @@
+{
+    "Profession": "minecraft:farmer",
+    "Career": "fisherman",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 12,
+                        "max": 15
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:shears",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 0
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 6,
+                        "max": 15
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 1
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 2
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 3
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 4
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 5
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 6
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 7
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 8
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 9
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 10
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 11
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 12
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 13
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 14
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 15
+                }],
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": [{
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 0
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 1
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 2
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 3
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 4
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 5
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 6
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 7
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 8
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 9
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 10
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 11
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 12
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 13
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 14
+                },
+                {
+                    "id": "minecraft:wool",
+                    "Count": 1,
+                    "Damage": 15
+                }],
+                "buyB":{
+					"id":"minecraft:emerald",
+					"Count":{ "min":10,"max":25 }
+				},
+                "sell": [{
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 0
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 1
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 2
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 3
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 4
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 5
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 6
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 7
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 8
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 9
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 10
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 11
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 12
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 13
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 14
+                },
+                {
+                    "id": "quark:quilted_wool",
+                    "Count": { "min": 15, "max": 32 },
+                    "Damage": 15
+                }],
+                "CareerLevel": 3, "maxUses":5
+            }
+        ]
+    }
+}

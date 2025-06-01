@@ -1,0 +1,163 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiCreateWorld
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345972%
+  orientation = bottom-centered
+  x = -133
+  action = movebutton
+  y = -169
+}
+
+customization {
+  identifier = %id=345972%
+  width = 128
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345972%
+  action = setbuttonlabel
+  value = &2Create New World
+}
+
+customization {
+  identifier = %id=345972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345972%
+  action = sethoverlabel
+  label = §aCreate New World
+}
+
+customization {
+  identifier = %id=505972%
+  orientation = bottom-centered
+  x = 5
+  action = movebutton
+  y = -169
+}
+
+customization {
+  identifier = %id=505972%
+  width = 128
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=505972%
+  action = setbuttonlabel
+  value = &2Cancel
+}
+
+customization {
+  identifier = %id=505972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505972%
+  action = sethoverlabel
+  label = §aCancel
+}
+
+customization {
+  identifier = %id=425187%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505120%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505151%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345100%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345151%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345151%
+  orientation = mid-centered
+  x = -284
+  action = movebutton
+  y = 92
+}
+
+customization {
+  identifier = %id=345151%
+  width = 79
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=345151%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=505100%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=425115%
+  orientation = element
+  orientation_element = vanillabtn:505972
+  x = -109
+  action = movebutton
+  y = -26
+}
+
+customization {
+  identifier = %id=425115%
+  width = 208
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=425115%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+

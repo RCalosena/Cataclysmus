@@ -1,0 +1,12 @@
+setIcon("rustic:wildberries")
+setTitle("Life Fruits")
+setTranslatedDescription("Gather Vitalberries straight from the bush.")
+setShowToast(true)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("berries", "triumph:gamestage")
+criteria.setStage("gatheredberries")
+
+setRequirements("any")
+setPos(-125,15)

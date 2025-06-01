@@ -1,0 +1,52 @@
+[
+  {
+    "ore": "scalinghealth:crystalore",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 60,
+    "size": 4,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "ebwizardry:crystal_ore",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 3,
+    "miny": 10,
+    "maxy": 30
+  },
+  {
+    "ore": "osv:emerald_ore_rustic_slate",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 6,
+    "size": 4,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "osv:emerald_ore_rustic_slate",
+    "oremeta": 1,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 3,
+    "size": 1,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:monster_egg",
+    "oremeta": 0,
+    "source": "rustic:slate",
+    "srcmeta": 0,
+    "veins": 10,
+    "size": 10,
+    "miny": 10,
+    "maxy": 246
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "key": {
+    "id": "Upgrades3",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Upgrades #3",
+    "body": "Upgrades before taking on the Wither:
+    §lWeapons:
+    - Vulcanite ranged/melee weapons
+    - Equipment Forge: Used to make tools and weapons with monster parts.
+    - Tome of Arcana (Apprentice): Upgrades your wand to allow Apprentice spells to be used
+    - Apprentice Spells
+    §lMisc:
+    - Middle Backpack", 
+    "autoplay": false
+  },
+  "sortingIndex": 10,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

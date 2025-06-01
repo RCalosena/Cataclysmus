@@ -1,0 +1,29 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Mega Upgrades")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("fossilOre", "minecraft:inventory_changed")
+criteria.addItem("erebus:ore_fossil")
+
+criteria = addCriteria("petrifiedOre", "minecraft:inventory_changed")
+criteria.addItem("erebus:ore_petrified_wood")
+
+criteria = addCriteria("templeOre", "minecraft:inventory_changed")
+criteria.addItem("erebus:ore_temple")
+
+criteria = addCriteria("jadeOre", "minecraft:inventory_changed")
+criteria.addItem("erebus:ore_jade")
+
+criteria = addCriteria("gneissOre", "minecraft:inventory_changed")
+criteria.addItem("erebus:ore_gneiss")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,433)

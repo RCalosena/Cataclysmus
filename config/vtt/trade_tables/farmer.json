@@ -1,0 +1,141 @@
+{
+    "Profession": "minecraft:farmer",
+    "Career": "fletcher",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": ["minecraft:beetroot", "minecraft:wheat"],
+                    "Count": [{ "min": 32, "max": 40 }, { "min": 60, "max": 64 }]
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": [1,1]
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [10, 10, 10, 10, 10 ,10]
+                },
+                "sell": {
+                    "id": ["minecraft:beetroot_seeds","minecraft:wheat_seeds","minecraft:carrot","minecraft:pumpkin_seeds","minecraft:melon_seeds","minecraft:potato"],
+                    "Count": [{ "min": 15,"max": 19 },{ "min": 6,"max": 8 },{ "min": 3,"max": 5 },{ "min": 2,"max": 4 },{ "min": 2,"max": 4 },{ "min": 3,"max": 5 }]
+                },
+                "CareerLevel": 1, "maxUses":2, "chance": 0.2
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": ["minecraft:carrot","minecraft:potato"],
+                    "Count": [{ "min": 30,"max": 35 },{ "min": 30,"max": 35 }]
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.75
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": ["minecraft:pumpkin","minecraft:melon"],
+                    "Count": [{ "min": 22,"max": 27 },{ "min": 32,"max": 37 }]
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.6
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": [10,10,10,10]
+                },
+                "sell": {
+                    "id": ["rustic:tomato_seeds","rustic:chili_pepper_seeds","rustic:grape_stem","mysticalworld:aubergine_seed"],
+                    "Count": [1,1,1,1]
+                },
+                "CareerLevel": 2, "maxUses":1, "chance": 0.2
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "rustic:tomato",
+                    "Count": {
+                        "min": 10,
+                        "max": 13
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "rustic:grapes",
+                    "Count": {
+                        "min": 7,
+                        "max": 10
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5, "chance":0.75
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "mysticalworld:aubergine",
+                    "Count": {
+                        "min": 6,
+                        "max": 8
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5, "chance":0.75
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "mysticalworld:stuffed_aubergine",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 10
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": ["mysticalworld:cactus_dandelion_salad","mysticalworld:stewed_eggplant","minecraft:rabbit_stew"],
+                    "Count": [{ "min": 3,"max": 6 },{ "min": 3,"max": 6 },{ "min": 2,"max": 4 }]
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": [10,10,10]
+                },
+                "CareerLevel": 3, "maxUses":5
+            }
+        ]
+    }
+}

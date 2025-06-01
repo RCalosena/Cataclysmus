@@ -1,0 +1,20 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Rings of a Dead World")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("qScale", "minecraft:inventory_changed")
+criteria.addItem("quark:enderdragon_scale")
+
+criteria = addCriteria("bScale", "minecraft:inventory_changed")
+criteria.addItem("bountifulbaubles:enderdragonscale")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,288)

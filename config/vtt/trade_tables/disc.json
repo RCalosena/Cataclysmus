@@ -1,0 +1,201 @@
+{
+    "Profession": "minecraft:librarian",
+    "Career": "cartographer",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_13",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_cat",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_blocks",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_chirp",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_far",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_mall",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_mellohi",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_stal",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_strad",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_ward",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_11",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "minecraft:record_wait",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 32
+                },
+                "sell": {
+                    "id": "biomesoplenty:record_wanderer",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 10
+                },
+                "sell": {
+                    "id": "customdisc:empty_disc",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "sell": {
+                    "id": "minecraft:noteblock",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 40
+                },
+                "sell": {
+                    "id": "minecraft:jukebox",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.5
+            }
+        ]
+    }
+}

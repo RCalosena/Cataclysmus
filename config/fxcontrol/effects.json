@@ -1,0 +1,8 @@
+[  
+    {
+        "timeout": 10,
+        "dimension": 1,
+        "maxheight": 1,
+        "fire": 60
+    }
+]

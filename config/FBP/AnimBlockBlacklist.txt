@@ -1,0 +1,6 @@
+metallurgy:crusher
+metallurgy:alloyer
+erebus:liquifier
+erebus:composter
+betteranimalsplus:hirschgeistskull_1
+ebwizardry:arcane_workbench

@@ -1,0 +1,21 @@
+[
+  {
+    "dimension": 10,
+    "maxheight": 30,
+    "random": 0.02,
+    "mobs": [
+      {
+        "mob": "quark:dweller",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "quark:ashen",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  }
+]

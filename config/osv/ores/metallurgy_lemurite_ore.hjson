@@ -1,0 +1,33 @@
+name: metallurgy_lemurite_ore
+mod: metallurgy
+block: {
+  location: metallurgy:lemurite_ore
+  hardness: 10
+  resistance: 99
+  level: 7
+  lightLevel: 5
+}
+texture: {
+  original: metallurgy:blocks/lemurite_ore
+  background: blocks/netherrack
+}
+recipe: {
+  result: metallurgy:lemurite_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:lemurite_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 0, 100 ]
+    size: 7
+    count: 10
+  }
+]

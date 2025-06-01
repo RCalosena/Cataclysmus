@@ -1,0 +1,36 @@
+{
+  "name": "beast",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 2,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "groupLimitRange": 6,
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 1,
+      "tickRate": 1200
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        3,
+        0,
+        3
+      ],
+      "rangeMax": [
+        20,
+        20,
+        20
+      ],
+      "sorting": "random",
+      "limit": 6,
+      "solidGround": true
+    }
+  ]
+}

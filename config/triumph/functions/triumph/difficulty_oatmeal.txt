@@ -1,0 +1,6 @@
+gamestage silentremove @p two
+gamestage silentadd @p oatmeal
+
+tellraw @a {"text":"§dThe parasites have enraged..."}
+
+time set night

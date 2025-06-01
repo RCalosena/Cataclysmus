@@ -1,0 +1,17 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Upgrades #2")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("crown", "triumph:player_crafted_item")
+criteria.setItem("mod_lavacow:kings_crown",1)
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,143)

@@ -1,0 +1,39 @@
+{
+  "key": {
+    "id": "Amethyst",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "End Exploration",
+    "body": "§lArmor
+    - Tremor: Eximite
+    - Furor: Lutetium
+    - Arcum: Tartarite
+    - Devout: Molten
+    §lStructure Loot
+    §lEnd City:
+    - Forsaken Ring (Very Rare): Used to craft potion rings that give lvl2 effects
+    - Ability Bottle (Very Rare): Used store and activate Ability Totems
+    - Aberration Saddle (Very Rare)
+    - Elytra (Very Rare)
+    - Eximite Sword/Axe
+    - Ender Pearl
+    - End Blocks
+    §lAberrant Station/Shadow Labyrinth:
+    - Ability Totems
+    - End Foliage
+    - Elytra Enchants
+    - Beast Claw (Very Rare)
+    - Azrael's Scythe (Very Rare)
+    - \"Death\" (Very Rare)
+    - Teleport Arrows",
+    "autoplay": false
+  },
+  "sortingIndex": 17,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

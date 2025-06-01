@@ -1,0 +1,35 @@
+{
+  "key": {
+    "id": "Caverns",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "The Deep Caverns",
+    "body": "Prepare to delve into the greater depths of the overworld!
+    §lDon't Get Lost!
+      - Equip yourself with:
+      §l1. §rAntique Atlas
+      §l2. §rCompass
+    §lNavigation:
+      - Bring:
+      §l1. §rTorches
+      §l2. §rSpare Blocks and Pickaxes
+      §l3. §rWater Bucket
+      §l4. §rExtensive knowledge of wall-jumping/sliding (crouch near a wall while in the air)
+    §lOverword Changes:
+      - New entities will spawn at night, having a chance of dropping more ectoplasm for you to make the next tier of armor.
+    §lArmor:
+      - Tremor: Iron
+      - Furor: Heavy Iron
+      - Devout: Weta (Chitin is dropped by Wetas, or found in Intestines)
+      - Arcum: Brass", 
+    "autoplay": false
+  },
+  "sortingIndex": 3,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

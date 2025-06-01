@@ -1,0 +1,34 @@
+name: metallurgy_manganese_ore
+mod: metallurgy
+block: {
+  location: metallurgy:manganese_ore
+  hardness: 2.5
+  resistance: 10
+  level: 1
+}
+texture: {
+  original: metallurgy:blocks/manganese_ore
+}
+recipe: {
+  result: metallurgy:manganese_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:manganese_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 35, 128 ]
+    size: 6
+    count: 9
+    chance: 1.0
+    blacklistDimensions: false
+    dimensions: [0]
+  }
+]

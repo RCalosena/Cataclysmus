@@ -1,0 +1,219 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiOptions
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345280%
+  orientation = element
+  orientation_element = vanillabtn:505256
+  x = -80
+  action = movebutton
+  y = 24
+}
+
+customization {
+  identifier = %id=345280%
+  action = setbuttonlabel
+  value = &2Resource Packs...
+}
+
+customization {
+  identifier = %id=345280%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345280%
+  action = sethoverlabel
+  label = §aResource Packs...
+}
+
+customization {
+  identifier = %id=505154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345232%
+  action = setbuttonlabel
+  value = &2Video Settings...
+}
+
+customization {
+  identifier = %id=345232%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345232%
+  action = sethoverlabel
+  label = §aVideo Settings...
+}
+
+customization {
+  identifier = %id=345154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505232%
+  action = setbuttonlabel
+  value = &2Controls...
+}
+
+customization {
+  identifier = %id=505232%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505232%
+  action = sethoverlabel
+  label = §aControls...
+}
+
+customization {
+  identifier = %id=400334%
+  action = setbuttonlabel
+  value = &2Done
+}
+
+customization {
+  identifier = %id=400334%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=400334%
+  action = sethoverlabel
+  label = §aDone
+}
+
+customization {
+  identifier = %id=635154%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345208%
+  action = setbuttonlabel
+  value = &2Skin Customization...
+}
+
+customization {
+  identifier = %id=345208%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345208%
+  action = sethoverlabel
+  label = §aSkin Customization...
+}
+
+customization {
+  identifier = %id=345256%
+  action = setbuttonlabel
+  value = &2Language...
+}
+
+customization {
+  identifier = %id=345256%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=345256%
+  action = sethoverlabel
+  label = §aLanguage...
+}
+
+customization {
+  identifier = %id=505208%
+  action = setbuttonlabel
+  value = &2Music & Sounds...
+}
+
+customization {
+  identifier = %id=505208%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505208%
+  action = sethoverlabel
+  label = §aMusic & Sounds...
+}
+
+customization {
+  identifier = %id=505256%
+  action = setbuttonlabel
+  value = &2Chat Settings...
+}
+
+customization {
+  identifier = %id=505256%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=505256%
+  action = sethoverlabel
+  label = §aChat Settings...
+}
+

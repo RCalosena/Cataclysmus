@@ -1,0 +1,105 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiCreateWorld
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505120%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505120%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/pixil-frame-2.png
+  backgroundnormal = config/fancymenu/customguis/pixil-frame-22.png
+}
+
+customization {
+  identifier = %id=505151%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345151%
+  orientation = mid-centered
+  x = -155
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=345151%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/pixil-frame-2.png
+  backgroundnormal = config/fancymenu/customguis/pixil-frame-22.png
+}
+
+customization {
+  identifier = %id=345972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/pixil-frame-2.png
+  backgroundnormal = config/fancymenu/customguis/pixil-frame-22.png
+}
+
+customization {
+  identifier = %id=505972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/pixil-frame-2.png
+  backgroundnormal = config/fancymenu/customguis/pixil-frame-22.png
+}
+
+customization {
+  identifier = %id=425187%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/pixil-frame-2.png
+  backgroundnormal = config/fancymenu/customguis/pixil-frame-22.png
+}
+
+customization {
+  identifier = %id=345100%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/pixil-frame-2.png
+  backgroundnormal = config/fancymenu/customguis/pixil-frame-22.png
+}
+
+customization {
+  identifier = %id=505100%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/pixil-frame-2.png
+  backgroundnormal = config/fancymenu/customguis/pixil-frame-22.png
+}
+
+customization {
+  identifier = %id=425115%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/pixil-frame-2.png
+  backgroundnormal = config/fancymenu/customguis/pixil-frame-22.png
+}
+

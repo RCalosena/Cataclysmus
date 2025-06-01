@@ -1,0 +1,27 @@
+{
+  "key": {
+    "id": "Erebus",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "The Hidden World",
+    "body": "§lImportant Ores
+    (Harvest Level 8 Required)
+    - Jade
+    - Temple
+    - Fossil
+    - Petrified Wood
+    - Gneiss
+    All these ores can be found at §oany height
+    §lMisc Upgrades
+    - Big Backpack Frame",
+    "autoplay": false
+  },
+  "sortingIndex": 21,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

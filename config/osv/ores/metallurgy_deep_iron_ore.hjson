@@ -1,0 +1,34 @@
+name: metallurgy_deep_iron_ore
+mod: metallurgy
+block: {
+  location: metallurgy:deep_iron_ore
+  hardness: 5
+  resistance: 10
+  level: 3
+}
+texture: {
+  original: metallurgy:blocks/deep_iron_ore
+}
+recipe: {
+  result: metallurgy:deep_iron_ingot
+  xp: 1
+  quantity: 1
+}
+loot: [
+  {
+    item: metallurgy:deep_iron_ore
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+gen: [
+  {
+    height: [ 64, 128 ]
+    size: 8
+    count: 20
+    chance: 1.0
+    blacklistDimensions: false
+    dimensions: [10]
+  }
+]

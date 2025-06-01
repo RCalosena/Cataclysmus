@@ -1,0 +1,283 @@
+{
+    "Profession": "minecraft:librarian",
+    "Career": "librarian",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:paper",
+                    "Count": {
+                        "min": 55,
+                        "max": 64
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.7
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:paper",
+                    "Count": {
+                        "min": 12,
+                        "max": 18
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 7,
+                        "max": 10
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:map",
+                    "Count": {
+                        "min": 12,
+                        "max": 18
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:compass",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 9
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:dye",
+                    "Count": {
+                        "min": 4,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance":0.7
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 12
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 10
+                },
+                "sell": [{
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":1
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":2
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":3
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":4
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":5
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":6
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":7
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":8
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":9
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":10
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":11
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":12
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":13
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":14
+                },
+                {
+                    "id": "quark:colored_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    },
+                    "Damage":15
+                },
+                {
+                    "id": "quark:glass_item_frame",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                }],
+                "CareerLevel": 3, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 20,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "waystones:return_scroll",
+                    "Count": 1
+                },
+                "CareerLevel": 4, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 32,
+                        "max": 40
+                    }
+                },
+                "sell": {
+                    "id": "antiqueatlas:empty_antique_atlas",
+                    "Count": 1
+                },
+                "CareerLevel": 4, "maxUses": 1, "chance": 0.3
+            }
+        ]
+    }
+}

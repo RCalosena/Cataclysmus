@@ -1,0 +1,37 @@
+{
+  "key": {
+    "id": "Crimson",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Crimson Heart Upgrades",
+    "body": "
+    §lBaubles:
+    - Broken Heart (Bauble): Craftable bauble.
+    §lArmor:
+    (Harvest Level 5 Required)
+      §l- Tremor: 
+      1. Shadow Iron: Found in the §oNether §rat §oY = 32-96§r.
+      2. Astral Silver: Found in the §oDeep Caverns §rat §oY = 192-256§r.
+      §l- Furor:
+      1. Orichalcum: Found in the §oDeep Caverns §rat §oY = 128-192§r.
+      2. Osmium: Found in the §oDeep Caverns §rat §oY = 10-64§r.
+      §l- Devout:
+      1. Atlarus: Found in the §oDeep Caverns §rat §oY = 10-20§r.
+      2. Damascus Steel: Made with an §oalloy §rof §oBronze §rand §oIron§r, alongside §oShadow Iron nuggets§r.
+      §l- Arcum:
+      1. Celenegil: Made with an §oalloy §rof §oOrichalcum (Y=128-192) §rand §oPlatinum§r.
+      2. Famine: Made with many §oundead mob materials §ralongside drops from the §oIthaqua§r.
+      §lProgression:
+      - Eyes of Rahovart
+    ",
+    "autoplay": false
+  },
+  "sortingIndex": 14,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

@@ -1,0 +1,378 @@
+{
+    "Profession": "vtt:redstoner",
+    "Career": "redstoner",
+    "Offers": {
+        "Recipes": [
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:redstone",
+                    "Count": {
+                        "min": 6,
+                        "max": 16
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:redstone_torch",
+                    "Count": {
+                        "min": 3,
+                        "max": 8
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:repeater",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "buyB": {
+                    "id": "minecraft:redstone_torch",
+                    "Count": 1
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:daylight_detector",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "quark:rain_detector",
+                    "Count": {
+                        "min": 2,
+                        "max": 3
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:noteblock",
+                    "Count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 1
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:comparator",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "buyB": {
+                    "id": "minecraft:redstone_torch",
+                    "Count": 2
+                },
+                "CareerLevel": 2
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:piston",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                },
+                "CareerLevel": 2
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:sticky_piston",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                },
+                "buyB": {
+                    "id": "minecraft:slime_ball",
+                    "Count": 1
+                },
+                "CareerLevel": 2
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:dropper",
+                    "Count": {
+                        "min": 1,
+                        "max": 4
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                },
+                "CareerLevel": 2
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:dispenser",
+                    "Count": {
+                        "min": 1,
+                        "max": 4
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 8,
+                        "max": 12
+                    }
+                },
+                "CareerLevel": 2
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:observer",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 12,
+                        "max": 22
+                    }
+                },
+                "CareerLevel": 2
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:hopper",
+                    "Count": {
+                        "min": 2,
+                        "max": 6
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 12,
+                        "max": 22
+                    }
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "quark:chute",
+                    "Count": {
+                        "min": 2,
+                        "max": 6
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 12,
+                        "max": 22
+                    }
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "quark:redstone_randomizer",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 12,
+                        "max": 22
+                    }
+                },
+                "buyB": {
+                    "id": "minecraft:redstone_torch",
+                    "Count": 2
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "quark:redstone_inductor",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 26
+                    }
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "quark:ender_watcher",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 18,
+                        "max": 26
+                    }
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "quark:gravisand",
+                    "Count": {
+                        "min": 3,
+                        "max": 8
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 20,
+                        "max": 28
+                    }
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "quark:obsidian_pressure_plate",
+                    "Count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 12,
+                        "max": 22
+                    }
+                },
+                "CareerLevel": 3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "metallurgy:etherium_goggles",
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 64
+                },
+                "CareerLevel": 4
+            }
+        ]
+    }
+}

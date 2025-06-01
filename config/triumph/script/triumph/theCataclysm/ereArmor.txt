@@ -1,0 +1,16 @@
+setIcon("loreexpansion:lore_journal")
+setTitle("Amalgalich")
+setTranslatedDescription("New Entry Unlocked")
+setFrameType("GOAL")
+setShowToast(false)
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("ereArmor", "minecraft:impossible")
+
+setRewardFunction("triumph:great")
+
+alwaysHidden
+
+setRequirements("any")
+setPos(-172,491)

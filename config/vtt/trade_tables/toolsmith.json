@@ -1,0 +1,249 @@
+{
+    "Profession": "minecraft:smith",
+    "Career": "weapon",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:iron_ingot",
+                    "Count": {
+                        "min": 29,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.7
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "metallurgy:prometheum_ingot",
+                    "Count": {
+                        "min": 25,
+                        "max": 29
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance":0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 2,
+                        "max": 5
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:furnace",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 1,
+                        "max": 3
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:stone_shovel",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:stone_pickaxe",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:stone_axe",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:stone_hoe",
+                    "Count": 1
+                }],
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 2,
+                        "max": 4
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:flint_and_steel",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 4,
+                        "max": 6
+                    }
+                },
+                "sell": [{
+                    "id": "minecraft:iron_shovel",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:iron_pickaxe",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:iron_axe",
+                    "Count": 1
+                },
+                {
+                    "id": "minecraft:iron_hoe",
+                    "Count": 1
+                }],
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                },
+                "sell": {
+                    "id": "quark:trowel",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 20
+                    }
+                },
+                "sell": [{
+                    "id": "metallurgy:flint_and_ignatius",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:flint_and_vulcanite",
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 32
+                    }
+                },
+                "sell": [{
+                    "id": "metallurgy:prometheum_shovel",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:prometheum_pickaxe",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:prometheum_axe",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:prometheum_hoe",
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 32
+                    }
+                },
+                "sell": [{
+                    "id": "metallurgy:quicksilver_shovel",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:quicksilver_pickaxe",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:quicksilver_hoe",
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 32
+                    }
+                },
+                "sell": [{
+                    "id": "metallurgy:deep_iron_pickaxe",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:deep_iron_axe",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:deep_iron_shovel",
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 15,
+                        "max": 40
+                    }
+                },
+                "sell": [{
+                    "id": "metallurgy:alloyer",
+                    "Count": 1
+                },
+                {
+                    "id": "metallurgy:crusher",
+                    "Count": 1
+                }],
+                "CareerLevel": 3, "maxUses": 5
+            }
+        ]
+    }
+}

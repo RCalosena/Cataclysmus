@@ -1,0 +1,49 @@
+[
+  {
+    "dimension": [ 0, -1, 10 ],
+    "mob": "mutantbeasts:mutant_enderman",
+    "result": "deny"
+  },
+  {
+    "dimension": -23,
+    "mod": "srparasites",
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": [ "quark:dweller", "quark:ashen" ],
+    "result": "deny"
+  },
+  {
+    "dimension": 10,
+    "maxheight": 30,
+    "mob": [ "quark:dweller", "quark:ashen" ],
+    "result": "allow"
+  },
+  {
+    "dimension": 10,
+    "mob": [ "quark:dweller", "quark:ashen" ],
+    "mincount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [ "mod_lavacow:ptera", "mod_lavacow:scarecrow" ],
+    "mincount": {
+      "amount": 3,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [ "mod_lavacow:forsaken" ],
+    "onjoin": true,
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "result": "deny"
+  }
+]

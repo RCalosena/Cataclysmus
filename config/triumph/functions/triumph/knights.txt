@@ -1,0 +1,6 @@
+tellraw @a {"text":"§3The invasion persists..."}
+
+gamestage silentadd @p hopeless
+gamestage silentadd @p BansheeSpawn
+
+gamestage silentremove @p misery

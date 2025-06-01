@@ -1,0 +1,16 @@
+{
+  "name": "phase",
+  "loadDefault": false,
+  "debuffDurationMultiplier": 1.0,
+  "buffs": [
+    "minecraft:speed"
+  ],
+  "debuffs": [
+    "lycanitesmobs:fear",
+    "lycanitesmobs:insomnia"
+  ],
+  "components": [
+    "earth",
+    "air"
+  ]
+}

@@ -1,0 +1,18 @@
+setTitle("Emblem of Royalty")
+
+setIcon("mod_lavacow:emblem_of_king")
+
+setDescription("Defeat the Skeleton King")
+
+addParent("triumph:theCataclysm/root")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("emblem", "minecraft:inventory_changed")
+criteria.setItem("mod_lavacow:emblem_of_king")
+
+//Rewards
+setRewardFunction("triumph:Carnage_Phase")
+setRewardFunction("triumph:great")
+
+setPos(-21,40)

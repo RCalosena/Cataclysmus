@@ -1,0 +1,189 @@
+{
+"mc_attack": { "holder": "", "name": "", "category": "mc.gameplay", "key": -100, "mod": "", "enabled": true},
+"mc_use": { "holder": "", "name": "", "category": "mc.gameplay", "key": -99, "mod": "", "enabled": true},
+"mc_pickitem": { "holder": "", "name": "", "category": "mc.gameplay", "key": -98, "mod": "", "enabled": true},
+
+"mc_forward": { "holder": "", "name": "", "category": "mc.movement", "key": 17, "mod": "", "enabled": true},
+"mc_left": { "holder": "", "name": "", "category": "mc.movement", "key": 30, "mod": "", "enabled": true},
+"mc_back": { "holder": "", "name": "", "category": "mc.movement", "key": 31, "mod": "", "enabled": true},
+"mc_right": { "holder": "", "name": "", "category": "mc.movement", "key": 32, "mod": "", "enabled": true},
+"mc_jump": { "holder": "", "name": "", "category": "mc.movement", "key": 57, "mod": "", "enabled": true},
+"mc_sneak": { "holder": "", "name": "", "category": "mc.movement", "key": 42, "mod": "", "enabled": true},
+"mc_sprint": { "holder": "", "name": "", "category": "mc.movement", "key": 29, "mod": "", "enabled": true},
+
+"mc_inventory": { "holder": "", "name": "", "category": "mc.inventory", "key": 18, "mod": "", "enabled": true},
+"mc_hotbar_1": { "holder": "", "name": "", "category": "mc.inventory", "key": 2, "mod": "", "enabled": true},
+"mc_hotbar_2": { "holder": "", "name": "", "category": "mc.inventory", "key": 3, "mod": "", "enabled": true},
+"mc_hotbar_3": { "holder": "", "name": "", "category": "mc.inventory", "key": 4, "mod": "", "enabled": true},
+"mc_hotbar_4": { "holder": "", "name": "", "category": "mc.inventory", "key": 5, "mod": "", "enabled": true},
+"mc_hotbar_5": { "holder": "", "name": "", "category": "mc.inventory", "key": 6, "mod": "", "enabled": true},
+"mc_hotbar_6": { "holder": "", "name": "", "category": "mc.inventory", "key": 7, "mod": "", "enabled": true},
+"mc_hotbar_7": { "holder": "", "name": "", "category": "mc.inventory", "key": 8, "mod": "", "enabled": true},
+"mc_hotbar_8": { "holder": "", "name": "", "category": "mc.inventory", "key": 9, "mod": "", "enabled": true},
+"mc_hotbar_9": { "holder": "", "name": "", "category": "mc.inventory", "key": 10, "mod": "", "enabled": true},
+"mc_drop": { "holder": "", "name": "", "category": "mc.inventory", "key": 16, "mod": "", "enabled": true},
+"mc_swaphands": { "holder": "", "name": "", "category": "mc.inventory", "key": 33, "mod": "", "enabled": true},
+
+"rebind_quit": { "holder": "", "name": "", "category": "mc.misc", "key": 1, "mod": "", "enabled": true},
+"rebind_hidehud": { "holder": "", "name": "", "category": "mc.misc", "key": 59, "mod": "", "enabled": true},
+"mc_screenshot": { "holder": "", "name": "", "category": "mc.misc", "key": 60, "mod": "", "enabled": true},
+"rebind_debugscreen": { "holder": "", "name": "", "category": "mc.misc", "key": 61, "mod": "", "enabled": false},
+"rebind_switchshader": { "holder": "", "name": "", "category": "mc.misc", "key": 0, "mod": "", "enabled": false},
+"mc_toggleperspective": { "holder": "", "name": "", "category": "mc.misc", "key": 63, "mod": "", "enabled": true},
+"mc_fullscreen": { "holder": "", "name": "", "category": "mc.misc", "key": 87, "mod": "", "enabled": true},
+"mc_advancements": { "holder": "", "name": "", "category": "mc.misc", "key": 38, "mod": "", "enabled": true},
+"rebind_narrator": { "holder": "", "name": "", "category": "mc.misc", "key": 48, "mod": "CONTROL", "enabled": false},
+"mc_smoothcamera": { "holder": "", "name": "", "category": "mc.misc", "key": 0, "mod": "", "enabled": true},
+"mc_spectatoroutlines": { "holder": "", "name": "", "category": "mc.misc", "key": 0, "mod": "", "enabled": true},
+
+"mc_savetoolbaractivator": { "holder": "", "name": "", "category": "mc.creative", "key": 46, "mod": "", "enabled": false},
+"mc_loadtoolbaractivator": { "holder": "", "name": "", "category": "mc.creative", "key": 45, "mod": "", "enabled": false},
+
+"mc_chat": { "holder": "", "name": "", "category": "mc.multiplayer", "key": 20, "mod": "", "enabled": true},
+"mc_command": { "holder": "", "name": "", "category": "mc.multiplayer", "key": 53, "mod": "", "enabled": false},
+"mc_playerlist": { "holder": "", "name": "", "category": "mc.multiplayer", "key": 15, "mod": "", "enabled": true},
+
+"backpack_personalbackpack": { "holder": "", "name": "", "category": "Backpack", "key": 48, "mod": "", "enabled": true},
+
+"baublesbindinventory": { "holder": "", "name": "", "category": "Baubles", "key": 48, "mod": "", "enabled": true},
+
+"betterfoliage_gui": { "holder": "", "name": "", "category": "Better Foliage", "key": 66, "mod": "", "enabled": true},
+
+"carryon_carry_desc": { "holder": "", "name": "", "category": "Carry On", "key": 42, "mod": "", "enabled": true},
+
+"cqrepoured_reputation_gui": { "holder": "", "name": "", "category": "Chocolate Quest Repoured Mod", "key": 62, "mod": "", "enabled": false},
+
+"cosmeticarmorreworked_cos_opencosarmorinventory": { "holder": "", "name": "", "category": "CosmeticArmorReworked", "key": 0, "mod": "", "enabled": true},
+
+"defaultoptions_craftpresence_configcode_name": { "holder": "", "name": "", "category": "Default Options", "key": 41, "mod": "", "enabled": true},
+
+"dynamiclights_dynamic_lights_toggle": { "holder": "", "name": "", "category": "Dynamic Lights", "key": 38, "mod": "", "enabled": false},
+
+"ebwizardry_next_spell": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 49, "mod": "", "enabled": true},
+"ebwizardry_previous_spell": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 48, "mod": "", "enabled": true},
+"ebwizardry_spell_1": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 2, "mod": "ALT", "enabled": true},
+"ebwizardry_spell_2": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 3, "mod": "ALT", "enabled": true},
+"ebwizardry_spell_3": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 4, "mod": "ALT", "enabled": true},
+"ebwizardry_spell_4": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 5, "mod": "ALT", "enabled": true},
+"ebwizardry_spell_5": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 6, "mod": "ALT", "enabled": true},
+"ebwizardry_spell_6": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 7, "mod": "ALT", "enabled": true},
+"ebwizardry_spell_7": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 8, "mod": "ALT", "enabled": true},
+"ebwizardry_spell_8": { "holder": "", "name": "", "category": "Electroblob's Wizardry", "key": 9, "mod": "ALT", "enabled": true},
+
+"elenaidodge2_dodge": { "holder": "", "name": "", "category": "mc.movement", "key": 56, "mod": "", "enabled": true},
+
+"erebus_glide": { "holder": "", "name": "", "category": "Erebus", "key": 34, "mod": "", "enabled": true},
+"erebus_poweredglide": { "holder": "", "name": "", "category": "Erebus", "key": 35, "mod": "", "enabled": true},
+"erebus_beetleram": { "holder": "", "name": "", "category": "Erebus", "key": 19, "mod": "", "enabled": true},
+"erebus_beetlemine": { "holder": "", "name": "", "category": "Erebus", "key": 56, "mod": "", "enabled": true},
+
+"fbp_open_menu": { "holder": "", "name": "", "category": "Fancy Block Particles", "key": 25, "mod": "", "enabled": true},
+"fbp_toggle_freeze_effect": { "holder": "", "name": "", "category": "Fancy Block Particles", "key": 19, "mod": "", "enabled": false},
+"fbp_enable/disable": { "holder": "", "name": "", "category": "Fancy Block Particles", "key": 0, "mod": "", "enabled": true},
+"fbp_kill_particles": { "holder": "", "name": "", "category": "Fancy Block Particles", "key": 0, "mod": "", "enabled": false},
+"fbp_blacklist_block": { "holder": "", "name": "", "category": "Fancy Block Particles", "key": 45, "mod": "", "enabled": false},
+
+"fancymenu_reload_menu_ctrl_+_alt_+_": { "holder": "", "name": "", "category": "FancyMenu", "key": 19, "mod": "", "enabled": true},
+"fancymenu_toggle_customization_overlay_ctrl_+_alt_+_": { "holder": "", "name": "", "category": "FancyMenu", "key": 46, "mod": "", "enabled": true},
+
+"mod_lavacow_special": { "holder": "", "name": "", "category": "Fish's Undead Rising", "key": 34, "mod": "", "enabled": true},
+
+"fw_fullscreenwindowed_unused": { "holder": "", "name": "", "category": "Fullscreen Windowed", "key": 0, "mod": "", "enabled": false},
+
+"jei_toggleoverlay": { "holder": "", "name": "", "category": "Had Enough Items", "key": 24, "mod": "CONTROL", "enabled": true},
+"jei_focussearch": { "holder": "", "name": "", "category": "Had Enough Items", "key": 33, "mod": "CONTROL", "enabled": true},
+"jei_togglecheatmode": { "holder": "", "name": "", "category": "Had Enough Items", "key": 0, "mod": "", "enabled": true},
+"jei_toggleeditmode": { "holder": "", "name": "", "category": "Had Enough Items", "key": 0, "mod": "", "enabled": true},
+"jei_showrecipe": { "holder": "", "name": "", "category": "Had Enough Items", "key": 19, "mod": "", "enabled": true},
+"jei_showuses": { "holder": "", "name": "", "category": "Had Enough Items", "key": 22, "mod": "", "enabled": true},
+"jei_recipeback": { "holder": "", "name": "", "category": "Had Enough Items", "key": 14, "mod": "", "enabled": true},
+"jei_previouspage": { "holder": "", "name": "", "category": "Had Enough Items", "key": 201, "mod": "", "enabled": true},
+"jei_nextpage": { "holder": "", "name": "", "category": "Had Enough Items", "key": 209, "mod": "", "enabled": true},
+"jei_bookmark": { "holder": "", "name": "", "category": "Had Enough Items", "key": 30, "mod": "", "enabled": true},
+"jei_togglebookmarkoverlay": { "holder": "", "name": "", "category": "Had Enough Items", "key": 0, "mod": "", "enabled": true},
+
+"hammercorebindrenderstack": { "holder": "", "name": "", "category": "HammerLib", "key": 77, "mod": "", "enabled": false},
+"hammercore_tpbind": { "holder": "", "name": "", "category": "HammerLib", "key": 40, "mod": "", "enabled": false},
+
+"itemphysic_pickup_item": { "holder": "", "name": "Pickup Item", "category": "mc.gameplay", "key": 0, "mod": "", "enabled": true},
+
+"loreexpansion_openjournal": { "holder": "", "name": "Open Journal", "category": "Lore Expansion", "key": 38, "mod": "", "enabled": true},
+
+"lycanitesmobs_mount_dismount": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 46, "mod": "", "enabled": true},
+"lycanitesmobs_mount_descend": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 42, "mod": "", "enabled": true},
+"lycanitesmobs_mount_ability": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 45, "mod": "", "enabled": true},
+"lycanitesmobs_mount_inventory": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 0, "mod": "", "enabled": true},
+"lycanitesmobs_beastiary": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 0, "mod": "", "enabled": true},
+"lycanitesmobs_index": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 34, "mod": "", "enabled": true},
+"lycanitesmobs_pets": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 0, "mod": "", "enabled": true},
+"lycanitesmobs_summoning": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 0, "mod": "", "enabled": true},
+"lycanitesmobs_minions": { "holder": "", "name": "", "category": "Lycanites Mobs", "key": 19, "mod": "", "enabled": true},
+
+"mobends_mo'_bends_menu": { "holder": "", "name": "", "category": "Mo' Bends", "key": 34, "mod": "", "enabled": false},
+"mobends_refresh_animations": { "holder": "", "name": "", "category": "Mo' Bends", "key": 68, "mod": "", "enabled": false},
+
+"musictriggers_gui": { "holder": "", "name": "", "category": "Music Triggers", "key": 19, "mod": "", "enabled": true},
+
+"neatbind_toggle": { "holder": "", "name": "", "category": "Neat", "key": 0, "mod": "", "enabled": true},
+
+"optifine_of_zoom": { "holder": "", "name": "", "category": "Optifine", "key": 46, "mod": "", "enabled": true},
+
+"quarkbind_lockbuilding": { "holder": "", "name": "", "category": "Quark", "key": 37, "mod": "", "enabled": true},
+"quarkbind_toggleautojump": { "holder": "", "name": "", "category": "Quark", "key": 48, "mod": "", "enabled": false},
+"quark_emote_no": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_yes": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_wave": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_salute": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_cheer": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_clap": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_think": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_point": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_shrug": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_headbang": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_weep": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_facepalm": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_dance": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_tpose": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_dab": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_jet": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_exorcist": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quark_emote_zombie": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": false},
+"quarkbind_dropoff": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": true},
+"quarkbind_chestsort": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": true},
+"quarkbind_chestdropoff": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": true},
+"quarkbind_chestmerge": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": true},
+"quarkbind_chestrestock": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": true},
+"quarkbind_chestextract": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": true},
+"quarkbind_playersort": { "holder": "", "name": "", "category": "Quark", "key": 0, "mod": "", "enabled": true},
+
+"rawinput_toggle_raw_input": { "holder": "", "name": "", "category": "Raw Input - Blessed Edition", "key": 0, "mod": "", "enabled": true},
+"rawinput_rescan": { "holder": "", "name": "", "category": "Raw Input - Blessed Edition", "key": 0, "mod": "", "enabled": true},
+
+"rebind_tombstone_message_knowledge_of_death": { "holder": "", "name": "", "category": "ReBind", "key": 0, "mod": "", "enabled": true},
+
+"scalinghealth_difficulty_meter_-_show": { "holder": "", "name": "", "category": "Scaling Health", "key": 49, "mod": "", "enabled": false},
+"scalinghealth_difficulty_meter_-_show_always": { "holder": "", "name": "", "category": "Scaling Health", "key": 49, "mod": "SHIFT", "enabled": false},
+
+"smoothfont_guiopen": { "holder": "", "name": "", "category": "Smooth Font", "key": 199, "mod": "", "enabled": false},
+
+"spartanweaponry_access_quiver": { "holder": "", "name": "", "category": "Spartan Weaponry", "key": 23, "mod": "", "enabled": true},
+
+"stellarapi_focusgui_description": { "holder": "", "name": "", "category": "Stellar API", "key": 22, "mod": "", "enabled": false},
+
+"switchbow_switchup": { "holder": "", "name": "", "category": "Switch-Bow", "key": 0, "mod": "", "enabled": true},
+"switchbow_switchdown": { "holder": "", "name": "", "category": "Switch-Bow", "key": 0, "mod": "", "enabled": true},
+
+"xat_trinket_gui_desc": { "holder": "", "name": "", "category": "Trinkets and Baubles", "key": 25, "mod": "", "enabled": true},
+"xat_trinket_target_desc": { "holder": "", "name": "", "category": "Trinkets and Baubles", "key": 25, "mod": "", "enabled": true},
+"xat_trinket_toggle_effect_desc": { "holder": "", "name": "", "category": "Trinkets and Baubles", "key": 43, "mod": "", "enabled": true},
+"xat_magnet_toggle_effect_desc": { "holder": "", "name": "", "category": "Trinkets and Baubles", "key": 43, "mod": "", "enabled": true},
+"xat_aux_desc": { "holder": "", "name": "", "category": "Trinkets and Baubles", "key": 29, "mod": "", "enabled": true},
+"xat_trinket_arcing_attack_desc": { "holder": "", "name": "", "category": "Trinkets and Baubles", "key": 19, "mod": "", "enabled": true},
+"xat_race_ability_desc": { "holder": "", "name": "", "category": "Trinkets and Baubles", "key": 19, "mod": "", "enabled": true},
+
+"uniqueebattle_granis_soul_dash": { "holder": "", "name": "", "category": "Unique Battle Enchantments", "key": 46, "mod": "", "enabled": true},
+
+"uniquebase_enchantment_gui": { "holder": "", "name": "", "category": "Unique Enchantments Base", "key": 56, "mod": "", "enabled": true},
+
+"walljump": { "holder": "", "name": "", "category": "mc.movement", "key": 42, "mod": "", "enabled": true}
+}

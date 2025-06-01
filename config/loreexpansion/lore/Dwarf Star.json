@@ -1,0 +1,40 @@
+{
+  "key": {
+    "id": "DwarfStar",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Dwarf Star Upgrades",
+    "body": "
+    §lWeapons:
+      - Dwarf Star Ranged/Melee weapons
+    §lBaubles:
+      - Golden Heart
+      - Wither Ring
+      - Stone of Inertia Null
+      - Godly Empty Ring (for permanent potion effects)
+      - Gluttony Pendant: Made with a §oHoney Bucket §r(In the Nether's §oHives§r), and a Lvl 3 §oWraith Skull §r(Upgraded with the §oEquipment Infuser§r). 
+      - Wrath Pendant: Made with a §oBlood Bucket §r(In the §oFlesh Biome§r), and a Lvl 3 §oBehemophet Claw §r(Upgraded with the §oEquipment Infuser§r).
+    §lArmor:
+      §l- Tremor: 
+      1. Oureclasse: Ore found in the §oDeep Caverns §rat Y = 128-192.
+      2. Desichalkos: Crafted with an §oalloy §rof §oHeart Dust §rand §oGrave Dust§r.
+      §l- Furor:
+      1. Vulcanite
+      2. Electrum: Crafted with and §oalloy §rof §oSilver §rand §oGold§r.
+      §l- Devout:
+      1. Ignatius
+      2. Midasium
+      §l- Arcum:
+      1. Kalendrite
+      2. Carmot: Ore found in the §oDeep Caverns §rat Y = 5-10", 
+    "autoplay": false
+  },
+  "sortingIndex": 11,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

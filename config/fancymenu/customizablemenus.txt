@@ -1,0 +1,83 @@
+type = customizablemenus
+
+net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+net.minecraft.client.gui.inventory.GuiInventory {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiGameOver {
+}
+
+org.zeith.improvableskills.client.gui.GuiDiscord {
+}
+
+org.zeith.improvableskills.client.gui.GuiAbilityBook {
+}
+
+net.minecraft.client.gui.GuiCreateWorld {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraft.client.gui.GuiVideoSettings {
+}
+
+net.minecraft.client.gui.GuiLanguage {
+}
+
+com.zeitheron.hammercore.client.gui.impl.GuiCustomizeSkinHC {
+}
+
+ichttt.mods.moresoundconfig.gui.GuiSound {
+}
+
+ichttt.mods.moresoundconfig.gui.GuiChooseOutput {
+}
+
+net.minecraft.client.gui.GuiScreenResourcePacks {
+}
+
+us.getfluxed.controlsearch.client.gui.GuiNewControls {
+}
+
+net.minecraft.client.gui.ScreenChatOptions {
+}
+
+net.minecraft.client.gui.GuiMultiplayer {
+}
+
+net.minecraft.client.gui.GuiScreenServerList {
+}
+
+net.minecraft.client.gui.GuiScreenAddServer {
+}
+
+net.minecraft.client.gui.GuiWorldEdit {
+}
+
+net.minecraft.client.gui.GuiYesNo {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+mezz.jei.config.JEIModConfigGui {
+}
+
+net.minecraft.client.gui.achievement.GuiStats {
+}
+
+mod.acgaming.universaltweaks.tweaks.misc.gui.lanserverproperties.UTGuiShareToLan {
+}
+
+net.minecraftforge.fml.client.GuiModList {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+

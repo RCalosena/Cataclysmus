@@ -1,0 +1,5 @@
+tellraw @a {"text":"§4You feel vengeful..."}
+
+gamestage silentadd @p Portalkey
+
+gamestage silentremove @p hopeless

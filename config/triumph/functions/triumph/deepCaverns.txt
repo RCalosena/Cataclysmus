@@ -1,0 +1,2 @@
+tellraw @a {"text":"§5The Deep Caverns rumble..."}
+playsound minecraft:ambient.cave ambient @p ~ ~ ~ 10 1

@@ -1,0 +1,15 @@
+setTitle("Pure Solitude")
+setIcon(<minecraft:ender_eye>)
+setDescription("Defeat the Deterrent")
+setFrameType("challenge")
+
+addParent("triumph:theCataclysm/root")
+
+criteria = addCriteria("Asmodeus", "minecraft:player_killed_entity")
+criteria.setEntityType("lycanitesmobs:asmodeus")
+
+setRewardExperience(10000)
+setRewardFunction("triumph:difficulty_2")
+
+setRequirements("any")
+setPos(44,224)

@@ -1,0 +1,25 @@
+{
+  "key": {
+    "id": "Carnage",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Hell's Ores",
+    "body": "Note: The Y coordinates indicate the depth in the Nether, not the overworld.
+    §lImportant Ores:
+    (Harvest Level 4 Required)
+    §l1. Vulcanite §r(Y = 27-39)
+    §l2. Cincinnasite §r(Y = Any)
+    §l3. Ignatius §r(Y = 32-96)
+    §l4. Midasium §r(Y = 32-127)
+    §l5. Kalendrite §r(Y = 27-120)", 
+    "autoplay": false
+  },
+  "sortingIndex": 9,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

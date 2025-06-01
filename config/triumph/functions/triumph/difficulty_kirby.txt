@@ -1,0 +1,4 @@
+tellraw @a {"text":"§dThe Last Sentinel... not the source of all this chaos..."}
+
+gamestage silentremove @p oatmeal
+gamestage silentadd @p nightmare

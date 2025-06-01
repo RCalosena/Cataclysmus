@@ -1,0 +1,20 @@
+{
+  "key": {
+    "id": "Hirschgeist",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "The Hirschgeist",
+    "body": "- This miniboss holds the key to the Midnight's Deep Caverns.
+    - The Hirschgeist is found in Cementery-Like structures that spawn in the Midnight.
+    - The miniboss will be invincible and smaller if it is daytime.",
+    "autoplay": false
+  },
+  "sortingIndex": 20,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

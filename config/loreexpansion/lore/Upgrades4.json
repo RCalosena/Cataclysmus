@@ -1,0 +1,35 @@
+{
+  "key": {
+    "id": "Upgrades4",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Mega Upgrades",
+    "body": "§lWeapons
+    - Jade Weapons
+    - Master Equipment Forge
+    - Tome of Arcana (Master)
+    §lBaubles
+    - Ring of the Ancients
+    §lProgression
+    §lDesert Temple:
+    1. Find the §otemple §rin the §oVolcanic Deserts§r.
+    2. Defeat all §oUmbergolems§r.
+    3. Place their respective §oscarabs §ron the main piramid's summit.
+    4. Bring (8): Magma Cream, Magma Crawler Eyes, String, Exoskeleton Plates.
+    5. Defeat the §oAntlion Overlord§r.
+    §lGiant Eucalyptus:
+    1. Find it in the §oUlterior Outback §r(A red sand desert-like biome).
+    2. Clear the bottom floors.
+    3. Defeat the §oTarantula Brood Mother§r.
+    4. On the Tarantula's §ofirst phase§r, she'll be §oimmune to melee damage§r. On the §osecond phase§r, she'll be §oimmune to ranged and magic damage§r.",
+    "autoplay": false
+  },
+  "sortingIndex": 22,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

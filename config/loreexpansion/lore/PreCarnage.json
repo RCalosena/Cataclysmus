@@ -1,0 +1,33 @@
+{
+  "key": {
+    "id": "PreCarnage",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "The Carnage World",
+    "body": "You probably shouldn't go another dimension without any upgrades to your gear!
+    §lArmor:
+    §l- Furor:
+    1. Tortoiseshell: Crafted using §otortoise scales§r, dropped by the §oGiant Tortoise §rin dungeons, or §oIkas §rin the ocean.
+    2. Bull: Made with craftable materials.
+    §l- Devout:
+    1. Inquisition: Upgrade of §oplatinum §rand §ogold §rarmor.
+    2. Swine: Crafted with §oPlagued Hide§r, dropped by the §oUndead Swine §rmob.
+    §l- Tremor: 
+    1. Hepatizon: Crafted using an §oalloy §rof §oInfuscolium §r(Found in the Deep Caverns, §oY = 5-64§r).
+    2. Quicksilver: Made with an §oalloy §rof §oAstral Silver §r(Found in the Deep Caverns, §oY = 192-256§r).
+    §l- Arcum:
+    1. Deep Iron: Ore found in the §oDeep Caverns §rat §oY = 64-128§r.
+    2. Spider: Made with craftable materials.
+    §lMisc:
+    - Lunch Box: craftable using king's emblem", 
+    "autoplay": false
+  },
+  "sortingIndex": 8,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

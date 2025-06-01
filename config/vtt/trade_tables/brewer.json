@@ -1,0 +1,324 @@
+{
+    "Profession": "vtt:brewer",
+    "Career": "alchemist",
+    "Offers": {
+        "Recipes": [
+            {
+                "action": "add",
+                "buy": {
+                    "id": "rustic:ironberries",
+                    "Count": {
+                        "min": 18,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "rustic:grapes",
+                    "Count": {
+                        "min": 18,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "rustic:olives",
+                    "Count": {
+                        "min": 18,
+                        "max": 32
+                    }
+                },
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:ironberries",
+                    "Count": {
+                        "min": 3,
+                        "max": 8
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:grapes",
+                    "Count": {
+                        "min": 3,
+                        "max": 8
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:olives",
+                    "Count": {
+                        "min": 3,
+                        "max": 8
+                    }
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 5, "chance": 0.7
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "forge:bucketfilled",
+                    "tag": {"FluidName": "grapejuice", "Amount": 1000},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 1, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "forge:bucketfilled",
+                    "tag": {"FluidName": "ironberryjuice", "Amount": 1000},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 1, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "forge:bucketfilled",
+                    "tag": {"FluidName": "oliveoil", "Amount": 1000},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 7
+                    }
+                },
+                "CareerLevel": 1, "maxUses": 1, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "applejuice", "Amount": 1000}},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "wildberryjuice", "Amount": 1000}},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "ironberryjuice", "Amount": 1000}},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "oliveoil", "Amount": 1000}},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "honey", "Amount": 1000}},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "grapejuice", "Amount": 1000}},
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 5,
+                        "max": 10
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 5, "chance": 0.3
+            },
+            {
+                "action": "add",
+                "sell": [{
+                    "id": "rustic:brewing_barrel",
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:crushing_tub",
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:barrel",
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:liquid_barrel",
+                    "Count": 1
+                }],
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 3,
+                        "max": 5
+                    }
+                },
+                "CareerLevel": 2, "maxUses": 1
+            },
+            {
+                "action": "add",
+                "sell": [{
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "ironwine", "Amount": 1000}},
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "wine", "Amount": 1000}},
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "wildberrywine", "Amount": 1000}},
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "ale", "Amount": 1000}},
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "alewort", "Amount": 1000}},
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "mead", "Amount": 1000}},
+                    "Count": 1
+                },
+                {
+                    "id": "rustic:fluid_bottle",
+                    "tag": {"Fluid": {"FluidName": "cider", "Amount": 1000}},
+                    "Count": 1
+                }],
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": {
+                        "min": 10,
+                        "max": 15
+                    }
+                },
+                "CareerLevel": 3, "maxUses": 1
+            }
+        ]
+    }
+}

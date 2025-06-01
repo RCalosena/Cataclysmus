@@ -1,0 +1,99 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWorldEdit
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400358%
+  action = setbuttonlabel
+  value = &2Save World
+}
+
+customization {
+  identifier = %id=400358%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=400358%
+  action = sethoverlabel
+  label = §aSave World
+}
+
+customization {
+  identifier = %id=400310%
+  action = setbuttonlabel
+  value = &2Open Folder
+}
+
+customization {
+  identifier = %id=400310%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=400310%
+  action = sethoverlabel
+  label = §aOpen Folder
+}
+
+customization {
+  identifier = %id=400286%
+  action = setbuttonlabel
+  value = &2Reset Icon
+}
+
+customization {
+  identifier = %id=400286%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=400286%
+  action = sethoverlabel
+  label = §aReset Icon
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = &2Cancel
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/customguis/select2.png
+  backgroundnormal = config/fancymenu/customguis/select1.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = sethoverlabel
+  label = §aCancel
+}
+

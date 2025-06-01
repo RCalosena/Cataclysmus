@@ -1,0 +1,33 @@
+{
+  "key": {
+    "id": "Upgrades2",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Upgrades #2",
+    "body": "Preparing for the next bossfight:
+    §lWeapons:
+    - Diamond ranged/melee weapons
+    - Sunshine (Champion Drop)
+    - Moonlight (Champion Drop)
+    §lBaubles:
+    - Greater Empty Ring (Used to craft better potion rings)
+    - Sirius Charm
+    - Celestial Charm
+    - Diamond-Tipped Arrow
+    - Faelis Claws
+    - Poison Stone
+    - Heavy Arrow Quiver
+    - Heavy Bolt Quiver
+    §lOverworld Exploration:
+    - Exploring and clearing §ounderground dungeons §ris recommended in this stage of progression, because of the high xp yield alongside the abundance of weapons, enchantments, and blaze rods inside chests.", 
+    "autoplay": false
+  },
+  "sortingIndex": 7,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

@@ -1,0 +1,22 @@
+{
+  "key": {
+    "id": "Starter",
+    "category": "Guidance"
+  },
+  "content": {
+    "title": "Basic Protection",
+    "body": "§l- Tremor: §2Copper/Slime
+      §l- Devout: §6Prometheum/Gold
+      §l- Arcum: §1Leather/Chain
+      §l- Furor: §4Steel/Bronze
+      Tip: Search the class name on JEI (Tremor, Devout, ...) to see every avaliable armor set for it.", 
+    "autoplay": false
+  },
+  "sortingIndex": 1,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": false,
+  "trigger": null,
+  "action": null
+}

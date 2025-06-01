@@ -1,0 +1,362 @@
+{
+    "Profession": "mca:miner",
+    "Career": "miner",
+    "Offers": {
+        "Recipes": [
+            {"action":"clear"},
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 10,"max": 25 }
+                },
+                "sell": {
+                    "id": "minecraft:coal",
+                    "Count": { "min": 20,"max": 32 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:coal",
+                    "Count": { "min": 32,"max": 40 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 10,"max": 25 }
+                },
+                "sell": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": { "min": 6,"max": 18 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "sell": {
+                    "id": "minecraft:emerald",
+                    "Count": 1
+                },
+                "buy": {
+                    "id": "minecraft:gold_ingot",
+                    "Count": { "min": 20,"max": 25 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "sell": {
+                    "id": "minecraft:minecart",
+                    "Count": { "min": 1,"max": 3 }
+                },
+                "CareerLevel": 1, "maxUses":1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "sell": {
+                    "id": "minecraft:rail",
+                    "Count": { "min": 10,"max": 18 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 3,"max": 5 }
+                },
+                "sell": {
+                    "id": "minecraft:stone_pickaxe",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":1
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 8,"max": 12 }
+                },
+                "sell": {
+                    "id": "spartanweaponry:dynamite",
+                    "Count": { "min": 10,"max": 18 }
+                },
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 2,"max": 5 }
+                },
+                "sell": [{
+                    "id": "minecraft:cobblestone",
+                    "Count": { "min": 10,"max": 22 }
+                },
+                {
+                    "id": "minecraft:stone",
+                    "Count": { "min": 10,"max": 22 }
+                },
+                {
+                    "id": "minecraft:stone",
+                    "Damage": 1,
+                    "Count": { "min": 10,"max": 22 }
+                },
+                {
+                    "id": "minecraft:stone",
+                    "Damage": 2,
+                    "Count": { "min": 10,"max": 22 }
+                },
+                {
+                    "id": "minecraft:stone",
+                    "Damage": 3,
+                    "Count": { "min": 10,"max": 22 }
+                },
+                {
+                    "id": "quark:slate",
+                    "Count": { "min": 10,"max": 22 }
+                },
+                {
+                    "id": "quark:jasper",
+                    "Count": { "min": 10,"max": 22 }
+                },
+                {
+                    "id": "quark:limestone",
+                    "Count": { "min": 10,"max": 22 }
+                }],
+                "CareerLevel": 1, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 7 }
+                },
+                "sell": {
+                    "id": "minecraft:iron_pickaxe",
+                    "Count": 1
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 12 }
+                },
+                "sell": {
+                    "id": "minecraft:tnt_minecart",
+                    "Count": { "min": 1,"max": 3 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 12 }
+                },
+                "sell": {
+                    "id": "minecraft:detector_rail",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 12 }
+                },
+                "sell": {
+                    "id": "minecraft:golden_rail",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 12 }
+                },
+                "sell": {
+                    "id": "minecraft:activator_rail",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 10,"max": 20 }
+                },
+                "sell": {
+                    "id": "minecraft:tnt",
+                    "Count": { "min": 10,"max": 18 }
+                },
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 5,"max": 8 }
+                },
+                "sell": [{
+                    "id": "metallurgy:tin_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "metallurgy:copper_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "minecraft:iron_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "metallurgy:manganese_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "metallurgy:sulfur_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "metallurgy:potash_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "metallurgy:zinc_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "metallurgy:prometheum_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "metallurgy:infuscolium_ore",
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "metallurgy:phosphorite_ore",
+                    "Count": { "min": 1,"max": 7 }
+                }],
+                "CareerLevel": 2, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 7,"max": 12 }
+                },
+                "sell": [{
+                    "id": "osv:metallurgy_tin_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:metallurgy_copper_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:metallurgy_zinc_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:iron_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:metallurgy_prometheum_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:metallurgy_manganese_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:metallurgy_infuscolium_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:metallurgy_sulfur_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:metallurgy_potash_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                },
+                {
+                    "id": "osv:metallurgy_phosphorite_ore",
+                    "Damage": 1,
+                    "Count": { "min": 1,"max": 7 }
+                }],
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 20,"max": 27 }
+                },
+                "sell": {
+                    "id": "metallurgy:vulcanite_tnt",
+                    "Count": { "min": 4,"max": 10 }
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 32,"max": 35 }
+                },
+                "sell": {
+                    "id": "metallurgy:thermite_dust",
+                    "Count": { "min": 4,"max": 10 }
+                },
+                "CareerLevel": 3, "maxUses":5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": { "min": 32,"max": 55 }
+                },
+                "sell": {
+                    "id": "baubles:ring",
+                    "Count": 1
+                },
+                "CareerLevel": 3, "maxUses":5
+            }
+        ]
+    }
+}
