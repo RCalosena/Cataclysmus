@@ -91,6 +91,11 @@ for basicM in early_armor {
     pyramid.addItemEntry(basicM, 50, 1, [{"count": {"min": 1.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
     jungle.addItemEntry(basicM, 80, 1, [{"count": {"min": 1.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
 }
+    simDungeon.addItemEntry(<xat:glowing_powder>, 40, 1, [{"count": {"min": 1.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+    mineshaft.addItemEntry(<xat:glowing_powder>, 20, 1, [{"count": {"min": 1.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+    pyramid.addItemEntry(<xat:glowing_powder>, 20, 1, [{"count": {"min": 1.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+    jungle.addItemEntry(<xat:glowing_powder>, 40, 1, [{"count": {"min": 1.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+
     simDungeon.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 40);
     mineshaft.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 10);
     pyramid.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 10);
@@ -167,6 +172,7 @@ val weapon5 = [
     <spartanweaponry:throwing_axe_stone>,
     <spartanweaponry:javelin_stone>,
     <spartanweaponry:boomerang_stone>,
+    <spartanweaponry:scythe_stone>
 ] as IItemStack[];
 
 for weapons5 in weapon5 {
@@ -269,7 +275,9 @@ val mvillage = mujvillage.getPool("weapons");
 
 
     skelington.removeEntry("mod_lavacow:faminearmor_helmet");   
-    skelington.removeEntry("mod_lavacow:faminearmor_chestplate"); 
+    skelington.removeEntry("mod_lavacow:faminearmor_chestplate");
+    skelington.removeEntry("mod_lavacow:skeletonking_mace"); 
+    skelington.addItemEntry(<mod_lavacow:emblem_of_king>, 5, 1, [{"count": {"min": 8.0, "max": 10.0}, "function": "minecraft:set_count"}], []);
     deserttomb.removeEntry("mod_lavacow:ectoplasm"); 
     cemeteryMain.removeEntry("mod_lavacow:ectoplasm"); 
 

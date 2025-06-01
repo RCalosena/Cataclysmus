@@ -23,16 +23,6 @@
       }
     },
     {
-      "weight": 0.0976562350988388,
-      "min": 1,
-      "max": 5,
-      "item": {
-        "id": "minecraft:diamond",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
       "weight": 0.16315889358520508,
       "min": 2,
       "max": 10,

@@ -1,0 +1,544 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "statuefortJunk4",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cqrepoured:leggings_slime",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "EA_ENABLED": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "legs"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "white"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -8351596492082751605
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.5
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "potioncore.stepHeight"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -73071921375786673
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 0
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "-"
+                }
+              }
+            },
+            "RARITY": {
+              "nbtType": "int",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cqrepoured:chestplate_slime",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "EA_ENABLED": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "chest"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "white"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -5565926322598151167
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.10000000149011612
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.maxHealth"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -7035603321652163504
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -8665402918924153861
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.25
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.reachDistance"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": 2144591313154099278
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 0
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "-"
+                }
+              }
+            },
+            "RARITY": {
+              "nbtType": "int",
+              "nbt": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "mysticalworld:cooked_venison",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "lycanitesmobs:cooked_ika_meat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 11,
+      "item": {
+        "id": "mysticalworld:stewed_eggplant",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "biomesoplenty:pear",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "rustic:tomato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "minecraft:carrot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "rustic:core_root",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "minecraft:cookie",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:iron_pickaxe",
+        "damage": 201,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 42,
+      "item": {
+        "id": "minecraft:book",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 59,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "EA_ENABLED": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "EXPERIENCE": {
+              "nbtType": "int",
+              "nbt": 116
+            },
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {}
+            },
+            "RARITY": {
+              "nbtType": "int",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 54,
+      "item": {
+        "id": "minecraft:arrow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:dye",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 7,
+      "item": {
+        "id": "minecraft:string",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 60,
+      "item": {
+        "id": "minecraft:wheat_seeds",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 21,
+      "item": {
+        "id": "minecraft:paper",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:bandage",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "tombstone:crafting_ingredient",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "cqrepoured:bone_monking",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "cqrepoured:giant_spider_poison",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:plaster",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "minecraft:quartz",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:bone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "minecraft:redstone_block",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:slime_ball",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "lycanitesmobs:poisonraycharge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 23,
+      "item": {
+        "id": "minecraft:stone_slab",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:mossy_cobblestone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:oak_stairs",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:crafting_table",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "minecraft:fence",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "tombstone:dark_marble",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

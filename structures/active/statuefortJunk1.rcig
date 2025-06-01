@@ -1,0 +1,660 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "statuefortJunk1",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "lycanitesmobs:frostweb",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mysticalworld:silk_cocoon",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "mysticalworld:silkworm_egg",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 27,
+      "item": {
+        "id": "minecraft:stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 60,
+      "item": {
+        "id": "minecraft:cobblestone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:web",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 12,
+      "item": {
+        "id": "minecraft:brown_mushroom",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 11,
+      "item": {
+        "id": "lycanitesmobs:scorchfireballcharge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "lycanitesmobs:boulderblastcharge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "lycanitesmobs:spectralboltcharge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 12,
+      "item": {
+        "id": "lycanitesmobs:embercharge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_journal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "comforts:sleeping_bag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 26,
+      "item": {
+        "id": "tombstone:crafting_ingredient",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:dark_oak_boat",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:quartz",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:stone_pickaxe",
+        "damage": 28,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "mainhand"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "blue"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -6275805084565011270
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.10000000149011612
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.attackSpeed"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": 487390437464425953
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -8714073679386960970
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.10000000149011612
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.attackDamage"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -4345580797342888359
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "quality.keen.name"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:stone_sword",
+        "damage": 85,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "EA_ENABLED": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "EXPERIENCE": {
+              "nbtType": "int",
+              "nbt": 167
+            },
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "mainhand"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "blue"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -5533454555402184621
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.10000000149011612
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.attackSpeed"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -2954605413866976938
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -5684348239997926130
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.10000000149011612
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.attackDamage"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -8982992204178897656
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "quality.keen.name"
+                }
+              }
+            },
+            "RARITY": {
+              "nbtType": "int",
+              "nbt": 2
+            },
+            "TOKENS": {
+              "nbtType": "int",
+              "nbt": 1
+            },
+            "LEVEL": {
+              "nbtType": "int",
+              "nbt": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "minecraft:soul_sand",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "minecraft:obsidian",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "betteranimalsplus:trillium",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "minecraft:flint",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "minecraft:wooden_door",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 29,
+      "item": {
+        "id": "minecraft:bone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StoredEnchantments": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "id": {
+                      "nbtType": "short",
+                      "nbt": 94
+                    },
+                    "lvl": {
+                      "nbtType": "short",
+                      "nbt": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:golden_pickaxe",
+        "damage": 15,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "mainhand"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "yellow"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -4645606375413831750
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.10000000149011612
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.attackSpeed"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -5391990307297407887
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -8917487933366544072
+                        },
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": -0.05000000074505806
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.attackDamage"
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -3310002255596992199
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "quality.thin.name"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "biomesoplenty:berries",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 11,
+      "item": {
+        "id": "rustic:ginseng",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "minecraft:mutton",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "rustic:wildberries",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 15,
+      "item": {
+        "id": "minecraft:porkchop",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "rustic:tomato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "mysticalworld:aubergine",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "biomesoplenty:persimmon",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

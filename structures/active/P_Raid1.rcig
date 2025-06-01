@@ -7,7 +7,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "minecraft:diamond_sword",
+        "id": "minecraft:stone_sword",
         "damage": 0,
         "count": 1,
         "tag": {
@@ -105,7 +105,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "minecraft:diamond_pickaxe",
+        "id": "minecraft:stone_pickaxe",
         "damage": 0,
         "count": 1,
         "tag": {
@@ -186,224 +186,11 @@
       }
     },
     {
-      "weight": 0.0976562350988388,
+      "weight": 0.23224952816963196,
       "min": 1,
       "max": 1,
       "item": {
-        "id": "minecraft:diamond_helmet",
-        "damage": 0,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "ench": {
-              "nbtType": "list",
-              "nbt": [
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 3
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 8
-                    }
-                  }
-                },
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 1
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 6
-                    }
-                  }
-                },
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 3
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 5
-                    }
-                  }
-                },
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 4
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 0
-                    }
-                  }
-                },
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 2
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 34
-                    }
-                  }
-                }
-              ]
-            },
-            "RepairCost": {
-              "nbtType": "int",
-              "nbt": 31
-            },
-            "display": {
-              "nbtType": "compound",
-              "nbt": {
-                "Name": {
-                  "nbtType": "string",
-                  "nbt": "Crown of Seas"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "weight": 0.0976562350988388,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:diamond_boots",
-        "damage": 0,
-        "count": 1,
-        "tag": {
-          "nbtType": "compound",
-          "nbt": {
-            "ench": {
-              "nbtType": "list",
-              "nbt": [
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 2
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 9
-                    }
-                  }
-                },
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 3
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 1
-                    }
-                  }
-                },
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 2
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 2
-                    }
-                  }
-                },
-                {
-                  "nbtType": "compound",
-                  "nbt": {
-                    "lvl": {
-                      "nbtType": "short",
-                      "nbt": 2
-                    },
-                    "id": {
-                      "nbtType": "short",
-                      "nbt": 34
-                    }
-                  }
-                }
-              ]
-            },
-            "RepairCost": {
-              "nbtType": "int",
-              "nbt": 15
-            },
-            "display": {
-              "nbtType": "compound",
-              "nbt": {
-                "Name": {
-                  "nbtType": "string",
-                  "nbt": "Frostwarden\u0027s Boots"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    {
-      "weight": 0.20703016221523285,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:diamond_leggings",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.20703016221523285,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:diamond_helmet",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.20703016221523285,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:diamond_chestplate",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.20703016221523285,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:diamond_boots",
+        "id": "minecraft:stone_axe",
         "damage": 0,
         "count": 1
       }
@@ -413,7 +200,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "minecraft:diamond_axe",
+        "id": "minecraft:stone_sword",
         "damage": 0,
         "count": 1
       }
@@ -423,7 +210,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "minecraft:diamond_sword",
+        "id": "minecraft:stone_shovel",
         "damage": 0,
         "count": 1
       }
@@ -433,17 +220,7 @@
       "min": 1,
       "max": 1,
       "item": {
-        "id": "minecraft:diamond_shovel",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.23224952816963196,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:diamond_pickaxe",
+        "id": "minecraft:stone_pickaxe",
         "damage": 0,
         "count": 1
       }
@@ -454,16 +231,6 @@
       "max": 40,
       "item": {
         "id": "minecraft:emerald",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 0.25986868143081665,
-      "min": 5,
-      "max": 20,
-      "item": {
-        "id": "minecraft:diamond",
         "damage": 0,
         "count": 1
       }

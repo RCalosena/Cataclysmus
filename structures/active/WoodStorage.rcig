@@ -5,7 +5,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 16,
+      "max": 2,
       "item": {
         "id": "minecraft:log",
         "damage": 2,
@@ -13,7 +13,7 @@
       }
     },
     {
-      "weight": 0.40,
+      "weight": 0.4,
       "min": 1,
       "max": 1,
       "item": {
@@ -33,7 +33,7 @@
       }
     },
     {
-      "weight": 0.30,
+      "weight": 0.3,
       "min": 1,
       "max": 1,
       "item": {
@@ -45,7 +45,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 16,
+      "max": 2,
       "item": {
         "id": "minecraft:log",
         "damage": 0,
@@ -55,7 +55,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 16,
+      "max": 2,
       "item": {
         "id": "minecraft:log",
         "damage": 1,
@@ -65,7 +65,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 64,
+      "max": 10,
       "item": {
         "id": "minecraft:planks",
         "damage": 0,
@@ -75,7 +75,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 64,
+      "max": 10,
       "item": {
         "id": "minecraft:planks",
         "damage": 2,
@@ -85,7 +85,7 @@
     {
       "weight": 1.0,
       "min": 1,
-      "max": 64,
+      "max": 10,
       "item": {
         "id": "minecraft:planks",
         "damage": 1,
@@ -99,6 +99,236 @@
       "item": {
         "id": "minecraft:stick",
         "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "minecraft:log2",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "minecraft:planks",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "minecraft:log2",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "minecraft:planks",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_0",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_0",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_0",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_0",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_1",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_1",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_1",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_1",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_2",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_2",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_2",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_3",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_3",
+        "damage": 6,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_3",
+        "damage": 7,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "biomesoplenty:log_4",
+        "damage": 5,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "rustic:log",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "rustic:planks",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "rustic:planks",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "rustic:log",
+        "damage": 1,
         "count": 1
       }
     }

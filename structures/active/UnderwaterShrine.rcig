@@ -13,6 +13,100 @@
       }
     },
     {
+      "weight": 0.2400899410247803,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "xat:glowing_powder",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.3,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "Lost"
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "Prings"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "Crit"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "Lost"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "Class"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "Lost"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
       "weight": 0.15,
       "min": 1,
       "max": 1,
@@ -48,6 +142,86 @@
             }
           }
         }
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "minecraft:leather",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "metallurgy:tin_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "metallurgy:manganese_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "metallurgy:gold_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "metallurgy:iron_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "metallurgy:prometheum_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "metallurgy:copper_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 1,
+      "max": 4,
+      "item": {
+        "id": "minecraft:slime_ball",
+        "damage": 0,
+        "count": 1
       }
     },
     {

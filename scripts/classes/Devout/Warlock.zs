@@ -22,6 +22,7 @@ val Helmets = [
 ] as IItemStack[];
 
 val Chestplates = [
+    <minecraft:elytra>,
     <metallurgy:platinum_chestplate>,
     <metallurgy:vyroxeres_chestplate>,
     <metallurgy:ceruclase_chestplate>,

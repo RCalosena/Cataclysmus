@@ -7,7 +7,8 @@ item.rcalosena_-_shining_nightfall.name=Music Disc
 item.rcalosena_-_the_breach.name=Music Disc
 item.rcalosena_-_stopgo.name=Music Disc
 item.rcalosena_-_fierce.name=Music Disc
-item.empty_disc.name=Empty Disc
+item.rcalosena_-_apprehension.name=Music Disc
+item.empty_disc.name=Scratched Disc
 
 item.record.rcalosena_-_dark_space.desc=RCalosena - Dark Space
 item.record.rcalosena_-_opdoun.desc=RCalosena - OpDoun
@@ -17,6 +18,7 @@ item.record.rcalosena_-_impending_rain.desc=RCalosena - Impending Rain
 item.record.rcalosena_-_shining_nightfall.desc=RCalosena - Shining Nightfall
 item.record.rcalosena_-_the_breach.desc=RCalosena - The Breach
 item.record.rcalosena_-_stopgo.desc=RCalosena - StopGo
+item.record.rcalosena_-_apprehension.desc=RCalosena - Apprehension
 item.record.rcalosena_-_fierce.desc=RCalosena - Fierce
 item.record.empty_disc.desc=???
 

@@ -4,6 +4,7 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.item.IItemStack;
 import crafttweaker.potions.IPotion;
 import crafttweaker.player.IPlayer;
+import crafttweaker.damage.IDamageSource;
 
 val milks = [
 	<betteranimalsplus:goatmilk>,
@@ -11,8 +12,28 @@ val milks = [
 	<erebus:bambucket>.withTag({Fluid: {FluidName: "milk", Amount: 1000}})
 ] as IItemStack[];
 
-//Invisibility
+//Ghostly Shape Fall Nerf
+events.register(function(event as crafttweaker.event.EntityLivingFallEvent){
+if event.entityLivingBase.world.isRemote() return;
+if !event.entityLivingBase instanceof IPlayer return;
+if event.distance < 3.0 return;
 
+var player as IPlayer = event.entityLivingBase;
+
+if !player.isPotionActive(<potion:tombstone:ghostly_shape>) return;
+
+if (!player.isPotionActive(<potion:rustic:feather>) && !player.isPotionActive(<potion:tombstone:feather_fall>) && !player.isPotionActive(<potion:lycanitesmobs:fallresist>) && !player.isPotionActive(<potion:midnight:unstable_fall>)) {
+	player.health -= (event.distance - 3);
+}
+});
+
+events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){
+if event.entityLivingBase.world.isRemote() return;
+if !event.entityLivingBase instanceof IPlayer return;
+});
+//Ghostly Shape Fall Nerf
+
+//Invisibility
 events.register(function(event1 as crafttweaker.event.PotionEffectAddedEvent){
     if event1.entityLivingBase.world.isRemote() { return; }
 	if event1.potionEffect.effectName != "effect.invisibility" { return; }
@@ -137,8 +158,6 @@ events.register(function(event6 as crafttweaker.event.EntityLivingAttackedEvent)
 events.register(function(event1 as crafttweaker.event.PotionEffectAddedEvent){
     if event1.entityLivingBase.world.isRemote() { return; }
 	if event1.potionEffect.effectName != "mob_effect.srparasites:rage" { return; }
-
-    var player as IPlayer = event1.entityLivingBase;
 
 	if (event1.potionEffect.amplifier == 0) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.2)); }
 	if (event1.potionEffect.amplifier == 1) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.3)); }

@@ -1,0 +1,14 @@
+# config
+retake.config.general.min=Minimum radius
+retake.config.general.max=Maximum radius
+retake.config.general.retry=Retry attempt
+retake.config.general.cooldown=Global cooldown
+
+# button
+retake.button.respawn=Respawn Nearby
+
+# tooltip
+retake.oncooldown=Nearby respawns are on cooldown, avoid early deaths.
+
+# message
+retake.message.failed=Failed to find a valid respawn position. You will respawn normally instead.

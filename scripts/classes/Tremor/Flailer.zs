@@ -9,8 +9,9 @@ import crafttweaker.potions.IPotion;
 import crafttweaker.world.IBiome;
 import crafttweaker.entity.AttributeModifier;
 import crafttweaker.entity.AttributeInstance;
+import mods.zenutils.UUID;
 
-static runUUID as string = "c8c7e4cc-eb32-4881-b20b-782392ea067f";
+static runUUID as string = UUID.randomUUID().asString();
 
 function inBiome(biome as string[], pos as string) as bool {
   for playerbiome in biome {
@@ -49,6 +50,7 @@ val Helmets = [
 ] as IItemStack[];
 
 val Chestplates = [
+    <minecraft:elytra>,
     <metallurgy:oureclase_chestplate>,
     <mutantbeasts:mutant_skeleton_chestplate>,
     <erebus:jade_chestplate>,
@@ -115,7 +117,7 @@ function isSentientArmor(helmet as IItemStack, chestplate as IItemStack, legging
     if condition > 0 { condition = 0; }
 }
 
-events.register(function(event as crafttweaker.event.LivingKnockBackEvent){
+events.onLivingKnockBack(function(event as crafttweaker.event.LivingKnockBackEvent){
     if event.entityLivingBase.world.isRemote() { return; }
 
     var attacker = event.attacker;
@@ -128,7 +130,7 @@ if (playerAttack && hasArmor(attackerPlayer.getItemInSlot(IEntityEquipmentSlot.h
     if (event.entityLivingBase instanceof IEntityLivingBase) { event.strength *= 0.5; }
 
 }
-    if (attacker instanceof IEntityLivingBase || attacker instanceof IEntityArrow) {
+    if (attacker instanceof IEntityLivingBase) {
 
         if (event.entityLivingBase instanceof IPlayer && hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet()))) 
         
@@ -305,7 +307,7 @@ if !hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemIn
     player.update({adversity: count});
 
 
-    var adversityFormula = (1.0 + (0.1 * adversity)) as double;
+    var adversityFormula = (1.0 + (0.05 * adversity)) as double;
     if (adversity > 0 && player.getAttribute("generic.attackSpeed").baseValue == 4.0) { player.getAttribute("generic.attackSpeed").baseValue *= adversityFormula; }
     if isSentientArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) { 
         val attributeSpeed as AttributeInstance = player.getAttribute("generic.movementSpeed");
@@ -366,12 +368,13 @@ events.register(function(event3 as crafttweaker.event.EntityLivingDamageEvent){
 
         var adversity = player.getNBT().ForgeData.adversity;
 
-        if adversity < 20 {
-            var reverseAdversityFormula = (1.0 - (0.1 * adversity)) as double;
+            player.sendPlaySoundPacket("bowdamagetweaker:player.criticalstrike", "player", player.position, 1.0, 1.5);
+            var reverseAdversityFormula = (1.0 - (0.03 * adversity)) as double;
+        if adversity < 10 {
             event3.amount *= reverseAdversityFormula;
             if (!isNull(player.currentItem) && event3.amount < 2) { event3.amount = 2; }
         } else { 
-            event3.amount = 2;
+            event3.amount *= 0.7;
             var damageAdversityFormula = (1.0 + (0.05 * adversity)) as double;
             event3.amount *= damageAdversityFormula;
         }

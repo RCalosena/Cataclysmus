@@ -294,7 +294,7 @@ potion.effect.srparasites:antimall=Potion of Immalleable
 lingering_potion.effect.srparasites:antimall=Lingering Potion of Immalleable
 tipped_arrow.effect.srparasites:antimall=Arrow of Immalleable
 
-mob_effect.srparasites:bleed=Bleeding
+mob_effect.srparasites:bleed=Infected Bleeding
 splash_potion.effect.srparasites:bleed=Splash Potion of Bleeding
 potion.effect.srparasites:bleed=Potion of Bleeding
 lingering_potion.effect.srparasites:bleed=Lingering Potion of Bleeding
@@ -345,18 +345,18 @@ tootip.srparasites.lurecomp.4=A developed lung harvested from an Adapted Parasit
 tootip.srparasites.lurecomp.5=A developed brain harvested from a Pure Parasite body, which excretes a horrible smell. A Lure Component.
 tootip.srparasites.lurecomp.6=Spine-like object harvested from the Sacs hanging in the Biome. A Lure Component.
 
-tootip.srparasites.item.1=A small sphere which seems to emit Energy, harvested from the Summoner body, but stolen by the dungeon keepers. A Crafting Ingredient for Weapons Components and equipment.
-tootip.srparasites.item.2=A sturdy bone harvested from the Yelloweye body. A Crafting Ingredient for Weapons Components.
-tootip.srparasites.item.3=A small orb which seems to emit Energy, harvested from the Manducater body, but stolen by the dungeon keepers. A Crafting Ingredient for Weapons Components.
-tootip.srparasites.item.4=A terrifyingly sharp fang harvested from the Reeker body. A Crafting Ingredient for Weapons Components.
-tootip.srparasites.item.5=A light yet resistant armor fragment harvested from the Longarms body. A Crafting ingredient for Weapons Components.
-tootip.srparasites.item.6=A piece of flesh ripped off an Assimilated Creature. An Ingredient for Weapon Components and some basic Items that can also be used as Sustainment, in the most desperate situations.
+tootip.srparasites.item.1=A small sphere which seems to emit Energy, harvested from the Summoner body.
+tootip.srparasites.item.2=A sturdy bone harvested from the Yelloweye body.
+tootip.srparasites.item.3=A small orb which seems to emit Energy, harvested from the Manducater body.
+tootip.srparasites.item.4=A terrifyingly sharp fang harvested from the Reeker body.
+tootip.srparasites.item.5=A light yet resistant armor fragment harvested from the Longarms body.
+tootip.srparasites.item.6=A piece of flesh ripped off an Assimilated Creature.
 tootip.srparasites.item.7=
-tootip.srparasites.item.8=An elastic and organic material, produced from Parasites body parts. A Component for Weapons.
-tootip.srparasites.item.9=A piece of a blade, produced from Parasites body parts. A Component for Weapons.
+tootip.srparasites.item.8=An elastic and organic material, produced from Parasites body parts.
+tootip.srparasites.item.9=A piece of a blade, produced from Parasites body parts.
 tootip.srparasites.item.10=The flame of life has not yet shined in this object. The Core that fuels all Weapons.
-tootip.srparasites.item.11=An extremely resistant shell, produced from Parasites body parts. A Component for Weapons.
-tootip.srparasites.item.12=A particularly thick handle, composed of bones, produced from Parasites body parts. A Component for Weapons.
+tootip.srparasites.item.11=An extremely resistant shell, produced from Parasites body parts.
+tootip.srparasites.item.12=A particularly thick handle, composed of bones, produced from Parasites body parts.
 
 tootip.srparasites.item.18=Dirtied by the Infected Flesh, the Clock now ticks towards a terrible Midnight. 
 

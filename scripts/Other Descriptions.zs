@@ -45,11 +45,17 @@ import crafttweaker.item.IItemStack;
 <backpack:tanned_leather>.addTooltip(format.blue("A crafting component for backpacks"));
 <backpack:backpack_frame>.addTooltip(format.blue("A crafting component for backpacks"));
 
+<biomesoplenty:mushroom:3>.displayName = "Limecaps";
 <biomesoplenty:mushroom:3>.addTooltip(format.yellow("Can be used to craft healing potions"));
+<biomesoplenty:mushroom:3>.addTooltip(format.green("Standing in it slowly regenerates health until 50%"));
+
+<mod_lavacow:glowshroom>.displayName = "Moonglow";
+<mod_lavacow:glowshroom>.addTooltip(format.aqua("Standing in it slowly regenerates health until 75%"));
+
 <rustic:wildberries>.addTooltip(format.yellow("Can be used to craft healing potions"));
 <rustic:wildberries>.addTooltip(format.green("Heals for 1hp when consumed"));
 
-<customdisc:empty_disc>.addShiftTooltip("'I found this laying on the floor. I believe that the original piece is unrecoverable, but you can still try and fix it if you want, or destroy it further.'","Merchant's Note: (Shift)");
+<customdisc:empty_disc>.addShiftTooltip("'I found this laying on the floor. I believe the original piece is unrecoverable, but you can still try and fix it if you want, or destroy it further.'","Merchant's Note: (Shift)");
 
 <spartanweaponry:staff_stone>.addTooltip(format.yellow("Treasure Loot"));
 <spartanweaponry:glaive_stone>.addTooltip(format.yellow("Treasure Loot"));
@@ -115,3 +121,7 @@ import crafttweaker.item.IItemStack;
 
 <mod_lavacow:dreamcatcher:20>.clearTooltip(true);
 <mod_lavacow:dreamcatcher:20>.addTooltip(format.yellow("Hold it in your hand while sleeping to attract creatures"));
+
+<minecraft:elytra>.clearTooltip(true);
+<minecraft:elytra>.displayName = "Elytra";
+<minecraft:elytra>.addTooltip(format.yellow("Works with any armor set"));

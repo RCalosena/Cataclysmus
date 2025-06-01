@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "leafpostDusts",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 18,
+      "item": {
+        "id": "metallurgy:copper_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 40,
+      "item": {
+        "id": "metallurgy:iron_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "metallurgy:iron_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "metallurgy:rubracium_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 52,
+      "item": {
+        "id": "metallurgy:manganese_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 40,
+      "item": {
+        "id": "metallurgy:gold_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 24,
+      "item": {
+        "id": "metallurgy:zinc_dust",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 22,
+      "item": {
+        "id": "metallurgy:tin_dust",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

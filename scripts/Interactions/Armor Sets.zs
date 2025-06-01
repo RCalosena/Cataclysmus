@@ -110,7 +110,7 @@ events.register(function(event4 as crafttweaker.event.EntityLivingDamageEvent){
 
     if (!hasCopperArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) || !player.isPotionActive(<potion:ebwizardry:static_aura>)) { return; }
 
-        player.addPotionEffect(<potion:lycanitesmobs:instability>.makePotionEffect(80, 0)); player.sendPlaySoundPacket("minecraft:entity.lightning.thunder", "player", player.position, 4.0, 2.0);
+        player.addPotionEffect(<potion:lycanitesmobs:instability>.makePotionEffect(80, 0)); player.sendPlaySoundPacket("minecraft:entity.lightning.thunder", "player", player.position, 3.0, 2.0);
 });
 
 events.register(function(event4 as crafttweaker.event.EntityLivingDamageEvent){
@@ -144,7 +144,7 @@ function hasSlimeArmor(helmet as IItemStack, chestplate as IItemStack, legging a
     if condition > 0 { condition = 0; }
 }
 
-events.register(function(event as crafttweaker.event.LivingKnockBackEvent){
+events.onLivingKnockBack(function(event as crafttweaker.event.LivingKnockBackEvent){
     if event.entityLivingBase.world.isRemote()  { return; }
 
     var attacker = event.attacker;

@@ -9,7 +9,6 @@ import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.data.IData;
 
-//Special thanks to Shibva
 function EnchantCheck(enchant as IData, IEnchID as [IEnchantmentDefinition]) as bool {
     if (!isNull(enchant)) {
         for target in IEnchID{
@@ -95,6 +94,7 @@ val Helmets = [
 ] as IItemStack[];
 
 val Chestplates = [
+    <minecraft:elytra>,
     <cqrepoured:chestplate_spider>,
     <mod_lavacow:faminearmor_chestplate>,
     <metallurgy:carmot_chestplate>,
@@ -320,7 +320,6 @@ val Shadow = [
 
 val Void = [
     "lycanitesmobs:shade",
-    "lycanitesmobs:pinky",
     "lycanitesmobs:beholder"
 ] as string[];
 
@@ -336,6 +335,17 @@ val stages = [ "m", "m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10",
 val mounting = [ "mounting", "mounting1", "mounting2", "mounting3", "mounting4", "mounting5", "mounting6", "mounting7", "mounting8", "mounting9", "mounting10", "mounting11", "mounting12", "mounting13", "mounting14", "mounting15" ] as string[];
 
 
+
+events.register(function(event as crafttweaker.event.ArrowLooseEvent){
+    if event.player.world.isRemote() return;
+    if !hasArmor(event.player.getItemInSlot(IEntityEquipmentSlot.head()), event.player.getItemInSlot(IEntityEquipmentSlot.chest()), event.player.getItemInSlot(IEntityEquipmentSlot.legs()), event.player.getItemInSlot(IEntityEquipmentSlot.feet())) { return; }
+
+    if event.player.isPotionActive(<potion:potioncraft:usespeed>) {
+        event.player.sendPlaySoundPacket("minecraft:entity.enderdragon.flap", "player", event.player.position, 2.0, 4.0);
+        event.player.sendPlaySoundPacket("minecraft:entity.enderdragon.flap", "player", event.player.position, 2.0, 4.0);
+        server.commandManager.executeCommandSilent(server,"particle spit " ~ event.player.x ~ " " ~ (event.player.y + 1) ~ " " ~ event.player.z ~ " 0.0 0.0 0.0 0.5 20 force @a");
+    }
+});
 
 //Basically, remove all abilities when logging in
 events.onPlayerLoggedIn(function(event3 as crafttweaker.event.PlayerLoggedInEvent) {
@@ -575,14 +585,14 @@ if (event2.player.world.time % 20 != 0) { return; }
     ##Horse/Boat Ability##
         if (mainhand && players.hasGameStage("mounting")) {
             //Give the ability if the player moves while mounting Horse/Boat
-            if (players.moveForward > 0 && players.moveStrafing == 0) {
-                players.addPotionEffect(usespeed.makePotionEffect(inf, 4));
+            if (players.moveForward > 0 || players.moveStrafing != 0) {
+                players.addPotionEffect(usespeed.makePotionEffect(inf, 6));
             
                 //Identifier to prevent interaction with other conditions (when a player mounts an entity of more than one element)
                 players.addGameStage("m");
             }
         }
-            if (players.isPotionActive(usespeed) && players.moveForward <= 0|| players.moveStrafing != 0 && players.hasGameStage("mounting") && players.hasGameStage("m")) { 
+            if (players.isPotionActive(usespeed) && players.moveForward <= 0 && players.moveStrafing == 0 && players.hasGameStage("mounting") && players.hasGameStage("m")) { 
             players.removePotionEffect(usespeed);
             players.removeGameStage("m");
     }
@@ -599,11 +609,11 @@ for pution in AcidPotion {
     }
 }
 
-                if count > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (3 + (count - 1)))); }
+                if count > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (count * 3))); }
 
                 players.addGameStage("m1");
 
-                if (players.getActivePotionEffect(usespeed).amplifier >= (3 + (count)) && count > 0) {
+                if (players.getActivePotionEffect(usespeed).amplifier > (count * 3) && count > 0) {
                     players.removePotionEffect(usespeed); count = 0;
                     if count > 0 { count = 0; }
                     }
@@ -630,11 +640,11 @@ for  pition in AirPotion {
     }
 }
 
-                if count1 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (3 + (count1 - 1)))); }
+                if count1 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (count1 * 3))); }
 
                 players.addGameStage("m2");
 
-                if (players.getActivePotionEffect(usespeed).amplifier >= (3 + (count1)) && count1 > 0) {
+                if (players.getActivePotionEffect(usespeed).amplifier > (count1 * 3) && count1 > 0) {
                     players.removePotionEffect(usespeed); count1 = 0;
                     if count1 > 0 { count1 = 0; }
                     }
@@ -658,7 +668,7 @@ for  pition in AirPotion {
         if (mainhand && players.hasGameStage("mounting3")) {
             
             if (listContains([nature], playerBiome.name)) {
-                players.addPotionEffect(usespeed.makePotionEffect(inf, 4));
+                players.addPotionEffect(usespeed.makePotionEffect(inf, 6));
                 players.addGameStage("m3");
         }
         }
@@ -678,7 +688,7 @@ for  pition in AirPotion {
                 if (!mobDist(event2, 20.0) && players.hasGameStage("A1")) {players.removePotionEffect(usespeed);}
                 players.removeGameStage("A1");
 
-                players.addPotionEffect(usespeed.makePotionEffect(inf, 3));
+                players.addPotionEffect(usespeed.makePotionEffect(inf, 2));
                 players.addGameStage("m4");
             }
             if mobDist(event2, 20.0) {
@@ -693,7 +703,7 @@ for  pition in AirPotion {
                 if (!mobDist(event2, 5.0) && players.hasGameStage("A3")) {players.removePotionEffect(usespeed);}
                 players.removeGameStage("A3");
 
-                players.addPotionEffect(usespeed.makePotionEffect(inf, 5));
+                players.addPotionEffect(usespeed.makePotionEffect(inf, 6));
                 players.addGameStage("m4");
                 players.addGameStage("A2");
             }
@@ -701,12 +711,12 @@ for  pition in AirPotion {
                 if (!mobDist(event2, 2.0) && players.hasGameStage("A4")) {players.removePotionEffect(usespeed);}
                 players.removeGameStage("A4");
 
-                players.addPotionEffect(usespeed.makePotionEffect(inf, 6));
+                players.addPotionEffect(usespeed.makePotionEffect(inf, 8));
                 players.addGameStage("m4");
                 players.addGameStage("A3");
             }
             if mobDist(event2, 2.0) {
-                players.addPotionEffect(usespeed.makePotionEffect(inf, 7));
+                players.addPotionEffect(usespeed.makePotionEffect(inf, 10));
                 players.addGameStage("m4");
                 players.addGameStage("A4");
             }
@@ -730,11 +740,11 @@ for  petion in EarthPotion {
     }
 }
 
-                if count2 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (3 + (count2 - 1)))); }
+                if count2 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (count2 * 3))); }
 
                 players.addGameStage("m5");
 
-                if (players.getActivePotionEffect(usespeed).amplifier >= (3 + (count2)) && count2 > 0) {
+                if (players.getActivePotionEffect(usespeed).amplifier > (count2 * 3) && count2 > 0) {
                     players.removePotionEffect(usespeed); count2 = 0;
                     if count2 > 0 { count2 = 0; }
                     }
@@ -753,7 +763,7 @@ for  petion in EarthPotion {
     ##Fae Ability##
         if (mainhand && players.hasGameStage("mounting6")) {
             if (world.isDayTime()) {
-                players.addPotionEffect(usespeed.makePotionEffect(inf, 4));
+                players.addPotionEffect(usespeed.makePotionEffect(inf, 6));
                 players.addGameStage("m6");
             }
         }
@@ -809,9 +819,9 @@ for  petion in EarthPotion {
                 count3 += 1; 
                 }}
 
-        if count3 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (3 + (count3 - 1)))); }
+        if count3 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (count3 * 2))); }
 
-        if (players.isPotionActive(usespeed) && players.getActivePotionEffect(usespeed).amplifier >= (3 + (count3)) && count3 > 0 && players.hasGameStage("m7")) {
+        if (players.isPotionActive(usespeed) && players.getActivePotionEffect(usespeed).amplifier > (count3 * 2) && count3 > 0 && players.hasGameStage("m7")) {
                     players.removePotionEffect(usespeed); count3 = 0;
                     if count3 > 0 { count3 = 0; }
                     }
@@ -911,9 +921,9 @@ for  petion in EarthPotion {
                 count4 += 1; 
                 }}
        
-       if count4 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (3 + (count4 - 1)))); }
+       if count4 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (count4 * 2))); }
 
-       if (players.isPotionActive(usespeed) && players.getActivePotionEffect(usespeed).amplifier >= (3 + (count4)) && count4 > 0 && players.hasGameStage("m8")) {
+       if (players.isPotionActive(usespeed) && players.getActivePotionEffect(usespeed).amplifier > (count4 * 2) && count4 > 0 && players.hasGameStage("m8")) {
                     players.removePotionEffect(usespeed); count4 = 0;
                     if count4 > 0 { count4 = 0; }
                     }
@@ -1008,9 +1018,9 @@ for  petion in EarthPotion {
                 count5 += 1; 
                 }}
 
-                if count5 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (3 + (count5 - 1)))); }
+                if count5 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (count5 * 2))); }
                 
-                if (players.isPotionActive(usespeed) && players.getActivePotionEffect(usespeed).amplifier >= (3 + (count5)) && count5 > 0 && players.hasGameStage("m9")) {
+                if (players.isPotionActive(usespeed) && players.getActivePotionEffect(usespeed).amplifier > (count5 * 2) && count5 > 0 && players.hasGameStage("m9")) {
                     players.removePotionEffect(usespeed); count5 = 0;
                     if count5 > 0 { count5 = 0; }
                     }
@@ -1065,7 +1075,7 @@ for  petion in EarthPotion {
 
         var kills = players.getNBT().ForgeData.kills;
  
-        if (kills > 0) { players.addPotionEffect(usespeed.makePotionEffect(inf, (3 + (kills - 1)))); }
+        if (kills > 0) { players.addPotionEffect(usespeed.makePotionEffect(inf, (kills * 2))); }
         }
 
     }
@@ -1076,16 +1086,16 @@ for  petion in EarthPotion {
         var health = players.health;
         var maxHealth = players.maxHealth;
 
-        if health <= (maxHealth * 0.9) { players.addPotionEffect(usespeed.makePotionEffect(inf, 3)); players.addGameStage("F1.1"); }
+        if health <= (maxHealth * 0.9) { players.addPotionEffect(usespeed.makePotionEffect(inf, 2)); players.addGameStage("F1.1"); }
         if health <= (maxHealth * 0.8) { players.addPotionEffect(usespeed.makePotionEffect(inf, 4)); players.addGameStage("F1.2"); }
-        if health <= (maxHealth * 0.7) { players.addPotionEffect(usespeed.makePotionEffect(inf, 5)); players.addGameStage("F1.3"); }
-        if health <= (maxHealth * 0.6) { players.addPotionEffect(usespeed.makePotionEffect(inf, 6)); players.addGameStage("F1.4"); }
-        if health <= (maxHealth * 0.5) { players.addPotionEffect(usespeed.makePotionEffect(inf, 7)); players.addGameStage("F1.5"); }
-        if health <= (maxHealth * 0.4) { players.addPotionEffect(usespeed.makePotionEffect(inf, 8)); players.addGameStage("F1.6"); }
-        if health <= (maxHealth * 0.3) { players.addPotionEffect(usespeed.makePotionEffect(inf, 9)); players.addGameStage("F1.7"); }
-        if health <= (maxHealth * 0.2) { players.addPotionEffect(usespeed.makePotionEffect(inf, 10)); players.addGameStage("F1.8"); }
-        if health <= (maxHealth * 0.1) { players.addPotionEffect(usespeed.makePotionEffect(inf, 11)); players.addGameStage("F1.9"); }
-        if health <= (maxHealth * 0.05) { players.addPotionEffect(usespeed.makePotionEffect(inf, 12)); players.addGameStage("F1.10"); }
+        if health <= (maxHealth * 0.7) { players.addPotionEffect(usespeed.makePotionEffect(inf, 6)); players.addGameStage("F1.3"); }
+        if health <= (maxHealth * 0.6) { players.addPotionEffect(usespeed.makePotionEffect(inf, 8)); players.addGameStage("F1.4"); }
+        if health <= (maxHealth * 0.5) { players.addPotionEffect(usespeed.makePotionEffect(inf, 10)); players.addGameStage("F1.5"); }
+        if health <= (maxHealth * 0.4) { players.addPotionEffect(usespeed.makePotionEffect(inf, 12)); players.addGameStage("F1.6"); }
+        if health <= (maxHealth * 0.3) { players.addPotionEffect(usespeed.makePotionEffect(inf, 14)); players.addGameStage("F1.7"); }
+        if health <= (maxHealth * 0.2) { players.addPotionEffect(usespeed.makePotionEffect(inf, 16)); players.addGameStage("F1.8"); }
+        if health <= (maxHealth * 0.1) { players.addPotionEffect(usespeed.makePotionEffect(inf, 18)); players.addGameStage("F1.9"); }
+        if health <= (maxHealth * 0.05) { players.addPotionEffect(usespeed.makePotionEffect(inf, 20)); players.addGameStage("F1.10"); }
 
         players.addGameStage("m11");
 
@@ -1110,7 +1120,7 @@ for  petion in EarthPotion {
     ##Shadow Ability##
         if (mainhand && players.hasGameStage("mounting13")) {
             if (!world.isDayTime()) {
-                players.addPotionEffect(usespeed.makePotionEffect(inf, 4));
+                players.addPotionEffect(usespeed.makePotionEffect(inf, 6));
                 players.addGameStage("m13");
             }
         }
@@ -1135,11 +1145,11 @@ for allPotions in game.potions {
         count6 += 1;
     }}}
 
-                if count6 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (3 + (count6 - 1)))); }
+                if count6 > 0 { players.addPotionEffect(usespeed.makePotionEffect(inf, (count6 * 2))); }
 
                 players.addGameStage("m14");
 
-                    if (players.isPotionActive(usespeed) && players.getActivePotionEffect(usespeed).amplifier >= (3 + (count6)) && count6 > 0 && players.hasGameStage("m7")) { count6 = 0; }
+                    if (players.isPotionActive(usespeed) && players.getActivePotionEffect(usespeed).amplifier > (count6 * 2) && count6 > 0 && players.hasGameStage("m7")) { count6 = 0; }
                     
             }
         }
@@ -1157,7 +1167,7 @@ for allPotions in game.potions {
 
     ##Water Ability##
         if (mainhand && players.hasGameStage("mounting15")) {
-            if players.isInWater { players.addPotionEffect(usespeed.makePotionEffect(inf, 4)); players.addGameStage("m15"); }
+            if players.isInWater { players.addPotionEffect(usespeed.makePotionEffect(inf, 6)); players.addGameStage("m15"); }
             if (!players.isInWater && players.hasGameStage("m15")) { players.removePotionEffect(usespeed); players.removeGameStage("m15"); }
         }
     ##Water Ability##

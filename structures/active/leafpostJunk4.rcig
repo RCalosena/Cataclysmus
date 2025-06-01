@@ -1,0 +1,520 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "leafpostJunk4",
+  "items": [
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "bountifulbaubles:amuletcross",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "qualitytools:emerald_ring",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5354365706443787,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "baubles:ring",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:chainmail_helmet",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "minecraft:book",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StoredEnchantments": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "id": {
+                      "nbtType": "short",
+                      "nbt": 81
+                    },
+                    "lvl": {
+                      "nbtType": "short",
+                      "nbt": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StoredEnchantments": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "id": {
+                      "nbtType": "short",
+                      "nbt": 110
+                    },
+                    "lvl": {
+                      "nbtType": "short",
+                      "nbt": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 3
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "ebwizardry:frost_step"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 3
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "potioncore:magic_focus"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 0
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "potioncore:teleport_surface"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 1
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "lycanitesmobs:swiftswimming"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 0
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "ebwizardry:transience"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 2
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "midnight:unstable_fall"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 2
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "rustic:wither_ward"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:scroll_buff",
+        "damage": 5,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchant": {
+              "nbtType": "byte",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:scroll_buff",
+        "damage": 2,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchant": {
+              "nbtType": "byte",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 2
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "ebwizardry:font_of_mana"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 1
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "potioncraft:fly"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 0
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "potioncore:antidote"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:scroll_buff",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchant": {
+              "nbtType": "byte",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:tablet_of_assistance",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_journal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "ebwizardry:scroll",
+        "damage": 8,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:crafting_ingredient",
+        "damage": 4,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "ebwizardry:spell_book",
+        "damage": 112,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "ebwizardry:ruined_spell_book",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

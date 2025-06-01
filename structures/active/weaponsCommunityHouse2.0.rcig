@@ -1,0 +1,333 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "weaponsCommunityHouse2.0",
+  "items": [
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:stone_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:stone_axe",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:dagger_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:longsword_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:katana_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:scythe_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:saber_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:rapier_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:greatsword_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:hammer_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:warhammer_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:spear_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:halberd_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:pike_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:lance_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:throwing_knife_stone",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchChecked": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "AmmoUsed": {
+              "nbtType": "int",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:throwing_axe_stone",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchChecked": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "AmmoUsed": {
+              "nbtType": "int",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:javelin_stone",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchChecked": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "AmmoUsed": {
+              "nbtType": "int",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:boomerang_stone",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchChecked": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "AmmoUsed": {
+              "nbtType": "int",
+              "nbt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:battleaxe_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:mace_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:glaive_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:staff_stone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:longbow_leather",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:crossbow_leather",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {}
+        }
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:caestus_studded",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.5889394283294678,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "spartanweaponry:club_studded",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

@@ -112,10 +112,6 @@ recipes.addShapedMirrored(<spartanweaponry:mace_wood>, [[null, <minecraft:flint>
 recipes.addShapedMirrored(<spartanweaponry:glaive_wood>, [[null, <minecraft:flint>, null],[null, <minecraft:flint>, null], [<minecraft:flint>, <spartanweaponry:material:1>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:staff>, [[null, null, <minecraft:flint>],[null, <spartanweaponry:material:1>, null], [<minecraft:flint>, null, null]]);
 recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemwoodnunchaku>, [[null, <ore:string>, null], [<minecraft:flint>, null, <minecraft:flint>]]);
-recipes.addShaped(<mujmajnkraftsbettersurvival:itemwoodbattleaxe>, [[<minecraft:flint>, <minecraft:flint>, <minecraft:flint>],[<minecraft:flint>, <minecraft:stick>, <minecraft:flint>], [null, <minecraft:stick>, null]]);
-recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemwoodhammer>, [[null, <minecraft:flint>, <minecraft:flint>],[<minecraft:stick>, <minecraft:flint>, <minecraft:flint>], [null, <minecraft:flint>, <minecraft:flint>]]);
-recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemwoodspear>, [[null, null, <minecraft:flint>],[null, <minecraft:stick>, null], [<minecraft:stick>, null, null]]);
-recipes.addShaped(<mujmajnkraftsbettersurvival:itemwooddagger>, [[null, <minecraft:flint>, null],[null, <minecraft:stick>, null]]);
 recipes.addShaped(<spiceoflife:lunchbox>, [[null, <minecraft:heavy_weighted_pressure_plate>, null],[<minecraft:heavy_weighted_pressure_plate>, <mod_lavacow:emblem_of_king>, <minecraft:heavy_weighted_pressure_plate>], [null, <minecraft:heavy_weighted_pressure_plate>, null]]);
 recipes.addShaped(<spiceoflife:lunchbox>, [[null, <minecraft:heavy_weighted_pressure_plate>, null],[<minecraft:heavy_weighted_pressure_plate>, <mca:staff_of_life>, <minecraft:heavy_weighted_pressure_plate>], [null, <minecraft:heavy_weighted_pressure_plate>, null]]);
 recipes.addShaped(<minecraft:wooden_pickaxe>, [[<minecraft:flint>, <ore:plankWood>, <minecraft:flint>],[null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);

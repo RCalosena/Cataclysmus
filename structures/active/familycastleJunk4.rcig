@@ -1,0 +1,627 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "familycastleJunk4",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "mysticalworld:copper_knife",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "ench": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "id": {
+                      "nbtType": "short",
+                      "nbt": 42
+                    },
+                    "lvl": {
+                      "nbtType": "short",
+                      "nbt": 3
+                    }
+                  }
+                }
+              ]
+            },
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "mainhand"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "yellow"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": 0.15000000596046448
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.attackDamage"
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -7458592371036960416
+                        },
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -5960258180120850278
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        }
+                      }
+                    },
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": -0.5
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "generic.reachDistance"
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 0
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -455103585408497485
+                        },
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -6702481106316040710
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "quality.vicious.name"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "quark:pirate_hat",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "EA_ENABLED": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "RARITY": {
+              "nbtType": "int",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 207,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "EA_ENABLED": {
+              "nbtType": "byte",
+              "nbt": 1
+            },
+            "Quality": {
+              "nbtType": "compound",
+              "nbt": {
+                "Slots": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "string",
+                      "nbt": "mainhand"
+                    },
+                    {
+                      "nbtType": "string",
+                      "nbt": "offhand"
+                    }
+                  ]
+                },
+                "Color": {
+                  "nbtType": "string",
+                  "nbt": "dark_gray"
+                },
+                "AttributeModifiers": {
+                  "nbtType": "list",
+                  "nbt": [
+                    {
+                      "nbtType": "compound",
+                      "nbt": {
+                        "Amount": {
+                          "nbtType": "double",
+                          "nbt": -0.15000000596046448
+                        },
+                        "AttributeName": {
+                          "nbtType": "string",
+                          "nbt": "potioncore.projectileDamage"
+                        },
+                        "Operation": {
+                          "nbtType": "int",
+                          "nbt": 2
+                        },
+                        "UUIDMost": {
+                          "nbtType": "long",
+                          "nbt": -17928264579265141
+                        },
+                        "UUIDLeast": {
+                          "nbtType": "long",
+                          "nbt": -7022415393675481415
+                        },
+                        "Name": {
+                          "nbtType": "string",
+                          "nbt": "qualitytools"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Name": {
+                  "nbtType": "string",
+                  "nbt": "quality.cracked.name"
+                }
+              }
+            },
+            "RARITY": {
+              "nbtType": "int",
+              "nbt": 2
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "minecraft:feather",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:gunpowder",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "minecraft:bone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:gold_nugget",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "StoredEnchantments": {
+              "nbtType": "list",
+              "nbt": [
+                {
+                  "nbtType": "compound",
+                  "nbt": {
+                    "id": {
+                      "nbtType": "short",
+                      "nbt": 73
+                    },
+                    "lvl": {
+                      "nbtType": "short",
+                      "nbt": 2
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 2
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "ebwizardry:ice_shroud"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 2
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "potioncore:reach"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.2900550961494446,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 0
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "lycanitesmobs:rejuvenation"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 1
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "potioncore:repair"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 0
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "lycanitesmobs:staticaura"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 2,
+      "item": {
+        "id": "tombstone:scroll_buff",
+        "damage": 8,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchant": {
+              "nbtType": "byte",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:scroll_buff",
+        "damage": 5,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchant": {
+              "nbtType": "byte",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:scroll_buff",
+        "damage": 3,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchant": {
+              "nbtType": "byte",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 3,
+      "item": {
+        "id": "tombstone:scroll_buff",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchant": {
+              "nbtType": "byte",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:magic_scroll",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "magic_effect": {
+              "nbtType": "compound",
+              "nbt": {
+                "amplifier": {
+                  "nbtType": "byte",
+                  "nbt": 0
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "potioncore:extension"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.25986868143081665,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "tombstone:tablet_of_home",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "enchant": {
+              "nbtType": "byte",
+              "nbt": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 21,
+      "item": {
+        "id": "tombstone:crafting_ingredient",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "qualitytools:emerald_ring",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:plaster",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "roughtweaks:bandage",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 8,
+      "item": {
+        "id": "minecraft:sponge",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 28,
+      "item": {
+        "id": "minecraft:tnt",
+        "damage": 0,
+        "count": 1
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

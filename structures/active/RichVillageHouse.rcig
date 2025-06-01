@@ -1,0 +1,307 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "RichVillageHouse",
+  "items": [
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:arrow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.65,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:bow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.3,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "Lost"
+                },
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "Prings"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "Crit"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "Lost"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.3,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "id": {
+                  "nbtType": "string",
+                  "nbt": "Class"
+                },
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "Lost"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.27,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:wooden_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.83,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:web",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:book_generation_tag",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:writable_book",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3.04,
+      "min": 1,
+      "max": 23,
+      "item": {
+        "id": "minecraft:bread",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 29,
+      "item": {
+        "id": "minecraft:potato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.41,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:pumpkin_pie",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 36,
+      "item": {
+        "id": "minecraft:apple",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.86,
+      "min": 1,
+      "max": 37,
+      "item": {
+        "id": "minecraft:carrot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.9,
+      "min": 1,
+      "max": 29,
+      "item": {
+        "id": "minecraft:potato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.1,
+      "min": 1,
+      "max": 37,
+      "item": {
+        "id": "minecraft:porkchop",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.62,
+      "min": 1,
+      "max": 30,
+      "item": {
+        "id": "minecraft:fish",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.97,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:potion",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "Potion": {
+              "nbtType": "string",
+              "nbt": "minecraft:water"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.05511390045285225,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_component_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "Treasure1"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.020207388326525688,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_component_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "Treasure2"
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.009064221754670143,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "reccomplex:inventory_generation_component_tag",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "itemCollectionKey": {
+              "nbtType": "string",
+              "nbt": "Treasure3"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}

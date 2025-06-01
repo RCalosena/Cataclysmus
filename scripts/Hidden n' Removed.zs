@@ -16,6 +16,9 @@ val Array = [
     <lycanitesmobs:saddle_aberration>,
     <switchbow:switchcrossbow>,
     <switchbow:switchbow>,
+    <tombstone:book_of_magic_impregnation>,
+    <tombstone:book_of_disenchantment>,
+    <mod_lavacow:kings_crown:1>,
     <spartanweaponry:longbow_tin>,
     <spartanweaponry:crossbow_tin>,
     <spartanweaponry:longbow_bronze>,
@@ -588,6 +591,7 @@ for item in Array{
     recipes.remove(item);
 }
 
+recipes.removeShapeless(<xat:glowing_ingot>, [ <xat:glowing_powder>, <xat:glowing_powder>, <xat:glowing_powder>, <xat:glowing_powder>]);
 recipes.removeShapeless(<ebwizardry:magic_crystal>,[<ebwizardry:crystal_flower>]);
 recipes.removeShaped(<ebwizardry:magic_wand>, [[null, null, <ebwizardry:magic_crystal>],[null, <ore:stickWood>, null], [<minecraft:gold_nugget>, null, null]]);
 
@@ -595,9 +599,13 @@ recipes.removeByRecipeName("backpack:backpack_small");
 recipes.removeByRecipeName("backpack:backpack_medium");
 recipes.removeByRecipeName("backpack:backpack_big");
 recipes.removeByRecipeName("minecraft:fireworks");
+recipes.removeByRecipeName("xat:glowing_powder_to_ingot");
 
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:golden_carrot>);
 brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:golden_carrot>);
 brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:golden_carrot>);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:quartz>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:quartz>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:quartz>);
 
 print("HellExitPortal");

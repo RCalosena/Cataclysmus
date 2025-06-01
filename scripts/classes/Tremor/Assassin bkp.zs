@@ -76,6 +76,7 @@ val Helmets = [
 ] as IItemStack[];
 
 val Chestplates = [
+    <minecraft:elytra>,
     <metallurgy:amordrine_chestplate>,
     <metallurgy:astral_silver_chestplate>,
     <metallurgy:hepatizon_chestplate>,
@@ -241,26 +242,31 @@ if (hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemIn
 
                 if (player.isSneaking && !hasGlow(player.currentItem) && !hasGlow(player.offHandHeldItem)) {
 
-    if world.time %50 != 0 { return; }
+    if world.time %60 != 0 { return; }
 
+    if !player.isPotionActive(<potion:minecraft:invisibility>) {
+    
     if (player.getNBT().ForgeData.sneakTime as int <= 5) {
 
         player.setNBT({sneakTime: player.getNBT().ForgeData.sneakTime as int + 1});
  
 		}
 
+
         var sneakTime = player.getNBT().ForgeData.sneakTime;
 
         if sneakTime == 1 { if !player.isPotionActive(<potion:quark:white>) { player.sendPlaySoundPacket("minecraft:entity.player.breath", "player", player.position, 0.5, 0.5); } }
 
-        if sneakTime == 2 { if !player.isPotionActive(<potion:quark:white>) { server.commandManager.executeCommandSilent(server,"particle sweepAttack " ~ player.x ~ " " ~ player.y ~ " " ~ player.z ~ " 0.5 1.5 0.5 0 5 force @a"); player.sendPlaySoundPacket("ebwizardry:spell.magic_missile", "player", player.position, 1.0, 0.5); } }
+        if sneakTime == 2 { if !player.isPotionActive(<potion:quark:white>) { server.commandManager.executeCommandSilent(server,"particle sweepAttack " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 1.0 0.5 0 5 force @a"); player.sendPlaySoundPacket("ebwizardry:spell.magic_missile", "player", player.position, 1.0, 0.5); } }
 
         if sneakTime == 4 {  if !hasSlimeArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) { player.sendPlaySoundPacket("quark:block.monster_box.growl", "player", player.position, 0.1, 0.7); } }
 
         if sneakTime >= 2 {
         player.addPotionEffect(<potion:quark:white>.makePotionEffect(70, 0)); }
     
-                }
+    }
+
+    }
 
         if !isNull(player.getNBT().ForgeData.sneakTime) { 
         
@@ -279,26 +285,31 @@ if (hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemIn
 
                 if (player.isSneaking && !hasGlow(player.currentItem) && !hasGlow(player.offHandHeldItem) && brightness <= 5 && !player.isInsideOfMaterial(IMaterial.leaves())) {
 
-    if world.time %50 != 0 { return; }
+    if world.time %60 != 0 { return; }
 
+    if !player.isPotionActive(<potion:minecraft:invisibility>) {
+    
     if (player.getNBT().ForgeData.sneakTime as int <= 5) {
 
         player.setNBT({sneakTime: player.getNBT().ForgeData.sneakTime as int + 1});
  
 		}
 
+
         var sneakTime = player.getNBT().ForgeData.sneakTime;
 
         if sneakTime == 1 { if !player.isPotionActive(<potion:quark:white>) { player.sendPlaySoundPacket("minecraft:entity.player.breath", "player", player.position, 0.5, 0.5); } }
 
-        if sneakTime == 2 { if !player.isPotionActive(<potion:quark:white>) { server.commandManager.executeCommandSilent(server,"particle sweepAttack " ~ player.x ~ " " ~ player.y ~ " " ~ player.z ~ " 0.5 1.5 0.5 0 5 force @a"); player.sendPlaySoundPacket("ebwizardry:spell.magic_missile", "player", player.position, 1.0, 0.5); } }
+        if sneakTime == 2 { if !player.isPotionActive(<potion:quark:white>) { server.commandManager.executeCommandSilent(server,"particle sweepAttack " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 1.0 0.5 0 5 force @a"); player.sendPlaySoundPacket("ebwizardry:spell.magic_missile", "player", player.position, 1.0, 0.5); } }
 
         if sneakTime == 4 { if !hasSlimeArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) { player.sendPlaySoundPacket("quark:block.monster_box.growl", "player", player.position, 0.1, 0.7); } }
 
         if sneakTime >= 2 {
             player.addPotionEffect(<potion:quark:white>.makePotionEffect(70, 0)); }
     
-            }
+    }
+            
+    }
 
     if !isNull(player.getNBT().ForgeData.sneakTime) { 
         
@@ -319,7 +330,9 @@ if (hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemIn
 
                 if brightness <= 5 {
 
-                if world.time %50 != 0 { return; }
+                if world.time %60 != 0 { return; }
+                
+                if !player.isPotionActive(<potion:minecraft:invisibility>) {
 
                 if (player.getNBT().ForgeData.sneakTime as int <= 5) {
 
@@ -327,11 +340,12 @@ if (hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemIn
             
                     }
 
+
                     var sneakTime = player.getNBT().ForgeData.sneakTime;
 
                     if sneakTime == 1 { if !player.isPotionActive(<potion:quark:white>) { player.sendPlaySoundPacket("minecraft:entity.player.breath", "player", player.position, 0.5, 0.5); } }
 
-                    if sneakTime == 2 { if !player.isPotionActive(<potion:quark:white>) { server.commandManager.executeCommandSilent(server,"particle sweepAttack " ~ player.x ~ " " ~ player.y ~ " " ~ player.z ~ " 0.5 1.5 0.5 0 5 force @a"); player.sendPlaySoundPacket("ebwizardry:spell.magic_missile", "player", player.position, 1.0, 0.5); } }
+                    if sneakTime == 2 { if !player.isPotionActive(<potion:quark:white>) { server.commandManager.executeCommandSilent(server,"particle sweepAttack " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 1.0 0.5 0 5 force @a"); player.sendPlaySoundPacket("ebwizardry:spell.magic_missile", "player", player.position, 1.0, 0.5); } }
 
                     if sneakTime == 4 { if !hasSlimeArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) { player.sendPlaySoundPacket("quark:block.monster_box.growl", "player", player.position, 0.1, 0.7); } }
 
@@ -341,9 +355,13 @@ if (hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemIn
                         } else { 
                             if player.isInsideOfMaterial(IMaterial.leaves()) { return; }
                             if !isNull(player.getNBT().ForgeData.sneakTime) { player.update({sneakTime: 0}); } }
+                }
+
             } else {
 
-                if world.time %50 != 0 { return; }
+                if world.time %60 != 0 { return; }
+                
+                if !player.isPotionActive(<potion:minecraft:invisibility>) {
 
                 if (player.getNBT().ForgeData.sneakTime as int <= 5) {
 
@@ -351,16 +369,18 @@ if (hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemIn
             
                     }
 
+
                     var sneakTime = player.getNBT().ForgeData.sneakTime;
 
                     if sneakTime == 1 { if !player.isPotionActive(<potion:quark:white>) { player.sendPlaySoundPacket("minecraft:entity.player.breath", "player", player.position, 0.4, 0.5); } }
 
-                    if sneakTime == 2 { if !player.isPotionActive(<potion:quark:white>) { server.commandManager.executeCommandSilent(server,"particle sweepAttack " ~ player.x ~ " " ~ player.y ~ " " ~ player.z ~ " 0.5 1.5 0.5 0 5 force @a"); player.sendPlaySoundPacket("ebwizardry:spell.magic_missile", "player", player.position, 0.8, 0.5); } }
+                    if sneakTime == 2 { if !player.isPotionActive(<potion:quark:white>) { server.commandManager.executeCommandSilent(server,"particle sweepAttack " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 1.0 0.5 0 5 force @a"); player.sendPlaySoundPacket("ebwizardry:spell.magic_missile", "player", player.position, 0.8, 0.5); } }
 
                     if sneakTime == 4 { if !hasSlimeArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) { player.sendPlaySoundPacket("quark:block.monster_box.growl", "player", player.position, 0.1, 0.7); } }
 
-                    if (sneakTime >= 2) {
+                    if sneakTime >= 2 {
                         player.addPotionEffect(<potion:quark:white>.makePotionEffect(70, 0)); }
+                }
             }
         
         } else { if player.isInsideOfMaterial(IMaterial.leaves()) { return; }
@@ -410,10 +430,10 @@ events.register(function(event3 as crafttweaker.event.EntityLivingJumpEvent){
             player.sendPlaySoundPacket("ebwizardry:spell.arcane_lock", "player", player.position, 1.0, 1.5);
         }
 
-        if (player.isPotionActive(<potion:quark:blue>)) {
+        if (player.isPotionActive(<potion:quark:blue>) && !player.isPotionActive(<potion:minecraft:invisibility>)) {
             player.addPotionEffect(<potion:minecraft:invisibility>.makePotionEffect(220, 1));
             player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(220, 0));
-            server.commandManager.executeCommandSilent(server,"particle fireworksSpark " ~ player.x ~ " " ~ player.y ~ " " ~ player.z ~ " 0.5 1.5 0.5 0 60 force @a");
+            server.commandManager.executeCommandSilent(server,"particle fireworksSpark " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 1.0 0.5 0 60 force @a");
             if !isNull(player.getNBT().ForgeData.sneakTime) { player.update({sneakTime: 0}); }
         }
     }

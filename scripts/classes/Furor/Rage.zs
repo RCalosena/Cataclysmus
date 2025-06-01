@@ -31,6 +31,7 @@ val Helmets = [
 ] as IItemStack[];
 
 val Chestplates = [
+    <minecraft:elytra>,
     <cqrepoured:chestplate_heavy_iron>,
     <metallurgy:orichalcum_chestplate>,
     <metallurgy:electrum_chestplate>,
@@ -108,27 +109,50 @@ val Boots = [
 }
 
 events.register(function(event as crafttweaker.event.EntityLivingDamageEvent){
-    if (event.entityLivingBase.world.isRemote()) { return; }
-	if (!event.damageSource.trueSource instanceof IEntityLivingBase) { return; }
-
+    if event.entityLivingBase.world.isRemote() return;
+    if !event.entityLivingBase instanceof IPlayer return;
+    
     var entity = event.entityLivingBase;
     var player as IPlayer = entity;
 
-    if !hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) { return; }
-    
- 
-	if (isNull(entity.getNBT().ForgeData.hits)) {
-		entity.setNBT({hits: 0});
-	}
 
-	if (event.damageSource.trueSource instanceof IEntityLivingBase) {
+    if !hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) { return; }
+    if player.isPotionActive(<potion:srparasites:rage>) return;
+
+    if (isNull(player.getNBT().ForgeData.rageDamage)) { player.setNBT({rageDamage: 0}); }
+
+    if event.damageSource.getDamageType() == "outOfWorld" {
+
+
+        if (player.getNBT().ForgeData.rageDamage < 5) {
+                player.setNBT({rageDamage: player.getNBT().ForgeData.rageDamage as int + 1});
+        } else { 
+            if (!isNull(player.getNBT().ForgeData.hits) && player.getNBT().ForgeData.hits >= 5) {
+                if player.getNBT().ForgeData.rageDamage == 5 {
+                    player.setNBT({hits: player.getNBT().ForgeData.hits as int - 5});
+                }
+            }
+
+            player.update({rageDamage: 0});
+            }
+    } else { player.update({rageDamage: 0}); }
+
+	if (!event.damageSource.trueSource instanceof IEntityLivingBase) { return; }
+
+	if (isNull(player.getNBT().ForgeData.hits)) { player.setNBT({hits: 0}); }
  
-		if (entity.getNBT().ForgeData.hits) {
- 
-			entity.setNBT({hits: entity.getNBT().ForgeData.hits as int + 1});
- 
+		if (player.getNBT().ForgeData.hits <= 30) {
+			player.setNBT({hits: player.getNBT().ForgeData.hits as int + 1});
 		}
-	}
+
+    if event.damageSource.getDamageType() != "outOfWorld" {
+        if (player.getNBT().ForgeData.hits == 5) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 10 force @a"); player.sendPlaySoundPacket("ebwizardry:block.receptacle.ignite", "player", player.position, 1.0, 0.5); }
+        if (player.getNBT().ForgeData.hits == 10) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 15 force @a"); player.sendPlaySoundPacket("ebwizardry:block.receptacle.ignite", "player", player.position, 1.0, 0.6); }
+        if (player.getNBT().ForgeData.hits == 15) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 20 force @a"); player.sendPlaySoundPacket("ebwizardry:block.receptacle.ignite", "player", player.position, 1.0, 0.7); }
+        if (player.getNBT().ForgeData.hits == 20) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 25 force @a"); player.sendPlaySoundPacket("ebwizardry:block.receptacle.ignite", "player", player.position, 1.0, 0.8); }
+        if (player.getNBT().ForgeData.hits == 25) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 30 force @a"); player.sendPlaySoundPacket("ebwizardry:block.receptacle.ignite", "player", player.position, 1.0, 0.9); }
+        if (player.getNBT().ForgeData.hits == 30) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 35 force @a"); player.sendPlaySoundPacket("ebwizardry:block.receptacle.ignite", "player", player.position, 1.0, 1.0); }
+    }
 });
 
 events.register(function(event2 as crafttweaker.event.EntityLivingJumpEvent) {
@@ -143,12 +167,12 @@ events.register(function(event2 as crafttweaker.event.EntityLivingJumpEvent) {
             var hits = player.getNBT().ForgeData.hits;
             var Rage = <potion:srparasites:rage> as IPotion;
 
-            if (hits >= 5) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 0)); }
-            if (hits >= 10) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 1)); }
-            if (hits >= 15) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 2)); }
-            if (hits >= 20) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 3)); }
-            if (hits >= 25) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 4)); }
-            if (hits >= 30) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 5)); }
+            if (hits >= 5 && hits < 10) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 10 force @a"); player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 0)); }
+            if (hits >= 10 && hits < 15) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 10 force @a"); player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 1)); }
+            if (hits >= 15 && hits < 20) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 10 force @a"); player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 2)); }
+            if (hits >= 20 && hits < 25) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 10 force @a"); player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 3)); }
+            if (hits >= 25 && hits < 30) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 10 force @a"); player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 4)); }
+            if (hits >= 30) { server.commandManager.executeCommandSilent(server,"particle flame " ~ player.x ~ " " ~ (player.y + 1) ~ " " ~ player.z ~ " 0.5 0.5 0.5 0 10 force @a"); player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 1.0, 0.1); player.addPotionEffect(Rage.makePotionEffect(100, 5)); }
             if (hits > 0) { player.update({hits: 0}); }
 });
 
@@ -169,121 +193,36 @@ events.register(function(event3 as crafttweaker.event.PlayerTickEvent){
 
 if hits >= 30 {
     if world.time %10 != 0 { return; }
-
-    world.catenation()
-    .run(function(world, context) {
-            context.data = world.time;
-        })
-    .sleepUntil(function(world, context) {
-            return hits >= 30;
-        }).sleep(40)
-    .then(function(world, context) {
-            if player.health > 1 { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
-        })
-    .stopWhen(function(world, context) {
-            return hits < 5;
-        }).start();
+            if (player.health > 1) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
 }
 
 
 if (hits >= 25 && hits < 30) {
     if world.time %20 != 0 { return; }
-
-    world.catenation()
-    .run(function(world, context) {
-            context.data = world.time;
-        })
-    .sleepUntil(function(world, context) {
-            return hits >= 25;
-        }).sleep(40)
-    .then(function(world, context) {
-            if player.health > 1 { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
-        })
-    .stopWhen(function(world, context) {
-            return hits < 5 || hits >= 30;
-        }).start();
+            if (player.health > 1) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
 }
 
 
 if (hits >= 20 && hits < 25) {
     if world.time %40 != 0 { return; }
-
-    world.catenation()
-    .run(function(world, context) {
-            context.data = world.time;
-        })
-    .sleepUntil(function(world, context) {
-            return hits >= 20;
-        }).sleep(40)
-    .then(function(world, context) {
-            if player.health > 1 { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
-        })
-    .stopWhen(function(world, context) {
-            return hits < 5 || hits >= 25;
-        }).start();
+            if (player.health > 1) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
 }
 
 
 if (hits >= 15 && hits < 20) {
     if world.time %60 != 0 { return; }
-
-    world.catenation()
-    .run(function(world, context) {
-            context.data = world.time;
-        })
-    .sleepUntil(function(world, context) {
-            return hits >= 15;
-        }).sleep(40)
-    .then(function(world, context) {
-            if player.health > 1 { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
-        })
-    .stopWhen(function(world, context) {
-            return hits < 5 || hits >= 20;
-        }).start();
+            if (player.health > 1) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
 }
 
 
 if (hits >= 10 && hits < 15) {
     if world.time %80 != 0 { return; }
-
-    world.catenation()
-    .run(function(world, context) {
-            context.data = world.time;
-        })
-    .sleepUntil(function(world, context) {
-            return hits >= 10;
-        }).sleep(40)
-    .then(function(world, context) {
-            if player.health > 1 { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
-        })
-    .stopWhen(function(world, context) {
-            return hits < 5 || hits >= 15;
-        }).start();
+            if (player.health > 1) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 1); }
 }
 
 
 if (hits >= 5 && hits < 10) {
     if world.time %100 != 0 { return; }
-
-    world.catenation()
-    .run(function(world, context) {
-            context.data = world.time;
-        })
-    .sleepUntil(function(world, context) {
-            return hits >= 5;
-        }).sleep(40)
-    .then(function(world, context) {
-            if player.health > 1 { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); }
-        })
-    .stopWhen(function(world, context) {
-            return hits < 5 || hits >= 10;
-        }).start();
+            if (player.health > 1) { player.sendPlaySoundPacket("minecraft:entity.wither.hurt", "player", player.position, 0.2, 0.5); }
     }
-
-    if hits >= 30 { if world.time %1200 != 0 { return; } player.update({hits: 25}); }
-    if (hits >= 25 && hits < 30) { if world.time %1200 != 0 { return; } player.update({hits: 20}); }
-    if (hits >= 20 && hits < 25) { if world.time %1200 != 0 { return; } player.update({hits: 15}); }
-    if (hits >= 15 && hits < 20) { if world.time %1200 != 0 { return; } player.update({hits: 10}); }
-    if (hits >= 10 && hits < 15) { if world.time %1200 != 0 { return; } player.update({hits: 5}); }
-    if (hits >= 5 && hits < 10) { if world.time %1200 != 0 { return; } player.update({hits: 0}); }
 });

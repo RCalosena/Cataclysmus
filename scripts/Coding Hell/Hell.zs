@@ -6,7 +6,7 @@ import mods.zenutils.UUID;
       ## Quality of Life Items ##
 
 recipes.addShapeless(<cqrepoured:potion_healing>, [<rustic:wildberries>,<biomesoplenty:mushroom:3>,<minecraft:glass_bottle>]);
-recipes.addShaped(<minecraft:experience_bottle> * 2, [[<mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>],[<mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>], [<mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>]]);
+recipes.addShaped(<minecraft:experience_bottle> * 1, [[<mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>],[<mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>], [<mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>, <mod_lavacow:ectoplasm>]]);
 recipes.addShapeless(<loreexpansion:lore_journal>, [<minecraft:book>]);
 recipes.addShapeless(<ebwizardry:crystal_shard> * 8, [<ebwizardry:crystal_flower>,<nyx:fallen_star>]);
 

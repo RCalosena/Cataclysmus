@@ -40,6 +40,8 @@ recipes.addShapedMirrored(<ebwizardry:magic_wand>.withTag({spells: [1,0,0,0,0] a
 recipes.addShaped(<ebwizardry:magic_crystal>, [[<ebwizardry:crystal_shard>, <ebwizardry:crystal_shard>, <ebwizardry:crystal_shard>],[<ebwizardry:crystal_shard>, <ebwizardry:crystal_shard>, <ebwizardry:crystal_shard>], [<ebwizardry:crystal_shard>, <ebwizardry:crystal_shard>, <ebwizardry:crystal_shard>]]);
 //
 
+recipes.addShaped(<mod_lavacow:kings_crown:1>, [[<mod_lavacow:hatred_shard>, <minecraft:emerald>, <mod_lavacow:hatred_shard>],[<mod_lavacow:hatred_shard>, <mod_lavacow:kings_crown>, <mod_lavacow:hatred_shard>],[<mod_lavacow:hatred_shard>, <mysticalworld:amethyst_gem>, <mod_lavacow:hatred_shard>]]);
+
 recipes.addShapedMirrored(<bountifulbaubles:trinketobsidianskull>, [[<stygian:endobsidian>, <minecraft:blaze_powder>, <minecraft:obsidian>],[<minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}).onlyWithTag({Potion: "minecraft:fire_resistance"}), <minecraft:skull>, <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"}).onlyWithTag({Potion: "minecraft:fire_resistance"})], [<minecraft:obsidian>, <minecraft:blaze_powder>, <stygian:endobsidian>]]);
 recipes.addShaped(<cqrepoured:staff_healing>, [[<lycanitesmobs:faeboltcharge>],[<spartanweaponry:material>], [<minecraft:stick>]]);
 recipes.addShaped(<cqrepoured:staff_poison>, [[<lycanitesmobs:poisonraycharge>],[<spartanweaponry:material>], [<minecraft:stick>]]);
@@ -79,3 +81,6 @@ recipes.addShaped(<srparasites:armor_chest>, [[<srparasites:vile_shell>, null, <
 recipes.addShaped(<srparasites:armor_helm>, [[<srparasites:vile_shell>, <srparasites:living_core>, <srparasites:vile_shell>], [<srparasites:vile_shell>, null, <srparasites:vile_shell>]]);
 
 recipes.addShapeless(<backpack:backpack:6>,[<rustic:grapes>,<backpack:backpack>]);
+
+recipes.addShaped(<bountifulbaubles:trinketbrokenheart>, [[<bountifulbaubles:spectralsilt>, <bountifulbaubles:spectralsilt>, <bountifulbaubles:spectralsilt>],[<bountifulbaubles:spectralsilt>, <erebus:materials:39>, <bountifulbaubles:spectralsilt>], [<bountifulbaubles:spectralsilt>, <bountifulbaubles:spectralsilt>, <bountifulbaubles:spectralsilt>]]);
+recipes.addShaped(<minecraft:saddle>, [[null, <minecraft:leather>, null],[<minecraft:leather>, <minecraft:iron_ingot>, <minecraft:leather>]]);

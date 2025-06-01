@@ -644,22 +644,22 @@ val AArray = [
 <behgameon:accessory_56>.addShiftTooltip("Increases projectile damage by 25%, blessed by 8","Hold Shift to see more details");
 
 <srparasites:armor_helm_sentient>.withTag({keen_eyes: 1}).anyDamage().addTooltip(format.darkPurple("Death Stare"));
-<srparasites:armor_helm_sentient>.withTag({keen_eyes: 1}).anyDamage().addShiftTooltip("+50% Ranged Damage every 4s and a Damage effect every 8s. Killing mobs with the Keen Eyes ability (Soul Sight) replenishes the effect.","Hold Shift to see more details");
+<srparasites:armor_helm_sentient>.withTag({keen_eyes: 1}).anyDamage().addShiftTooltip("Arrow damage increases based on its air time. Killing mobs with the Keen Eyes ability (Soul Sight) replenishes the effect.","Hold Shift to see more details");
 <srparasites:armor_chest_sentient>.withTag({keen_eyes: 1}).anyDamage().addTooltip(format.darkPurple("Death Stare"));
-<srparasites:armor_chest_sentient>.withTag({keen_eyes: 1}).anyDamage().addShiftTooltip("+50% Ranged Damage every 4s and a Damage effect every 8s. Killing mobs with the Keen Eyes ability (Soul Sight) replenishes the effect.","Hold Shift to see more details");
+<srparasites:armor_chest_sentient>.withTag({keen_eyes: 1}).anyDamage().addShiftTooltip("Arrow damage increases based on its air time. Killing mobs with the Keen Eyes ability (Soul Sight) replenishes the effect.","Hold Shift to see more details");
 <srparasites:armor_pants_sentient>.withTag({keen_eyes: 1}).anyDamage().addTooltip(format.darkPurple("Death Stare"));
-<srparasites:armor_pants_sentient>.withTag({keen_eyes: 1}).anyDamage().addShiftTooltip("+50% Ranged Damage every 4s and a Damage effect every 8s. Killing mobs with the Keen Eyes ability (Soul Sight) replenishes the effect.","Hold Shift to see more details");
+<srparasites:armor_pants_sentient>.withTag({keen_eyes: 1}).anyDamage().addShiftTooltip("Arrow damage increases based on its air time. Killing mobs with the Keen Eyes ability (Soul Sight) replenishes the effect.","Hold Shift to see more details");
 <srparasites:armor_boots_sentient>.withTag({keen_eyes: 1}).anyDamage().addTooltip(format.darkPurple("Death Stare"));
-<srparasites:armor_boots_sentient>.withTag({keen_eyes: 1}).anyDamage().addShiftTooltip("+50% Ranged Damage every 4s and a Damage effect every 8s. Killing mobs with the Keen Eyes ability (Soul Sight) replenishes the effect.","Hold Shift to see more details");
+<srparasites:armor_boots_sentient>.withTag({keen_eyes: 1}).anyDamage().addShiftTooltip("Arrow damage increases based on its air time. Killing mobs with the Keen Eyes ability (Soul Sight) replenishes the effect.","Hold Shift to see more details");
 
 <srparasites:armor_helm_sentient>.withTag({quick_fingers: 1}).anyDamage().addTooltip(format.darkPurple("Elemental Arrows"));
-<srparasites:armor_helm_sentient>.withTag({quick_fingers: 1}).anyDamage().addShiftTooltip("+30% Ranged Damage. While the Quick Fingers ability is active (Use Speed), your arrows will inflict the respective debuff of your mount's element.","Hold Shift to see more details");
+<srparasites:armor_helm_sentient>.withTag({quick_fingers: 1}).anyDamage().addShiftTooltip("+40% Ranged Damage. While the Quick Fingers ability is active (Use Speed), your arrows will inflict the respective debuff of your mount's element.","Hold Shift to see more details");
 <srparasites:armor_chest_sentient>.withTag({quick_fingers: 1}).anyDamage().addTooltip(format.darkPurple("Elemental Arrows"));
-<srparasites:armor_chest_sentient>.withTag({quick_fingers: 1}).anyDamage().addShiftTooltip("+30% Ranged Damage. While the Quick Fingers ability is active (Use Speed), your arrows will inflict the respective debuff of your mount's element.","Hold Shift to see more details");
+<srparasites:armor_chest_sentient>.withTag({quick_fingers: 1}).anyDamage().addShiftTooltip("+40% Ranged Damage. While the Quick Fingers ability is active (Use Speed), your arrows will inflict the respective debuff of your mount's element.","Hold Shift to see more details");
 <srparasites:armor_pants_sentient>.withTag({quick_fingers: 1}).anyDamage().addTooltip(format.darkPurple("Elemental Arrows"));
-<srparasites:armor_pants_sentient>.withTag({quick_fingers: 1}).anyDamage().addShiftTooltip("+30% Ranged Damage. While the Quick Fingers ability is active (Use Speed), your arrows will inflict the respective debuff of your mount's element.","Hold Shift to see more details");
+<srparasites:armor_pants_sentient>.withTag({quick_fingers: 1}).anyDamage().addShiftTooltip("+40% Ranged Damage. While the Quick Fingers ability is active (Use Speed), your arrows will inflict the respective debuff of your mount's element.","Hold Shift to see more details");
 <srparasites:armor_boots_sentient>.withTag({quick_fingers: 1}).anyDamage().addTooltip(format.darkPurple("Elemental Arrows"));
-<srparasites:armor_boots_sentient>.withTag({quick_fingers: 1}).anyDamage().addShiftTooltip("+30% Ranged Damage. While the Quick Fingers ability is active (Use Speed), your arrows will inflict the respective debuff of your mount's element.","Hold Shift to see more details");
+<srparasites:armor_boots_sentient>.withTag({quick_fingers: 1}).anyDamage().addShiftTooltip("+40% Ranged Damage. While the Quick Fingers ability is active (Use Speed), your arrows will inflict the respective debuff of your mount's element.","Hold Shift to see more details");
 
 <srparasites:armor_helm_sentient>.withTag({horde_tamer: 1}).anyDamage().addTooltip(format.darkPurple("Horde Slayer"));
 <srparasites:armor_helm_sentient>.withTag({horde_tamer: 1}).anyDamage().addShiftTooltip("(Mobs will usually target you) Gain resistance based on the amount of hits per (5) seconds received. Explosions caused by the Rage ability will stun enemies for 3-9s depending on the detonation strength.","Hold Shift to see more details");

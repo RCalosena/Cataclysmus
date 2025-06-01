@@ -1,8 +1,12 @@
 #reloadable
 
 import crafttweaker.block.IBlock;
+import crafttweaker.world.IBlockPos;
 import crafttweaker.player.IPlayer;
 import mods.ctintegration.scalinghealth.DifficultyManager;
+import crafttweaker.world.IFacing;
+import crafttweaker.util.Math;
+import crafttweaker.data.IData;
 
 function isBlocks(wood as IBlock, plank as IBlock) as bool {
     var condition = 0;
@@ -106,12 +110,10 @@ events.register(function(event2 as crafttweaker.event.BlockHarvestDropsEvent){
 });
 //Leaves Stick Drop && Gravel Flint Drop && Ores Dust Drop
 
-//Cutscene On Join
-//Cutscene On Join
-
 //Stagnant Sky
 events.onGameStageAdded(function(event5 as mods.ctintegration.gamestages.GameStageAddedEvent){
     if (event5.gameStage == "Death" && isNull(event5.player.world.getCustomWorldData().postStagSky)) {
+        server.commandManager.executeCommandSilent(server,"tellraw @a {\"text\":\"§6Time has come to a stop...\"}");
         server.commandManager.executeCommandSilent(server,"gamerule doDaylightCycle_tc false");
         server.commandManager.executeCommandSilent(server,"gamerule doDaylightCycle false");
         server.commandManager.executeCommandSilent(server,"time set 12500");
@@ -124,90 +126,26 @@ events.onGameStageRemoved(function(event6 as mods.ctintegration.gamestages.GameS
         event6.player.world.setCustomWorldData({postStagSky: 1});
     }
 });
-events.register(function(event as crafttweaker.event.PlayerChangedDimensionEvent){
-    if (event.to == 0 && event.player.hasGameStage("Death") && isNull(event.player.world.getCustomWorldData().postStagSky)) { 
-        server.commandManager.executeCommandSilent(server,"gamerule doDaylightCycle_tc false");
-        server.commandManager.executeCommandSilent(server,"gamerule doDaylightCycle false");
-        server.commandManager.executeCommandSilent(server,"time set 12500");
-    }
+    //Bugfix (The beneath for some reason resumes but also doesn't the daylight cycle)
+    events.register(function(event as crafttweaker.event.PlayerChangedDimensionEvent){
+        if (event.to == 0 && event.player.hasGameStage("Death") && isNull(event.player.world.getCustomWorldData().postStagSky)) { 
+            server.commandManager.executeCommandSilent(server,"gamerule doDaylightCycle_tc false");
+            server.commandManager.executeCommandSilent(server,"gamerule doDaylightCycle false");
+            server.commandManager.executeCommandSilent(server,"time set 12500");
+        }
+    });
+events.register(function(event as crafttweaker.event.PlayerSleepInBedEvent) {
+    if event.player.world.isRemote() { return; }
+    if !event.player.hasGameStage("Death") { return; }
+    if !isNull(event.player.world.getCustomWorldData().postStagSky) { return; }
+
+    var player = event.player;
+
+    //Disable sleeping on the first night
+        event.result = "OTHER_PROBLEM";
+        if !player.world.isDayTime() { player.sendStatusMessage("You don't feel tired"); }
 });
 //Stagnant Sky
-
-//Difficulty System Overhaul
-events.register(function(event as crafttweaker.event.PlayerChangedDimensionEvent){
-    //Nether
-    if (event.to == -1 && !event.player.hasAnyGameStages("nightmare", "one", "two", "oatmeal")) { DifficultyManager.setDifficulty(event.player, 300.0); }
-    //Nether
-
-    //End
-    if (event.to == 1 && !event.player.hasAnyGameStages("nightmare", "two", "oatmeal")) { DifficultyManager.setDifficulty(event.player, 600.0); }
-    //End
-    
-    //Midnight
-    if (event.to == -23 && !event.player.hasAnyGameStages("nightmare", "oatmeal")) { DifficultyManager.setDifficulty(event.player, 800.0); }
-    //Midnight
-
-    //Overworld
-    if (event.to == 0 && !event.player.hasAnyGameStages("nightmare", "one", "two", "oatmeal")) { DifficultyManager.setDifficulty(event.player, 0.0); }
-    if (event.to == 0 && event.player.hasGameStage("two")) { DifficultyManager.setDifficulty(event.player, 700.0); }
-    //Overworld
-});
-
-events.onPlayerClone(function(event as crafttweaker.event.PlayerCloneEvent){
-    if event.player.world.isRemote() { return; }
-
-    //From End to Overworld (bc for some reason it has to be different)
-    if (!event.wasDeath && !event.player.hasAnyGameStages("nightmare", "one", "two", "oatmeal")) { DifficultyManager.setDifficulty(event.originalPlayer, 0.0); }
-    if (!event.wasDeath && event.player.hasGameStage("one")) { DifficultyManager.setDifficulty(event.originalPlayer, 400.0); }
-    //From End to Overworld (bc for some reason it has to be different)
-});
-
-//Gamestage Difficulties
-events.register(function(event as mods.ctintegration.gamestages.GameStageAddedEvent){
-    //Rahovart
-    if event.gameStage == "one" { DifficultyManager.setDifficulty(event.player, 400.0); }
-    //Rahovart
-
-    //Asmodeus
-    if event.gameStage == "two" { DifficultyManager.setDifficulty(event.player, 700.0); }
-    //Asmodeus
-
-    //Insect
-    if event.gameStage == "oatmeal" { DifficultyManager.setDifficulty(event.player, 1000.0); }
-    //Insect
-
-    //Amalgalich
-    if event.gameStage == "nightmare" { DifficultyManager.setDifficulty(event.player, 2000.0); }
-    //Amalgalich
-});
-//Gamestage Difficulties
-
-//Nightmare mode day counter
-events.register(function(event as crafttweaker.event.PlayerTickEvent){
-        if event.side == "CLIENT" { return; }
-        if (event.phase == "START") { return; }
-        if !event.player.hasGameStage("nightmare") { return; }
-
-        var world = event.player.world;
-
-        if(world.provider.getWorldTime() == 24000)
-        {
-                event.player.sendStatusMessage("§6Difficulty §6increased §6by §c+50");
-                DifficultyManager.addDifficulty(event.player, 16.6666666, false);
-        }
-});
-//Nightmare mode day counter
-
-//Difficulty System Overhaul
-
-//Anvil lightweight
-events.register(function(event as crafttweaker.event.PlayerAnvilUpdateEvent){
-    if (event.leftItem.matches(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 141 as short}]})) && event.rightItem.matches(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 141 as short}]})))
-    { event.cancel(); }
-    if (event.leftItem.matches(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 141 as short}]})) && event.rightItem.matches(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 141 as short}]})))
-    { event.cancel(); }
-});
-//Anvil lightweight
 
 //Deep Caverns Lock
 events.register(function(event as crafttweaker.event.PlayerBreakSpeedEvent){
@@ -219,7 +157,7 @@ events.register(function(event as crafttweaker.event.ExplosionStartEvent){
     if event.y > 5 { return; }
 
     for player in event.world.getAllPlayers(){
-    if !player.hasGameStage("BansheeSpawn") { player.sendStatusMessage("§5Malignant energy stops you from going further"); event.explosion.doExplosionB(true); event.cancel(); }
+        if !player.hasGameStage("BansheeSpawn") { player.sendStatusMessage("§5Malignant energy stops you from going further"); event.explosion.doExplosionB(true); event.cancel(); }
     }
 });
 //Deep Caverns Lock
@@ -229,7 +167,7 @@ events.register(function(event as crafttweaker.event.PortalSpawnEvent){
     if event.world.isRemote() { return; }
 
     for player in event.world.getAllPlayers(){
-    if !player.hasGameStage("Portalkey") { player.sendStatusMessage("§dThe Skeleton King holds the key to this dimension"); event.cancel(); }
+        if !player.hasGameStage("Portalkey") { player.sendStatusMessage("§dThe Skeleton King holds the key to this dimension"); event.cancel(); }
     }
 });
 events.register(function(event as crafttweaker.event.EntityTravelToDimensionEvent){
@@ -244,9 +182,116 @@ events.register(function(event as crafttweaker.event.EntityTravelToDimensionEven
 });
 //Nether Portal Lock
 
-//Avoid Cave Spawn and vice versa
+//Vitalberry tutorial
 
-//Avoid Cave Spawn and vice versa
+var playerCache = {} as IData[string];
+
+events.register(function(event as crafttweaker.event.PlayerTickEvent){
+if event.side == "CLIENT" return; 
+if event.phase == "END" return;
+if event.player.world.time %20 != 0 return;
+if event.player.hasGameStage("gatheredberries") return;
+
+    val player = event.player;
+    val pName = player.name;
+    val px = player.x;
+    val pz = player.z;
+    val py = player.y as int;
+    val yaw = (player.rotationYaw + 90);
+    val time = player.world.time;
+
+    //if !isNull(playerCache[pName]) {
+    //    var lastData = playerCache[pName] as IData[string];
+//
+    //if (!isNull(lastData)) {
+    //    print("lastData contents: " ~ toString(lastData));
+//
+    //    var lastTick = (lastData["lastTick"] as IData).asLong();
+    //    var lastYaw = (lastData["yaw"] as IData).asFloat();
+//
+    //    // Skip if player scanned recently and didn't rotate much
+    //    if ((time - lastTick) < 100 && Math.abs(lastYaw - yaw) < 10.0) {
+    //        var bushList = (lastData["bushes"]).asMap();
+//
+    //        for bush in bushList {
+    //            var bx = bush["x"] as int;
+    //            var by = bush["y"] as int;
+    //            var bz = bush["z"] as int;
+//
+    //            var pos = crafttweaker.util.Position3f.create(bx, by, bz) as IBlockPos;
+    //            var state = player.world.getBlockState(pos);
+//
+    //            if (state.compare(<blockstate:rustic:wildberry_bush:berries=true>) == 0) {
+    //                server.commandManager.executeCommandSilent(server,
+    //                    "particle heart " ~ bx ~ " " ~ (by + 1) ~ " " ~ bz ~ " 0.2 0.0 0.2 0 1 force " ~ pName);
+    //            }
+    //        }
+    //        return;
+    //    }
+    //}}  
+
+    val pi = 3.14159265;
+    val rad = yaw * pi / 180.0;
+    val cosJaw = Math.cos(rad);
+    val sinJaw = Math.sin(rad);
+    val range = 12;
+
+    //var newBushes = {} as IData[string];
+    //var bushCount = 0;
+
+    for offset in 1 to range {
+        val spread = (range - (range - offset));
+
+        for sideOffset in ((spread - 1) * -1) to spread {
+            // Build triangle
+            val fx = offset;
+            val fz = sideOffset;
+
+            // Rotate fx/fz by yaw
+            val dx = cosJaw * fx - sinJaw * fz;
+            val dz = sinJaw * fx + cosJaw * fz;
+
+            val x = (px + dx) as int;
+            val z = (pz + dz) as int;
+
+            val pos = crafttweaker.util.Position3f.create(x, py, z) as IBlockPos;
+            val blockstate = player.world.getBlockState(pos);
+
+            if (blockstate.compare(<blockstate:rustic:wildberry_bush:berries=true>) == 0) {
+                server.commandManager.executeCommandSilent(server, "particle heart " ~ x ~ " " ~ (py + 1) ~ " " ~ z ~ " 0.2 0.0 0.2 0 1 force " ~ pName);
+            
+                //var bushData = {
+                //        "x": x,
+                //        "y": py,
+                //        "z": z
+                //} as IData;
+//
+                //newBushes[bushCount as string] = bushData;
+                //print(toString(newBushes));
+                //bushCount += 1;
+                
+            }
+        }
+    }
+    
+    //var cacheData = {
+    //    "lastTick": time,
+    //    "yaw": yaw,
+    //} as IData[string];
+    //    
+    //cacheData["bushes"] = newBushes;
+//
+    //playerCache[pName] = cacheData;
+});
+
+events.register(function(event as crafttweaker.event.PlayerInteractBlockEvent){
+if event.player.world.isRemote() { return; }
+if event.player.hasGameStage("gatheredberries") { return; }
+    if event.blockState.compare(<blockstate:rustic:wildberry_bush:berries=true>) == 0 {
+        event.player.addGameStage("gatheredberries");
+    }
+});
+//Vitalberry tutorial
 
 //Ore Harvest Levels
 <biomesoplenty:gem_ore:0>.asBlock().definition.setHarvestLevel("pickaxe", 6);

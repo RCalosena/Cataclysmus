@@ -23,6 +23,7 @@ val Helmets = [
 ] as IItemStack[];
 
 val Chestplates = [
+    <minecraft:elytra>,
     <cqrepoured:chestplate_heavy_iron>,
     <metallurgy:orichalcum_chestplate>,
     <metallurgy:electrum_chestplate>,
@@ -172,7 +173,7 @@ events.register(function(event2 as crafttweaker.event.EntityLivingJumpEvent) {
 
             var newAmplifier = (player.getActivePotionEffect(rage).amplifier + 1) as int;
             
-            if (player.getActivePotionEffect(rage).duration < 90) { player.sendPlaySoundPacket("minecraft:entity.wither.shoot", "player", player.position, 1.0, 0.5); player.addPotionEffect(rage.makePotionEffect(100, newAmplifier)); player.addPotionEffect(<potion:lycanitesmobs:instability>.makePotionEffect(100, 0)); }
+            if (player.getActivePotionEffect(rage).duration < 90) { player.sendPlaySoundPacket("minecraft:entity.wither.shoot", "player", player.position, 1.0, 0.5); player.addPotionEffect(rage.makePotionEffect(100, newAmplifier)); player.addPotionEffect(<potion:lycanitesmobs:instability>.makePotionEffect(50, 0)); }
         }
     }
 });

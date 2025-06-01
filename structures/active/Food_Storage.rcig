@@ -81,6 +81,66 @@
         "damage": 0,
         "count": 1
       }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "minecraft:rabbit",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "mod_lavacow:mimic_claw",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "minecraft:beetroot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "mysticalworld:aubergine",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "rustic:tomato",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "rustic:chili_pepper",
+        "damage": 0,
+        "count": 1
+      }
     }
   ],
   "dependencyExpression": ""

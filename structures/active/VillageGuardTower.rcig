@@ -13,11 +13,11 @@
       }
     },
     {
-      "weight": 1.0,
+      "weight": 1.6340234279632568,
       "min": 1,
-      "max": 1,
+      "max": 64,
       "item": {
-        "id": "minecraft:iron_sword",
+        "id": "minecraft:arrow",
         "damage": 0,
         "count": 1
       }
@@ -28,46 +28,6 @@
       "max": 1,
       "item": {
         "id": "minecraft:wooden_sword",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:leather_leggings",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:leather_chestplate",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:leather_helmet",
-        "damage": 0,
-        "count": 1
-      }
-    },
-    {
-      "weight": 1.0,
-      "min": 1,
-      "max": 1,
-      "item": {
-        "id": "minecraft:leather_boots",
         "damage": 0,
         "count": 1
       }
@@ -93,21 +53,205 @@
       }
     },
     {
-      "weight": 0.61,
+      "weight": 1.0,
       "min": 1,
       "max": 1,
       "item": {
-        "id": "minecraft:iron_axe",
+        "id": "spartanweaponry:crossbow_wood",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {}
+        }
+      }
+    },
+    {
+      "weight": 1.6340234279632568,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "spartanweaponry:bolt",
         "damage": 0,
         "count": 1
       }
     },
     {
-      "weight": 2.0475566387176514,
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "spartanweaponry:bolt_diamond",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "minecraft:spectral_arrow",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "spartanweaponry:arrow_diamond",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 2.202605724334717,
       "min": 1,
       "max": 64,
       "item": {
         "id": "spartanweaponry:arrow_wood",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "switchbow:arrowvampier",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "switchbow:arrowwither",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowunderwater",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowsplit",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowbone",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowfire",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowfirework",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowburial",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "switchbow:arrowtriple",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowprotector",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowknockback",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowbouncy",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 32,
+      "item": {
+        "id": "switchbow:arrowofthesearcher",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 1.0,
+      "min": 1,
+      "max": 64,
+      "item": {
+        "id": "switchbow:arrowpiercing",
         "damage": 0,
         "count": 1
       }
