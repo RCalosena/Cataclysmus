@@ -1,3 +1,0 @@
-gamestage silentremove @p difficulty_nether
-gamestage silentremove @p difficulty_end
-gamestage silentremove @p difficulty_midnight
