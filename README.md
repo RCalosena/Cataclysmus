@@ -1,6 +1,6 @@
 # Cataclysmus
 Source code of Cataclysmus.
 
-Cataclysmus is a survival RPG modpack that reworks Minecraft with a gameplay focus to it, aiming to turn combat into a strategic and fast-pased experience that actively deviates from being vanilla-friendly.
+Cataclysmus is a survival RPG modpack that reworks Minecraft with a progression and gameplay focus to it, aiming to turn it into a strategic and fast-pased experience, while also bringing a new engaging story to follow.
 
-Credits: https://cataclysm.fandom.com/wiki/Contributors
+Modpack: https://www.curseforge.com/minecraft/modpacks/cataclysmus
