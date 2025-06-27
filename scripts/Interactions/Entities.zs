@@ -8,6 +8,10 @@ import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.entity.IEntityItem;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.block.IMaterial as material;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.data.IData;
+
+import crafttweaker.entity.IEntityThrowable;    
 
 //Eyes attack detection
 function eyeDist(mob as IEntity, dist as double) as bool{
@@ -52,19 +56,74 @@ events.register(function(event as crafttweaker.event.EntityLivingDeathEvent){
 events.register(function(event as crafttweaker.event.EntityLivingDamageEvent){
     if event.entityLivingBase.world.isRemote() return;
     if isNull(event.entityLivingBase.definition) return;
-    if event.entityLivingBase.definition.id != "mod_lavacow:skeletonking" return;
+    if (event.entityLivingBase.definition.id != "mod_lavacow:skeletonking" && event.entityLivingBase.definition.id != "erebus:erebus.antlion_boss" && event.entityLivingBase.definition.id != "erebus:erebus.tarantula_mini_boss") { return; }
     if isNull(event.damageSource.trueSource) return;
     if !event.damageSource.trueSource instanceof IPlayer return;
 
     var victim = event.entityLivingBase;
 
-    if victim.health <= (victim.maxHealth * 0.75) { event.amount *= 0.30; }
-    if victim.health <= (victim.maxHealth * 0.5) { event.amount *= 0.60; }
-    if victim.health <= (victim.maxHealth * 0.25) { event.amount *= 0.80; }
+    if (victim.health <= (victim.maxHealth * 0.75) && victim.health > (victim.maxHealth * 0.5)) { event.amount *= 0.50; }
+    if (victim.health <= (victim.maxHealth * 0.5) && victim.health > (victim.maxHealth * 0.25)) { event.amount *= 0.30; }
+    if (victim.health <= (victim.maxHealth * 0.25)) { event.amount *= 0.15; }
 });
 //SkeletonKing Changes
 
-//No Cave Scarecrow/Weta
+//killminionssuperbosses
+events.register(function(event as crafttweaker.event.EntityLivingDeathEvent){
+    if event.entityLivingBase.world.isRemote() return;
+    if isNull(event.entityLivingBase.definition) return;
+    if event.entityLivingBase.definition.id != "lycanitesmobs:rahovart" return;
+
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:belph]");
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:behemoth]");
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:archvile]");
+});
+
+events.register(function(event as crafttweaker.event.EntityLivingDeathEvent){
+    if event.entityLivingBase.world.isRemote() return;
+    if isNull(event.entityLivingBase.definition) return;
+    if event.entityLivingBase.definition.id != "lycanitesmobs:asmodeus" return;
+
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:trite]");
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:grell]");
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:astaroth]");
+});
+
+events.register(function(event as crafttweaker.event.EntityLivingDeathEvent){
+    if event.entityLivingBase.world.isRemote() return;
+    if isNull(event.entityLivingBase.definition) return;
+    if event.entityLivingBase.definition.id != "lycanitesmobs:amalgalich" return;
+
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:darkling]");
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:epion]");
+    server.commandManager.executeCommandSilent(server,"kill @e[type=lycanitesmobs:reaper]");
+});
+//killminionssuperbosses
+
+//healing superbosses
+events.register(function(event11 as crafttweaker.event.EntityLivingHealEvent) {
+if event11.entityLivingBase.world.isRemote() { return; }
+if !event11.entityLivingBase.isBoss return;
+
+event11.amount *= 1 + (event11.entityLivingBase.maxHealth * 0.001);
+});
+//healing superbosses
+
+//Behemophet no grab because super unfair and buggy and makes me mad
+events.register(function(event as crafttweaker.event.EntityLivingDamageEvent){
+    if event.entityLivingBase.world.isRemote() return;
+    if isNull(event.damageSource.trueSource) return;
+    if isNull(event.damageSource.trueSource.definition) return;
+    if event.damageSource.trueSource.definition.id != "lycanitesmobs:behemoth" return;
+    if !event.entityLivingBase instanceof IPlayer return;
+
+    var victim as IPlayer = event.entityLivingBase;
+
+    victim.addPotionEffect(<potion:lycanitesmobs:repulsion>.makePotionEffect(1, 0));
+});
+//Behemophet no grab because super unfair and buggy and makes me mad
+
+//No Cave Scarecrow/Weta/forsaken
 events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
     if event.entity.world.isRemote() return;
     if isNull(event.entity.definition) return;
@@ -80,7 +139,7 @@ events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
         }
     }
 });
-//No Cave Scarecrow/Weta
+//No Cave Scarecrow/Weta/forsaken
 
 //Mobs That Inflict Insomnia
 val insomnious = [
@@ -334,7 +393,32 @@ events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
     var entity as IEntityLivingBase = event.entity;
 
     for srp in srparasite_mobs {
-        if (entity.definition.id == srp && entity.maxHealth > 100) {
+        if entity.definition.id == srp {
+            if (entity.world.dimension == 0 && entity.maxHealth > 100) {
+                event.cancel();
+            }
+            if entity.world.dimension == 10 {
+                event.cancel();
+            }
+        }
+    }
+});
+
+val jadearmor = [
+    "erebus:jade_helmet",
+    "erebus:jade_chestplate",
+    "erebus:jade_leggings",
+    "erebus:jade_boots"
+] as string[];
+
+events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
+    if event.entity.world.isRemote() return;
+    if !event.entity instanceof IEntityItem return;
+    var item as IEntityItem = event.entity;
+    if event.entity.world.getClosestPlayerToEntity(event.entity, 20, false).hasGameStage("jade") return;
+
+    for items in jadearmor {
+        if item.item.definition.id == items {
             event.cancel();
         }
     }
@@ -358,6 +442,75 @@ events.register(function(event as mods.ctintegration.gamestages.GameStageAddedEv
     }
 });
 //Parasite drop whitelist
+
+events.register(function(event as crafttweaker.event.PlayerAttackEntityEvent){
+    if event.target.world.isRemote() return;
+    if isNull(event.target.definition) return;
+    if event.target.definition.id != "betteranimalsplus:hirschgeist" return;
+    if !event.player.hasAnyGameStages("two","oatmeal","nightmare") {
+        event.cancel();
+    }
+});
+
+//Prevent Some Enchant Drops
+function EnchantDropCheck(enchant as IData, IEnchID as [IEnchantmentDefinition]) as bool {
+    if (!isNull(enchant)) {
+        for target in IEnchID{
+            for n in 0 to enchant.length {
+                if (enchant[n].id == target.id) {
+                    return true;
+                }
+            }
+        }
+    }
+    else {
+        return false;
+    }
+}
+
+events.register(function(event as crafttweaker.event.EntityLivingDeathDropsEvent){
+    if event.entityLivingBase.world.isRemote() return;
+    if event.entityLivingBase instanceof IPlayer return;
+    for drop in event.drops {
+
+        if (EnchantDropCheck(drop.item.tag.StoredEnchantments, [
+                <enchantment:minecraft:mending>,
+                <enchantment:uniquee:all>,
+                <enchantment:uniquee:undead>,
+                <enchantment:uniquee:arthropods>,
+                <enchantment:uniquee:swift>,
+                <enchantment:uniquee:ender_mending>,
+                <enchantment:uniquee:alchemistsgrace>,
+                <enchantment:uniquee:endest_reap>,
+                <enchantment:uniquee:grimoire>,
+                <enchantment:walljump:walljump>,
+                <enchantment:walljump:speedboost>,
+                <enchantment:uniqueebattle:ares_fragment>,
+                <enchantment:uniquee:warriorsgrace>,
+                <enchantment:uniquee:endermarksmen>,
+                <enchantment:uniquee:aresblessing>,
+                <enchantment:uniquee:cloudwalker>,
+                <enchantment:uniquee:fastfood>,
+                <enchantment:uniquee:naturesgrace>,
+                <enchantment:uniquee:ecological>,
+                <enchantment:uniqueebattle:deep_wounds>,
+                <enchantment:uniquee:pestilences_odium>,
+                <enchantment:uniquee:deaths_odium>,
+                <enchantment:uniqueebattle:lunatic_despair>,
+                <enchantment:uniquee:ranged>,
+                <enchantment:mujmajnkraftsbettersurvival:vitality>,
+                <enchantment:ebwizardry:freezing_weapon>,
+                <enchantment:ebwizardry:magic_sword>,
+                <enchantment:ebwizardry:magic_bow>,
+                <enchantment:ebwizardry:flaming_weapon>,
+                <enchantment:uniqueebattle:ifrits_judgement>
+            ])) {
+            drop.setDead();
+            event.entityLivingBase.world.spawnEntity(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 16 as short}]}).createEntityItem(event.entityLivingBase.world, event.entityLivingBase.position3f as IBlockPos));
+        }
+    }
+});
+//Prevent Some Enchant Drops
 
 //Disc Quest
 events.register(function(event as crafttweaker.event.ItemExpireEvent){
@@ -392,6 +545,7 @@ events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
     if event.entity.world.isRemote() { return; }
     if !event.entity instanceof IEntityItem { return; }
     var itemEntity as IEntityItem = event.entity;
+    if isNull(itemEntity.item) { return; }
     if !itemEntity.item.matches(<customdisc:rcalosena_-_dark_space>) { return; }
 
     if itemEntity.y < 0 {
@@ -421,8 +575,6 @@ events.register(function(event as crafttweaker.event.EntityLivingDamageEvent){
 
     if isNull(player.currentItem) { return; }
     if !player.currentItem.matches(<customdisc:empty_disc>) { return; }
-
-    print(event.amount);
 
     if (event.amount >= (player.maxHealth/3)) { player.setItemToSlot(IEntityEquipmentSlot.mainHand(), <customdisc:rcalosena_-_stopgo>); }
 });
@@ -489,3 +641,26 @@ events.register(function(event as crafttweaker.event.ItemTossEvent){
     if (!event.item.world.isDayTime() && event.item.world.dimension == 0 && event.item.y > 250) { event.item.hasNoGravity = true; }
 });
 //Disc Quest
+
+//Drops
+game.getEntity("rahovart").addDropFunction(function(entity, dmgSource) {
+        var count as int = 15 * entity.world.getAllPlayers().length;
+        return <erebus:materials:39> * count;
+});
+game.getEntity("asmodeus").addDropFunction(function(entity, dmgSource) {
+        var count as int = 10 * entity.world.getAllPlayers().length;
+        return <biomesoplenty:gem:1> * count;
+});
+game.getEntity("amalgalich").addDropFunction(function(entity, dmgSource) {
+        var count1 as int = 10 * entity.world.getAllPlayers().length;
+        return <srparasites:living_core> * count1;
+});
+game.getEntity("amalgalich").addDropFunction(function(entity, dmgSource) {
+        var count2 as int = 20 * entity.world.getAllPlayers().length;
+        return <srparasites:vile_shell> * count2;
+});
+<entity:minecraft:ender_dragon>.addDropFunction(function(entity, dmgSource) {
+        var count as int = 5 * (entity.world.getAllPlayers().length);
+        return <bountifulbaubles:enderdragonscale> * count;
+});
+//Drops

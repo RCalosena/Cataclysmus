@@ -7,7 +7,7 @@ import mods.ctintegration.scalinghealth.DifficultyManager;
 //Difficulty System Overhaul
 events.register(function(event as crafttweaker.event.PlayerChangedDimensionEvent){
     //Nether
-    if (event.to == -1 && !event.player.hasAnyGameStages("nightmare", "one", "two", "oatmeal")) { DifficultyManager.setDifficulty(event.player, 300.0); }
+    if (event.to == -1 && !event.player.hasAnyGameStages("nightmare", "one", "two", "oatmeal")) { DifficultyManager.setDifficulty(event.player, 150.0); }
     //Nether
 
     //End
@@ -29,7 +29,7 @@ events.onPlayerClone(function(event as crafttweaker.event.PlayerCloneEvent){
 
     //From End to Overworld (bc for some reason it has to be different)
     if (!event.wasDeath && !event.player.hasAnyGameStages("nightmare", "one", "two", "oatmeal")) { DifficultyManager.setDifficulty(event.originalPlayer, 0.0); }
-    if (!event.wasDeath && event.player.hasGameStage("one")) { DifficultyManager.setDifficulty(event.originalPlayer, 400.0); }
+    if (!event.wasDeath && event.player.hasGameStage("one")) { DifficultyManager.setDifficulty(event.originalPlayer, 300.0); }
     //From End to Overworld (bc for some reason it has to be different)
 });
 
@@ -55,13 +55,13 @@ events.register(function(event as mods.ctintegration.gamestages.GameStageAddedEv
 
 //Nightmare mode day counter
 events.register(function(event as crafttweaker.event.PlayerTickEvent){
-        if event.side == "CLIENT" { return; }
+        if (event.side == "CLIENT") { return; }
         if (event.phase == "START") { return; }
         if !event.player.hasGameStage("nightmare") { return; }
 
         var world = event.player.world;
 
-        if(world.provider.getWorldTime() == 24000)
+        if world.provider.getWorldTime() % 24000 == 0
         {
                 event.player.sendStatusMessage("§6Difficulty §6increased §6by §c+50");
                 DifficultyManager.addDifficulty(event.player, 16.6666666, false);
@@ -108,7 +108,7 @@ events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){
     if isNull(event.damageSource.trueSource) { return; }
     if !event.damageSource.trueSource instanceof IPlayer { return; }
 
-    event.amount *= 0.1; 
+    event.amount *= 0.2; 
 }); 
 
 events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){ 

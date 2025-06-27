@@ -31,8 +31,8 @@
   "width": 18.0,
   "height": 24.0,
   "experience": 10000,
-  "health": 10000,
-  "defense": 2,
+  "health": 15000,
+  "defense": 16,
   "armor": 0,
   "speed": 32,
   "damage": 100,
@@ -142,18 +142,6 @@
       "item": "lycanitesmobs:soulstone_plant",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
-    },
-    {
-      "item": "srparasites:vile_shell",
-      "minAmount": 20,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
-      "item": "srparasites:living_core",
-      "minAmount": 10,
-      "maxAmount": 10,
       "chance": 1
     }
   ],

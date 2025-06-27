@@ -277,7 +277,7 @@ val mvillage = mujvillage.getPool("weapons");
     skelington.removeEntry("mod_lavacow:faminearmor_helmet");   
     skelington.removeEntry("mod_lavacow:faminearmor_chestplate");
     skelington.removeEntry("mod_lavacow:skeletonking_mace"); 
-    skelington.addItemEntry(<mod_lavacow:emblem_of_king>, 5, 1, [{"count": {"min": 8.0, "max": 10.0}, "function": "minecraft:set_count"}], []);
+    skelington.addItemEntry(<mod_lavacow:emblem_of_king>, 5, 1, [{"count": {"min": 16.0, "max": 24.0}, "function": "minecraft:set_count"}], []);
     deserttomb.removeEntry("mod_lavacow:ectoplasm"); 
     cemeteryMain.removeEntry("mod_lavacow:ectoplasm"); 
 
@@ -655,8 +655,10 @@ for item in DArray{
 val deep_caverns = LootTweaker.newTable("cataclysmus:deep_caverns");
 val dc_main = deep_caverns.addPool("main", 6, 8, 1, 2);
 
-dc_main.addItemEntry(<quark:rune>, 4, 1, [{"data": {"min": 0.0, "max": 15.0}, "function": "minecraft:set_data"}], []);
-dc_main.addItemEntry(<quark:ancient_tome>, 4, 1, [{"function": "quark:enchant_tome"}], []);
+dc_main.addItemEntry(<quark:rune>, 5, 1, [{"data": {"min": 0.0, "max": 15.0}, "function": "minecraft:set_data"}], []);
+dc_main.addItemEntry(<quark:rune>, 5, 1, [{"data": {"min": 0.0, "max": 15.0}, "function": "minecraft:set_data"}], []);
+dc_main.addItemEntry(<quark:ancient_tome>, 5, 1, [{"function": "quark:enchant_tome"}], []);
+dc_main.addItemEntry(<quark:ancient_tome>, 5, 1, [{"function": "quark:enchant_tome"}], []);
 dc_main.addItemEntry(<minecraft:rotten_flesh>, 3, 1, [{"count": {"min": 3.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
 dc_main.addItemEntry(<minecraft:web>, 5, 1, [{"count": {"min": 1.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
 dc_main.addItemEntry(<lycanitesmobs:quickweb>, 4, 1, [{"count": {"min": 1.0, "max": 32.0}, "function": "minecraft:set_count"}], []);
@@ -772,8 +774,6 @@ end_main.addItemEntry(<everlastingabilities:ability_totem>.withTag({"everlasting
 end_main.addItemEntry(<everlastingabilities:ability_totem>.withTag({"everlastingabilities:abilityStoreStack": [{level: 3, name: "ability.abilities.everlastingabilities.recoil.name"}]}), 2);
 end_main.addItemEntry(<everlastingabilities:ability_totem>.withTag({"everlastingabilities:abilityStoreStack": [{level: 2, name: "ability.abilities.everlastingabilities.recoil.name"}]}), 3);
 end_main.addItemEntry(<everlastingabilities:ability_totem>.withTag({"everlastingabilities:abilityStoreStack": [{level: 1, name: "ability.abilities.everlastingabilities.recoil.name"}]}), 3);
-end_main.addItemEntry(<everlastingabilities:ability_totem>.withTag({"everlastingabilities:abilityStoreStack": [{level: 2, name: "ability.abilities.everlastingabilities.curse.name"}]}), 1);
-end_main.addItemEntry(<everlastingabilities:ability_totem>.withTag({"everlastingabilities:abilityStoreStack": [{level: 1, name: "ability.abilities.everlastingabilities.curse.name"}]}), 2);
 end_main.addItemEntry(<minecraft:chorus_fruit>, 4, 1, [{"count": {"min": 1.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
 end_main.addItemEntry(<minecraft:chorus_fruit_popped>, 3, 1, [{"count": {"min": 1.0, "max": 64.0}, "function": "minecraft:set_count"}], []);
 end_main.addItemEntry(<stygian:endtallgrass>, 5, 1, [{"count": {"min": 1.0, "max": 64.0}, "function": "minecraft:set_count"}], []);

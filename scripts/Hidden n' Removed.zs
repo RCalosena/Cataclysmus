@@ -11,6 +11,7 @@ val Array = [
     <dynamicstealth:handmirror>,
     <biomesoplenty:gem_block:1>,
     <biomesoplenty:terrestrial_artifact>,
+    <spartanweaponry:quiver_bolt>,
     <mod_lavacow:beast_claw>,
     <mod_lavacow:reapers_scythe>,
     <lycanitesmobs:saddle_aberration>,

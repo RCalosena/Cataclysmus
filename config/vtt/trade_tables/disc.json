@@ -164,18 +164,6 @@
                 "action": "add",
                 "buy": {
                     "id": "minecraft:emerald",
-                    "Count": 10
-                },
-                "sell": {
-                    "id": "customdisc:empty_disc",
-                    "Count": 1
-                },
-                "CareerLevel": 1, "maxUses":5, "chance": 0.1
-            },
-            {
-                "action": "add",
-                "buy": {
-                    "id": "minecraft:emerald",
                     "Count": 1
                 },
                 "sell": {
@@ -195,6 +183,18 @@
                     "Count": 1
                 },
                 "CareerLevel": 1, "maxUses":5, "chance": 0.5
+            },
+            {
+                "action": "add",
+                "buy": {
+                    "id": "minecraft:emerald",
+                    "Count": 10
+                },
+                "sell": {
+                    "id": "customdisc:empty_disc",
+                    "Count": 1
+                },
+                "CareerLevel": 1, "maxUses":5, "chance": 0.4
             }
         ]
     }

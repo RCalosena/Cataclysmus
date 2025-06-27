@@ -633,7 +633,7 @@ val AArray = [
 
 <behgameon:accessory_46>.displayName = "The Interdimensional Soldier's Charm";
 <behgameon:accessory_46>.addTooltip(format.gold("Furor"));
-<behgameon:accessory_46>.addShiftTooltip("Increases attack damage by 20%, armor toughness by 8, and armor by 15","Hold Shift to see more details");
+<behgameon:accessory_46>.addShiftTooltip("Increases attack damage by 15%, armor toughness by 8, and armor by 15","Hold Shift to see more details");
 
 <behgameon:accessory_55>.displayName = "Diamond-tipped Arrow";
 <behgameon:accessory_55>.addTooltip(format.aqua("Arcum"));
@@ -680,13 +680,13 @@ val AArray = [
 <srparasites:armor_boots_sentient>.withTag({iron_heart: 1}).anyDamage().addShiftTooltip("Gain resistance based on your percentage of health. Enemies are pushed back and inflicted with fear if they hit you after activating Unstable Rage. The duration of the Fear effect on the enemies depends on the amplifier of Rage.","Hold Shift to see more details");
 
 <srparasites:armor_helm_sentient>.withTag({assassin: 1}).anyDamage().addTooltip(format.darkPurple("Death Touch"));
-<srparasites:armor_helm_sentient>.withTag({assassin: 1}).anyDamage().addShiftTooltip("+100% Damage and +0.8 Range but -95% Attack Speed. Successfully landing a Madness Mode hit on an enemy will also inflict it with Death Touch (The enemy instantly dies when below 30% health)","Hold Shift to see more details");
+<srparasites:armor_helm_sentient>.withTag({assassin: 1}).anyDamage().addShiftTooltip("+113% Damage and +0.8 Range but -65% Attack Speed. Successfully landing a Madness Mode hit on an enemy will also inflict it with Death Touch (The enemy instantly dies when below 30% health)","Hold Shift to see more details");
 <srparasites:armor_chest_sentient>.withTag({assassin: 1}).anyDamage().addTooltip(format.darkPurple("Death Touch"));
-<srparasites:armor_chest_sentient>.withTag({assassin: 1}).anyDamage().addShiftTooltip("+100% Damage and +0.8 Range but -95% Attack Speed. Successfully landing a Madness Mode hit on an enemy will also inflict it with Death Touch (The enemy instantly dies when below 30% health)","Hold Shift to see more details");
+<srparasites:armor_chest_sentient>.withTag({assassin: 1}).anyDamage().addShiftTooltip("+113% Damage and +0.8 Range but -65% Attack Speed. Successfully landing a Madness Mode hit on an enemy will also inflict it with Death Touch (The enemy instantly dies when below 30% health)","Hold Shift to see more details");
 <srparasites:armor_pants_sentient>.withTag({assassin: 1}).anyDamage().addTooltip(format.darkPurple("Death Touch"));
-<srparasites:armor_pants_sentient>.withTag({assassin: 1}).anyDamage().addShiftTooltip("+100% Damage and +0.8 Range but -95% Attack Speed. Successfully landing a Madness Mode hit on an enemy will also inflict it with Death Touch (The enemy instantly dies when below 30% health)","Hold Shift to see more details");
+<srparasites:armor_pants_sentient>.withTag({assassin: 1}).anyDamage().addShiftTooltip("+113% Damage and +0.8 Range but -65% Attack Speed. Successfully landing a Madness Mode hit on an enemy will also inflict it with Death Touch (The enemy instantly dies when below 30% health)","Hold Shift to see more details");
 <srparasites:armor_boots_sentient>.withTag({assassin: 1}).anyDamage().addTooltip(format.darkPurple("Death Touch"));
-<srparasites:armor_boots_sentient>.withTag({assassin: 1}).anyDamage().addShiftTooltip("+100% Damage and +0.8 Range but -95% Attack Speed. Successfully landing a Madness Mode hit on an enemy will also inflict it with Death Touch (The enemy instantly dies when below 30% health)","Hold Shift to see more details");
+<srparasites:armor_boots_sentient>.withTag({assassin: 1}).anyDamage().addShiftTooltip("+113% Damage and +0.8 Range but -65% Attack Speed. Successfully landing a Madness Mode hit on an enemy will also inflict it with Death Touch (The enemy instantly dies when below 30% health)","Hold Shift to see more details");
 
 <srparasites:armor_helm_sentient>.withTag({flailer: 1}).anyDamage().addTooltip(format.darkPurple("Panic Expert"));
 <srparasites:armor_helm_sentient>.withTag({flailer: 1}).anyDamage().addShiftTooltip("You receive more knockback based on your health and deal 50% less. Adversity will now also influence movement speed","Hold Shift to see more details");

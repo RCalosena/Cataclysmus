@@ -35,8 +35,8 @@
   "height": 21.0,
   "experience": 10000,
   "health": 10000,
-  "defense": 0,
-  "armor": 0,
+  "defense": 8,
+  "armor": 40,
   "speed": 32,
   "damage": 6,
   "attackSpeed": 1,
@@ -108,12 +108,6 @@
       "chance": 1
     },
     {
-      "item": "minecraft:nether_star",
-      "minAmount": 1,
-      "maxAmount": 8,
-      "chance": 1
-    },
-    {
       "item": "lycanitesmobs:doomfireballcharge",
       "minAmount": 10,
       "maxAmount": 20,
@@ -126,30 +120,6 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:demonstone",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:demonstonebrick",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:demonstonetile",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:demoncrystal",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
       "item": "lycanitesmobs:soulstone_aberration",
       "minAmount": 1,
       "maxAmount": 3,
@@ -159,13 +129,6 @@
       "item": "lycanitesmobs:wraithsigil",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 1
-    },
-    {
-      "item": "biomesoplenty:gem",
-      "metadata": 1,
-      "minAmount": 5,
-      "maxAmount": 5,
       "chance": 1
     }
   ],

@@ -46,6 +46,7 @@ val Helmets = [
     <metallurgy:eximite_helmet>,
     <metallurgy:shadow_iron_helmet>,
     <minecraft:diamond_helmet>,
+    <cqrepoured:helmet_diamond_dyable>,
     <srparasites:armor_helm_sentient>.withTag({flailer: 1})
 ] as IItemStack[];
 
@@ -58,6 +59,7 @@ val Chestplates = [
     <metallurgy:eximite_chestplate>,
     <metallurgy:shadow_iron_chestplate>,
     <minecraft:diamond_chestplate>,
+    <cqrepoured:chestplate_diamond_dyable>,
     <srparasites:armor_chest_sentient>.withTag({flailer: 1})
 ] as IItemStack[];
 
@@ -69,6 +71,7 @@ val Leggings = [
     <metallurgy:eximite_leggings>,
     <metallurgy:shadow_iron_leggings>,
     <minecraft:diamond_leggings>,
+    <cqrepoured:leggings_diamond_dyable>,
     <srparasites:armor_pants_sentient>.withTag({flailer: 1})
 ] as IItemStack[];
 
@@ -80,6 +83,7 @@ val Boots = [
     <metallurgy:eximite_boots>,
     <metallurgy:shadow_iron_boots>,
     <minecraft:diamond_boots>,
+    <cqrepoured:boots_diamond_dyable>,
     <srparasites:armor_boots_sentient>.withTag({flailer: 1})
 ] as IItemStack[];
 
@@ -138,7 +142,7 @@ if (playerAttack && hasArmor(attackerPlayer.getItemInSlot(IEntityEquipmentSlot.h
         var health = player.health;
         var maxHealth = player.maxHealth;
 
-        event.strength *= 2.0;
+        event.strength *= 1.5;
 
         if health <= (maxHealth * 0.9) { event.strength *= 1.2; }
         if health <= (maxHealth * 0.8) { event.strength *= 1.2; }

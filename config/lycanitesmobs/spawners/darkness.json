@@ -2,12 +2,12 @@
   "name": "darkness",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": false,
+  "loadDefault": true,
   "conditionsRequired": 0,
   "triggersRequired": 3,
   "multipleLocations": "combine",
   "mobCountMin": 1,
-  "ignoreDimensions": false,
+  "ignoreDimensions": true,
   "ignoreBiomes": true,
   "ignoreCollision": true,
   "ignoreLightLevel": true,
@@ -17,17 +17,17 @@
     {
       "type": "world",
       "dimensionIds": [
-        111
-      ],
-      "dimensionListType": "blacklist"
+        0,
+        7
+      ]
     }
   ],
   "triggers": [
     {
       "type": "player",
       "count": 1,
-      "chance": 0.5,
-      "tickRate": 400,
+      "chance": 0.75,
+      "tickRate": 100,
       "conditions": [
         {
           "type": "player",

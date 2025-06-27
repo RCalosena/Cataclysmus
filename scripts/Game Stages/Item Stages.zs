@@ -90,3 +90,4 @@ val RaArray = [
             }
 
     addItemStage(" ", <cqrepoured:backpack>);
+    addItemStage(" ", <erebus:spider_t_shirt>);

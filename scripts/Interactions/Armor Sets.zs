@@ -15,6 +15,93 @@ import crafttweaker.data.IData;
 import mods.zenutils.DataUpdateOperation.OVERWRITE;
 import crafttweaker.entity.IEntityAnimal;
 
+//Nether Armor Bonus
+function hasNetherArmor(helmet as IItemStack, chestplate as IItemStack, legging as IItemStack, boot as IItemStack) as bool {
+
+    var condition = 0;
+
+    val Helmets = [
+        <metallurgy:oureclase_helmet>,
+        <metallurgy:desichalkos_helmet>,
+        <metallurgy:vulcanite_helmet>,
+        <metallurgy:electrum_helmet>,
+        <metallurgy:ignatius_helmet>,
+        <metallurgy:midasium_helmet>,
+        <metallurgy:kalendrite_helmet>,
+        <metallurgy:carmot_helmet>
+    ] as IItemStack[];
+
+    val Chestplates = [
+        <minecraft:elytra>,
+        <metallurgy:oureclase_chestplate>,
+        <metallurgy:desichalkos_chestplate>,
+        <metallurgy:vulcanite_chestplate>,
+        <metallurgy:electrum_chestplate>,
+        <metallurgy:ignatius_chestplate>,
+        <metallurgy:midasium_chestplate>,
+        <metallurgy:kalendrite_chestplate>,
+        <metallurgy:carmot_chestplate>
+    ] as IItemStack[];
+
+    val Leggings = [
+        <metallurgy:oureclase_leggings>,
+        <metallurgy:desichalkos_leggings>,
+        <metallurgy:vulcanite_leggings>,
+        <metallurgy:electrum_leggings>,
+        <metallurgy:ignatius_leggings>,
+        <metallurgy:midasium_leggings>,
+        <metallurgy:kalendrite_leggings>,
+        <metallurgy:carmot_leggings>
+    ] as IItemStack[];
+
+    val Boots = [
+        <metallurgy:oureclase_boots>,
+        <metallurgy:desichalkos_boots>,
+        <metallurgy:vulcanite_boots>,
+        <metallurgy:electrum_boots>,
+        <metallurgy:ignatius_boots>,
+        <metallurgy:midasium_boots>,
+        <metallurgy:kalendrite_boots>,
+        <metallurgy:carmot_boots>
+    ] as IItemStack[];
+
+    for helmut in Helmets {
+        if (helmut.anyDamage().matches(helmet)) { condition += 1; }
+    }
+    for chestplute in Chestplates {
+        if (chestplute.anyDamage().matches(chestplate)) { condition += 1; }
+    }
+    for leggung in Leggings {
+        if (leggung.anyDamage().matches(legging)) { condition += 1; }
+    }
+    for but in Boots {
+        if (but.anyDamage().matches(boot)) { condition += 1; }
+    }
+
+
+    if condition == 4 { return true; }
+
+    return false;
+}
+
+events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){
+    if event.entityLivingBase.world.isRemote() { return; }
+    if event.entityLivingBase instanceof IPlayer { return; }
+    if isNull(event.damageSource.trueSource) { return; }
+    if !event.damageSource.trueSource instanceof IPlayer { return; }
+    if isNull(event.entityLivingBase.definition) { return; }
+    
+    if (event.entityLivingBase.definition.id == "lycanitesmobs:behemoth" || event.entityLivingBase.definition.id == "lycanitesmobs:belph") {
+
+        var player as IPlayer = event.damageSource.trueSource;
+
+        if (hasNetherArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet()))) {
+            event.amount *= 2.0; 
+        }
+    }
+}); 
+//Nether Armor Bonus
+
 //Copper
 function hasCopperArmor(helmet as IItemStack, chestplate as IItemStack, legging as IItemStack, boot as IItemStack) as bool {
 

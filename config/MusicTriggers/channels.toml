@@ -3,8 +3,6 @@
 # Note that you can nest config files in folders by specifying the folder before it like folder/filename.
 
 [sfx]
-	paused_by_jukebox = false
-	overrides_normal_music = false
 	pause_overrides = false
 	explicit_overrides = false
 

@@ -35,7 +35,7 @@
   "height": 25.0,
   "experience": 10000,
   "health": 6000,
-  "defense": 4,
+  "defense": 8,
   "armor": 0,
   "speed": 32,
   "damage": 2,
@@ -80,27 +80,9 @@
   "dungeonLevel": 1,
   "drops": [
     {
-      "item": "minecraft:blaze_powder",
-      "minAmount": 20,
-      "maxAmount": 50,
-      "chance": 1
-    },
-    {
-      "item": "minecraft:blaze_rod",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
-      "item": "minecraft:diamond",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
       "item": "minecraft:nether_star",
       "minAmount": 1,
-      "maxAmount": 8,
+      "maxAmount": 4,
       "chance": 1
     },
     {
@@ -117,45 +99,38 @@
     },
     {
       "item": "lycanitesmobs:demonstone",
-      "minAmount": 64,
-      "maxAmount": 128,
+      "minAmount": 8,
+      "maxAmount": 32,
       "chance": 1
     },
     {
       "item": "lycanitesmobs:demonstonebrick",
-      "minAmount": 64,
-      "maxAmount": 128,
+      "minAmount": 8,
+      "maxAmount": 32,
       "chance": 1
     },
     {
       "item": "lycanitesmobs:demonstonetile",
-      "minAmount": 64,
-      "maxAmount": 128,
+      "minAmount": 8,
+      "maxAmount": 32,
       "chance": 1
     },
     {
       "item": "lycanitesmobs:demoncrystal",
-      "minAmount": 64,
-      "maxAmount": 128,
+      "minAmount": 8,
+      "maxAmount": 32,
       "chance": 1
     },
     {
       "item": "lycanitesmobs:soulstone_demon",
       "minAmount": 2,
-      "maxAmount": 6,
+      "maxAmount": 4,
       "chance": 1
     },
     {
       "item": "lycanitesmobs:wraithsigil",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 1
-    },
-    {
-      "item": "erebus:materials",
-      "metadata": 39,
-      "minAmount": 15,
-      "maxAmount": 15,
       "chance": 1
     }
   ],

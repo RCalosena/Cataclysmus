@@ -107,7 +107,13 @@ val IArray = [
       <betteranimalsplus:wolf_cape_brown>,
       <betteranimalsplus:wolf_cape_arctic>,
       <betteranimalsplus:wolf_cape_black>,
-      <betteranimalsplus:wolf_cape_classic>
+      <betteranimalsplus:wolf_cape_classic>,
+      <qualitytools:emerald_amulet>,
+      <qualitytools:emerald_ring>,
+      <behgameon:accessory_36>,
+      <behgameon:accessory_38>,
+      <behgameon:accessory_35>,
+      <behgameon:accessory_33>
 ] as IItemStack[];
 
 for item in IArray{
@@ -355,5 +361,5 @@ function(out, ins, cInfo){
       return itemUtils.getItem(out.definition.id , ogmeta).withTag({"backpack-UID": UUID.randomUUID().asString(), slots: 40, leather_tier: "III", frame_tier: "III", slots_used: 0, module_slots: 1, slots_per_row: 8});
 }, null);
 
-recipes.addShaped(<backpack:backpack_frame:2>, [[<erebus:small_plant:4>, <midnight:dragon_nest>, <stygian:endglow>],[<erebus:double_plant:1>, <backpack:backpack_frame:1>, <erebus:double_plant:4>], [<erebus:double_plant:2>, <midnight:runebush>, <erebus:double_plant>]]);
+recipes.addShaped(<backpack:backpack_frame:2>, [[<erebus:small_plant:4>, <midnight:dragon_nest>, <stygian:endglow>],[<erebus:double_plant:1>, <backpack:backpack_frame>, <erebus:double_plant:4>], [<erebus:double_plant:2>, <midnight:runebush>, <erebus:double_plant>]]);
 recipes.addShaped(<backpack:backpack_frame:1>, [[<rustic:aloe_vera>, <biomesoplenty:flower_0:5>, <biomesoplenty:plant_1:4>],[<biomesoplenty:flower_0:15>, <backpack:backpack_frame>, <biomesoplenty:flower_1:4>], [<biomesoplenty:flower_1:1>, <rustic:wind_thistle>, <biomesoplenty:coral>]]);

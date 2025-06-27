@@ -421,7 +421,7 @@ enchantment.mod_lavacow.poisonous.desc=Inflicts poison when used to attack a mob
 enchantment.mod_lavacow.lifesteal=Lifesteal
 enchantment.mod_lavacow.lifesteal.desc=Heals you while you deal damage.
 enchantment.mod_lavacow.corrosive=Corrosive
-enchantment.mod_lavacow.corrosive.desc=Weakens the target and will make it receive more damage from any source.
+enchantment.mod_lavacow.corrosive.desc=Weakens the target and will make it receive more damage from any source. Targets can transfer the debuff back to you if they hit you.
 
 ##############
 # MobEffects #

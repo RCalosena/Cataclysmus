@@ -1,22 +1,3 @@
-#  Main header!
-#  Line 2
-
-[songs]
-	[songs.Caverns_Layer_1]
-		start_at = ""
-		[songs.Caverns_Layer_1.loop]
-			to = "5000"
-			num_loops = "999999"
-			from = "1195000"
-		triggers = [ "dimension-deep2" "height-LAYER1" ]
-	[songs.Caverns_Layer_3]
-		triggers = [ "dimension-deep2" "height-LAYER3" "height-LAYER3_3" ]
-		start_at = ""
-		[songs.Caverns_Layer_3.loop]
-			to = "9000"
-			num_loops = "999999"
-			from = "1200000"
-
 [triggers]
 	[[triggers.dimension]]
 		fade_in = "0"
@@ -59,3 +40,16 @@
 		fade_out = "0"
 		persistence = "0"
 
+[songs]
+	[songs.Caverns_Layer_1]
+		[songs.Caverns_Layer_1.loop]
+			to = "5000"
+			num_loops = "999999"
+			from = "1195000"
+		triggers = [ "dimension-deep2" "height-LAYER1" ]
+	[songs.Caverns_Layer_3]
+		triggers = [ "dimension-deep2" "height-LAYER3" "height-LAYER3_3" ]
+		[songs.Caverns_Layer_3.loop]
+			to = "9000"
+			num_loops = "999999"
+			from = "1200000"

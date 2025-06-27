@@ -26,7 +26,7 @@ loot: [
 ]
 gen: [
   {
-    height: [ 16, 124 ]
+    height: [ 96, 124 ]
     size: 6
     count: 20
   }

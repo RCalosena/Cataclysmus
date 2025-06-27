@@ -171,7 +171,7 @@ if (isNull(event5.target.nbt.ForgeData.targetEntity)) {
 
         var combo = player.getNBT().ForgeData.critCombo - 1.0 as float;
 
-        //Modifier = this * combo count - 1
+        //Modifier
         var comboDamageModifier = (1.0 + (0.3 * combo)) as float;
         var comboDamageModifierBronze = (1.0 + (0.4 * combo)) as float;
 
@@ -181,7 +181,7 @@ if (isNull(event5.target.nbt.ForgeData.targetEntity)) {
 
         //Apply modifier based on combo count
         if !hasBronzeArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) 
-            { event5.damageModifier = 1.3 * comboDamageModifier; } else { event5.damageModifier = 2.0 * comboDamageModifierBronze; }
+            { event5.damageModifier = 1.2 * comboDamageModifier; } else { event5.damageModifier = 2.0 * comboDamageModifierBronze; }
         }
 
         } else { player.update({critCombo: 0}); }

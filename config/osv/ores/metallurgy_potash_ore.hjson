@@ -26,6 +26,6 @@ gen: [
     size: 7
     count: 3
     blacklistDimensions: true
-    dimensions: [10]
+    dimensions: [10,-1,1,23,-23]
   }
 ]

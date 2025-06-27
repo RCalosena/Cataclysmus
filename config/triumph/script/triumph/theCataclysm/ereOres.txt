@@ -7,19 +7,19 @@ setShowToast(false)
 addParent("triumph:theCataclysm/root")
 
 criteria = addCriteria("fossilOre", "minecraft:inventory_changed")
-criteria.addItem("erebus:ore_fossil")
+criteria.addItem("erebus:materials",2)
 
 criteria = addCriteria("petrifiedOre", "minecraft:inventory_changed")
-criteria.addItem("erebus:ore_petrified_wood")
+criteria.addItem("erebus:materials",7)
 
 criteria = addCriteria("templeOre", "minecraft:inventory_changed")
-criteria.addItem("erebus:ore_temple")
+criteria.addItem("erebus:materials",74)
 
 criteria = addCriteria("jadeOre", "minecraft:inventory_changed")
-criteria.addItem("erebus:ore_jade")
+criteria.addItem("erebus:materials",1)
 
 criteria = addCriteria("gneissOre", "minecraft:inventory_changed")
-criteria.addItem("erebus:ore_gneiss")
+criteria.addItem("erebus:materials",47)
 
 setRewardFunction("triumph:great")
 

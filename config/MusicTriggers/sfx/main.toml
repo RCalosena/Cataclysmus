@@ -1,5 +1,19 @@
-#  Main header!
-#  Line 2
+[triggers]
+	[triggers.dimension]
+		identifier = "dementia"
+		resource_name = [ "10" ]
+		start_delay = "4000"
+		trigger_delay = "4000"
+		stop_delay = "4000"
+		song_delay = "4000"
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "0"
+		persistence = "0"
+		start_delay = "0"
+		trigger_delay = "0"
+		song_delay = "0"
 
 [songs]
 	[songs.silent]
@@ -21,21 +35,3 @@
 	[songs.MB5]
 		play_once = "1"
 		triggers = [ "dimension-dementia" ]
-
-[triggers]
-	[triggers.dimension]
-		identifier = "dementia"
-		resource_name = [ "10" ]
-		start_delay = "3000"
-		trigger_delay = "3000"
-		stop_delay = "3000"
-		song_delay = "3000"
-	[triggers.universal]
-		active_cooldown = "0"
-		fade_in = "0"
-		fade_out = "0"
-		persistence = "0"
-		start_delay = "0"
-		trigger_delay = "0"
-		song_delay = "0"
-

@@ -58,7 +58,7 @@
     "mob": "erebus:erebus.antlion_boss",
     "player": "true",
     "item": "erebus:materials@64",
-    "itemcount": "10"
+    "itemcount": "30"
   },
   {
     "hostile": "true",

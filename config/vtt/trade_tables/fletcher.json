@@ -80,7 +80,7 @@
                     "Count": { "min": 40,"max": 45 }
                 },
                 "sell": {
-                    "id": "spartanweaponry:quiver_arrow",
+                    "id": ["spartanweaponry:quiver_arrow","spartanweaponry:quiver_bolt"],
                     "Count": 1
                 },
                 "CareerLevel": 3, "maxUses":1

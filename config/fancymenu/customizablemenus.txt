@@ -81,3 +81,6 @@ net.minecraftforge.fml.client.GuiModList {
 net.minecraft.client.gui.GuiMainMenu {
 }
 
+mods.thecomputerizer.musictriggers.client.gui.GuiRadial {
+}
+

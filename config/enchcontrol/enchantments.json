@@ -1899,7 +1899,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": []
+    "description": ["Gain knockback resistance in exchange for speed. Attacking enemies launches them into the air."]
   },
   {
     "id": "uniqueebattle:ares_grace",
@@ -3196,7 +3196,7 @@
     "applicability_mode": 0,
     "items_list_mode": 0,
     "items_list": [],
-    "description": ["Your weapon has a 10% chance of healing 1-3 hp when hitting enemies. §cAny healing is disabled while holding the weapon."]
+    "description": ["Your weapon has a 10% chance of healing 1-3 hp when hitting enemies. Any healing is disabled while holding the weapon."]
   },
   {
     "id": "minecraft:blast_protection",

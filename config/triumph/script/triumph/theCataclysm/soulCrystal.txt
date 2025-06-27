@@ -10,6 +10,7 @@ criteria = addCriteria("soulCrystal", "minecraft:inventory_changed")
 criteria.addItem("erebus:materials",64)
 
 setRewardFunction("triumph:great")
+setRewardFunction("triumph:unlockchests")
 
 alwaysHidden
 

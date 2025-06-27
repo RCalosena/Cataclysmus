@@ -16,4 +16,6 @@ criteria.addItem("erebus:materials", 64)
 
 //Rewards
 setRewardFunction("triumph:insects")
+
+setRequirements("all")
 setPos(31,327)

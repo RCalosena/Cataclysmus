@@ -7,6 +7,7 @@ import mods.ctintegration.scalinghealth.DifficultyManager;
 import crafttweaker.world.IFacing;
 import crafttweaker.util.Math;
 import crafttweaker.data.IData;
+import crafttweaker.enchantments.IEnchantmentDefinition;
 
 function isBlocks(wood as IBlock, plank as IBlock) as bool {
     var condition = 0;
@@ -292,6 +293,187 @@ if event.player.hasGameStage("gatheredberries") { return; }
     }
 });
 //Vitalberry tutorial
+
+//Spawner enchant drop
+val enchs = [
+    <enchantment:minecraft:sweeping>,
+    <enchantment:minecraft:thorns>,
+    <enchantment:spartanweaponry:expanse>,
+    <enchantment:mod_lavacow:corrosive>,
+    <enchantment:mujmajnkraftsbettersurvival:assassinate>,
+    <enchantment:mujmajnkraftsbettersurvival:multishot>,
+    <enchantment:mujmajnkraftsbettersurvival:weightless>,
+    <enchantment:tombstone:blessing>,
+    <enchantment:minecraft:frost_walker>,
+    <enchantment:minecraft:punch>,
+    <enchantment:mujmajnkraftsbettersurvival:fling>,
+    <enchantment:minecraft:sharpness>,
+    <enchantment:uniqueebattle:artemis_soul>,
+    <enchantment:minecraft:efficiency>,
+    <enchantment:mujmajnkraftsbettersurvival:blast>,
+    <enchantment:mujmajnkraftsbettersurvival:bash>,
+    <enchantment:minecraft:lure>,
+    <enchantment:spartanweaponry:sharpshooter>,
+    <enchantment:minecraft:fire_aspect>,
+    <enchantment:tombstone:plague_bringer>,
+    <enchantment:switchbow:activescope>,
+    <enchantment:uniquee:smart_ass>,
+    <enchantment:mujmajnkraftsbettersurvival:penetration>,
+    <enchantment:spartanweaponry:supercharge>,
+    <enchantment:elenaidodge2:lightweight>,
+    <enchantment:spartanweaponry:propulsion>,
+    <enchantment:minecraft:fortune>,
+    <enchantment:minecraft:knockback>,
+    <enchantment:ebwizardry:shock_protection>,
+    <enchantment:spartanweaponry:lucky_throw>,
+    <enchantment:mujmajnkraftsbettersurvival:rapidfire>,
+    <enchantment:minecraft:aqua_affinity>,
+    <enchantment:mod_lavacow:lifesteal>,
+    <enchantment:mujmajnkraftsbettersurvival:reflection>,
+    <enchantment:mujmajnkraftsbettersurvival:range>,
+    <enchantment:uniqueebattle:granis_soul>,
+    <enchantment:mujmajnkraftsbettersurvival:heavy>,
+    <enchantment:uniquee:berserk>,
+    <enchantment:mujmajnkraftsbettersurvival:tunneling>,
+    <enchantment:uniqueebattle:fury>,
+    <enchantment:uniqueebattle:celestial_blessing>,
+    <enchantment:minecraft:depth_strider>,
+    <enchantment:mujmajnkraftsbettersurvival:agility>,
+    <enchantment:mujmajnkraftsbettersurvival:arrowrecovery>,
+    <enchantment:uniquee:sages_blessing>,
+    <enchantment:mod_lavacow:poisonous>,
+    <enchantment:mujmajnkraftsbettersurvival:disarm>,
+    <enchantment:tombstone:soulbound>,
+    <enchantment:switchbow:cooldownreduce>,
+    <enchantment:minecraft:protection>,
+    <enchantment:spartanweaponry:return>,
+    <enchantment:uniquee:climate_tranquility>,
+    <enchantment:uniquee:momentum>,
+    <enchantment:minecraft:luck_of_the_sea>,
+    <enchantment:mujmajnkraftsbettersurvival:highjump>,
+    <enchantment:uniquee:midas_blessing>,
+    <enchantment:uniquee:phoenixs_blessing>,
+    <enchantment:minecraft:flame>,
+    <enchantment:minecraft:feather_falling>,
+    <enchantment:uniquee:treasurers_eyes>,
+    <enchantment:mujmajnkraftsbettersurvival:education>,
+    <enchantment:uniquee:ifrits_grace>,
+    <enchantment:minecraft:projectile_protection>,
+    <enchantment:uniquee:spartanweapon>,
+    <enchantment:uniquee:focus_impact>,
+    <enchantment:uniquee:ender_eyes>,
+    <enchantment:spartanweaponry:hydrodynamic>,
+    <enchantment:minecraft:smite>,
+    <enchantment:mujmajnkraftsbettersurvival:versatility>,
+    <enchantment:uniqueebattle:streakers_will>,
+    <enchantment:mujmajnkraftsbettersurvival:smelting>,
+    <enchantment:mujmajnkraftsbettersurvival:vampirism>,
+    <enchantment:ebwizardry:magic_protection>,
+    <enchantment:spartanweaponry:razors_edge>,
+    <enchantment:tombstone:magic_siphon>,
+    <enchantment:cqrepoured:spectral>,
+    <enchantment:uniquee:vitae>,
+    <enchantment:minecraft:unbreaking>,
+    <enchantment:switchbow:pullspeed>,
+    <enchantment:ebwizardry:frost_protection>,
+    <enchantment:spartanweaponry:spreadshot>,
+    <enchantment:minecraft:fire_protection>,
+    <enchantment:minecraft:power>,
+    <enchantment:uniquee:perpetualstrike>,
+    <enchantment:uniquee:swiftblade>,
+    <enchantment:tombstone:shadow_step>,
+    <enchantment:uniquee:bone_crusher>,
+    <enchantment:minecraft:blast_protection>,
+    <enchantment:spartanweaponry:rapid_load>,
+    <enchantment:uniquee:icarus_aegis>,
+    <enchantment:minecraft:bane_of_arthropods>,
+    <enchantment:mujmajnkraftsbettersurvival:combo>,
+    <enchantment:minecraft:silk_touch>,
+    <enchantment:minecraft:looting>,
+    <enchantment:mujmajnkraftsbettersurvival:blockpower>,
+    <enchantment:uniquee:ender_librarian>,
+    <enchantment:walljump:doublejump>,
+    <enchantment:minecraft:respiration>,
+    <enchantment:cqrepoured:lightning_protection>,
+    <enchantment:mujmajnkraftsbettersurvival:diamonds>,
+    <enchantment:uniqueebattle:golem_soul>,
+    <enchantment:uniqueebattle:ares_grace>,
+    <enchantment:uniqueebattle:iron_bird>,
+    <enchantment:uniqueebattle:ifrits_blessing>,
+    <enchantment:minecraft:infinity>,
+    <enchantment:mujmajnkraftsbettersurvival:spellshield>,
+    <enchantment:spartanweaponry:incendiary>
+] as IEnchantmentDefinition[];
+
+events.register(function(event as crafttweaker.event.BlockHarvestDropsEvent){
+    if !event.isPlayer return;
+    if event.player.world.isRemote() return;
+    if event.block.definition.id != "minecraft:mob_spawner" return;
+
+    if event.fortuneLevel == 0 {
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+    }
+    if event.fortuneLevel == 1 {
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+    }
+    if event.fortuneLevel == 2 {
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+    }
+    if event.fortuneLevel == 3 {
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+    }
+    if event.fortuneLevel == 4 {
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+        event.drops += <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: enchs[event.world.random.nextInt(0, 105)].id as short}]}).weight(100);
+    }
+});
+
+
+//Spawner enchant drop
+
+events.register(function(event1 as crafttweaker.event.BlockBreakEvent){
+if event1.world.isRemote() { return; }
+
+if (event1.block.definition.id == "erebus:preserved_block") {
+event1.cancel();
+event1.world.destroyBlock(event1.position, false);
+}});
+
+events.register(function(event1 as crafttweaker.event.BlockHarvestDropsEvent){
+if event1.world.isRemote() { return; }
+
+if (event1.block.definition.id == "dimstack:bedrock") {
+    event1.dropChance = 0.0;
+}});
+
+events.register(function(event1 as crafttweaker.event.PlayerInteractBlockEvent){
+if event1.world.isRemote() { return; }
+if event1.dimension != 23 return;
+
+if (event1.block.definition.id == "minecraft:chest" && isNull(event1.world.getCustomWorldData().parasitePhase)) {
+    event1.player.sendStatusMessage("§2It's Locked");
+    event1.cancel();
+}
+if (event1.block.definition.id == "minecraft:tnt" && isNull(event1.world.getCustomWorldData().parasitePhase)) {
+    event1.cancel();
+}
+});
+
+events.register(function(event1 as crafttweaker.event.PlayerBreakSpeedEvent){
+if event1.player.world.isRemote() { return; }
+
+if (event1.block.definition.id == "minecraft:chest" && isNull(event1.player.world.getCustomWorldData().parasitePhase)) {
+    event1.cancel();
+}});
 
 //Ore Harvest Levels
 <biomesoplenty:gem_ore:0>.asBlock().definition.setHarvestLevel("pickaxe", 6);

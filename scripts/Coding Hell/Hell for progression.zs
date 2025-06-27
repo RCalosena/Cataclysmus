@@ -52,6 +52,7 @@ recipes.addShapedMirrored(<quark:pickarang>, [[<minecraft:diamond>, <ore:plankWo
 recipes.addShaped(<roughtweaks:medikit>, [[<minecraft:wool:*>, <minecraft:wool:*>, <minecraft:wool:*>],[<scalinghealth:healingitem>, <scalinghealth:heartcontainer>, <scalinghealth:healingitem>], [<minecraft:wool:*>, <minecraft:wool:*>, <minecraft:wool:*>]]);
 recipes.addShaped(<lycanitesmobs:summoningstaff>, [[null, null, <minecraft:emerald>],[null, <minecraft:gold_ingot>, null], [<quark:crystal:*>, null, null]]);
 
+recipes.addShapeless(<bountifulbaubles:ringfreeaction>, [<bountifulbaubles:trinketshulkerheart>, <bountifulbaubles:ringoverclocking>]);
 recipes.addShapeless(<bountifulbaubles:shieldobsidian>, [<bountifulbaubles:shieldcobalt>,<bountifulbaubles:trinketobsidianskull>]);
 recipes.addShaped(<bountifulbaubles:trinketankhcharm>, [[<midnight:nagrilite_ingot>, <bountifulbaubles:trinketmagiclenses>, <midnight:nagrilite_ingot>],[<bountifulbaubles:ringfreeaction>, <bountifulbaubles:trinketmixeddragonscale>, <bountifulbaubles:trinketvitamins>], [<midnight:nagrilite_ingot>, <bountifulbaubles:trinketapple>, <midnight:nagrilite_ingot>]]);
 recipes.addShapeless(<bountifulbaubles:shieldankh>, [<bountifulbaubles:shieldobsidian>,<bountifulbaubles:trinketankhcharm>]);
