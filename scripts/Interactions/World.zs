@@ -52,7 +52,7 @@ if event2.player.hasGameStage("dayone") { return; }
 var player = event2.player;
 var world = player.world;
 
-if world.provider.getWorldTime() == 24000 { player.addGameStage("misery"); player.addGameStage("dayone"); }
+if world.provider.getWorldTime() % 24000 == 0 { player.addGameStage("misery"); player.addGameStage("dayone"); }
 
 });
 
