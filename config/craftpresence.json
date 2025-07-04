@@ -136,7 +136,8 @@
     "dynamicIcons": {
       "RCalosena": "https://mc-heads.net/avatar/26aab4cdb91c4180a130485e9cbc7d01",
       "default": "https://via.placeholder.com/256.png",
-      "149.56.117.146": "https://api.mcsrvstat.us/icon/149.56.117.146"
+      "149.56.117.146": "https://api.mcsrvstat.us/icon/149.56.117.146",
+      "169.155.126.59": "https://api.mcsrvstat.us/icon/169.155.126.59"
     },
     "dynamicVariables": {
       "default": "Example Text",
