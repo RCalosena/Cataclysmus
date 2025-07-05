@@ -28,6 +28,24 @@ events.onPlayerClone(function(event as crafttweaker.event.PlayerCloneEvent){
     if event.player.world.isRemote() { return; }
 
     //From End to Overworld (bc for some reason it has to be different)
+    if (event.wasDeath) { 
+        if (!event.player.hasAnyGameStages("nightmare", "one", "two", "oatmeal") && event.originalPlayer.world.dimension != 0 && event.player.world.dimension == 0) { 
+            DifficultyManager.setDifficulty(event.originalPlayer, 0.0); 
+        } 
+        if (event.player.hasGameStage("one") && event.originalPlayer.world.dimension != 0 && event.player.world.dimension == 0) { 
+            DifficultyManager.setDifficulty(event.originalPlayer, 400.0); 
+        } 
+        if (event.player.hasGameStage("two") && event.originalPlayer.world.dimension != 0 && event.player.world.dimension == 0) { 
+            DifficultyManager.setDifficulty(event.originalPlayer, 700.0); 
+        } 
+        if (event.player.hasGameStage("oatmeal") && event.originalPlayer.world.dimension != 0 && event.player.world.dimension == 0) { 
+            DifficultyManager.setDifficulty(event.originalPlayer, 1000.0); 
+        } 
+        if (event.player.hasGameStage("nightmare") && event.originalPlayer.world.dimension != 0 && event.player.world.dimension == 0) { 
+            DifficultyManager.setDifficulty(event.originalPlayer, 2000.0); 
+        } 
+    }
+    
     if (!event.wasDeath && !event.player.hasAnyGameStages("nightmare", "one", "two", "oatmeal")) { DifficultyManager.setDifficulty(event.originalPlayer, 0.0); }
     if (!event.wasDeath && event.player.hasGameStage("one")) { DifficultyManager.setDifficulty(event.originalPlayer, 300.0); }
     //From End to Overworld (bc for some reason it has to be different)
