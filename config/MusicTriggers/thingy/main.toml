@@ -345,6 +345,11 @@
 		play_once = "2"
 		triggers = [ "dimension-misery" "gamestage-fall" ]
 		volume = "0.4"
+	[[songs.After_the_Fall]]
+		chance = "20"
+		play_once = "2"
+		triggers = [ "dimension-misery" "gamestage-hope" ]
+		volume = "0.4"
 	[[songs.Apprehension]]
 		play_once = "2"
 		triggers = [ "time-night" "gamestage-prefall" ]
@@ -461,6 +466,10 @@
 		chance = "80"
 		play_once = "2"
 		triggers = [ "dimension-misery" "gamestage-fall" ]
+	[[songs.minute_silence]]
+		chance = "80"
+		play_once = "2"
+		triggers = [ "dimension-misery" "gamestage-hope" ]
 	[songs.Music_Box]
 		triggers = [ "dead" ]
 		volume = "0.8"
@@ -470,8 +479,6 @@
 		triggers = [ "time-set" "gamestage-notcarnage" ]
 	[[songs.minute_silence]]
 		triggers = [ "generic" ]
-	[songs.sec_silence]
-		triggers = [ "gamestage-hope" ]
 	[[songs.minute_silence]]
 		triggers = [ "dimension-midnight" ]
 	[[songs.minute_silence]]

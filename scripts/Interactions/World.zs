@@ -457,7 +457,7 @@ if (event1.block.definition.id == "dimstack:bedrock") {
 
 events.register(function(event1 as crafttweaker.event.PlayerInteractBlockEvent){
 if event1.world.isRemote() { return; }
-if event1.dimension != 23 return;
+if (event1.dimension != 23 && event1.dimension != -23) return;
 
 if (event1.block.definition.id == "minecraft:chest" && isNull(event1.world.getCustomWorldData().parasitePhase)) {
     event1.player.sendStatusMessage("§2It's Locked");
@@ -470,6 +470,7 @@ if (event1.block.definition.id == "minecraft:tnt" && isNull(event1.world.getCust
 
 events.register(function(event1 as crafttweaker.event.PlayerBreakSpeedEvent){
 if event1.player.world.isRemote() { return; }
+if (event1.player.world.dimension != 23 && event1.player.world.dimension != -23) return;
 
 if (event1.block.definition.id == "minecraft:chest" && isNull(event1.player.world.getCustomWorldData().parasitePhase)) {
     event1.cancel();

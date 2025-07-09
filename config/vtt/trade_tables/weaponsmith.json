@@ -1,6 +1,6 @@
 {
     "Profession": "minecraft:smith",
-    "Career": "armorer",
+    "Career": "armor",
     "Offers": {
         "Recipes": [
             {"action":"clear"},

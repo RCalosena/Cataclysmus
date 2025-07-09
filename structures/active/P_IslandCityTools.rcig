@@ -253,7 +253,7 @@
       }
     },
     {
-      "weight": 0.3,
+      "weight": 0.5,
       "min": 1,
       "max": 1,
       "item": {
@@ -281,7 +281,7 @@
       }
     },
     {
-      "weight": 0.3,
+      "weight": 0.5,
       "min": 1,
       "max": 1,
       "item": {
@@ -309,7 +309,7 @@
       }
     },
     {
-      "weight": 0.3,
+      "weight": 0.5,
       "min": 1,
       "max": 1,
       "item": {

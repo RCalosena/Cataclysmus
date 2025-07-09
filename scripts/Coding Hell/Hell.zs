@@ -151,8 +151,8 @@ for item in RArray{
 }
 
 recipes.addShaped(<scalinghealth:healingitem:1>, [[<minecraft:iron_ingot>, <ore:ingotIron>, <ore:ingotIron>],[<scalinghealth:healingitem>, <minecraft:golden_apple>, <scalinghealth:healingitem>], [<ore:wool>, <ore:wool>, <minecraft:wool>]]);
-recipes.addShapeless(<scalinghealth:healingitem>, [<ore:wool>,<ore:string>]);
-recipes.addShapedMirrored(<minecraft:feather> * 4, [[null, <ore:string>, <ore:string>],[<ore:string>, <ore:stickIron>, <ore:string>], [<ore:stickIron>, <ore:string>, null]]);
+recipes.addShapeless(<scalinghealth:healingitem> * 4, [<ore:wool>,<ore:string>]);
+recipes.addShapedMirrored(<minecraft:feather> * 8, [[null, <ore:string>, <ore:string>],[<ore:string>, <ore:stickIron>, <ore:string>], [<ore:stickIron>, <ore:string>, null]]);
 
 recipes.addShaped(<quark:iron_rod>, [[<minecraft:iron_ingot>],[<minecraft:iron_ingot>], [<minecraft:nether_star>]]);
 recipes.addShaped(<waystones:waystone>,[[null,<minecraft:stonebrick>,null],[<minecraft:stonebrick>,<minecraft:nether_star>,<minecraft:stonebrick>],[<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]]);
