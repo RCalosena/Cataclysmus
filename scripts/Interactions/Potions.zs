@@ -159,11 +159,12 @@ events.register(function(event1 as crafttweaker.event.PotionEffectAddedEvent){
     if event1.entityLivingBase.world.isRemote() { return; }
 	if event1.potionEffect.effectName != "mob_effect.srparasites:rage" { return; }
 
-	if (event1.potionEffect.amplifier == 0) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.2)); }
-	if (event1.potionEffect.amplifier == 1) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.3)); }
-	if (event1.potionEffect.amplifier == 2) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.4)); }
-	if (event1.potionEffect.amplifier == 3) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.5)); }
-	if (event1.potionEffect.amplifier == 4) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.6)); }
-	if (event1.potionEffect.amplifier == 5) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.7)); }
+	if (event1.potionEffect.amplifier == 0) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.15)); }
+	if (event1.potionEffect.amplifier == 1) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.225)); }
+	if (event1.potionEffect.amplifier == 2) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.3)); }
+	if (event1.potionEffect.amplifier == 3) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.375)); }
+	if (event1.potionEffect.amplifier == 4) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.45)); }
+	if (event1.potionEffect.amplifier == 5) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.525)); }
+	if (event1.potionEffect.amplifier == 6) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.6)); }
 });
 //Rage

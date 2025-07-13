@@ -96,14 +96,14 @@ for basicM in early_armor {
     pyramid.addItemEntry(<xat:glowing_powder>, 20, 1, [{"count": {"min": 1.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
     jungle.addItemEntry(<xat:glowing_powder>, 40, 1, [{"count": {"min": 1.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
 
-    simDungeon.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 40);
-    mineshaft.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 10);
-    pyramid.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 10);
-    jungle.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 40);
-    simDungeon.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Class", "category": "Lost"}}), 40);
-    mineshaft.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Class", "category": "Lost"}}), 10);
-    pyramid.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Class", "category": "Lost"}}), 10);
-    jungle.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Class", "category": "Lost"}}), 40);
+    simDungeon.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 80);
+    mineshaft.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 20);
+    pyramid.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 20);
+    jungle.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Crit", "category": "Lost"}}), 80);
+    simDungeon.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Class", "category": "Lost"}}), 80);
+    mineshaft.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Class", "category": "Lost"}}), 20);
+    pyramid.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Class", "category": "Lost"}}), 20);
+    jungle.addItemEntry(<loreexpansion:lore_scrap>.withTag({"lore": { "id": "Class", "category": "Lost"}}), 80);
     simDungeon.addItemEntry(<minecraft:glass_bottle>, 100, 1, [{"count": {"min": 1.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
     mineshaft.addItemEntry(<minecraft:glass_bottle>, 60, 1, [{"count": {"min": 1.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
     pyramid.addItemEntry(<minecraft:glass_bottle>, 60, 1, [{"count": {"min": 1.0, "max": 8.0}, "function": "minecraft:set_count"}], []);

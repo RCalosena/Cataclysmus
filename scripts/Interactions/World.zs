@@ -1,6 +1,7 @@
 #reloadable
 
 import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.player.IPlayer;
 import mods.ctintegration.scalinghealth.DifficultyManager;
@@ -8,6 +9,10 @@ import crafttweaker.world.IFacing;
 import crafttweaker.util.Math;
 import crafttweaker.data.IData;
 import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.entity.IEntityThrowable;
+import crafttweaker.dispenser.DispenserSound;
+import crafttweaker.liquid.ILiquidDefinition;
+import crafttweaker.item.IItemStack;
 
 function isBlocks(wood as IBlock, plank as IBlock) as bool {
     var condition = 0;
@@ -475,6 +480,312 @@ if (event1.player.world.dimension != 23 && event1.player.world.dimension != -23)
 if (event1.block.definition.id == "minecraft:chest" && isNull(event1.player.world.getCustomWorldData().parasitePhase)) {
     event1.cancel();
 }});
+
+//Deep Caverns Interactions
+events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent) {
+    if (event.player.world.isRemote()) return;
+    if (isNull(event.item)) return;
+    if (isNull(event.item.liquid)) return;
+    if (!event.item.definition.id.contains("bucket")) return;
+    if (event.item.definition.id.contains("bamb")) return;
+
+    val world = event.world;
+    val player = event.player;
+    val pos = event.position.getOffset(event.face, 1);
+    val dimension = event.dimension;
+    val usedItem = event.item;
+
+    if (usedItem.liquid.luminosity == 0 && dimension == 10) {
+        player.sendPlaySoundPacket("ebwizardry:spell.freeze", "player", player.position, 1.0, 1.2);
+        world.setBlockState(<blockstate:biomesoplenty:hard_ice>, pos);
+
+        val main = player.mainHandHeldItem;
+        val off = player.offHandHeldItem;
+
+        if (!isNull(main) && usedItem.matches(main) && (isNull(off) || !usedItem.matches(off))) {
+            main.mutable().shrink(1);
+            player.give(<minecraft:bucket>);
+        } else if (!isNull(off) && usedItem.matches(off) && (isNull(main) || !usedItem.matches(main))) {
+            off.mutable().shrink(1);
+            player.give(<minecraft:bucket>);
+        } else if (!isNull(main) && !isNull(off) && usedItem.matches(main) && usedItem.matches(off)) {
+            main.mutable().shrink(1);
+            player.give(<minecraft:bucket>);
+        }
+    }
+});
+
+events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteractBlockEvent){
+if event.player.world.isRemote() return;
+if isNull(event.item) return;
+if isNull(event.item.liquid) return;
+if (!event.item.definition.id.contains("bambucket")) return;
+
+    val world = event.world;
+    val player = event.player;
+    val pos = event.position.getOffset(event.face, 1);
+    val dimension = event.dimension;
+    val usedItem = event.item;
+
+    if (usedItem.liquid.luminosity == 0 && dimension == 10) {
+        player.sendPlaySoundPacket("ebwizardry:spell.freeze", "player", player.position, 1.0, 1.2);
+        world.setBlockState(<blockstate:biomesoplenty:hard_ice>, pos);
+
+        val main = player.mainHandHeldItem;
+        val off = player.offHandHeldItem;
+
+        if (!isNull(main) && usedItem.matches(main) && (isNull(off) || !usedItem.matches(off))) {
+            main.mutable().shrink(1);
+            player.give(<erebus:bambucket>);
+        } else if (!isNull(off) && usedItem.matches(off) && (isNull(main) || !usedItem.matches(main))) {
+            off.mutable().shrink(1);
+            player.give(<erebus:bambucket>);
+        } else if (!isNull(main) && !isNull(off) && usedItem.matches(main) && usedItem.matches(off)) {
+            main.mutable().shrink(1);
+            player.give(<erebus:bambucket>);
+        }
+    }});
+
+events.register(function(event as crafttweaker.event.BlockPlaceEvent){
+if event.world.isRemote() return;
+if (event.world.dimension != 10) return; 
+if (event.block.definition.id != "minecraft:ice") return;
+    
+    event.player.sendPlaySoundPacket("ebwizardry:spell.freeze", "player", event.player.position, 1.0, 1.2);
+    event.world.setBlockState(<blockstate:biomesoplenty:hard_ice>, event.position);
+});
+
+events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
+    if event.entity.world.isRemote() return;
+    if event.entity.world.dimension != 10 return;
+    if isNull(event.entity.definition) return;
+    if (!event.entity instanceof IEntityThrowable) { return; }
+
+    var thrown as IEntityThrowable = event.entity;
+
+    thrown.hasNoGravity = true;
+    if thrown.motionY < 0 {
+        thrown.motionY = 0;
+    }
+
+    thrown.definition.onTick(function(entity) {
+        if (isNull(thrown.getNBT().ForgeData.thrownAirTime)) { thrown.setNBT({thrownAirTime: 0}); }
+
+        if thrown.isAlive() {
+            thrown.update({thrownAirTime: thrown.getNBT().ForgeData.thrownAirTime as int + 1});
+        }
+
+            if thrown.getNBT().ForgeData.thrownAirTime > 0 { thrown.motionY += 0.005; }
+        
+            if thrown.getNBT().ForgeData.thrownAirTime == 200 { thrown.setDead(); thrown.update({thrownAirTime: 0}); thrown.setNBT({thrownDoneTicking: 1}); }
+    });
+});
+
+<minecraft:water_bucket>.definition.addDispenserBehavior(function(source, item) {
+    val world = source.world;
+
+    if (world.getBlock(source.pos.getOffset(source.facing, 1)).definition.id == "minecraft:air" || !isNull(world.getBlock(source.pos.getOffset(source.facing, 1)).fluid)) {
+        if (world.dimension == 10) {
+            world.setBlockState(<blockstate:biomesoplenty:hard_ice>, source.pos.getOffset(source.facing, 1));
+            item.mutable().shrink(1);
+            return <minecraft:bucket>;
+        }
+            world.setBlockState(<blockstate:minecraft:flowing_water>, source.pos.getOffset(source.facing, 1));
+            item.mutable().shrink(1);
+            return <minecraft:bucket>;
+    }
+    return item;
+}, function(source) {
+    return DispenserSound.launch();
+});
+
+<forge:bucketfilled>.definition.addDispenserBehavior(function(source, item) {
+    val world = source.world;
+
+if (world.getBlock(source.pos.getOffset(source.facing, 1)).definition.id == "minecraft:air" || !isNull(world.getBlock(source.pos.getOffset(source.facing, 1)).fluid)) {
+    
+    if (!isNull(item.liquid) && item.liquid.luminosity == 0 && world.dimension == 10) {
+        world.setBlockState(<blockstate:biomesoplenty:hard_ice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "sand" {
+        world.setBlockState(<blockstate:biomesoplenty:sand>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "honey" {
+        world.setBlockState(<blockstate:biomesoplenty:honey>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "blood" {
+        world.setBlockState(<blockstate:biomesoplenty:blood>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "poison" {
+        world.setBlockState(<blockstate:biomesoplenty:poison>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "hot_spring_water" {
+        world.setBlockState(<blockstate:biomesoplenty:hot_spring_water>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "formic_acid" {
+        world.setBlockState(<blockstate:erebus:formic_acid>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "molten_tar" {
+        world.setBlockState(<blockstate:metallurgy:molten_tar>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "oliveoil" {
+        world.setBlockState(<blockstate:rustic:olive_oil>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "ironberryjuice" {
+        world.setBlockState(<blockstate:rustic:ironberry_juice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "wildberryjuice" {
+        world.setBlockState(<blockstate:rustic:wildberry_juice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "grapejuice" {
+        world.setBlockState(<blockstate:rustic:grape_juice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "applejuice" {
+        world.setBlockState(<blockstate:rustic:apple_juice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "alewort" {
+        world.setBlockState(<blockstate:rustic:ale_wort>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "deadblood" {
+        world.setBlockState(<blockstate:srparasites:deadblood>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+    if item.liquid.name == "dark_water" {
+        world.setBlockState(<blockstate:midnight:dark_water>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <minecraft:bucket>;
+    }
+}
+    return item;
+}, function(source) {
+    return DispenserSound.launch();
+});
+
+<erebus:bambucket>.definition.addDispenserBehavior(function(source, item) {
+    val world = source.world;
+
+if (world.getBlock(source.pos.getOffset(source.facing, 1)).definition.id == "minecraft:air" || !isNull(world.getBlock(source.pos.getOffset(source.facing, 1)).fluid)) {
+    
+    if (!isNull(item.liquid) && item.liquid.luminosity == 0 && world.dimension == 10) {
+        world.setBlockState(<blockstate:biomesoplenty:hard_ice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "water" {
+        world.setBlockState(<blockstate:minecraft:flowing_water>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "sand" {
+        world.setBlockState(<blockstate:biomesoplenty:sand>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "honey" {
+        world.setBlockState(<blockstate:biomesoplenty:honey>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "blood" {
+        world.setBlockState(<blockstate:biomesoplenty:blood>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "poison" {
+        world.setBlockState(<blockstate:biomesoplenty:poison>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "hot_spring_water" {
+        world.setBlockState(<blockstate:biomesoplenty:hot_spring_water>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "formic_acid" {
+        world.setBlockState(<blockstate:erebus:formic_acid>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "molten_tar" {
+        world.setBlockState(<blockstate:metallurgy:molten_tar>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "oliveoil" {
+        world.setBlockState(<blockstate:rustic:olive_oil>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "ironberryjuice" {
+        world.setBlockState(<blockstate:rustic:ironberry_juice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "wildberryjuice" {
+        world.setBlockState(<blockstate:rustic:wildberry_juice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "grapejuice" {
+        world.setBlockState(<blockstate:rustic:grape_juice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "applejuice" {
+        world.setBlockState(<blockstate:rustic:apple_juice>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "alewort" {
+        world.setBlockState(<blockstate:rustic:ale_wort>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "deadblood" {
+        world.setBlockState(<blockstate:srparasites:deadblood>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+    if item.liquid.name == "dark_water" {
+        world.setBlockState(<blockstate:midnight:dark_water>, source.pos.getOffset(source.facing, 1));
+        item.mutable().shrink(1);
+        return <erebus:bambucket>;
+    }
+}
+    return item;
+}, function(source) {
+    return DispenserSound.launch();
+});
+//Deep Caverns Interactions
 
 //Ore Harvest Levels
 <biomesoplenty:gem_ore:0>.asBlock().definition.setHarvestLevel("pickaxe", 6);

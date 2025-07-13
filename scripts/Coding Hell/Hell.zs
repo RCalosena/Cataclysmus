@@ -236,7 +236,7 @@ recipes.addShapedMirrored(<behgameon:ring_27>, [[null, <metallurgy:steel_ingot>,
 recipes.addShapedMirrored(<behgameon:ring_19>, [[null, <minecraft:emerald>, null],[<minecraft:emerald>, <behgameon:ring_59>, <minecraft:emerald>], [<metallurgy:gold_dust>, <minecraft:emerald>, null]]);
 recipes.addShapedMirrored(<behgameon:ring_21>, [[null, <minecraft:rabbit_foot>, null],[<minecraft:rabbit_foot>, <behgameon:ring_59>, <minecraft:rabbit_foot>], [<quark:golden_frog_leg>, <minecraft:rabbit_foot>, null]]);
 recipes.addShapedMirrored(<behgameon:ring_17>, [[null, <minecraft:blaze_powder>, null],[<minecraft:blaze_powder>, <behgameon:ring_59>, <minecraft:blaze_powder>], [<minecraft:redstone_block>, <minecraft:blaze_powder>, null]]);
-recipes.addShapedMirrored(<behgameon:ring_22>, [[null, <minecraft:sugar>, null],[<minecraft:sugar>, <behgameon:ring_59>, <rustic:wind_thistle>, <minecraft:sugar>, null]]);
+recipes.addShapedMirrored(<behgameon:ring_22>, [[null, <minecraft:sugar>, null],[<minecraft:sugar>, <behgameon:ring_59>, <minecraft:sugar>],[<rustic:wind_thistle>, <minecraft:sugar>, null]]);
 recipes.addShapedMirrored(<behgameon:ring_20>, [[null, <minecraft:slime_ball>, null],[<minecraft:slime_ball>, <behgameon:ring_59>, <minecraft:slime_ball>], [<lycanitesmobs:raw_aspid_meat>, <minecraft:slime_ball>, null]]);
 recipes.addShapedMirrored(<behgameon:ring_28>, [[null, <mod_lavacow:shattered_ice>, null],[<mod_lavacow:shattered_ice>, <behgameon:ring_59>, <mod_lavacow:shattered_ice>], [<lycanitesmobs:blizzardcharge>, <mod_lavacow:shattered_ice>, null]]);
 

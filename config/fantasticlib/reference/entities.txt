@@ -82,6 +82,10 @@ minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
 quark:seat
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -98,12 +102,8 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:gravisand
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
 quark:chest_passenger
+quark:gravisand
 ichunutil:entity_block
 mujmajnkraftsbettersurvival:entityflyingspear
 betternether:firefly_nether

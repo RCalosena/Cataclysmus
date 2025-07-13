@@ -415,6 +415,7 @@ events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
     if event.entity.world.isRemote() return;
     if !event.entity instanceof IEntityItem return;
     var item as IEntityItem = event.entity;
+    if isNull(item.item) return;
     if event.entity.world.getClosestPlayerToEntity(event.entity, 20, false).hasGameStage("jade") return;
 
     for items in jadearmor {

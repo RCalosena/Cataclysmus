@@ -22,8 +22,8 @@
     §lStructures & loot:
       - Ruined dungeons:
       §l1. §rAncient Tome: When combined with an enchanted book, gives a level higher than the max level of the respective enchant.
-      §l2. §rBook of Repairing: Repairs your held item when used in a Decorative Grave.
-      §l3. §rBook of Disenchantment: Disenchants your held item when used in a Decorative Grave.
+      §l2. §rBook of Repairing: Repairs your held item when used in a haunted Decorative Grave.
+      §l3. §rBook of Disenchantment: Disenchants your held item when used in a haunted Decorative Grave.
       §l4. §rSummoning Staff
       §l5. §rRune: Cosmetic item that allows for different enchantment glints.
       §l6. §rDevout Crystal Shards, Devout Crystals, and Grand Devout Crystals. 
@@ -33,7 +33,8 @@
       §l2. §rPotions: Depth Strider & Water Breathing.
       §l3. §rFishing Rod of Misadventure
       §l4. §rUnderwater Arrows
-      §l5. §rWater-based Enchantments", 
+      §l5. §rWater-based Enchantments
+      §l- Note:§r Mini bosses from this dungeon drop Soulstones, which guarantee an aquatic pet/mount when right-clicked.", 
     "autoplay": false
   },
   "sortingIndex": 5,

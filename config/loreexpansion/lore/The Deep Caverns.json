@@ -22,7 +22,9 @@
       - Tremor: Iron
       - Furor: Heavy Iron
       - Devout: Weta (Chitin is dropped by Wetas, or found in Intestines)
-      - Arcum: Brass", 
+      - Arcum: Brass (Alloy of Copper and Zinc dusts)
+    §lTip:
+      - focus on improving survivability instead of damage in this phase", 
     "autoplay": false
   },
   "sortingIndex": 3,
