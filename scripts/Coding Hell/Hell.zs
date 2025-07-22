@@ -162,6 +162,11 @@ recipes.addShapeless(<minecraft:string> * 4, [<ore:wool>]);
 recipes.addShaped(<minecraft:skull:1>, [[<quark:black_ash>, <quark:black_ash>, <quark:black_ash>],[<quark:black_ash>, <minecraft:skull>, <quark:black_ash>], [<quark:black_ash>, <quark:black_ash>, <quark:black_ash>]]);
 recipes.addShapeless(<cqrepoured:magic_bell>, [<minecraft:obsidian>,<ore:stickWood>]);
 
+recipes.addShaped(<spartanweaponry:arrow_wood> * 16, [[null, <ore:plankWood>, null],[null, <ore:stickWood>, null], [null, <ore:string>, null]]);
+recipes.addShaped(<mysticalworld:copper_shovel>, [[null, <metallurgy:copper_ingot>, null],[null, <minecraft:stick>, null], [null, <minecraft:stick>, null]]);
+recipes.addShapedMirrored(<mysticalworld:copper_hoe>, [[<metallurgy:copper_ingot>, <metallurgy:copper_ingot>, null],[null, <minecraft:stick>, null], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<mysticalworld:copper_pickaxe>, [[<metallurgy:copper_ingot>, <metallurgy:copper_ingot>, <metallurgy:copper_ingot>],[null, <minecraft:stick>, null], [null, <minecraft:stick>, null]]);
+
       ## Class Charms and Potion Rings (and other baubles) ##
 
 recipes.addShaped(<ebwizardry:amulet_potential>, [[null, <metallurgy:copper_ingot>, null],[<metallurgy:copper_ingot>, <bountifulbaubles:amuletsinempty>, <metallurgy:copper_ingot>], [null, <metallurgy:copper_ingot>, null]]);

@@ -196,4 +196,44 @@ events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){
     event.amount *= 1.0; 
     }
 }); 
+
+    //lycan
+    events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){
+        if event.entityLivingBase.world.isRemote() { return; }
+        if event.entityLivingBase instanceof IPlayer { return; }
+        if !event.entityLivingBase.definition.id.contains("lycanitesmobs") { return; }
+        if isNull(event.damageSource.trueSource) { return; }
+        if !event.damageSource.trueSource instanceof IPlayer { return; }
+
+        var entity = event.entityLivingBase;
+        var difficulty = entity.world.getWorldInfo().difficulty;
+        var players = entity.world.getAllPlayers().length - 1;
+
+        if difficulty == "EASY" {
+        event.amount *= 1 + (0.1 * players); 
+        }
+        if difficulty == "NORMAL" {
+        event.amount *= 1 + (0.05 * players); 
+        }
+    }); 
+
+    events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){
+        if event.entityLivingBase.world.isRemote() { return; }
+        if !event.entityLivingBase instanceof IPlayer { return; }
+        if isNull(event.damageSource.trueSource) { return; }
+        if event.damageSource.trueSource instanceof IPlayer { return; }
+        if isNull(event.damageSource.trueSource.definition) { return; }
+        if !event.damageSource.trueSource.definition.id.contains("lycanitesmobs") { return; }
+
+        var entity = event.entityLivingBase;
+        var difficulty = entity.world.getWorldInfo().difficulty;
+        var players = entity.world.getAllPlayers().length - 1;
+
+        if difficulty == "EASY" {
+        event.amount *= 1 - (0.1 * players); 
+        }
+        if difficulty == "NORMAL" {
+        event.amount *= 1 - (0.05 * players); 
+        }
+    }); 
 //Difficulty Damage Scaling Nerfs/Buffs

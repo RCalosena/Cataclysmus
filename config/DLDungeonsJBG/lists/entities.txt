@@ -261,7 +261,6 @@ erebus:erebus.worker_bee
 erebus:erebus.zombie_ant
 erebus:erebus.zombie_ant_soldier
 eyesinthedarkness:eyes
-ichunutil:entity_block
 lycanitesmobs:abaia
 lycanitesmobs:abtu
 lycanitesmobs:acidglob

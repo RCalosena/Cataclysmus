@@ -7,6 +7,12 @@ import crafttweaker.item.IIngredient;
 
 
 val Array = [
+    <spartanweaponry:arrow_wood>,
+    <metallurgy:copper_shovel>,
+    <metallurgy:copper_hoe>,
+    <metallurgy:copper_axe>,
+    <metallurgy:copper_pickaxe>,
+    <metallurgy:copper_sword>,
     <erebus:wand_of_animation>,
     <dynamicstealth:handmirror>,
     <biomesoplenty:gem_block:1>,

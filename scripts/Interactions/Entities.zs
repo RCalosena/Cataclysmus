@@ -665,3 +665,16 @@ game.getEntity("amalgalich").addDropFunction(function(entity, dmgSource) {
         return <bountifulbaubles:enderdragonscale> * count;
 });
 //Drops
+
+//Summons
+events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
+if event.world.isRemote() return;
+if isNull(event.entity.nbt) return;
+if isNull(event.entity.nbt.ForgeCaps) return;
+if isNull(event.entity.nbt.ForgeCaps.memberGet("champions:championship")) return;
+if isNull(event.entity.nbt.IsMinion) return;
+if (event.entity.nbt.ForgeCaps.memberGet("champions:championship").tier != 0 && event.entity.nbt.IsMinion == 1) {
+    event.entity.updateNBT({ForgeCaps: { "champions:championship": {tier: 0}}});
+}
+});
+//Summons

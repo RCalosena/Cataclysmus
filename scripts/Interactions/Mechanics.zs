@@ -388,3 +388,9 @@ events.register(function(event as PlayerTickEvent) {
     }
 });
 //xp stat scaling
+
+//ghostly shape on midnight (to avoid getting instakilled on travel)
+events.register(function(event as crafttweaker.event.PlayerChangedDimensionEvent){
+    if (event.to == -23) { event.player.addPotionEffect(<potion:tombstone:ghostly_shape>.makePotionEffect(200,0)); }
+});
+//ghostly shape on midnight (to avoid getting instakilled on travel)

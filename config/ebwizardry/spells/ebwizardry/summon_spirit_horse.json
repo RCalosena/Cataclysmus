@@ -10,7 +10,7 @@
 	"trades": true,
     "looting": true
   },
-  "tier": "advanced",
+  "tier": "novice",
   "element": "earth",
   "type": "minion",
   "cost": 65,

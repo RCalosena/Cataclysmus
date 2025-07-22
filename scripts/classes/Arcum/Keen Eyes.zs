@@ -93,9 +93,7 @@ function isSentientArmor(helmet as IItemStack, chestplate as IItemStack, legging
 function mobDist(tick as PlayerTickEvent, dist as double) as bool{
     val mobs = tick.player.world.getEntities();
     for mob in mobs{
-        if mob instanceof IEntityMob {
-
-            var attacker = mobs instanceof IEntityLivingBase;
+        if (mob instanceof IEntityLivingBase && !mob instanceof IPlayer) {
 
             if (tick.player.world.getClosestPlayerToEntity(mob, dist, false)) {
                 return true;
@@ -115,7 +113,7 @@ if event.player.world.time %25 != 0 { return; }
 
 if (!hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet()))) { return; }
             
-        var range = 3.0;
+        var range = 5.0;
 
     if (isNull(player.getNBT().ForgeData.timer)) {
 		player.setNBT({timer: 0});
@@ -245,9 +243,9 @@ events.register(function(event as crafttweaker.event.EntityLivingDamageEvent){
     } else {
         if airTime >= 5 {
             if !event.entityLivingBase.isBoss {
-                event.amount *= 1 + (1.5 * (airTime - 5));
+                event.amount *= 1 + (1.6 * (airTime - 5));
             } else {
-                if airTime > 30 { event.amount *= 16; } else { event.amount *= 1 + (0.6 * (airTime - 5)); }
+                if airTime > 30 { event.amount *= 16; } else { event.amount *= 1 + (0.8 * (airTime - 5)); }
             }
         }
         if (airTime >= 5 && airTime < 10) { player.sendPlaySoundPacket("minecraft:entity.arrow.hit_player", "player", player.position, 0.5, 0.5); }

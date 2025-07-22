@@ -236,5 +236,9 @@
     "maxheight": 30,
     "mob": [ "quark:dweller", "quark:ashen" ],
     "item":  "mysticalworld:amethyst_gem"
+  },
+  {
+    "mob": [ "ebwizardry:zombie_minion", "ebwizardry:decoy", "ebwizardry:husk_minion", "ebwizardry:skeleton_minion", "ebwizardry:stray_minion", "ebwizardry:spider_minion", "ebwizardry:blaze_minion", "ebwizardry:wither_skeleton_minion", "ebwizardry:silverfish_minion", "ebwizardry:vex_minion", "ebwizardry:ice_wraith", "ebwizardry:lightning_wraith", "ebwizardry:spirit_wolf", "ebwizardry:spirit_horse", "ebwizardry:phoenix", "ebwizardry:ice_giant", "ebwizardry:spectral_golem", "ebwizardry:magic_slime", "ebwizardry:shadow_wraith", "ebwizardry:storm_elemental" ],
+    "removeall": "true"
   }
 ]

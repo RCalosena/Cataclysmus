@@ -165,7 +165,8 @@ function isSentientArmor(helmet as IItemStack, chestplate as IItemStack, legging
 val Normal = [
     "minecraft:horse",
     "minecraft:skeleton_horse",
-    "minecraft:boat"
+    "ebwizardry:spirit_horse",
+    "xat:alphawolf"
 ] as string[];
 
 val Acid = [
@@ -360,6 +361,7 @@ events.register(function(event as crafttweaker.event.EntityMountEvent) {
 
     var player as IPlayer = event.mountingEntity;
     var mountedDefinition = event.mountedEntity.definition;
+    if !hasArmor(player.getItemInSlot(IEntityEquipmentSlot.head()), player.getItemInSlot(IEntityEquipmentSlot.chest()), player.getItemInSlot(IEntityEquipmentSlot.legs()), player.getItemInSlot(IEntityEquipmentSlot.feet())) { return; }
 
 //Element identifiers
 

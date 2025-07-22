@@ -124,11 +124,11 @@ events.register(function(event as crafttweaker.event.EntityLivingDamageEvent){
     if event.damageSource.getDamageType() == "outOfWorld" {
 
 
-        if (player.getNBT().ForgeData.rageDamage < 5) {
+        if (player.getNBT().ForgeData.rageDamage < 4) {
                 player.setNBT({rageDamage: player.getNBT().ForgeData.rageDamage as int + 1});
         } else { 
-            if (!isNull(player.getNBT().ForgeData.hits) && player.getNBT().ForgeData.hits >= 5) {
-                if player.getNBT().ForgeData.rageDamage == 5 {
+            if (!isNull(player.getNBT().ForgeData.hits) && player.getNBT().ForgeData.hits >= 4) {
+                if player.getNBT().ForgeData.rageDamage == 4 {
                     player.setNBT({hits: player.getNBT().ForgeData.hits as int - 5});
                 }
             }

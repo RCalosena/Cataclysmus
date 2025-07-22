@@ -563,6 +563,8 @@ events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
 
     var thrown as IEntityThrowable = event.entity;
 
+    if !thrown.thrower instanceof IPlayer return;
+
     thrown.hasNoGravity = true;
     if thrown.motionY < 0 {
         thrown.motionY = 0;
