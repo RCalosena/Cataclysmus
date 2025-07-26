@@ -563,6 +563,7 @@ events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
 
     var thrown as IEntityThrowable = event.entity;
 
+    if thrown.definition.id.contains("hook") return;
     if !thrown.thrower instanceof IPlayer return;
 
     thrown.hasNoGravity = true;

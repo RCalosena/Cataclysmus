@@ -331,9 +331,55 @@ val Water = [
     "lycanitesmobs:quetzoracl"
 ] as string[];
 
+val All = [
+    "minecraft:horse",
+    "minecraft:skeleton_horse",
+    "ebwizardry:spirit_horse",
+    "xat:alphawolf",
+    "lycanitesmobs:quetzodracl",
+    "lycanitesmobs:ioray",
+    "lycanitesmobs:uvaraptor",
+    "lycanitesmobs:ventoraptor",
+    "lycanitesmobs:eyewig",
+    "lycanitesmobs:uvaraptor",
+    "lycanitesmobs:beholder",
+    "lycanitesmobs:cockatrice",
+    "lycanitesmobs:erepede",
+    "lycanitesmobs:quetzodracl",
+    "lycanitesmobs:raiko",
+    "lycanitesmobs:zoataur",
+    "lycanitesmobs:barghest",
+    "lycanitesmobs:feradon",
+    "lycanitesmobs:morock",
+    "lycanitesmobs:maug",
+    "lycanitesmobs:ignibus",
+    "lycanitesmobs:salamander",
+    "lycanitesmobs:cockatrice",
+    "lycanitesmobs:strider",
+    "lycanitesmobs:pinky",
+    "lycanitesmobs:grell",
+    "lycanitesmobs:cacodemon",
+    "lycanitesmobs:feradon",
+    "lycanitesmobs:morock",
+    "lycanitesmobs:roc",
+    "lycanitesmobs:ventoraptor",
+    "lycanitesmobs:barghest",
+    "lycanitesmobs:quetzodracl",
+    "lycanitesmobs:warg",
+    "lycanitesmobs:epion",
+    "lycanitesmobs:eyewig",
+    "lycanitesmobs:warg",
+    "lycanitesmobs:shade",
+    "lycanitesmobs:beholder",
+    "lycanitesmobs:thresher",
+    "lycanitesmobs:strider",
+    "lycanitesmobs:roa",
+    "lycanitesmobs:quetzoracl"
+] as string[];
+
 val stages = [ "m", "m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "m11", "m12", "m13", "m14", "m15", "B", "B2", "C", "C2", "D1", "D2", "D3", "D4" ] as string[];
 
-val mounting = [ "mounting", "mounting1", "mounting2", "mounting3", "mounting4", "mounting5", "mounting6", "mounting7", "mounting8", "mounting9", "mounting10", "mounting11", "mounting12", "mounting13", "mounting14", "mounting15" ] as string[];
+val mounting = [ "mountingNull", "mounting", "mounting1", "mounting2", "mounting3", "mounting4", "mounting5", "mounting6", "mounting7", "mounting8", "mounting9", "mounting10", "mounting11", "mounting12", "mounting13", "mounting14", "mounting15" ] as string[];
 
 
 
@@ -356,7 +402,7 @@ for mount in mounting {
 }});
 
 events.register(function(event as crafttweaker.event.EntityMountEvent) {
-    if (!event.world.isRemote()) { return; }
+    if (event.world.isRemote()) { return; }
     if !event.mountingEntity instanceof IPlayer { return; }
 
     var player as IPlayer = event.mountingEntity;
@@ -366,6 +412,14 @@ events.register(function(event as crafttweaker.event.EntityMountEvent) {
 //Element identifiers
 
     if (event.isMounting) {
+
+    ##Mounts with no Elements
+    for not in All {
+            if (mountedDefinition.id != not) {
+                server.commandManager.executeCommandSilent(server,"gamestage silentadd " ~ player.name ~ " mountingNull");
+        }
+    }
+    ##Mounts with no Elements
 
     ##Horse/Boat Ability##
         for Minecraft in Normal {
@@ -563,10 +617,9 @@ if (event2.player.world.time % 20 != 0) { return; }
     world.catenation().sleep(5)
         // the context is a data holder that catenation tasks share
         .run(function(world, context) {
-            for mount in mounting {
-            if (!players.hasGameStage("mounting") && !players.hasGameStage("mounting1") && !players.hasGameStage("mounting2") && !players.hasGameStage("mounting3") && !players.hasGameStage("mounting4") && !players.hasGameStage("mounting5") && !players.hasGameStage("mounting6") && !players.hasGameStage("mounting7") && !players.hasGameStage("mounting8") && !players.hasGameStage("mounting9") && !players.hasGameStage("mounting10") && !players.hasGameStage("mounting11") && !players.hasGameStage("mounting12") && !players.hasGameStage("mounting13") && !players.hasGameStage("mounting14") && !players.hasGameStage("mounting15")) {
+            if (!players.hasGameStage("mountingNull") && !players.hasGameStage("mounting") && !players.hasGameStage("mounting1") && !players.hasGameStage("mounting2") && !players.hasGameStage("mounting3") && !players.hasGameStage("mounting4") && !players.hasGameStage("mounting5") && !players.hasGameStage("mounting6") && !players.hasGameStage("mounting7") && !players.hasGameStage("mounting8") && !players.hasGameStage("mounting9") && !players.hasGameStage("mounting10") && !players.hasGameStage("mounting11") && !players.hasGameStage("mounting12") && !players.hasGameStage("mounting13") && !players.hasGameStage("mounting14") && !players.hasGameStage("mounting15")) {
             players.dismountRidingEntity();
-            }}
+            }
         })
         .stopWhen(function(world, context) {
             return !players.isRiding;
