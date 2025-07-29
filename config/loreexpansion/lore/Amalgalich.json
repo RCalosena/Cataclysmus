@@ -12,21 +12,38 @@
       2. (16) Obsidian
       3. (4) Diamond Blocks
     
-      - Arrangement (G=Ground, D=Diamond, S=Soulcube, O=Obsidian, X=Air)
-    §lFront POV:
+      - §lArrangement §r(Top-down POV)
+
+    §lLayer 1-2:
+    (X = Air, §lO §r= Obsidian)
+    §lO §rX X X §lO
+    X X X X X
     X X §lO §rX X
-    §lD §rX §lO §rX §lD
-    §lO §rX §lS §rX §lO
-    §lO §rX §lO §rX §lO
-    §lO §rX §lO §rX §lO
-    §lG G G G G
-    |
-    §lTop-down POV:
+    X X X X X  
+    §lO §rX X X §lO
+    
+    §lLayer 3:
+    (§lS §r= Soulcube)
+    §lO §rX X X §lO
+    X X X X X
+    X X §lS §rX X
+    X X X X X  
+    §lO §rX X X §lO
+    
+    §lLayer 4:
+    (§lD §r= Diamond Block)
     §lD §rX X X §lD
     X X X X X
     X X §lO §rX X
     X X X X X  
     §lD §rX X X §lD
+    
+    §lLayer 5:
+    X X X X X
+    X X X X X
+    X X §lO §rX X
+    X X X X X  
+    X X X X X
 
     After building the altar, use a §lSoul Key §rto trigger the fight.
 

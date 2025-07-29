@@ -1,5 +1,5 @@
 setIcon("loreexpansion:lore_journal")
-setTitle("The Skeleton King")
+setTitle("Reanimating Royalty")
 setTranslatedDescription("New Entry Unlocked")
 setFrameType("GOAL")
 setShowToast(false)
