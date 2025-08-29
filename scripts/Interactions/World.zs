@@ -123,7 +123,14 @@ events.onGameStageAdded(function(event5 as mods.ctintegration.gamestages.GameSta
         server.commandManager.executeCommandSilent(server,"gamerule doDaylightCycle_tc false");
         server.commandManager.executeCommandSilent(server,"gamerule doDaylightCycle false");
         server.commandManager.executeCommandSilent(server,"time set 12500");
+
+        server.commandManager.executeCommandSilent(server, "advancement grant @a only triumph:thecataclysm/skelekill");
     }
+});
+events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent){
+    if event.player.world.gameRuleHelper.getBoolean("doDaylightCycle_tc") return;
+    
+    server.commandManager.executeCommandSilent(server, "advancement grant @a only triumph:thecataclysm/skelekill");
 });
 events.onGameStageRemoved(function(event6 as mods.ctintegration.gamestages.GameStageRemovedEvent){
     if event6.gameStage == "Death" {

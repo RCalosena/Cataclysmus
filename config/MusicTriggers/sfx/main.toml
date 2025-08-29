@@ -6,6 +6,13 @@
 		trigger_delay = "4000"
 		stop_delay = "4000"
 		song_delay = "4000"
+	[triggers.gamestage]
+		priority = "200"
+		persistence = "100"
+		resource_name = [ "cutscene" ]
+		fade_in = "150"
+		trigger_delay = "80"
+		identifier = "cutscene"
 	[triggers.universal]
 		active_cooldown = "0"
 		fade_in = "0"
@@ -16,7 +23,9 @@
 		song_delay = "0"
 
 [songs]
-	[songs.silent]
+	[[songs.silent]]
+		triggers = [ "gamestage-cutscene" ]
+	[[songs.silent]]
 		chance = "600"
 		play_once = "1"
 		triggers = [ "dimension-dementia" ]
@@ -35,3 +44,7 @@
 	[songs.MB5]
 		play_once = "1"
 		triggers = [ "dimension-dementia" ]
+	[songs.intro]
+		must_finish = true
+		play_once = "2"
+		triggers = [ "gamestage-cutscene" ]

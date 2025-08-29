@@ -11,8 +11,6 @@ import crafttweaker.entity.AttributeInstance;
 import mods.zenutils.UUID;
 import crafttweaker.data.IData;
 import crafttweaker.world.IBlockPos;
-import native.net.minecraft.client.Minecraft;
-import native.net.minecraft.entity.player.EntityPlayer;
 
 //Armor points rework
 events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){ 
@@ -396,52 +394,3 @@ events.register(function(event as crafttweaker.event.PlayerChangedDimensionEvent
     if (event.to == -23) { event.player.addPotionEffect(<potion:tombstone:ghostly_shape>.makePotionEffect(200,0)); }
 });
 //ghostly shape on midnight (to avoid getting instakilled on travel)
-
-//Holy Shield Cancels Pushing
-val Shields = [
-    <bountifulbaubles:shieldcobalt>,
-    <bountifulbaubles:shieldobsidian>,
-    <bountifulbaubles:shieldankh>,
-] as IItemStack[];
-
-events.register(function(event as PlayerTickEvent) {
-    if event.side != "CLIENT" return;
-    if event.phase == "START"  return; 
-
-    if event.player.world.time %10 != 0 { return; }
-
-    val player = Minecraft.getMinecraft().player as EntityPlayer;
-
-    if player == null return;
-
-for Shield in Shields {
-
-    if (event.player.isBaubleEquipped(Shield) != -1) {
-        player.entityCollisionReduction = 1.0;
-        break;
-    }
-
-    if !isNull(event.player.mainHandHeldItem) {
-    var mainhand = event.player.mainHandHeldItem.definition.id;
-
-        if (mainhand == Shield.definition.id) {
-        print("a");
-            player.entityCollisionReduction = 1.0;
-            break;
-        }
-    }
-
-    if !isNull(event.player.offHandHeldItem) {
-    var offhand = event.player.offHandHeldItem.definition.id;
-
-        if (offhand == Shield.definition.id) {
-            player.entityCollisionReduction = 1.0;
-            break;
-        }
-    }
-
-    player.entityCollisionReduction = 0.0;
-
-}
-});
-//Holy Shield Cancels Pushing

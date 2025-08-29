@@ -677,4 +677,25 @@ if (event.entity.nbt.ForgeCaps.memberGet("champions:championship").tier != 0 && 
     event.entity.updateNBT({ForgeCaps: { "champions:championship": {tier: 0}}});
 }
 });
+
+events.register(function(event as crafttweaker.event.EntityJoinWorldEvent){
+if event.world.isRemote() return;
+if isNull(event.entity.nbt) return;
+if isNull(event.entity.nbt.ForgeCaps) return;
+if isNull(event.entity.nbt.ForgeCaps.memberGet("champions:championship")) return;
+if isNull(event.entity.nbt.OwnerUUID) return;
+if (event.entity.nbt.ForgeCaps.memberGet("champions:championship").tier != 0 && event.entity.nbt.OwnerUUID.asString().contains("-")) {
+    event.entity.updateNBT({ForgeCaps: { "champions:championship": {tier: 0}}});
+}
+});
+
+events.register(function(event as crafttweaker.event.EntityLivingDeathDropsEvent){
+if event.entityLivingBase.world.isRemote() return;
+if isNull(event.entityLivingBase.nbt) return;
+if isNull(event.entityLivingBase.nbt.OwnerUUID) return;
+if (event.entity.nbt.OwnerUUID.asString().contains("-")) {
+    print("drop!");
+    event.cancel();
+}
+});
 //Summons

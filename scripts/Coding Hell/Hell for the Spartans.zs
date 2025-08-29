@@ -112,6 +112,11 @@ recipes.addShapedMirrored(<spartanweaponry:mace_wood>, [[null, <minecraft:flint>
 recipes.addShapedMirrored(<spartanweaponry:glaive_wood>, [[null, <minecraft:flint>, null],[null, <minecraft:flint>, null], [<minecraft:flint>, <spartanweaponry:material:1>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:staff>, [[null, null, <minecraft:flint>],[null, <spartanweaponry:material:1>, null], [<minecraft:flint>, null, null]]);
 recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemwoodnunchaku>, [[null, <ore:string>, null], [<minecraft:flint>, null, <minecraft:flint>]]);
+recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemdiamondnunchaku>, [[null, <ore:string>, null], [<minecraft:diamond>, null, <minecraft:diamond>]]);
+recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemcoppernunchaku>, [[null, <ore:string>, null], [<metallurgy:vulcanite_ingot>, null, <metallurgy:vulcanite_ingot>]]);
+recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemelectrumnunchaku>, [[null, <ore:string>, null], [<minecraft:nether_star>, null, <minecraft:nether_star>]]);
+recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemsteelnunchaku>, [[null, <ore:string>, null], [<ore:scaleDragonEnder>, null, <ore:scaleDragonEnder>]]);
+recipes.addShapedMirrored(<mujmajnkraftsbettersurvival:itemsilvernunchaku>, [[null, <ore:string>, null], [<ore:gemJade>, null, <ore:gemJade>]]);
 recipes.addShaped(<spiceoflife:lunchbox>, [[null, <minecraft:heavy_weighted_pressure_plate>, null],[<minecraft:heavy_weighted_pressure_plate>, <mod_lavacow:emblem_of_king>, <minecraft:heavy_weighted_pressure_plate>], [null, <minecraft:heavy_weighted_pressure_plate>, null]]);
 recipes.addShaped(<spiceoflife:lunchbox>, [[null, <minecraft:heavy_weighted_pressure_plate>, null],[<minecraft:heavy_weighted_pressure_plate>, <mca:staff_of_life>, <minecraft:heavy_weighted_pressure_plate>], [null, <minecraft:heavy_weighted_pressure_plate>, null]]);
 recipes.addShaped(<minecraft:wooden_pickaxe>, [[<minecraft:flint>, <ore:plankWood>, <minecraft:flint>],[null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
