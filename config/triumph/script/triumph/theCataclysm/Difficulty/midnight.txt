@@ -1,0 +1,12 @@
+setShowToast(false)
+setAnnounceToChat(false)
+setIcon("minecraft:flint_and_steel")
+setTranslatedTitle("The Eternal Night")
+setTranslatedDescription("Difficulty is higher in this dimension")
+
+criteria = addCriteria("entered_midnight", "minecraft:changed_dimension")
+criteria.setDimensionDestination("midnight")
+
+setRewardFunction("triumph:difficulty_midnight")
+
+setRepeatTime(1)

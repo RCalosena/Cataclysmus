@@ -23,7 +23,7 @@
     {
       "type": "explosion",
       "chance": 0.1,
-      "playerOnly": true,
+      "playerOnly": false,
       "cooldown": 1200
     }
   ],

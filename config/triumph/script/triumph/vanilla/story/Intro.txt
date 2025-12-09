@@ -1,0 +1,15 @@
+setIcon(<customdisc:rcalosena_-_mister_mistery>)
+
+setTitle("The Cataclysm")
+
+setDescription("Welcome to the Hopeless World")
+
+addParent("triumph:theCataclysm/root")
+
+setPos(80,89)
+
+hideLines()
+
+criteria = addCriteria("minecraft:location")
+
+criteria.setDimID(0)

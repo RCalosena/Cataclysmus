@@ -1,0 +1,17 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("Boss Hunting")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:vanilla/story/smelt_iron")
+
+criteria = addCriteria("iron", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_ingot")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(96,14)

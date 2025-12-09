@@ -1,0 +1,12 @@
+setShowToast(false)
+setAnnounceToChat(false)
+setIcon("minecraft:flint_and_steel")
+setTranslatedTitle("The Remnants")
+setTranslatedDescription("Difficulty is higher in this dimension")
+
+criteria = addCriteria("entered_end", "minecraft:changed_dimension")
+criteria.setDimensionDestination("the_end")
+
+setRewardFunction("triumph:difficulty_end")
+
+setRepeatTime(1)

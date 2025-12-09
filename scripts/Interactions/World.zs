@@ -355,7 +355,7 @@ val enchs = [
     <enchantment:uniquee:sages_blessing>,
     <enchantment:mod_lavacow:poisonous>,
     <enchantment:mujmajnkraftsbettersurvival:disarm>,
-    <enchantment:tombstone:soulbound>,
+    <enchantment:corpsecomplex:soulbound>,
     <enchantment:switchbow:cooldownreduce>,
     <enchantment:minecraft:protection>,
     <enchantment:spartanweaponry:return>,

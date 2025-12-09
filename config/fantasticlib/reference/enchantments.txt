@@ -79,13 +79,13 @@ uniquee:grimoire
 uniquee:pestilences_odium
 uniquee:deaths_odium
 tombstone:shadow_step
-tombstone:soulbound
 tombstone:magic_siphon
 tombstone:plague_bringer
 tombstone:blessing
 tombstone:curse_of_bones
 cqrepoured:lightning_protection
 cqrepoured:spectral
+corpsecomplex:soulbound
 ebwizardry:magic_sword
 ebwizardry:magic_bow
 ebwizardry:flaming_weapon

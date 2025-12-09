@@ -699,3 +699,11 @@ if (event.entity.nbt.OwnerUUID.asString().contains("-")) {
 }
 });
 //Summons
+
+//Wither overworld blacklist
+events.register(function(event as native.net.minecraftforge.event.entity.living.LivingSpawnEvent.SpecialSpawn) {
+    if (event.getEntity().wrapper.definition.id == "minecraft:wither" && event.getWorld().provider.getDimension() == 0) {
+        event.setCanceled(true);
+    }
+});
+//Wither overworld blacklist

@@ -562,3 +562,42 @@ for armor in gold {
         armor.anyDamage().addTooltip("§dShine");
         armor.anyDamage().addTooltip("Crouch-Jumping with any buff will consume it and give you SoulSight instead. The length of SoulSight depends on the amount of buffs that are active.");
 }
+
+for items in game.items {
+        if (items.id.contains("ore") && items.defaultInstance.isItemBlock) {
+
+                var blocks = items.defaultInstance.asBlock();
+
+                if blocks.definition.harvestLevel == 1 {
+                items.defaultInstance.addTooltip("Tier: §f1");
+                }
+
+                if blocks.definition.harvestLevel == 2 {
+                items.defaultInstance.addTooltip("Tier: §e2");
+                }
+
+                if blocks.definition.harvestLevel == 3 {
+                items.defaultInstance.addTooltip("Tier: §a3");
+                }
+
+                if blocks.definition.harvestLevel == 4 {
+                items.defaultInstance.addTooltip("Tier: §b4");
+                }
+
+                if blocks.definition.harvestLevel == 5 {
+                items.defaultInstance.addTooltip("Tier: §95");
+                }
+
+                if blocks.definition.harvestLevel == 6 {
+                items.defaultInstance.addTooltip("Tier: §d6");
+                }
+
+                if blocks.definition.harvestLevel == 7 {
+                items.defaultInstance.addTooltip("Tier: §c7");
+                }
+
+                if blocks.definition.harvestLevel == 8 {
+                items.defaultInstance.addTooltip("Tier: §48");
+                }
+        }
+}

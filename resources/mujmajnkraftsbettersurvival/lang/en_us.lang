@@ -116,7 +116,7 @@ mujmajnkraftsbettersurvival.nunchaku.desc=Hold Left-Click to spin, continuing to
 mujmajnkraftsbettersurvival.spear.desc=Can attack with increased reach, or thrown with Right-Click
 
 enchantment.mujmajnkraftsbettersurvival.agility=Agility
-enchantment.mujmajnkraftsbettersurvival.arrowrecovery=Arrow Recovery
+enchantment.mujmajnkraftsbettersurvival.arrowrecovery=Arrow Factory
 enchantment.mujmajnkraftsbettersurvival.assassinate=Assassinate
 enchantment.mujmajnkraftsbettersurvival.bash=Bash
 enchantment.mujmajnkraftsbettersurvival.blast=Blast
@@ -141,7 +141,7 @@ enchantment.mujmajnkraftsbettersurvival.versatility=Versatility
 enchantment.mujmajnkraftsbettersurvival.vitality=Vitality
 enchantment.mujmajnkraftsbettersurvival.weightless=Weightless
 
-enchantment.mujmajnkraftsbettersurvival.arrowrecovery.desc=After hitting an entity there is a chance to get your arrow back.
+enchantment.mujmajnkraftsbettersurvival.arrowrecovery.desc=After hitting an entity there is a chance to receive an arrow.
 enchantment.mujmajnkraftsbettersurvival.agility.desc=Increases your movement speed.
 enchantment.mujmajnkraftsbettersurvival.assassinate.desc=Increases backstab damage.
 enchantment.mujmajnkraftsbettersurvival.bash.desc=Your attacks are more likely to stun the enemy.

@@ -1,6 +1,4 @@
 import loottweaker.LootTweaker;
-import loottweaker.vanilla.loot.LootTable;
-import loottweaker.vanilla.loot.LootPool;
 import crafttweaker.item.IItemStack;
 
 //##############################
@@ -709,6 +707,7 @@ dcl_main.addItemEntry(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{
 val nether_dungeon = LootTweaker.newTable("cataclysmus:nether");
 val nether_main = nether_dungeon.addPool("main", 3, 4, 1, 2);
 
+nether_main.addItemEntry(<biomesoplenty:double_plant:2>, 2, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 nether_main.addItemEntry(<xat:dwarf_ring>, 1);
 nether_main.addItemEntry(<xat:titan_ring>, 1);
 nether_main.addItemEntry(<xat:goblin_ring>, 1);
@@ -807,8 +806,6 @@ midnight_main.addItemEntry(<srparasites:weapon_scythe>, 1);
 midnight_main.addItemEntry(<srparasites:weapon_axe>, 1);
 midnight_main.addItemEntry(<srparasites:weapon_sword>, 1);
 midnight_main.addItemEntry(<srparasites:weapon_cleaver>, 1);
-midnight_main.addItemEntry(<srparasites:weapon_lance>, 1);
-midnight_main.addItemEntry(<srparasites:weapon_maul>, 1);
 midnight_main.addItemEntry(<metallurgy:shadow_steel_sword>, 6);
 midnight_main.addItemEntry(<metallurgy:black_steel_sword>, 6);
 midnight_main.addItemEntry(<midnight:tenebrum_sword>, 6);

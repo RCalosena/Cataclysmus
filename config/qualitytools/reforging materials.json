@@ -4,11 +4,2323 @@
                 a tool with its repair item (like iron ingots for an iron sword), but some
                 items don't have a repair item, like bows. This adds items to reforge those.
                 It can also add an item for 'any', which will work for any item that can't be
-                reforged otherwise. For more info about how to add materials, visit:
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    "tool": "any",
+                  reforged otherwise. For more info about how to add materials, visit:
+                  https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+      "tool": "any",
+      "material": {
+          "item": "ebwizardry:magic_crystal"
+      }
+  },
+  {
+    "tool": {    
+    "item": "spartanweaponry:quiver_arrow"
+    },
     "material": {
-        "item": "ebwizardry:magic_crystal"
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "spartanweaponry:quiver_arrow_moderate"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "spartanweaponry:quiver_arrow_heavy"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "spartanweaponry:quiver_bolt"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "spartanweaponry:quiver_bolt_moderate"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "spartanweaponry:quiver_bolt_heavy"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:weightless_stone"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:inertia_null_stone"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:greater_inertia_stone"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:sea_stone"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:polarized_stone"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:wither_ring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:poison_stone"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:ender_tiara"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:damage_shield"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:arcing_orb"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:teddy_bear"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "xat:faelis_claw"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {    
+    "item": "ebwizardry:charm_mount_teleporting"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_black_hole"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_black_hole"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_transportation"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_light"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_stop_time"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_ice_immunity"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_fire_cloaking"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_ice_protection"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_wisdom"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_frost_warding"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_sixth_sense"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_silk_touch"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_abseiling"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_growth"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_flight"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_hunger_casting"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_undead_helmets"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_minion_variants"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_minion_health"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_storm"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_lava_walking"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_auto_smelt"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_spell_discovery"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_move_speed"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_experience_tome"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:charm_haggler"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_absorption"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_auto_shield"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_resurrection"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_transience"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_anchoring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_channeling"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_glide"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_wither_immunity"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:amulet_lich"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_ice_melee"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_meteor"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_disintegration"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_fire_biome"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_fire_melee"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_combustion"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_battlemage"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_siphoning"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_condensing"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_interdiction"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_paladin"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_defender"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_conjurer"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_blockwrangler"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_mana_return"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_extraction"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_evoker"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_full_moon"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_earth_biome"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_earth_melee"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_poison"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_mind_control"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_necromancy_melee"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_leeching"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_soulbinding"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_stormcloud"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_hammer"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_seeking"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_storm"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_lightning_melee"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_shattering"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_arcane_frost"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "ebwizardry:ring_ice_biome"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "baubles:ring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "xat:faelis_ring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "xat:elf_ring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "xat:goblin_ring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "xat:titan_ring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "xat:dwarf_ring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "mod_lavacow:dreamcatcher"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "mod_lavacow:halo_necklace"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketballoon"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:amuletsinempty"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:amuletsingluttony"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:amuletsinwrath"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:amuletsinpride"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketbrokenheart"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:amuletcross"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:shieldcobalt"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:shieldobsidian"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:shieldankh"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketankhcharm"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketblackdragonscale"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketmixeddragonscale"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:ringfreeaction"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketmagiclenses"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketobsidianskull"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketbezoar"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketshulkerheart"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:ringoverclocking"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketvitamins"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "bountifulbaubles:trinketapple"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "betteranimalsplus:bear_cape_kermode"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "betteranimalsplus:bear_cape_black"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "betteranimalsplus:bear_cape_brown"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "betteranimalsplus:wolf_cape_red"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "betteranimalsplus:wolf_cape_brown"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "betteranimalsplus:wolf_cape_arctic"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "betteranimalsplus:wolf_cape_black"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "betteranimalsplus:wolf_cape_classic"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "qualitytools:emerald_amulet"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "qualitytools:emerald_ring"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_1"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_2"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_3"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_4"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_5"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_6"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_7"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_8"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_9"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_10"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_11"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_12"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_13"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_14"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_15"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_16"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_17"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_18"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_19"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_20"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_21"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_22"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_23"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_24"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_25"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_26"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_27"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_28"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_29"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_30"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_31"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_32"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_33"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_34"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_35"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_36"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_37"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_38"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_39"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_40"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_41"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_42"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_43"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_44"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_45"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_46"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_47"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_48"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_49"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_50"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_51"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_52"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_53"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_54"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_55"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:accessory_56"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_1"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_2"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_3"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_4"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_5"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_6"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_7"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_8"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_9"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_10"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_11"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_12"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_13"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_14"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_15"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_16"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_17"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_18"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_19"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_20"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_21"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_22"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_23"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_24"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_25"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_26"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_27"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_28"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_29"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_30"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_31"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_32"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_33"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_34"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_35"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_36"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_37"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_38"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_39"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_40"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_41"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_42"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_43"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_44"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_45"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_46"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_47"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_48"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_49"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_50"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_51"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_52"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_53"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_54"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_55"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_56"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_57"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_58"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_59"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_60"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_61"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_62"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_63"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_64"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_65"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_66"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_67"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_68"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_69"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_70"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_71"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_72"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_73"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_74"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_75"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_76"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_77"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_78"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_79"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_80"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_81"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_82"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_83"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_84"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_85"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_86"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_87"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_88"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_89"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_90"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_91"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_92"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_93"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_94"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_95"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_96"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_97"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_98"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_99"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_100"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_101"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_102"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_103"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_104"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_105"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {        
+    "item": "behgameon:ring_106"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
+    }
+  },
+  {
+    "tool": {
+      "item": "ebwizardry:charm_feeding"
+    },
+    "material": {
+      "item": "bountifulbaubles:spectralsilt"
     }
   },
   {
@@ -34,6 +2346,22 @@
     },
     "material": {
         "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "mujmajnkraftsbettersurvival:itemsilvernunchaku"
+    },
+    "material": {
+        "ore_dict": "gemJade"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:scythe_copper"
+    },
+    "material": {
+        "ore_dict": "gemJade"
     }
   },
   {
@@ -214,6 +2542,214 @@
   },
   {
     "tool": {
+        "item": "mujmajnkraftsbettersurvival:itemelectrumnunchaku"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:scythe_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:dagger_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:longsword_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:katana_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:saber_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:rapier_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:greatsword_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:hammer_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:warhammer_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:spear_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:staff_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:glaive_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:mace_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:battleaxe_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:halberd_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:pike_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:lance_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:longbow_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:crossbow_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:throwing_knife_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:throwing_axe_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:javelin_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:boomerang_nickel"
+    },
+    "material": {
+        "ore_dict": "netherStar"
+    }
+  },
+  {
+    "tool": {
+        "item": "mujmajnkraftsbettersurvival:itemcoppernunchaku"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:scythe_platinum"
+    },
+    "material": {
+        "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
         "item": "spartanweaponry:dagger_platinum"
     },
     "material": {
@@ -386,6 +2922,22 @@
     },
     "material": {
         "ore_dict": "ingotVulcanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "mujmajnkraftsbettersurvival:itemsteelnunchaku"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
+    }
+  },
+  {
+    "tool": {
+        "item": "spartanweaponry:scythe_lead"
+    },
+    "material": {
+        "ore_dict": "scaleDragonEnder"
     }
   },
   {

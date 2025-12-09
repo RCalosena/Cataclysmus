@@ -1,0 +1,1856 @@
+<book title="RCalosena's Guidebook" cover="gbook:covers/default" fontSize="0.4">
+
+  <include ref="gbook:xml/standard.xml" />
+
+  <conditions>
+    <advancement-unlocked name="default" advancement="triumph:theCataclysm/root"/>
+    <advancement-unlocked name="guide1" advancement="triumph:theCataclysm/Guidebook_Entries/entry1"/>
+    <advancement-unlocked name="guide2" advancement="triumph:theCataclysm/Guidebook_Entries/entry2"/>
+    <advancement-unlocked name="guide3" advancement="triumph:theCataclysm/Guidebook_Entries/entry3"/>
+    <advancement-unlocked name="guide4" advancement="triumph:theCataclysm/Guidebook_Entries/entry4"/>
+    <advancement-unlocked name="guide5" advancement="triumph:theCataclysm/Guidebook_Entries/entry5"/>
+    <advancement-unlocked name="guide6" advancement="triumph:theCataclysm/Guidebook_Entries/entry6"/>
+    <advancement-unlocked name="guide7" advancement="triumph:theCataclysm/Guidebook_Entries/entry7"/>
+    <advancement-unlocked name="guide8" advancement="triumph:theCataclysm/Guidebook_Entries/entry8"/>
+    <advancement-unlocked name="guide9" advancement="triumph:theCataclysm/Guidebook_Entries/entry9"/>
+    <advancement-unlocked name="guide10" advancement="triumph:theCataclysm/Guidebook_Entries/entry10"/>
+    <advancement-unlocked name="guide11" advancement="triumph:theCataclysm/Guidebook_Entries/entry11"/>
+    <advancement-unlocked name="guide12" advancement="triumph:theCataclysm/Guidebook_Entries/entry12"/>
+    <advancement-unlocked name="guide13" advancement="triumph:theCataclysm/Guidebook_Entries/entry13"/>
+    <advancement-unlocked name="guide14" advancement="triumph:theCataclysm/Guidebook_Entries/entry14"/>
+    <advancement-unlocked name="guide15" advancement="triumph:theCataclysm/Guidebook_Entries/entry15"/>
+  </conditions>
+
+  <chapter>
+    <section>
+      <!--
+      'p' tags draw text, and increment the vertical offset.
+      They do NOT behave exactly like in html.
+      The space attribute changes the default spacing added after the paragraph.
+      -->
+      <p color="#606060" scale="1.15" space="8">This book is a helpful guide for navigating the modpack's chaos. It won't spoil everything but is recommended for those who need assistance. It's not a complete wiki and intentionally excludes some game aspects for you to discover.</p>
+
+      <p space="8" scale="1.15" color="#606060">A web-based, detailed documentation will be available soon in the wiki.</p>
+    <divider/>
+      <recipe type="shapeless" space="8">
+      <recipe.result space="8">
+        <stack item="gbook:guidebook"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <recipe type="shapeless" space="8" index="1">
+      <recipe.result space="8">
+        <stack item="gbook:guidebook"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <section-break/>
+      <!--
+      'space' tags increment the vertical offset without drawing text.
+      The 'height' attribute specifies how much.
+      The % refers to a % of the section's height, while integer values refer to pixels.
+      -->
+      <space height="33%" />
+      <p space="0" align="center" scale="2">Welcome</p>
+      <p space="0" align="center" scale="2">to</p>
+      <p space="0" align="center" scale="2">the Manual</p>
+      <p space="6" align="center" scale="2">__________</p>
+      <p align="center" scale="1.5" space="10">by C.I</p>
+      <p space="10" scale="1.15" align="center" underline="true" bold="true">Small Tutorial for traversing:</p>
+      <p indent="20" scale="1.1" color="#606060">- Arrows below book: Turn pages/chapters</p>
+      <p indent="20" scale="1.1" color="#606060">- Arrow above: Previous page (like a "back button")</p>
+      <p indent="20" scale="1.1" color="#606060">- House symbol: Go back to the beginning</p>
+    </section>
+    <section>
+      <page_title>
+        <title scale="1.15">Index</title>
+      </page_title>
+      <p scale="1.2" space="8" align="center" underline="true" bold="true">Progression</p>
+      <link scale="1.15" space="8" ref="gettingStarted">3. Getting Started</link>
+      <link scale="1.15" indent="8" ref="gettingStarted:progress">3.1. Progression</link>
+      <link scale="1.15" indent="8" ref="gettingStarted:early">3.2. Early Game</link>
+      <link scale="1.15" indent="8" condition="guide1" ref="gettingStarted:dungeons">3.3. Boss Hunting</link>
+      <link scale="1.15" space="8" condition="guide2" indent="8" ref="gettingStarted:caverns">3.4. The Deep Caverns</link>
+      <link scale="1.15" space="8" condition="guide3" ref="midgame">4. Mid Game</link>
+      <link scale="1.15" indent="8" condition="guide3" ref="midgame:reaSke">4.1. Pre-Carnage</link>
+      <link scale="1.15" indent="8" condition="guide4" ref="midgame:nether">4.2. Into the World of Carnage</link>
+      <link scale="1.15" indent="8" condition="guide5" ref="midgame:wither+">4.3. The Hunting</link>
+      <link scale="1.15" space="8" condition="guide6" indent="8" ref="midgame:rahovart">4.4. Demon Massacre</link>
+      <link scale="1.15" space="8" condition="guide7" ref="lategame">5. Late Game</link>
+      <link scale="1.15" indent="8" condition="guide7" ref="lategame:remnants">5.1. Finding the Remnants</link>
+      <link scale="1.15" indent="8" condition="guide8" ref="lategame:dragon">5.2. Dragon Slayer</link>
+      <link scale="1.15" indent="8" condition="guide9" ref="lategame:endjourney">5.3. Post Dragon</link>
+      <link scale="1.15" space="8" condition="guide10" indent="8" ref="lategame:asmodeus">5.4. The Deterrent</link>
+      <link scale="1.15" space="8" condition="guide11" ref="endgame">6. End Game</link>
+      <link scale="1.15" indent="8" condition="guide11" ref="endgame:midnight">6.1. The Eternal Night</link>
+      <link scale="1.15" indent="8" condition="guide12" ref="endgame:erebus">6.2. The Hidden World</link>
+      <link scale="1.15" indent="8" condition="guide13" ref="endgame:bossrush">6.3. Final Rush</link>
+      <link scale="1.15" space="8" condition="guide14" indent="8" ref="endgame:amalgalich">6.4. God Killer</link>
+      <link scale="1.15" space="8" condition="guide15" ref="postgame">7. Post Game</link>
+      <link scale="1.15" indent="8" condition="guide15" ref="postgame:armors">7.1. Ultimate Armors</link>
+      <link scale="1.15" indent="8" condition="guide15" ref="postgame:quest">7.2. Sentient Weapons</link>
+      <link scale="1.15" space="12" condition="guide15" indent="8" ref="postgame:bossRush">7.3. The Final Challenge</link>
+    </section>
+    <section>
+      <p space="50"></p>
+      <p condition="default" scale="1.2" space="12" underline="true" bold="true">Game Mechanics</p>
+      <link scale="1.15" condition="default" space="8" ref="ByS">1. Main Features</link>
+      <link scale="1.15" condition="default" indent="8" ref="ByS:skillTrees">1.1. The Skill Trees</link>
+      <link scale="1.15" condition="default" indent="8" ref="ByS:pickClass">1.2. Picking a Class</link>
+      <link scale="1.15" condition="default" space="8" indent="8" ref="ByS:setBonus">1.3. Qualities and Abilities</link>
+      <link scale="1.15" condition="default" space="8" ref="movement">2. Player Mechanics</link>
+      <link scale="1.15" condition="default" indent="8" ref="movement:dodges">2.1. Movement</link>
+      <link scale="1.15" condition="default" indent="8" space="12" ref="movement:walljumps">2.2. Combat</link>
+      <p condition="default" scale="1.2" space="12" underline="true" bold="true">Tips</p>
+      <link scale="1.15" condition="default" space="8" ref="Tips">8. All tips</link>
+    </section>
+  </chapter>
+  <chapter condition="default" id="gettingStarted">
+    <section condition="default">
+      <space height="10%"/>
+      <p space="0" align="center" scale="2">Getting</p>
+      <p space="0" align="center" scale="2">Started</p>
+      <p space="12" align="center" scale="2">____________________</p>
+      <p space="12" scale="1.15" align="center">The beginning of the official guide.</p>
+      <p scale="1.15" space="8" underline="true" align="center">Content:</p>
+      <p scale="1.15" align="center" underline="true">Progression</p>
+      <link scale="1.15" align="center" ref=":early">Early Game</link>
+      <link scale="1.15" align="center" ref=":dungeons">Boss Hunting</link>
+      <link scale="1.15" align="center" ref=":caverns">The Deep Caverns</link>
+    </section>
+    <section condition="default" id="progress">
+      <page_title>
+        <title scale="1.15">Progression</title>
+      </page_title>
+      <p space="8" scale="1.15">In this game, progression differs from vanilla Minecraft with locked phases between bosses and exploration, allowing building, mining, and side quests in between.</p>
+      <p space="8" scale="1.15">Here are the armor progression paths for each <link scale="1.15" ref="ByS:pickClass">class:</link></p>
+    <divider/>
+      <p> </p>
+      <p space="8" underline="true" color="#00a627" scale="1.15">Hell for Leather:</p>
+      <p space="8" scale="1.15"><stack item="mysticalworld:copper_helmet"/><stack item="cqrepoured:helmet_slime"/><stack item="minecraft:iron_helmet"/><stack item="minecraft:diamond_helmet"/><stack item="metallurgy:quicksilver_helmet"/><stack item="metallurgy:hepatizon_helmet"/><stack item="metallurgy:oureclase_helmet"/><stack item="metallurgy:desichalkos_helmet"/><stack item="metallurgy:shadow_iron_helmet"/><stack item="metallurgy:astral_silver_helmet"/><stack item="metallurgy:eximite_helmet"/><stack item="mutantbeasts:mutant_skeleton_skull"/><stack item="metallurgy:shadow_steel_helmet"/><stack item="erebus:jade_helmet"/><stack item="metallurgy:amordrine_helmet"/><stack item="nocubessrparmory:adaptivearmorhelmet"/><stack item="nocubessrparmory:gorearmorhelmet"/></p>
+    <divider/>
+      <p> </p>
+      <p space="8" underline="true" color="#ad7900" scale="1.15">Heavy Warrior:</p>
+      <p space="8" scale="1.15"><stack item="metallurgy:steel_helmet"/><stack item="metallurgy:bronze_helmet"/><stack item="cqrepoured:helmet_heavy_iron"/><stack item="cqrepoured:helmet_heavy_diamond"/><stack item="cqrepoured:helmet_bull"/><stack item="cqrepoured:helmet_turtle"/><stack item="metallurgy:black_steel_helmet"/><stack item="metallurgy:vulcanite_helmet"/><stack item="metallurgy:electrum_helmet"/><stack item="metallurgy:osmium_helmet"/><stack item="metallurgy:orichalcum_helmet"/><stack item="metallurgy:lutetium_helmet"/><stack item="metallurgy:haderoth_helmet"/><stack item="midnight:tenebrum_helmet"/><stack item="erebus:rhino_exoskeleton_helmet"/><stack item="nocubessrparmory:carapacearmorhelmet"/><stack item="nocubessrparmory:evolutionarmorhelmet"/></p>
+    <divider/>
+      <p> </p>
+      <p space="8" underline="true" color="#009fad" scale="1.15">Scoped Overseer:</p>
+      <p stack="8" scale="1.15"><stack item="minecraft:leather_helmet"/><stack item="minecraft:chainmail_helmet"/><stack item="metallurgy:brass_helmet"/><stack item="mysticalworld:silver_helmet"/><stack item="cqrepoured:helmet_spider"/><stack item="metallurgy:deep_iron_helmet"/><stack item="metallurgy:kalendrite_helmet"/><stack item="metallurgy:carmot_helmet"/><stack item="mod_lavacow:faminearmor_helmet"/><stack item="metallurgy:celenegil_helmet"/><stack item="metallurgy:orichalcum_helmet"/><stack item="metallurgy:tartarite_helmet"/><stack item="nyx:meteor_helm"/><stack item="metallurgy:krik_helmet"/><stack item="erebus:rein_compound_goggles"/><stack item="nocubessrparmory:livingarmorhelmet"/><stack item="nocubessrparmory:pestilentarmorhelmet"/></p>
+    <divider/>
+      <p space="8" scale="1.15">Note: Armor progression may vary slightly depending on the class chosen. Helmets listed above will appear in each section of the guide to indicate the next path of progression.</p>
+    </section>
+    <section condition="default">
+      <p space="20"></p>
+      <p scale="1.15">In your playthrough, you'll use JEI to check for recipes. But you might hit a wall when trying to craft weapons/armor due to missing materials. Defeating a specific boss at different stages is the only way to obtain those materials. Be mindful of overlooked progression elements that may impede your advancement.</p>
+      <p space="8" scale="1.15">The guide book includes a comprehensive set of chapters dedicated to preventing these events. It begins with the first stage, discussing the starting phase of your playthrough.</p>
+    <divider/>
+    <p> </p>
+    <p scale="1.15" bold="true">Important: More pages of the guidebook will be unlocked after you achieve the last quest on your current pages.</p>
+    </section>
+    <section condition="default" id="early">
+      <page_title>
+        <title scale="1.15">Early Game</title>
+      </page_title>
+      <p space="20"></p>
+      <p space="8" underline="true" scale="1.2">Step 1: Acquiring Wood</p>
+      <p scale="1.15" space="8">To get wood from trees, you need flint tools. Find<stack item="minecraft:flint"/>in<stack item="minecraft:gravel"/> by breaking it repeatedly. Right-click<stack item="minecraft:flint"/>on a stone surface to get<stack item="notreepunching:flint_shard"/>. Finally, use the<stack item="notreepunching:flint_shard"/>to make<stack item="notreepunching:knife/flint"/>and a<stack item="notreepunching:axe/flint"/>.</p>
+      <p scale="1.15">To make<stack item="notreepunching:axe/flint"/>, start by crafting a<stack item="notreepunching:knife/flint"/>. Get your previous<stack item="notreepunching:flint_shard"/>, and then<stack item="minecraft:stick"/>from breaking leaves.</p>
+    <divider/>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="notreepunching:knife/flint"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <p scale="1.15">Upon acquiring<stack item="notreepunching:knife/flint"/>, break <stack item="minecraft:tallgrass" meta = "1"/> with it to obtain at least (3)<stack item="notreepunching:grass_fiber"/>to make<stack item="notreepunching:grass_string"/>.</p>
+    <divider/>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="notreepunching:grass_string"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="default">
+    <p space="20"></p>
+    <divider/>
+      <p scale="1.15">Finally, craft a<stack item="notreepunching:axe/flint"/>. And now, you can gather logs from any tree!</p>
+    <divider/>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="notreepunching:axe/flint"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <p scale="1.15">To transform logs into planks, place them on the ground and right-click with a Flint Hatchet or any axe. This can also be done with planks to obtain sticks. With planks in hand, you can now create a <stack item="minecraft:crafting_table"/>.</p>
+    <divider/>
+      <p space="8"> </p>
+      <p space="8" underline="true" scale="1.2">Step 2: Stone Age</p>
+      <p scale="1.15" space="8">You might realize that you can't make a wooden pickaxe. This is because all wooden tools don't exist anymore. Instead, you'll need<stack item="notreepunching:pickaxe/flint"/>, or<stack item="minecraft:stone_pickaxe"/>.</p>
+      <p scale="1.15">Making a<stack item="notreepunching:pickaxe/flint"/>is similar to crafting a<stack item="notreepunching:axe/flint"/>, but it requires more<stack item="notreepunching:flint_shard"/>.</p>
+    <divider/>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="notreepunching:pickaxe/flint"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="default">
+      <p scale="1.15">To make a<stack item="minecraft:stone_pickaxe"/>, gather at least (12)<stack item="notreepunching:rock/stone"/>by right-clicking them with an empty hand. Then, transform them into <stack item="minecraft:cobblestone"/>, which can be used to craft a<stack item="minecraft:stone_pickaxe"/>.</p>
+    <divider/>
+      <recipe type="shapeless" index="2">
+      <recipe.result space="8">
+        <stack item="minecraft:cobblestone"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shapeless">
+      <recipe.result space="8">
+        <stack item="notreepunching:cobblestone/andesite"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shapeless">
+      <recipe.result space="8">
+        <stack item="notreepunching:cobblestone/granite"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shapeless">
+      <recipe.result space="8">
+        <stack item="notreepunching:cobblestone/diorite"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <recipe type="shaped" index="1">
+      <recipe.result space="8">
+        <stack item="minecraft:stone_pickaxe"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="default">
+      <p space="8" underline="true" scale="1.2">Step 3: Iron Age?</p>
+      <p scale="1.15" space="8">After crafting a pickaxe, your playthrough will resemble vanilla Minecraft. Explore, gather <stack item="minecraft:coal"/>, and venture into mines for <stack item="minecraft:iron_ore"/> to create tools and equipment.</p>
+      <p scale="1.15" space="8">As a melee player, you have various iron weapons at your disposal. Ranged players can choose between a reinforced crossbow and/or bow. However, when attempting to craft iron armor, the first wall of progression arises...</p>
+    <divider/>
+    </section>
+    <section condition="guide1" id="dungeons">
+      <page_title>
+        <title scale="1.15">Boss Hunting</title>
+      </page_title>
+      <p scale="1.15" space="8" underline="true">Avaliable armors during this stage:</p>
+      <p scale="1.15" space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p scale="1.15" space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="mysticalworld:copper_helmet"/><stack item="cqrepoured:helmet_slime"/></p>
+      <p scale="1.15" space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="metallurgy:bronze_helmet"/><stack item="metallurgy:steel_helmet"/></p>
+      <p scale="1.15" space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="minecraft:leather_helmet"/><stack item="minecraft:chainmail_helmet"/></p>
+      <p space="20"> </p>
+    </section>
+    <section condition="guide1">
+      <p space="16" underline="true" scale="1.2">Step 1: Rookie's Armor</p>
+      <p space="10" underline="true" scale="1.2" color="#00a627">Hell for Leather:</p>
+      <p scale="1.15" space="8" underline="true" color="#00a627">Copper Armor:</p>
+      <p scale="1.15" space="8">Crafting copper armor is easy. Find <stack item="metallurgy:copper_ore"/> at Y = 35 to 120, smelt it into <stack item="metallurgy:copper_ingot"/> using a <stack item="minecraft:furnace"/> , and craft the armor as you would with Vanilla armor.</p>
+      <p scale="1.15" space="8" underline="true" color="#00a627">Slime Armor:</p>
+      <p scale="1.15" space="8">To craft this armor, combine <stack item="minecraft:slime_ball"/> and <stack item="lycanitesmobs:cooked_arisaur_meat"/> to craft <stack item="cqrepoured:ball_slime"/>, the materials for the armor.</p>
+      <p scale="1.15"><stack item="minecraft:slime_ball"/> is dropped by mobs like Frogs, Slimes, and Eechetiks. <stack item="lycanitesmobs:raw_arisaur_meat"/> is obtained from killing Arisaurs in the forest.</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="cqrepoured:ball_slime"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <p space="12" underline="true" scale="1.2" color="#ad7900">Heavy Warrior:</p>
+      <p scale="1.15" bold="true">Note: For both of these armors, you'll need to craft or find a crusher first, to create their materials...</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="metallurgy:crusher"/>
+      </recipe.result>
+      </recipe>
+    </section>
+    <section condition="guide1">
+      <p scale="1.15" space="8" underline="true" color="#ad7900">Bronze Armor:</p>
+      <p scale="1.15" space="8">To create bronze armor, follow these steps:</p>
+      <p scale="1.15" space="8">Find <stack item="metallurgy:copper_ore"/> and <stack item="metallurgy:tin_ore"/> in caves near the surface, and crush them using a <stack item="metallurgy:crusher"/>. Then, combine the <stack item="metallurgy:copper_dust"/> and <stack item="metallurgy:tin_dust"/> in your crafting menu to create <stack item="metallurgy:bronze_dust"/>, before smelting the <stack item="metallurgy:bronze_dust"/> in a <stack item="minecraft:furnace"/> to obtain <stack item="metallurgy:bronze_ingot"/> . Finally, use the ingots to craft bronze armor.</p>
+      <recipe type="shapeless" space="8">
+      <recipe.result space="8">
+        <stack item="metallurgy:bronze_dust"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p scale="1.15" space="8" underline="true" color="#ad7900">Steel Armor:</p>
+      <p scale="1.15" space="8">To obtain steel armor, find <stack item="minecraft:iron_ore"/> and <stack item="metallurgy:manganese_ore"/> in caves near the surface, and crush them using a <stack item="metallurgy:crusher"/> before combining them to create <stack item="metallurgy:steel_dust"/>. Finally, smelt the <stack item="metallurgy:steel_dust"/> in a <stack item="minecraft:furnace"/> to obtain <stack item="metallurgy:steel_ingot"/> for crafting the armor.</p>
+      <recipe type="shapeless" space="8">
+      <recipe.result space="8">
+        <stack item="metallurgy:steel_dust"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+    <divider/>
+    </section>
+    <section condition="guide1">
+      <p space="12" underline="true" scale="1.2" color="#009fad">Scoped Overseer:</p>
+      <p scale="1.15" space="8" underline="true" color="#009fad">Leather Armor:</p>
+      <p scale="1.15" space="8">Leather armor is obtained by killing certain mobs like Cows, Makas, or Horses. They drop <stack item="minecraft:leather"/> upon death, which can be used to craft the armor set.</p>
+      <p scale="1.15" space="8" underline="true" color="#009fad">Chainmail Armor:</p>
+      <p scale="1.15" space="12">This armor is readily available in various structures through exploration, including chests and drops from mobs. Alternatively, you can craft it using <stack item="quark:chain"/> .</p>
+      <p scale="1.15" space="8">The recipe can be seen below:</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="quark:chain"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+    <divider/>
+      <p space="12" underline="true" scale="1.2">Step 2: Finding the Right Dungeon</p>
+      <p scale="1.15" space="8">Several structures in the Overworld will be discovered, but only a few are useful for progression. Common ones include castles, pirate ships, and bunkers, among others.</p>
+      <p scale="1.15" space="8">Look for a boss bar and the inability to break blocks to confirm if you're on the right structure.</p>
+    </section>
+    <section condition="guide1">
+      <p space="12" underline="true" scale="1.2">Step 3: The Dungeon Keepers</p>
+      <p scale="1.15" space="8">The "Dungeon Keepers" are the bosses of these dungeons. Each of them will drop (10) <stack item="srparasites:ada_manducater_drop"/> , <stack item="srparasites:ada_summoner_drop"/> , <stack item="nocubessrparmory:overlordcore"/> , and <stack item="srparasites:bone"/>.</p>
+      <p scale="1.15" space="8">Boss fights won't be documented in this guide. Instead, find <stack item="loreexpansion:lore_scrap"/> inside ruins, containing accounts from fallen heroes who faced these bosses; The papers are automatically added to your <stack item="loreexpansion:lore_journal"/> . Finally, pay attention to the boss's name on the pages, as the page you found might not determine the boss you fight.</p>
+      <p scale="1.15" space="8" italics="true" color="#606060">* Note: All dungeon blocks become breakable after defeating the boss; If a material necessary for progression seems missing, it may have dropped through a wall.*</p>
+    </section>
+    <section condition="guide2" id="caverns">
+      <page_title>
+        <title scale="1.15">The Deep Caverns</title>
+      </page_title>
+      <p scale="1.15" space="8" underline="true">Avaliable armors during this stage:</p>
+      <p scale="1.15" space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p scale="1.15" space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="minecraft:iron_helmet"/><stack item="minecraft:diamond_helmet"/></p>
+      <p scale="1.15" space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="cqrepoured:helmet_heavy_iron"/><stack item="cqrepoured:helmet_heavy_diamond"/></p>
+      <p scale="1.15" space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="metallurgy:brass_helmet"/><stack item="mysticalworld:silver_helmet"/></p>
+      <p space="12" underline="true" scale="1.2">Step 1: Getting Prepared</p>
+      <p scale="1.15" space="8">You'll have to prepare before entering the Deep Caverns. It's a vast and dark area with giant cave systems spanning 256 blocks vertically. Getting lost is easy and dangerous. (Tip: The Deep Caverns are a "Loot-and-Run" section, so running is preferable to fighting.)</p>
+      <p scale="1.15" space="8">To prepare yourself after defeating the Dungeon Keepers, you can use the materials acquired to create various items, of which are used for the next tier of armor for each class. Here's how to craft them:</p>
+    </section>
+    <section condition="guide2">
+      <p scale="1.15" italics="true" color="#606060">*Note: All these materials are used respectively for iron, heavy iron, and brass armors*</p>
+      <p scale="1.15" space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="elenaidodge2:iron_feather"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p scale="1.15" space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="nocubessrparmory:rawcarbonsteel"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p scale="1.15" space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="erebus:materials" meta="11"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"> </p>
+      <p scale="1.15">As for the armor recipes, you can search them in the JEI menu.</p>
+      <p scale="1.15" italics="true" color="#606060">*(this decision has been made because spamming the guidebook with recipes of each armor piece of every armor set in the game, would occupy a lot of space)*</p>
+    <divider/>
+      <p> </p>
+    </section>
+    <section condition="guide2">
+      <p scale="1.15" space="8">When you upgrade your armor, prioritize acquiring class-specific <link scale="1.15" ref="ByS:charms">Charms</link> and other useful items. Obtain a <stack item="minecraft:compass"/> for coordinates and an <stack item="antiqueatlas:antique_atlas"/> for a handheld minimap with waypoints. Carry plenty of torches to counter darkness, especially in the Deep Caverns where no light results in random damage. Finally, bring multiple <stack item="minecraft:iron_pickaxe"/> .</p>
+      <p scale="1.15">Finally, Consider reviewing the <link scale="1.15" ref="movement">movement mechanics</link>. Wall jumps can help avoid excessive block placement, while combining dodges with water buckets can be a lifesaver during long falls.</p>
+    <divider/>
+      <p space="12" underline="true" scale="1.2">Step 2: Diving in</p>
+      <p scale="1.15" space="8">Now that you're prepared to dive into the Deep Caverns, try digging down to where bedrock used to be, or, if available, go down the Village Mine instead, which is a structure that can appear in the villages.</p>
+      <p scale="1.15">Once heading down, you'll find a new layer of blocks which disappear once you try to mine them. These blocks separate the loading zone between the regular caverns and the Deep Caverns.</p>
+    <divider/>
+    </section>
+    <section condition="guide2">
+      <p space="12" underline="true" scale="1.2">Step 3: Resource Gathering</p>
+      <p scale="1.15" space="8">Your main objective in the Deep Caverns is to find Diamond/Silver ores <stack item="minecraft:diamond_ore"/><stack item="metallurgy:silver_ore"/> to craft armor equipment and weapons. These ores are both found at around y=30 to y=10 inside the Deep Caverns, meaning that you'll have to travel to the very bottom of the cave systems to find these ores. Besides that, there is another important ore that is found in that height level, being the Carbon Didýmite Ore <stack item="ebwizardry:crystal_ore"/> , which drops <link scale="1.15" ref="ByS:qualities">devout crystals</link><stack item="ebwizardry:magic_crystal"/> when mined. Also, at any height level, you'll find Lapis Lazuli ore <stack item="minecraft:lapis_ore"/> , which is also absent in the regular caverns.</p>
+      <p scale="1.15">Finally, you might notice a variety of other ores while exploring the Deep Caverns. Many of these ores are ones that you'll have to mine in the future for progression. So, if you are able to obtain them beforehand, feel free to do so.</p>
+    </section>
+  </chapter>
+  <chapter id="midgame">
+    <section condition="guide3">
+      <space height="10%" />
+      <p space="0" align="center" scale="2">Mid</p>
+      <p space="0" align="center" scale="2">Game</p>
+      <p space="12" align="center" scale="2">____________________</p>
+      <p space="12" align="center">Advancing beyond your reality.</p>
+      <p space="8" underline="true" align="center">Content:</p>
+      <p align="center" underline="true">Pre-Carnage</p>
+      <link align="center" ref=":nether">Into the World of Carnage</link>
+      <link align="center" ref=":wither+">The Hunting</link>
+      <link align="center" ref=":rahovart">Demon Massacre</link>
+    </section>
+    <section condition="guide3" id="reaSke">
+      <page_title>
+        <title>Pre-Carnage</title>
+      </page_title>
+      <p space="8" underline="true">Avaliable armors during this stage:</p>
+      <p space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="metallurgy:quicksilver_helmet"/><stack item="metallurgy:hepatizon_helmet"/></p>
+      <p space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="metallurgy:black_steel_helmet"/><stack item="cqrepoured:helmet_bull"/><stack item="cqrepoured:helmet_turtle"/></p>
+      <p space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="metallurgy:deep_iron_helmet"/><stack item="cqrepoured:helmet_spider"/></p>
+      <p space="12" underline="true" scale="1.2">Step 1: What it Takes to Make a Diamond Pickaxe</p>
+      <p space="8">As you probably noticed through your time playing this game, the Diamond Pickaxe now has two alternative recipes which require a special material that you might not know how to obtain. As stated before, these materials are ones that are dropped by bosses.</p>
+      <p space="8">This time, you can choose which boss to fight as now you'll have to summon them by performing certain actions.</p>
+    </section>
+    <section condition="guide3">
+      <p space="12" underline="true" scale="1.2">Step 2: The Bosses</p>
+      <p space="8" underline="true">The Grim Reaper</p>
+      <p space="8">If you're looking for a rather short fight, you might want to choose The Grim Reaper.</p>
+      <p space="8">As opposed to The Skeleton King, The Grim Reaper is strong and nimble, meaning that, on top of him dealing a lot of damage, it'll be harder for you to hit him in battle.</p>
+      <p space="8">Besides the incredible agility of the boss, there are no other tricks to this fight besides a phase where the boss teleports to the air and starts healing, in which case, you'll have to tower up into the air to reach him.</p>
+      <p space="8" underline="true">The Skeleton King</p>
+      <p space="8">If you're looking for a more long lasting yet tamer fight, you might want to choose The Skeleton King.</p>
+      <p space="8">As opposed to The Grim Reaper, The Skeleton King is slow yet resistant, meaning that you can focus on damaging while dodging pretty easily, but the fight might go on for a while.</p>
+      <p space="8">During the fight, you might want to focus on taking out The Skeleton King's minions every once in a while, as they might throw off your rhythm, and also, as they spawn progressively during the fight, they could start accumulating and becoming a serious problem.</p>
+      <p space="12" underline="true" scale="1.2">Step 3: Preparing for the fight</p>
+      <p space="8">For the first time in the game, you'll be able to choose between two armors that represent two subclasses (for more information click <link ref="ByS:pickClass">here</link>). A small guide on how to adquire the materials to craft these armors, can be seen below:</p>
+    </section>
+    <section condition="guide3">
+      <p space="10" underline="true" scale="1,2" color="#00a627">Hell for Leather:</p>
+      <p space="8" underline="true" color="#00a627">Quicksilver Armor:</p>
+      <p space="8">To craft this armor, surround a fully repaired set of diamond armor with (4) Quicksilver ingots <stack item="metallurgy:quicksilver_ingot"/> on each armor piece.</p>
+      <p space="8">The process of obtaining Quicksilver ingots consists on making an alloy between Silver and Astral Silver metals. Both metals are found in The Deep Caverns, Silver <stack item="metallurgy:silver_ore"/> being found between y=30 and y=10, and Astral Silver <stack item="metallurgy:astral_silver_ore"/> being found at around y=100 to y=10.</p>
+      <recipe type="shapeless" space="8">
+      <recipe.result space="8">
+        <stack item="metallurgy:quicksilver_dust"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="8" underline="true" color="#00a627">Hepatizon Armor:</p>
+      <p space="8">To craft this armor, surround a fully repaired set of diamond armor with (4) Hepatizon ingots <stack item="metallurgy:hepatizon_ingot"/> on each armor piece.</p>
+      <p space="8">The process of obtaining Hepatizon ingots consists of making an alloy between Steel and Infuscolium metals. Infuscolium ore <stack item="metallurgy:infuscolium_ore"/> can be found in regular caverns, and Steel <stack item="metallurgy:steel_dust"/> is an alloy between Manganese and Iron ores <stack item="metallurgy:manganese_ore"/> <stack item="minecraft:iron_ore"/>, which are also found in regular caves.</p>
+      <recipe type="shapeless" space="8">
+      <recipe.result space="8">
+        <stack item="metallurgy:hepatizon_dust"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="12" underline="true" scale="1.2" color="#ad7900">Heavy Warrior:</p>
+      <p space="8" underline="true" color="#ad7900">Tortoiseshell Armor:</p>
+      <p space="8">Making this armor only requires you to join a fully repaired Heavy Diamond armor set with one Giant Tortoise Scale <stack item="cqrepoured:scale_turtle"/> on every armor piece. Giant Tortoise Scales are dropped by the Giant Tortoise Boss, which is found in some dungeons, or they can be rarely dropped by the Ika mob, which is found in the ocean.</p>
+    </section>
+    <section condition="guide3">
+      <p space="8" underline="true" color="#ad7900">Bull Armor:</p>
+      <p space="8">Alternatively, Bull armor is crafted using two materials, Bull Horns <stack item="cqrepoured:horn_bull"/> and Bull Leather <stack item="cqrepoured:leather_bull"/>, which have the following recipes:</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="cqrepoured:horn_bull"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="cqrepoured:leather_bull"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="12" underline="true" scale="1.2" color="#009fad">Scoped Overseer:</p>
+      <p space="8" underline="true" color="#009fad">Spider Armor:</p>
+      <p space="8">To make this armor, get a fully repaired set of silver armor, alongside spider eyes <stack item="minecraft:spider_eye"/>, which can be dropped by spiders, and spider leather <stack item="cqrepoured:leather_spider"/>, being a material dropped by the Shelob Boss, that can also be crafted using the following recipe:</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="cqrepoured:leather_spider"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8" underline="true" color="#009fad">Deep Iron Armor:</p>
+      <p space="8">Alternatively, there is Deep Iron Armor, which is made by surrounding the silver armor with Deep Iron ingots <stack item="metallurgy:deep_iron_ingot"/>, which have an ore <stack item="metallurgy:deep_iron_ore"/> that is commonly found at any height in the Deep Caverns.</p>
+    </section>
+    <section condition="guide3">
+      <p space="12" underline="true" scale="1.2">Step 4: Summoning the Bosses</p>
+      <p space="8" underline="true">The Grim Reaper</p>
+      <p space="8">To summon The Grim Reaper, you'll need to make an altar with some obsidian and an emerald block. Obtaining/handling obsidian will be more tricky than normal, as you don't have a diamond pickaxe to mine it. Instead, you can acquire it through mobs like the Reapers, which randomly spawn when sleeping or killing passive mobs, or, alternatively, you can use water and lava buckets to create obsidian blocks.</p>
+      <p space="8">To make the summoning altar, place 3 obsidian columns that are atleast 2 blocks high, and an emerald block in between.</p>
+      <p space="8">The summoning altar for the Grim Reaper has to be made in the following arrangement:</p>
+      <p space="8" indent="8">(the symbol "<image src="minecraft:blocks/grass_top" tw="10" th="10"/>" represents the ground, which can be any block)</p>
+      <p space="8">(top view)</p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/emerald_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p> </p>
+      <p space="8">Afterward, to summon the boss, wait until night and then light the top of all the pillars with fire, before lighting the emerald block as well. After doing so, the emerald block will be consumed, and the Grim Reaper will spawn.</p>
+      <p space="8" underline="true">The Skeleton King</p>
+      <p space="8">To summon The Skeleton King, you'll have to get your hands on a skeleton skull <stack item="minecraft:skull"/>, which is found in different structures around the world, and a King's Crown <stack item="mod_lavacow:kings_crown"/>, which can be either found on desert structures called "Desert Tombs", or dropped by the OsVermis, which is a mob that spawns in sandy biomes.</p>
+    </section>
+    <section condition="guide3">
+      <p space="8">Upon obtaining the crown, curse it using the following recipe,</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="mod_lavacow:kings_crown" meta="1"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">Which requires the material "Memory of a Thousand Armies", being an item that drops upon killing Forsakens, which are a type of skeletons that are found in sandy biomes.</p>
+      <p>Finally, just place a skeleton head in the floor, inside a sandy biome, before right-clicking it with the cursed crown. This will consume both items, and will summon The Skeleton King.</p>
+    </section>
+    <section condition="guide4" id="nether">
+      <page_title>
+        <title>Into the World of Carnage</title>
+      </page_title>
+      <p space="8" underline="true">Avaliable armors during this stage:</p>
+      <p space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="metallurgy:oureclase_helmet"/></p>
+      <p space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="metallurgy:vulcanite_helmet"/></p>
+      <p space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="metallurgy:kalendrite_helmet"/></p>
+      <p space="20"></p>
+    </section>
+    <section condition="guide4">
+      <p space="12" underline="true" scale="1.2">Step 1: Tougher Armor</p>
+      <p space="8">Upon acquiring your diamond pickaxe, you'll be able to harvest tier-3 ores, which will help you make armor that is good enough to survive the chaotic lands of the Nether.</p>
+      <p space="8">For the Hell for Leather class, find Oureclase ores <stack item="metallurgy:oureclase_ore"/> at The Deep Caverns from y=100 to y=10.</p>
+      <p space="8">For Heavy Warrior, dive into the Nether and find Vulcanite ores <stack item="metallurgy:vulcanite_ore"/> at y=39 to y=27, which is around the height of the lava ocean.</p>
+      <p space="15">Finally For Scoped Overseer, also go to the nether, but to find Kalendrite ores <stack item="metallurgy:kalendrite_ore"/> at around y=120 to y=27.</p>
+      <p space="12" underline="true" scale="1.2">Step 2: Better Tools/Weapons</p>
+      <p space="8">Once obtaining the armor needed to survive in the Nether, you should focus on upgrading your weapons past diamond. In this case, melee weapons that deal more than 7 damage would be the Vulcanite ones. Besides that, there are some other weapons made from other metals, which can be used as "side" weapons, and alternatively, you can craft the Lesser Equipment Forge, allowing you to make weaponry using monster parts. Regardless of what you decide to use, make sure to be prepared for the first Nether boss, which will be the Wither.</p>
+      <p>Recipe for the Lesser Equipment Forge:</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="lycanitesmobs:equipmentforge_lesser"/>
+      </recipe.result>
+      </recipe>
+    </section>
+    <section condition="guide5" id="wither+">
+      <page_title>
+        <title>The Hunting</title>
+      </page_title>
+      <p space="8" underline="true">Avaliable armors during this stage:</p>
+      <p space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="metallurgy:desichalkos_helmet"/></p>
+      <p space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="metallurgy:electrum_helmet"/></p>
+      <p space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="metallurgy:carmot_helmet"/></p>
+      <p space="20"></p>
+    </section>
+    <section condition="guide5">
+      <p space="12" underline="true" scale="1.2">Step 1: The Wither</p>
+      <p space="8">This boss is the same as vanilla minecraft's, the only difference being that you're forced to fight it inside the Nether. In terms of move sets, The Wither will now summon a few minions during the fight, but the general strategies to defeat it remain the same.</p>
+      <p space="8">Once killed, The Wither drops (10) Nether Stars <stack item="minecraft:nether_star"/> instead of 1, which you'll use to make the next tier of armor for your class, and a new tier of weapons made of nether stars. Furthermore, note that the fight will become harder every time you kill the Wither.</p>
+      <p space="12" underline="true" scale="1.2">Step 2: Armors</p>
+      <p space="8">Upon defeating the Wither, you'll have Nether Stars <stack item="minecraft:nether_star"/> which as stated before, are used to make better armor. Now, see the other materials for crafting them below.</p>
+      <p space="15">For Hell for Leather, make Desichalkos dust <stack item="metallurgy:desichalkos_dust"/> using the following recipe:</p>
+      <recipe type="shapeless" index="0">
+      <recipe.result space="8">
+        <stack item="metallurgy:desichalkos_dust"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">Heavy Warriors will need to combine Gold and Silver to make Electrum <stack item="metallurgy:electrum_dust"/>.</p>
+      <p space="8">Finally, for Scoped Overseer, revisit The Deep Caverns once more to get Carmot ores <stack item="metallurgy:carmot_ore"/>, found at around y=30 to y=10 (note: you can't break Carmot ore without a better mining tool, like the Desichalkos pickaxe).</p>
+    </section>
+    <section condition="guide5">
+      <p space="12" underline="true" scale="1.2">Step 3: Dungeons</p>
+      <p space="8">In the Nether, there will be many giant dungeons that are recommended to be explored right after defeating the Wither, and making your new equipment. These dungeons contain, in some rooms, a mini boss that drops a material called the "Soul Stone", which will summon permanent pets/mounts when right-clicked that will aid you through the rest of your adventure.</p>
+    </section>
+    <section condition="guide6" id="rahovart">
+      <page_title>
+        <title>Demon Massacre</title>
+      </page_title>
+      <p space="8" underline="true">No avaliable armors during this stage.</p>
+      <p space="20"></p>
+      <p space="12" underline="true" scale="1.2">Step 1: The First Super Boss</p>
+      <p space="8">Previous bosses were meant to be small obstacles to overcome with some quick preparations, but the Super Bosses will be big events that you'll have to heavily prepare yourself for. The first Super Boss will be Rahovart, which is the final boss of the Nether.</p>
+      <p>To summon Rahovart, you'll need to make an altar using obsidian <stack item="minecraft:obsidian"/>, diamond blocks <stack item="minecraft:diamond_block"/> and a block called the Demonic Soulcube <stack item="lycanitesmobs:soulcubedemonic"/>.</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="lycanitesmobs:soulcubedemonic"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">The altar is constructed by placing (4) obsidian columns being (3) blocks high, with a diamond block on top of each. All columns will be surrounding a middle column made of (4) obsidian blocks with the Demonic Soulcube in the middle.</p>
+      <p space="8">The altar needs to be made in the following arrangement:</p>
+      <p space="8" indent="8">(the symbol "<image src="minecraft:blocks/grass_top" tw="10" th="10"/>" represents anything that isn't the altar)</p>
+    <divider/>
+    </section>
+    <section condition="guide6">
+      <p space="8" underline="true">Top View:</p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p> </p>
+    <divider/>
+      <p space="8" underline="true">Side View:</p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="lycanitesmobs:blocks/soulcubedemonic" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p space="8">Finally, to trigger the fight, craft a Soulkey <stack item="lycanitesmobs:soulkey"/> which you'll use on the Demonic Soulcube.</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="lycanitesmobs:soulkey"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8" bold="true">Warning: please read the next step on this section before summoning the boss.</p>
+    </section>
+    <section condition="guide6">
+      <p space="12" underline="true" scale="1.2">Step 2: The Fight</p>
+      <p space="8" underline="true">Phase 1</p>
+      <p space="8">In the first stage of the fight, Rahovart shoots some projectiles while also spawning Belphegors. The idea is to damage the boss while also killing the Belphegors because if enough remain in the arena, Rahovart will unleash a wave of fire that deals lots of damage. Also, have fire resistance on hand, or equip the Obsidian Relic <stack item="bountifulbaubles:trinketobsidianskull"/> for the fight as the arena might slowly fill up with fire, which could spell your demise if you don't bring protection for it.</p>
+      <p space="8" underline="true">Phase 2</p>
+      <p space="8">Eventually, after dealing enough damage, the fight reaches its second phase. This time, ignore the Belphegors because now, you'll have to focus on killing Behemophets, which will start spawning in this phase. As before, if enough Behemophets remain in the arena, Rahovart makes a special attack. This time he will create giant walls of fire that rotate around him, which can kill you very quickly.</p>
+      <p space="8" underline="true">Phase 3</p>
+      <p space="8">Finally, once reaching the last stage, Rahovart will spawn a variety of mobs which are all supposed to be killed to prevent him from making his next move. But eventually, the spawn rate of the mobs might become overwhelming and impossible to control. Because of this, you'll have to deal as much damage as possible to the boss before he fills the entire arena with his giant walls of fire, which will progressively spawn until the arena is completely covered by them.</p>
+      <p space="8" bold="true">Final note: Good luck.</p>
+    </section>
+  </chapter>
+  <chapter id="lategame">
+    <section condition="guide7">
+      <space height="10%" />
+        <p space="0" align="center" scale="2">Late</p>
+        <p space="0" align="center" scale="2">Game</p>
+        <p space="12" align="center" scale="2">____________________</p>
+        <p space="12" align="center">Exploring the floating mysteries in outer space.</p>
+        <p space="8" underline="true" align="center">Content:</p>
+        <p align="center" underline="true">Finding the Remnants</p>
+        <link align="center" ref=":dragon">Dragon Slayer</link>
+        <link align="center" ref=":endjourney">Post Dragon</link>
+        <link align="center" ref=":asmodeus">The Deterrent</link>
+    </section>
+    <section condition="guide7" id="remnants">
+      <page_title>
+        <title>Finding the Remnants</title>
+      </page_title>
+      <p space="8" underline="true">Avaliable armors during this stage:</p>
+      <p space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="metallurgy:shadow_iron_helmet"/><stack item="metallurgy:astral_silver_helmet"/></p>
+      <p space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="metallurgy:orichalcum_helmet"/><stack item="metallurgy:osmium_helmet"/></p>
+      <p space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="metallurgy:celenegil_helmet"/><stack item="mod_lavacow:faminearmor_helmet"/></p>
+      <p space="12" underline="true" scale="1.2">Step 1: Post Rahovart</p>
+      <p space="8">Upon slaying the first superboss, you might realize that it dropped (15) Crimson Hearts. This material allows for the creation of better armor, but also, the making of Ender Eyes <stack item="minecraft:ender_eye"/>.</p>
+      <recipe type="shapeless" space="8">
+      <recipe.result space="8">
+        <stack item="minecraft:ender_eye"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p>Ender Eyes also require the Eyebulb, which is a double-plant found in the fleshy biome of the Nether.</p>
+    </section>
+    <section condition="guide7">
+      <p space="10" underline="true" scale="1.2">Step 2: Upgrade Time!</p>
+      <p space="10" underline="true" scale="1.2" color="#00a627">Hell for Leather:</p>
+      <p space="8">Firstly, for this class, choose between Shadow Iron and Astral Silver armors, which each have a different subclass.</p>
+    <divider/>
+      <p space="10" underline="true" scale="1.2" color="#00a627">Shadow Iron Armor:</p>
+      <image src="metallurgy:items/shadow_iron_ingot" tw="50" th="50"/>
+      <p> </p>
+      <p space="8">Shadow Iron is found in the Nether at y=127 to y=100.</p>
+    <divider/>
+      <p space="10" underline="true" scale="1.2" color="#00a627">Astral Silver Armor:</p>
+      <image src="metallurgy:items/astral_silver_ingot" tw="50" th="50"/>
+      <p> </p>
+      <p space="8">Astral Silver is found in The Deep Caverns at y=100 to y=10.</p>
+    <divider/>
+    </section>
+    <section condition="guide7">
+      <p space="10" underline="true" scale="1.2" color="#ad7900">Heavy Warrior:</p>
+      <p space="8">For this class, choose between Orichalcum and Osmium armors, each with either more armor points or better toughness than the other.</p>
+      <p space="10" underline="true" scale="1.2" color="#ad7900">Orichalcum Armor:</p>
+      <image src="metallurgy:items/orichalcum_ingot" tw="50" th="50"/>
+      <p> </p>
+      <p space="8">Orichalcum is found in The Deep Caverns at y=30 to y=10.</p>
+    <divider/>
+      <p space="10" underline="true" scale="1.2" color="#ad7900">Osmium Armor:</p>
+      <image src="metallurgy:items/osmium_ingot" tw="50" th="50"/>
+      <p> </p>
+      <p space="8">Osmium is also found in The Deep Caverns, but at y=210 to y=200.</p>
+    <divider/>
+    </section>
+    <section condition="guide7">
+      <p space="10" underline="true" scale="1.2" color="#009fad">Scoped Overseer:</p>
+      <p space="8">For this class, choose between Celenegil and Famine armors, each having different methods to be made.</p>
+      <p space="10" underline="true" scale="1.2" color="#009fad">Celenegil Armor:</p>
+    <divider/>
+      <recipe type="shapeless">
+      <recipe.result>
+        <stack item="metallurgy:celenegil_dust"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <p space="8">Celenegil is an alloy of Platinum (found at y=30 to y=10) and Orichalcum (found at y=30 to y=10), found in the Deep Caverns.</p>
+      <p space="10" underline="true" scale="1.2" color="#009fad">Famine Armor:</p>
+      <p>Famine armor requires a variety of materials, seen below:</p>
+    <divider/>
+      <image src="mod_lavacow:items/foul_bristle" tw="50" th="50"/>
+      <p></p>
+      <p space="8">Foul Bristles are obtained from Ithaqua and Foglet's jungle variant.</p>
+    <divider/>
+      <image src="mod_lavacow:items/sharptooth" tw="50" th="50"/>
+      <p></p>
+      <p>Fangteeth are obtained from Foglets, Swarmers, Undead Swines, Wolves and Polar Bears (can be found in Pyramid Chests).</p>
+    </section>
+    <section condition="guide7">
+      <image src="tombstone:items/essence_of_undeath" tw="50" th="50"/>
+      <p></p>
+      <p space="8">Essence of Undeath is rarely dropped by any undead mob.</p>
+    <divider/>
+      <image src="mod_lavacow:items/acidicheart" tw="50" th="50"/>
+      <p></p>
+      <p space="8">The Acidic Heart is droped by OsVermis and Mummies.</p>
+    <divider/>
+      <image src="mod_lavacow:items/intestine" tw="50" th="50"/>
+      <p></p>
+      <p space="8">The Intestine is dropped by any average sized mob.</p>
+    <divider/>
+      <p></p>
+      <p space="8">Finally, for any class, there's a storage upgrade avaliable in this stage. Join some Tanned Leather <stack item="backpack:tanned_leather"/> with an Iron Frame <stack item="backpack:backpack_frame" meta = "2"/> (requiring one extra Ender Eye) to create a Backpack <stack item="backpack:backpack" meta = "0"/>, unlocking two extra rows of inventory space that you can open pressing "Ctrl + V".</p>
+    </section>
+    <section condition="guide7">
+      <p space="10" underline="true" scale="1.2">Step 3: The Stronghold</p>
+      <p space="8">Like in vanilla Minecraft, you'll make Ender Eyes to find the Stronghold's location. First, find an open field in your world before right-clicking the ender eyes in your hand. One ender eye will launch towards the stronghold. After so, walk towards where the ender eye pointed, while throwing some more every couple hundred blocks, until the eye flies into the ground, showing that you've found the Stronghold, usually buried underground.</p>
+      <p space="10" underline="true" scale="1.2">Step 4: Into the Broken World</p>
+      <p space="8">Finally, to get to the Remnants, find a portal room hidden in the stronghold and activate it by placing one Ender Eye per portal frame, usually taking up to 12 Ender Eyes to fill all portal frames. Upon placing the last eye, the portal will activate, letting you jump through.</p>
+    </section>
+    <section condition="guide8" id="dragon">
+      <page_title>
+        <title>Dragon Slayer</title>
+      </page_title>
+      <p space="8" underline="true">No avaliable armors during this stage.</p>
+      <p space="12" underline="true" scale="1.2">Step 1: The Arena</p>
+      <p space="8">The Ender Dragon fight will be harder this time. The first thing to notice is that the arena is no longer filled with Ender men, instead being full of Eyedrudens. To try and avoid getting jumpscared, try to fill as much of the landscape with lights as possible, to prevent them from getting near, and try to tower up two blocks every time you stand still, to prevent them from reaching you. Also, beware of other monsters that might spawn, as they deal a lot of damage and some might even push you off your tower.</p>
+      <p space="12" underline="true" scale="1.2">Step 2: The Pillars</p>
+      <p space="8">To prevent the Ender Dragon from healing, you'll have to destroy crystals in the top of all the pillars in the arena as well as some Ender men structures. Try to use arrows for this to avoid getting pushed off from a high place by the Ender Dragon.</p>
+      <p space="12" underline="true" scale="1.2">Step 3: Hurting the Dragon</p>
+      <p space="8">If you're using arrows to hurt the dragon, you'll notice that due to darkness, the Ender Dragon is much harder to spot, but not impossible (bring Night Vision if possible). Also, every time you hit the dragon with an arrow, it'll roll away from you, sometimes even preventing it from reaching the middle of the arena. So if you're a melee player, avoid hitting the dragon with arrows. You'll have a much higher damage output if you hit the dragon with your melee weapons once it comes to the middle of the arena (note: get as much Dragon Breath as possible, as it'll be useful for the future).</p>
+    </section>
+    <section condition="guide8">
+      <p space="12" underline="true" scale="1.2">Step 4: The Defeat</p>
+      <p space="8">After defeating the Ender Dragon, it'll drop scales all around the arena. Try to bring Night Vision to spot the scales much easier, and collect the egg that spawns in the middle as it'll be useful for the creation of a powerful bauble. Finally, after the defeat, you'll be able to re-summon the Ender Dragon normally, except that, every time you kill it, the fight will get harder. Just like with the Wither.</p>
+    </section>
+    <section condition="guide9" id="endjourney">
+      <page_title>
+        <title>Post Dragon</title> 
+      </page_title>
+      <p space="8" underline="true">Avaliable armors during this stage:</p>
+      <p space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="metallurgy:eximite_helmet"/></p>
+      <p space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="metallurgy:lutetium_helmet"/></p>
+      <p space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="metallurgy:tartarite_helmet"/></p>
+    </section>
+    <section condition="guide9">
+      <p space="12" underline="true" scale="1.2">Step 1: Lost in Space</p>
+      <p space="8">Upon defeating the Ender Dragon, a portal will form somewhere in the edges of the floating island where you are. This portal teleports you far away, where other islands are located.</p>
+      <p space="12" underline="true" scale="1.2">Step 2: Scales</p>
+      <p space="8">Before venturing, note that the scales acquired from the dragon can be used to make accessories and better weapons, but there's a limited amount of scales so be resourceful.</p>
+      <p space="12" underline="true" scale="1.2">Step 3: Acquiring Materials</p>
+      <p space="8">For the next tier of armor you'll need a lot of materials. For this reason, recipes are shown for all classes and all items in the recipes will have their tutorial on how to get them.</p>
+      <p space="10" underline="true" scale="1.2" color="#00a627">Hell for Leather:</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="enderenhancement:item_dull_ender_pearl"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <p space="8"><image src="minecraft:items/ender_pearl" tw="25" th="25"/><image src="minecraft:items/shulker_shell" tw="25" th="25"/></p>
+      <p space="8">You should already be familiar on how to acquire these materials. Respectfully, one is dropped by Endermen and the other is dropped by Shulkers.</p>
+    <divider/>
+    </section>
+    <section condition="guide9">
+      <p space="8"><image src="quark:items/biotite" tw="25" th="25"/><image src="metallurgy:items/eximite_ingot" tw="25" th="25"/></p>
+      <p space="8" indent="8"> - Ender Biotite <stack item="quark:biotite"/> comes from an ore <stack item="quark:biotite_ore"/> that will generate in the main End Island after killing the Ender Dragon. Mining the ore will reward you with the item.</p>
+      <p space="8" indent="8"> - Eximite Ingots <stack item="metallurgy:eximite_ingot"/> are a smelted version of the ore <stack item="metallurgy:eximite_ore"/> , which is found at any End Island.</p>
+    <divider/>
+      <p space="10" underline="true" scale="1.2" color="#ad7900">Heavy Warrior:</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="metallurgy:lutetium_dust"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <p space="8"><image src="minecraft:items/ender_pearl" tw="25" th="25"/><image src="minecraft:items/shulker_shell" tw="25" th="25"/></p>
+      <p space="8">You should already be familiar on how to acquire these materials. Respectfully, one is dropped by Endermen and the other is dropped by Shulkers.</p>
+    <divider/>
+      <p space="8"><image src="stygian:block/endcactus_side" tw="25" th="25"/><image src="metallurgy:items/eximite_ingot" tw="25" th="25"/></p>
+      <p space="8" indent="8"> - Hawthorns <stack item="stygian:endcactus"/> are thin, cactus-like blocks that are found in the End's Acidic Plains biome. A dark biome that is characterized for being a volcanic landscape.</p>
+      <p space="8" indent="8"> - Eximite Ingots <stack item="metallurgy:eximite_ingot"/> are a smelted version of the ore <stack item="metallurgy:eximite_ore"/> , which is found at any End Island.</p>
+    </section>
+    <section condition="guide9">
+      <p space="10" underline="true" scale="1.2" color="#009fad">Scoped Overseer:</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="metallurgy:tartarite_dust"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+      <p space="8"><image src="minecraft:items/ender_pearl" tw="25" th="25"/><image src="minecraft:items/shulker_shell" tw="25" th="25"/></p>
+      <p space="8">You should already be familiar on how to acquire these materials. Respectfully, one is dropped by Endermen and the other is dropped by Shulkers.</p>
+    <divider/>
+      <p space="8"><image src="biomesoplenty:items/crystal_shard" tw="25" th="25"/><image src="metallurgy:items/eximite_ingot" tw="25" th="25"/></p>
+      <p space="8" indent="8"> - Celestial Crystal Shards <stack item="biomesoplenty:crystal_shard"/> are a drop from the glowstone-like Celestial Crystals <stack item="biomesoplenty:crystal"/>, scattered all around the End Islands.</p>
+      <p space="8" indent="8"> - Eximite Ingots <stack item="metallurgy:eximite_ingot"/> are a smelted version of the ore <stack item="metallurgy:eximite_ore"/> , which is found at any End Island.</p>
+    <divider/>
+      <p space="10" underline="true" scale="1.2" color="#8f1f9c">For Every Class:</p>
+      <p space="8">Finally, the last material required to be found for all classes' armor is Ender Amethyst <stack item="biomesoplenty:gem" meta="0"/>, which is generally found as an ore <stack item="biomesoplenty:gem_ore" meta="0"/> on the bottom edges of the End Islands.</p>
+    <divider/>
+    </section>
+    <section condition="guide9">
+      <p space="12" underline="true" scale="1.2">Step 3: The Dungeons</p>
+      <p space="8">After upgrading your gear, you'll have a better chance to explore and survive in the dungeons.</p>
+      <p space="8">Just like in the nether, These dungeons contain mini bosses that will drop Soul Stones. But this time, chests have a chance to contain special ring accessories that transform your character, as well as giving you different stat increases.</p>
+      <p space="12" underline="true" scale="1.2">Step 4: Charms and Everlasting Abilities</p>
+      <p space="8">Finally, as a last set of important upgrades, you can make a better <link ref="ByS:charms">charm</link> for your class as well as the Ability Bottle.</p>
+      <p space="10" align="center" underline="true" scale="1.2">Ability Bottle:</p>
+      <p align="center"><image src="everlastingabilities:items/ability_bottle" tw="50" th="50"/></p>
+      <p align="center" scale="4">-----</p>
+      <p space="8" align="center">The ability bottle <stack item="everlastingabilities:ability_bottle"/> is an item that contains a variety of permanent effects inside, of which you will be able to choose four of. The effects will activate only with the expense of xp and after they are moved to the left of the GUI that pops up. All abilities have a specific amount of multipliers that you can assign, that value later scaling the xp needed to activate it. Returning the ability to the right of the GUI will grant your xp back and deactivate the effect.</p>
+    <divider/>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="everlastingabilities:ability_bottle"/>
+      </recipe.result>
+      </recipe>
+    </section>
+    <section condition="guide10" id="asmodeus">
+      <page_title>
+        <title>The Deterrent</title>
+      </page_title>
+      <p space="8" underline="true">No avaliable armors during this stage.</p>
+      <p space="12" underline="true" scale="1.2">Step 1: The Mastermind</p>
+      <p space="8">Time to fight the second superboss.</p>
+      <p>To summon Asmodeus, you'll have to make an altar using obsidian<stack item="minecraft:obsidian"/>, diamond blocks <stack item="minecraft:diamond_block"/> and a block called the Aberrant Soulcube <stack item="lycanitesmobs:soulcubeaberrant"/>.</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="lycanitesmobs:soulcubeaberrant"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">The altar is constructed using (4) obsidian columns being (3) blocks high, with a diamond block on top of each. All columns will be surrounding a middle column made of (4) obsidian blocks with the Aberrant Soulcube in the middle.</p>
+      <p space="8">The altar will be made in the following arrangement:</p>
+      <p space="8" indent="8">(the symbol "<image src="minecraft:blocks/grass_top" tw="10" th="10"/>" means anything besides the altar)</p>
+    <divider/>
+      <p space="8" underline="true">Top View:</p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p> </p>
+    </section>
+    <section condition="guide10">
+      <p space="8" underline="true">Side View:</p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="lycanitesmobs:blocks/soulcubeaberrant" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p space="8">Finally, to trigger the fight, craft a Soulkey <stack item="lycanitesmobs:soulkey"/> which you'll use on the Aberrant Soulcube.</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="lycanitesmobs:soulkey"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8" bold="true">Warning: please read the next step before summoning the boss.</p>
+      <p space="12" underline="true" scale="1.2">Step 2: The Fight</p>
+      <p space="8" underline="true">Phase 1</p>
+      <p space="8">Asmodeus will shoot a barrage of projectiles at you while occasionally also releasing outwards a ring of projectiles that damage you.</p>
+      <p space="8" underline="true">Phase 2</p>
+      <p space="8"> Eventually, after dealing enough damage, Asmodeus summons Astaroths that will create a shield around him until they're destroyed. After so, you'll be able to damage Asmodeus again.</p>
+      <p space="8" underline="true">Phase 3</p>
+      <p space="8">Finally, once reaching the last stage, The Astaroths will instead heal Asmodeus, and Grells will also begin to get summoned.</p>
+      <p space="8" bold="true">Final note: Good luck.</p>
+    </section>
+  </chapter>
+  <chapter id="endgame">
+    <section condition="guide11">
+      <space height="10%" />
+        <p space="0" align="center" scale="2">End</p>
+        <p space="0" align="center" scale="2">Game</p>
+        <p space="12" align="center" scale="2">____________________</p>
+        <p space="12" align="center">Entering the home of the Eyedrudens.</p>
+        <p space="8" underline="true" align="center">Content:</p>
+        <p align="center" underline="true">The Eternal Night</p>
+        <link align="center" ref=":erebus">The Hidden World</link>
+        <link align="center" ref=":bossrush">Final Rush</link>
+        <link align="center" ref=":amalgalich">God Killer</link>
+    </section>
+    <section condition="guide11" id="midnight">
+      <page_title>
+        <title>The Eternal Night</title>
+      </page_title>
+      <p space="8" underline="true">Avaliable armors during this stage:</p>
+      <p space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="metallurgy:shadow_steel_helmet"/><stack item="mutantbeasts:mutant_skeleton_skull"/></p>
+      <p space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="metallurgy:haderoth_helmet"/><stack item="midnight:tenebrum_helmet"/></p>
+      <p space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="nyx:meteor_helm"/></p>
+    </section>
+    <section condition="guide11">
+      <p space="12" underline="true" scale="1.2">Step 1: Great Defense Increase</p>
+      <p space="8">Like Rahovart, Asmodeus drops a material used for armor upon death, which is called the Bugged Diamond <stack item="useless_sword:buggeddiamond"/>. This time, the armors crafted will have significantly more defense than the previous ones.</p>
+      <p space="8">Recipes for all armor materials are seen below.</p>
+      <p space="10" underline="true" scale="1.2" color="#00a627">Hell for Leather:</p>
+      <p space="8">Firstly, for this class, choose between Shadow Steel and Mutant Skeleton armors, which each have a different subclass.</p>
+      <recipe type="shapeless">
+      <recipe.result>
+        <stack item="metallurgy:shadow_steel_dust"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">Shadow Steel is an alloy between Shadow Iron<stack item="metallurgy:shadow_iron_ore"/> (found in the Nether at around y=100 to y=127), and Lemurite<stack item="metallurgy:lemurite_ore"/> (found in the Nether at around y=0 to y=50).</p>
+    <divider/>
+      <p> </p>
+      <p>Mutant Skeleton armor can be crafted with the body parts that are dropped by the Mutant Skeleton miniboss (<stack item="mutantbeasts:mutant_skeleton_limb"/>, <stack item="mutantbeasts:mutant_skeleton_pelvis"/>, <stack item="mutantbeasts:mutant_skeleton_rib"/>, <stack item="mutantbeasts:mutant_skeleton_shoulder_pad"/>, <stack item="mutantbeasts:mutant_skeleton_skull"/>)</p>
+      <p space="8"></p>
+    </section>
+    <section condition="guide11">
+      <p space="10" underline="true" scale="1.2" color="#ad7900">Heavy Warrior:</p>
+      <p space="8">This class lets you choose between Haderoth and Tenebrum armors, each with either more armor points or better toughness than the other.</p>
+      <recipe type="shapeless">
+      <recipe.result>
+        <stack item="metallurgy:haderoth_dust"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">Haderoth is an alloy between Rubracium<stack item="metallurgy:rubracium_ore"/> (found in the overworld at around y=0 to y=30), and Mithril<stack item="metallurgy:mithril_ore"/> (found in the Deep Caverns at around y=50 to y=100).</p>
+    <divider/>
+      <p space="8">Tenebrum<stack item="midnight:tenebrum_ingot"/> is a metal that spawns in the Midnight at around y=3 to y=54<stack item="midnight:tenebrum_ore"/>.</p>
+      <p> </p>
+      <p space="10" underline="true" scale="1.2" color="#009fad">Scoped Overseer:</p>
+      <p space="8">For this class, you have the meteor armor as an option. First, find a meteor landing site (more commonly found in the End), where you will be able to find Meteor Rocks<stack item="nyx:meteor_rock"/>, which you will mine and smelt into ingots<stack item="nyx:meteor_ingot"/>.</p>
+      <p></p>
+    </section>
+    <section condition="guide11">
+      <p space="12" underline="true" scale="1.2">Step 2: Into the Eternal Night</p>
+      <p space="8">Finally, you can conquer the dimension that you could access from the very beginning. With your new gear, you can explore the Midnight and look for the Geist's Grave specifically.</p>
+      <p space="12" underline="true" scale="1.2">Step 3: Hirshgeist</p>
+      <p>When exploring, look for a structure similar to the graveyard from the overworld. The Geist's Grave has a similar shape, but a darker tone to it, and it'll have a Hirshgeist in it. This monster is a Miniboss that you'll have to defeat to access the Hidden World.</p>
+      <p space="8">Upon death, the Hirshgeist will drrop a Hirshgeist Skull which you'll use to make the Dragonbreath Diamond<stack item="useless_sword:dragonbreathdiamond"/>. A material that if you hold in your off-hand, will let you mine through the bedrock layer found in the bottom of the Midnight, revealing the entrance to the Hidden World.</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="useless_sword:dragonbreathdiamond"/>
+      </recipe.result>
+      </recipe>
+    </section>
+    <section condition="guide12" id="erebus">
+      <page_title>
+        <title>The Hidden World</title>
+      </page_title>
+      <p space="8" underline="true">No avaliable armors during this stage.</p>
+      <p space="12" underline="true" scale="1.2">Step 1: What is This Place?</p>
+      <p space="8">Upon entering the Hidden World, you'll notice its expansive foliage that extends through miles. But as inviting as it might look, it's full of dangers. Big, multi-legged and disgusting dangers.</p>
+      <p space="8">Before venturing too far, try to mark your location or memorize your starting place as to not get lost and resort to digging up and out into possible dangers.</p>
+      <p space="12" underline="true" scale="1.2">Step 2: Arthropods and Parasites</p>
+      <p space="8">Before starting your trip to explore and acquire as much materials as possible, it's good to know what you'll be facing in this dimension. The first being giant insects. Most, if not all these insects have unique drops that will help you create new weapons and other useful items. Some are hostile and others are passive, but they'll all have a lot of health and will pack a great punch, so be careful while fighting.</p>
+      <p space="8">Lastly, you'll have to worry about what is likely the most dangerous mobs in the game, which are parasites. These creatures will occasionally spawn in the Hidden World, but most importantly, they will evolve. These creatures will start to get more dangerous over time, meaning that once you enter the Hidden World, there's no turning back when it comes to the difficulty of the game.</p>
+      <p space="12" underline="true" scale="1.2">Step 3: Jade Weaponry</p>
+      <p space="8">One of the main things to look for in this dimension, is a material called Jade<stack item="erebus:materials" meta="1"/>. It spawns as an ore all around the erebus from y=5 to y=112, but can also be found in chests all around the Hidden World. This material will help you make better weapons than the ones you currently have.</p>
+    </section>
+    <section condition="guide13" id="bossrush">
+      <page_title>
+        <title>Final Rush</title>
+      </page_title>
+      <p space="8" underline="true">Avaliable armors during this stage:</p>
+      <p space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="metallurgy:amordrine_helmet"/><stack item="erebus:jade_helmet"/></p>
+      <p space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="erebus:rhino_exoskeleton_helmet"/></p>
+      <p space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="metallurgy:krik_helmet"/><stack item="erebus:rein_compound_goggles"/></p>
+      <p space="12" underline="true" scale="1.2">Step 1: Just Like Old Times</p>
+      <p space="8">Remember the quest to find the boss dungeons in the Overworld? This time, you'll have to do the same in the Hidden world. But just with two dungeons.</p>
+      <p space="12" underline="true" scale="1.2">Step 2: The Search</p>
+      <p space="8" underline="true"> Antlion Overlord's Pyramid:</p>
+      <p space="8">This dungeon is almost garanteed to spawn in the Volcanic Desert biome. Although most times half-buried, it's possible for it to spawn completely buried underground, which makes its finding much harder. For a reference, you can use the health bars that appear in your screen, to guide your way into it.</p>
+    </section>
+    <section condition="guide13">
+      <p space="8" underline="true"> Giant Eucalyptus Trees:</p>
+      <p space="8">This dungeon will rarely spawn in the Ulterior Outback biome, which is the most dangerous biome in the Hidden World.</p>
+      <p space="12" underline="true" scale="1.2">Step 3: Incecticide</p>
+      <p space="8">After finding the dungeons, you'll have to venture yourself into rooms that will eventually lead you to the Bosses. To ensure you don't get lost, there is a small tutorial on how to get to the bosses below.</p>
+      <p space="8" underline="true"> Antlion Overlord:</p>
+      <p space="8">Once entering the Dungeon, you'll notice a pyramid that can't be accessed. This is where the Antlion Overlord resides. To open the pyramid, kill all four minibosses located at every corner of the labyrinth around the pyramid (Tip: hug either the right or left wall of the labyrinth while traveling). Each Idol Guardian (miniboss) will drop their respective item, of which you'll place at the top of the pyramid to open it.</p>
+      <p space="8">The Interior of the pyramid contains a chest with (8) Jades in it, and an inactive Teleport Pad surrounded by eight blocks topped with the icon of Jade. Insert each of the Jade gems into those slots, and the Teleport Pad will open. Stepping on it will take you to the floor below. Then, for the following teleporters, you'll need (8) of Exoskeleton Plates, Magma Cream, Magma Crawler Eyes and strings, respectfully.</p>
+      <p space="8">The last teleporter in the pyramid will make the forcefields around it break, therefore allowing access to the big teleporter in the middle, that will take you to the fight. The bossfight itself doesn't have any special tricks, so you'll figure it out quickly.</p>
+      <p space="8" underline="true"> Tarantula Brood Mother:</p>
+      <p space="8">This dungeon contains several Tarantula spawners that are surrounded by cobwebs. These spawners will be seen in multiple floors before the arena of the Tarantula Brood Mother.</p>
+    </section>
+    <section condition="guide13">
+      <p space="8">The bossfight is quite simple, but intense. The Tarantula Brood Mother will summon several baby Tarantulas that will chase you around, and you won't be able to hit her with any melee weapon through the first phase. After so, the second phase will be the opposite, so make sure to bring ranged and melee weapons to the fight.</p>
+      <p space="12" underline="true" scale="1.2">Step 4: Aftermath</p>
+      <p space="8">As always, there will be a better tier of armor awaiting for each class after the defeat of these bosses. See them below.</p>
+      <p space="10" underline="true" scale="1.2" color="#00a627">Hell for Leather:</p>
+      <p space="8">Firstly, for this class, you can choose between Amordrine and Jade armors, which each have a different subclass.</p>
+      <recipe type="shapeless">
+      <recipe.result>
+        <stack item="metallurgy:amordrine_dust"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">Amordrine is an alloy between platinum<stack item="metallurgy:platinum_ore"/> (found in the Deep Caverns at around y=10 to y =30), and kalendrite<stack item="metallurgy:kalendrite_ore"/> (found in the Nether at around y=27 to y=120).</p>
+    <divider/>
+      <p> </p>
+      <p space="8">Jade can be found all around the erebus from y=5 to y=112.</p>
+      <p space="8"></p>
+      <p space="10" underline="true" scale="1.2" color="#ad7900">Heavy Warrior:</p>
+      <p space="8">Rhino Plate armor is made using Rhino Beetle Plates<stack item="erebus:materials" meta="35"/>, and Rhino Beetle Horns<stack item="erebus:materials" meta="36"/>, which are both dropped by the Rhinoceros Beetle in the Erebus.</p>
+    </section>
+    <section condition="guide13">
+      <p space="10" underline="true" scale="1.2" color="#009fad">Scoped Overseer:</p>
+      <p space="8">This class lets you choose between Krik and Reinforced Exoskeleton armors, each with their own subclass.</p>
+      <recipe type="shapeless">
+      <recipe.result>
+        <stack item="metallurgy:krik_dust"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">Krik is an alloy between Lutetium <stack item="metallurgy:lutetium_dust"/> (click <link align="center" ref=":endjourney">here</link> to view the guidebook section with the recipe), and Osmium <stack item="metallurgy:osmium_ore"/> (found in the Deep Caverns at around y=200 to y=210).</p>
+    <divider/>
+      <p space="8">Reinforced Exoskeleton armor has many steps for its recipe, seen below.</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:materials" meta="15"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="8">First of all, you'll mainly need this material for the armor set. Reinforced Exoskeleton Plates<stack item="erebus:materials" meta="15"/> are made of Exoskeleton Plates, which are dropped by every variant of the Beetle and Antlion.</p>
+      <p space="8" underline="true"> Helmet:</p>
+      <p space="8">The helmet requires the Compound Goggles which have the following set of recipes:</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:materials" meta="5"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p>Compound Eyes <stack item="erebus:materials" meta="4"/>are dropped by Flies and Botflies, and the Amber Glass<stack item="erebus:amber_glass"/> is made by smelting Amber Blocks, which are found around the floor of the Erebus.</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:compound_goggles"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="8" underline="true"> Chestplate:</p>
+      <p space="8">The Chestplate is made with this step by step set of recipes:</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:rein_exoskeleton_chestplate"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:materials" meta="16"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="8">Fly Wings<stack item="erebus:materials" meta="6"/> are dropped by Flies and Botflies.</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:glider_chestplate"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:materials" meta="27"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="8">Dragonfly Wings<stack item="erebus:materials" meta="24"/> are dropped by every variant of the Dragonfly, and Bamboo<stack item="erebus:materials" meta="3"/> can be found in the Erebus's vegetated areas.</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:velocity_block"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="8">Bio Velocity<stack item="erebus:materials" meta="8"/> is dropped by Solifuges (found in the Ulterior Outback) and Centipedes (found in the Ulterior Outback, Elysian Fields and Subterranean Savannahs).</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:glider_chestplate_powered"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="8">Elastic Fibres<stack item="erebus:materials" meta="9"/> drop from Locusts in Elysian Fields/Subterranean Savannahs, and Punchrooms in Fungal Forests.</p>
+      <p space="8" underline="true"> Leggings:</p>
+      <p space="8">The Leggings are made with this step by step set of recipes.</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:rein_exoskeleton_leggings"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:sprint_leggings"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+    </section>
+    <section condition="guide13">
+      <p space="8" underline="true"> Boots:</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="erebus:rein_exoskeleton_boots"/>
+      </recipe.result>
+      </recipe>
+    </section>
+    <section condition="guide14" id="amalgalich">
+      <page_title>
+        <title>God Killer</title>
+      </page_title>
+      <p space="8" underline="true">No avaliable armors during this stage.</p>
+      <p space="12" underline="true" scale="1.2">Step 1: The Last Sentinel</p>
+      <p space="8">Time to fight the final boss.</p>
+      <p>To summon Amalgalich, make an altar using obsidian <stack item="minecraft:obsidian"/>, diamond blocks <stack item="minecraft:diamond_block"/> and a block called the Undead Soulcube <stack item="lycanitesmobs:soulcubeundead"/>.</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="lycanitesmobs:soulcubeundead"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8">The altar is constructed with (4) obsidian columns that are (3) blocks high, with a diamond block on top of each. All columns will be surrounding a middle column made of (4) obsidian blocks with the Aberrant Soulcube in the middle.</p>
+      <p space="8">The altar is made in the following arrangement:</p>
+      <p space="8" indent="8">(the symbol "<image src="minecraft:blocks/grass_top" tw="10" th="10"/>" means anything besides the altar)</p>
+    <divider/>
+      <p space="8" underline="true">Top View:</p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p> </p>
+    <divider/>
+    </section>
+    <section condition="guide14">
+      <p space="8" underline="true">Side View:</p>
+      <p indent="10"><image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/diamond_block" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/diamond_block" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="lycanitesmobs:blocks/soulcubeundead" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p indent="10"><image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/> <image src="minecraft:blocks/grass_top" tw="10" th="10"/> <image src="minecraft:blocks/obsidian" tw="10" th="10"/></p>
+      <p> </p>
+    <divider/>
+      <p space="8">Finally, to trigger the fight, craft a Soulkey <stack item="lycanitesmobs:soulkey"/> which you'll use on the Aberrant Soulcube.</p>
+      <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="lycanitesmobs:soulkey"/>
+      </recipe.result>
+      </recipe>
+      <p> </p>
+      <p space="8" bold="true">Disclaimer: please read the next step before summoning the boss.</p>
+      <p space="12" underline="true" scale="1.2">Step 2: The Fight</p>
+      <p space="8" underline="true">Phase 1</p>
+      <p space="8">Amalgalich will summon Reapers and will sometimes start trying to suck everything up, which if you don't resist, will instantly kill you. Any Reapers consumed will also heal the Amalgalich. Be sure to run away when its eyes light up and try not to leave many Reapers alive. It's important not to jump or fly when Amalgalich uses this attack, since the pulling power is stronger if not in the ground.</p>
+      <p space="8" underline="true">Phase 2</p>
+      <p space="8">Amalgalich will stop trying to eat. Instead, Geists and giant Epions are summoned. Overtime, the Geists will grow until then eventually bursting into large areas of Shadowfire (killing the Geists before they pop will prevent this). If there's too much Shadowfire, killing the Epions will clear it beneath them. Try to keep the arena clear for Phase 3.</p>
+      <p space="8" underline="true">Phase 3</p>
+      <p space="8">Finally, in this last phase, Amalgalich will start sucking things up again. Also, this time, giant balls of Darklings are lobbed around the arena. Keep the Darklings at bay and just damage the boss without getting eaten. If there are too many Geists or Epions left from Phase 2, Amalgalich will eat these to regain health, possibly putting it back into Phase 2.</p>
+      <p space="8" bold="true">As always, Good luck. You're gonna need it.</p>
+    </section>
+  </chapter>
+  <chapter id="postgame">
+    <section condition="guide15">
+      <space height="10%" />
+        <p space="0" align="center" scale="2">Post</p>
+        <p space="0" align="center" scale="2">Game</p>
+        <p space="12" align="center" scale="2">____________________</p>
+        <p space="12" align="center">Preparing for the final challenge.</p>
+        <p space="8" underline="true" align="center">Content:</p>
+        <p align="center" underline="true">Ultimate Armors</p>
+        <link align="center" ref=":quest">Sentient Weapons</link>
+        <link align="center" ref=":bossRush">The Final Challenge</link>
+    </section>
+    <section condition="guide15" id="armors">
+      <page_title>
+        <title>Ultimate Armors</title>
+      </page_title>
+      <p space="8" underline="true">Avaliable armors during this stage:</p>
+      <p space="8" italics="true" bold="true" color="#606060">(Reminder: This list gives a hint on what's next, sometimes removing the need to read the guide at all.)</p>
+      <p space="8" underline="true" color="#00a627">Hell for Leather:</p>
+      <p space="8"><stack item="nocubessrparmory:adaptivearmorhelmet"/><stack item="nocubessrparmory:gorearmorhelmet"/></p>
+      <p space="8" underline="true" color="#ad7900">Heavy Warrior:</p>
+      <p space="8"><stack item="nocubessrparmory:evolutionarmorhelmet"/><stack item="nocubessrparmory:carapacearmorhelmet"/></p>
+      <p space="8" underline="true" color="#009fad">Scoped Overseer:</p>
+      <p space="15"><stack item="nocubessrparmory:pestilentarmorhelmet"/><stack item="nocubessrparmory:livingarmorhelmet"/></p>
+    </section>
+    <section condition="guide15">
+      <p space="8">Finally, you have won. Nothing else is there to chase, so why not waste some time getting the best gear ever!</p>
+      <p space="8">Every Armor Set is made using one of every Soulstone that can be found in the game, so make sure to find them all in all the dungeons of all the dimensions. Recipes are seen below.</p>
+      <p space="10" underline="true" scale="1.2" bold="true" color="#00a627">Hell for Leather:</p>
+    <divider/>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:adaptivearmorhelmet"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:adaptivearmorbody"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:adaptivearmorlegs"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:adaptivearmorboots"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="guide15">
+    <page_title>
+        <title bold="true" color="#00a627">Hell for Leather</title>
+      </page_title>
+    <p space="30"></p>
+    <divider/>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:gorearmorhelmet"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:gorearmorbody"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:gorearmorlegs"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:gorearmorboots"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="guide15">
+      <page_title>
+        <title bold="true" color="#ad7900">Heavy Warrior</title>
+      </page_title>
+    <divider/>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:evolutionarmorhelmet"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:evolutionarmorbody"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:evolutionarmorlegs"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:evolutionarmorboots"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="guide15">
+    <page_title>
+        <title bold="true" color="#ad7900">Heavy Warrior</title>
+      </page_title>
+      <p space="30"></p>
+    <divider/>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:carapacearmorhelmet"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:carapacearmorbody"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:carapacearmorlegs"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:carapacearmorboots"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="guide15">
+      <page_title>
+        <title bold="true" color="#009fad">Scoped Overseer</title>
+      </page_title> 
+    <divider/>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:pestilentarmorhelmet"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:pestilentarmorbody"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:pestilentarmorlegs"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:pestilentarmorboots"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="guide15">
+    <page_title>
+        <title bold="true" color="#009fad">Scoped Overseer</title>
+      </page_title>
+      <p space="30"></p>
+    <divider/>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:livingarmorhelmet"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:livingarmorbody"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:livingarmorlegs"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="nocubessrparmory:livingarmorboots"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="guide15" id="quest">
+      <page_title>
+        <title>Sentient Weapons</title>
+      </page_title>
+      <p space="8">These are the Ultimate, most damage-dealing weapons in the modpack. Just like the armor, these weapons require a lot of soulstones to be made, but also, they will require you to find a rare set of weapons in the Midnight's dungeons (<stack item="srparasites:weapon_scythe"/>, <stack item="srparasites:weapon_axe"/>, <stack item="srparasites:weapon_sword"/>, <stack item="srparasites:weapon_cleaver"/>, <stack item="srparasites:weapon_bow"/>)</p>
+      <p space="10" underline="true" align="center">Recipes are seen below:</p>
+    <divider/>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="srparasites:weapon_scythe_sentient"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="srparasites:weapon_axe_sentient"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="srparasites:weapon_sword_sentient"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="srparasites:weapon_cleaver_sentient"/>
+      </recipe.result>
+      </recipe>
+    </section>
+    <section condition="guide15">
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="srparasites:weapon_bow_sentient"/>
+      </recipe.result>
+      </recipe>
+    <divider/>
+    </section>
+    <section condition="guide15" id="bossRush">
+      <page_title>
+        <title>The Final Challenge</title>
+      </page_title>
+      <p space="8">Now that you have the strongest gear possible, there is a final surprise. This is the ultimate challenge, which is meant to be just that, a challenge. No rewards, and no difficulty increase after that.</p>
+      <p space="8">The final challenge is meant to be treated like, for example, the "20 modes" of Five Nights at Freddy's, where it is not exactly meant to be completed and is also very close to impossible to do so.</p>
+    <divider/>
+      <p space="8">This challenge consists on re-fighting the superbosses using the following special soulkeys:</p>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="lycanitesmobs:soulkeyemerald"/>
+      </recipe.result>
+      </recipe>
+      <recipe type="shaped">
+      <recipe.result>
+        <stack item="lycanitesmobs:soulkeydiamond"/>
+      </recipe.result>
+      </recipe>
+      <p space="8"></p>
+      <p space="8">Using these on the summoning altars, will multiply all of the bosses's stats by 20.</p>
+      <p space="8" bold="true">Final note: Now for real, good luck.</p>
+    </section>
+  </chapter>
+  <chapter id="ByS">
+    <section condition="default">
+      <page_title>
+        <title scale="1.15">Game Mechanics</title>
+      </page_title>
+      <p scale="1.15">Before starting your playthrough, it's important to state some basic features that will be present throughout the entire game.</p>
+      <p space="8" scale="1.15">Skill Trees: <link ref=":skillTrees" scale="1.15">the skill trees</link></p>
+      <p space="8" scale="1.15">Classes: <link ref=":pickClass" scale="1.15">picking a class</link></p>
+      <p space="8" scale="1.15">Armor Sets and Qualities: <link ref=":setBonus" scale="1.15">Qualities and Abilities</link></p>
+      <p space="8" scale="1.15">Afterward, you can move on to the "Getting Started" section.</p>
+    </section>
+    <section condition="default" id="skillTrees">
+      <page_title>
+        <title scale="1.15">Skill Trees</title>
+      </page_title>
+      <p space="8" scale="1.15">The game has two skill trees accessed by keybinds found in your controls.</p>
+      <p space="20" scale="1.15">All details about these skill trees can be seen below:</p>
+      <p color="#5700ad" align="center" space="8" underline="true" scale="1.5">Knowledge of Death:</p>
+      <p align="center"><image src="tombstone:gui/knowledge" tw="80" th="80"/></p>
+      <p align="center" scale="4" bold="true">--------</p>
+      <p space="15" scale="1.15">This skill tree improves the player's abilities related to death, stealth, and other features. Points are earned through advancements, soul enchanting, and other methods listed in the GUI's "Compendium" section. The GUI also provides additional information on the the mechanics and abilities of this skill tree. To access the GUI, set a keybind in the controls menu.</p>
+      <p color="#ad00ad" align="center" space="8" underline="true" scale="1.5">Armament Leveling System:</p>
+      <p space="8" scale="1.15">There's a built-in leveling system for weapons/armors, where they gain experience and level up as you use them. The points earned can be used to unlock special abilities through the armament leveling keybind ("k" by default). These abilities require spending player xp to unlock as well.</p>
+    </section>
+    <section condition="default" id="pickClass">
+      <page_title>
+        <title>Classes</title>
+      </page_title>
+      <p space="8" scale="1.15">The modpack has four classes to choose from. Classes are determined by the armor sets you wear, with each class having unique strengths, weaknesses, and strategies that will define your playstyle and path in the adventure.</p>
+      <p space="8" scale="1.15">All classes with their description can be found below:</p>
+      <p space="8" scale="1.15">For nimble players: <link scale="1.15" ref=":hellForLeather">
+        Hell for Leather</link></p>
+      <p space="8" scale="1.15">For vanilla players: <link scale="1.15" ref=":heavyWarrior">Heavy Warrior</link></p>
+      <p space="8" scale="1.15">For ranged Players: <link scale="1.15" ref=":scopedOverseer">Scoped Overseer</link></p>
+      <p space="8" scale="1.15">For the mages: <link scale="1.15" ref=":devoutmage">
+        Devout Mage</link></p>
+      <p space="8" bold="true" color="#6042f5" scale="1.15">Important tip: you can see the armor for each class by searching the class name in the JEI menu.</p>
+    </section>
+    <section condition="default" id="hellForLeather">
+      <page_title>
+        <title color="#00a627" scale="1.15">Hell for Leather</title>
+      </page_title>
+      <p space="8" scale="1.15">This class has been designed to be the fastest, stealthiest and most damage dealing at the expense of defense, which will force you to use your agility to survive. This class has no toughness and the least armor points in relation to the other classes. you will also keep all your dodges with this class, further improving your mobility. Finally, the class also has subclasses. Their description is seen below:</p>
+      <p space="8" scale="1.5" underline="true" color="#00a627">Brisk Rogue:</p>
+      <p space="8" scale="1.15">This subclass enhances the player's attack speed to assist with crowd control, with a slight damage nerf. The subclass also makes mobs get pushed back when attacking.</p>
+      <p space="8" scale="1.5" underline="true" color="#00a627">Death Rogue:</p>
+      <p space="15" scale="1.15">This subclass prioritizes high damage output at the expense of lower attack speed, making it more effective against individual targets instead of crowds. The subclass also increases the player's reach, allowing to avoid enemy attacks from getting too close.</p>
+      <p align="center"><image src="behgameon:items/accessory_47" tw="80" th="80"/><image src="behgameon:items/accessory_45" tw="80" th="80"/></p>
+    </section>
+    <section condition="default" id="heavyWarrior">
+      <page_title>
+        <title color="#ad7900" scale="1.15">Heavy Warrior</title>
+      </page_title>
+      <p space="8" scale="1.15">The Heavy Warrior class was created for those who are already satisfied with the complexity of vanilla Minecraft. This class has high armor points and toughness, but no other benefits except for a slight increase in damage. The subclass system is simple, allowing players to choose between armors with more toughness or more armor points.</p>
+      <p space="30" scale="1.15"> Observation: The Heavy Warrior class doesn't get any dodges by default, but is able to use them with the help of the "LightWeight" enchantment.</p>
+      <p align="center"><image src="behgameon:items/accessory_49" tw="80" th="80"/><image src="behgameon:items/accessory_46" tw="80" th="80"/></p>
+    </section>
+    <section condition="default" id="scopedOverseer">
+      <page_title>
+        <title color="#009fad" scale="1.15">Scoped Overseer</title>
+      </page_title>
+      <p space="8" scale="1.15">This class falls between Hell for Leather and Heavy Warrior in terms of defense, but excels in long-range combat with a bonus to projectile damage. The subclasses offer unique ways to achieve this damage. See below for more details.</p>
+      <p space="8" scale="1.5" underline="true" color="#009fad">Close Combat Archer:</p>
+      <p space="8" scale="1.15">This subclass uses the vanilla bow and arrow mechanics, with greater melee range but weaker damage. It's also designed to be effective against large groups of enemies, just like "Brisk Rogue", using the speed to maintain distance rather than outright killing foes. The subclass also has a strong dodge ability every 20 seconds for retreating and allowing long-range combat.</p>
+      <p space="8" scale="1.5" underline="true" color="#009fad">Keen Eyes:</p>
+      <p space="8" scale="1.15">This subclass changes the player's attack style, boosting projectile damage at the expense of focus. It creates a semi-permanent damage decrease effect, which will appear in the top right of your screen. Eventually, the effect will disappear for half a second, allowing for high damage output during that time. Additionally, a short-term damage buff also appears at random, testing the player's reflexes. This subclass demands the most focus to use due to the need to manage effect timers.</p>
+      <p align="center"><image src="behgameon:items/accessory_55" tw="80" th="80"/><image src="behgameon:items/accessory_56" tw="80" th="80"/></p>
+    </section>
+    <section condition="default" id="devoutmage">
+      <page_title>
+        <title color="#870f0f" scale="1.15">Devout Mage</title>
+      </page_title>
+      <p space="8" scale="1.15">This class opens the door to a very complex section of the game, involving magic. The class focuses on increasing the player's magic damage to allow for the expansive set of spells to be used as main weapons. This class also has a set of subclasses that are simple, but greatly change your playstyle. Descriptions can be seen below:</p>
+      <p space="8" scale="1.5" underline="true" color="#870f0f">Warlock:</p>
+      <p space="8" scale="1.15">This subclass greatly increases Magic Damage. You also get a different potion effect depending on the wand held, and by default, you get +100 MP.</p>
+      <p space="8" scale="1.5" underline="true" color="#870f0f">Necromancer:</p>
+      <p space="8" scale="1.15">With this subclass, you get the “Necromancer” potion effect which allows you to use summoning staffs. Magic damage is also increased but by about half of Warlock. Finally, Hurting enemies heals you and all your armor points are replaced with hearts.</p>
+      <p align="center"><image src="ebwizardry:items/spell_book" tw="80" th="80"/><image src="ebwizardry:items/wand_novice" tw="80" th="80"/></p>
+    </section>
+    <section condition="default" id="charms">
+      <page_title>
+        <title scale="1.15">Charms</title>
+      </page_title>
+      <p space="8" scale="1.15">In your adventure, you'll gather resources to craft Charms, which are special baubles that enhance your class. Two Charms can be crafted for each class. One being an upgrade of the other.</p>
+      <divider/>
+      <p space="8" scale="1.5" underline="true" color="#00a627">Hell for Leather Charms:</p>
+      <p space="8" indent="15" scale="1.15">- Sirius Charm: the first charm crafted for this class. It's accessible after beating the first Boss.</p>
+      <p space="8" indent="15" scale="1.15">  When worn, the charm increases attack speed by 10%, reach distance by 0.25 and movement speed by 15%.</p>
+    <recipe type="shaped" space="8">
+        <recipe.result space="8">
+          <stack item="behgameon:accessory_47"/>
+        </recipe.result>
+    </recipe>
+    <divider/>
+    <p space="8" indent="15" scale="1.15">- The Interdimensional Runner's Charm: the last charm crafted for the Hell for Leather class. It's normally accessible after reaching The Remnants(The End).</p>
+    <p space="8" indent="15" scale="1.15">  When worn, the charm increases attack speed by 20%, reach distance by 0.5 and movement speed by 25%.</p>
+    <recipe type="shaped" space="8">
+        <recipe.result space="8">
+          <stack item="behgameon:accessory_45"/>
+        </recipe.result>
+    </recipe>
+  </section>
+  <section condition="default">
+    <p space="50"></p>
+    <divider/>
+      <p space="8" scale="1.5" underline="true" color="#ad7900">Heavy Warrior Charms:</p>
+      <p space="8" indent="15" scale="1.15">- Celestial Charm: the first charm crafted for the Heavy Warrior class. It's normally accessible after beating the first Boss.</p>
+      <p space="8" indent="15" scale="1.15">  When worn, the charm increases attack damage by 10%, armor toughness by 4 and armor by 10.</p>
+    <recipe type="shaped" space="8">
+        <recipe.result space="8">
+          <stack item="behgameon:accessory_48"/>
+        </recipe.result>
+    </recipe>
+    <divider/>
+    <p space="8" indent="15" scale="1.15">- The Interdimensional Soldier's Charm: the last charm crafted for the Heavy Warrior class. It's normally accessible after reaching The Remnants(The End).</p>
+    <p space="8" indent="15" scale="1.15">  When worn, the charm increases attack damage by 20%, armor toughness by 8 and armor by 15.</p>
+    <recipe type="shaped" space="8">
+        <recipe.result space="8">
+          <stack item="behgameon:accessory_46"/>
+        </recipe.result>
+    </recipe>
+    <divider/>
+  </section>
+  <section condition="default">
+    <p space="50"></p>
+    <divider/>
+      <p space="8" scale="1.5" underline="true" color="#009fad">Scoped Overseer Charms:</p>
+      <p space="8" indent="15" scale="1.15">- Diamond-tipped Arrow: the first charm crafted for the Scoped Overseer class. It's normally accessible after beating the first Boss.</p>
+      <p space="8" indent="15" scale="1.15">  When worn, the charm increases projectile damage by 10%, blessed by 4 and use speed by 1.</p>
+    <recipe type="shaped" space="8">
+        <recipe.result space="8">
+          <stack item="behgameon:accessory_55"/>
+        </recipe.result>
+    </recipe>
+    <divider/>
+    <p space="8" indent="15" scale="1.15">- The Cataclysmic Arrow: the last charm crafted for the Scoped Overseer class. It's normally accessible after reaching The Remnants(The End).</p>
+    <p space="8" indent="15" scale="1.15">  When worn, the charm increases projectile damage by 15%, blessed by 8 and use speed by 2.</p>
+    <recipe type="shaped" space="8">
+        <recipe.result space="8">
+          <stack item="behgameon:accessory_56"/>
+        </recipe.result>
+    </recipe>
+    <divider/>
+    </section>
+    <section condition="default" id="setBonus">
+      <page_title>
+        <title scale="1.15">Qualities and Abillities</title>
+      </page_title>
+      <p space="8" scale="1.15">Besides the abilities acquired from classes, equipment and weapons are likely to have their own effects, as well as a rarity and a quality.</p>
+      <p scale="1.15">See more details in the pages below.</p>
+      <p space="8" scale="1.15">Armor/weapon effects: <link scale="1.15" ref=":setEffect">
+        Abilities</link></p>
+      <p space="8" scale="1.15">Armor/weapon qualities: <link scale="1.15" ref=":qualities">Qualities</link></p>
+      <p space="8" scale="1.15">Armor/weapon rarities: <link scale="1.15" ref=":rarities">Rarities</link></p>
+    </section>
+    <section condition="default" id="setEffect">
+      <page_title>
+        <title scale="1.15">Abilities</title>
+      </page_title>
+      <p space="8" scale="1.15">During your playthrough, you'll find armory with special abilities, usually indicated by a title below their name. Examples:</p>
+      <stack item="metallurgy:vulcanite_sword"/>
+      <stack item="metallurgy:vulcanite_helmet"/>
+      <stack item="metallurgy:vulcanite_pickaxe"/> 
+      <stack item="metallurgy:quicksilver_sword"/>
+      <stack item="metallurgy:quicksilver_helmet"/>
+      <stack item="metallurgy:quicksilver_pickaxe"/> 
+    <divider/>
+      <p space="8" scale="1.15">Press "Ctrl" to view the ability's description.</p>
+    <divider/>
+      <p scale="1.15">then, In other cases, you'll find armory with unique abilities, but described in an obscure way. See these examples:</p>
+      <stack item="cqrepoured:sword_moonlight"/>
+      <stack item="cqrepoured:sword_sunshine"/>
+      <stack item="cqrepoured:sword_spider"/>
+      <stack item="cqrepoured:shield_walker_king"/>
+      <stack item="cqrepoured:staff_fire"/>
+      <stack item="cqrepoured:helmet_turtle"/>
+    <divider/>
+      <p space="8" scale="1.15">Press "Shift" to view the ability's description.</p>
+    <divider/>
+    </section>
+    <section condition="default">
+      <p space="8" scale="1.15">Finally, there's armory which will either have a feature to describe itself without having you press "Ctrl" or "Shift",</p>
+      <stack item="mysticalworld:copper_chestplate"/>
+      <stack item="cactusmod:cactus_chestplate"/>
+      <stack item="minecraft:leather_chestplate"/>
+    <divider/>
+      <p scale="1.15">or won't describe the ability at all, indicating that the ability will be either permanently active (like a potion effect),</p>
+      <stack item="mutantbeasts:mutant_skeleton_chestplate"/>
+      <stack item="nocubessrparmory:evolutionarmorbody"/>
+      <stack item="nocubessrparmory:pestilentarmorbody"/>
+    <divider/>
+      <p scale="1.15">or will activate through right clicking or attacking (normally seen in weapons from the "Useless Sword" mod):</p>
+      <stack item="useless_sword:lapislazulisword"/>
+      <stack item="useless_sword:ironslimesword"/>
+      <stack item="useless_sword:ironredstonesword"/>
+    <divider/>
+      <p scale="1.15">Some items would even require a keybind too, that needs to be set by the player in the controls menu of the game (only the armor pieces seen below):</p>
+      <stack item="erebus:rhino_exoskeleton_chestplate"/>
+      <stack item="erebus:glider_chestplate"/>
+      <stack item="erebus:glider_chestplate_powered"/>
+    <divider/>
+    </section>
+    <section condition="default" id="qualities">
+      <page_title>
+        <title scale="1.15">Qualities</title>
+      </page_title>
+      <p scale="1.15">Weapons, tools and baubles can have random efficiencies and/or deficiencies in different stats, determined by their quality. This means a sword, for example, may have greater attack speed but less damage than other swords of the same material.</p>
+    <divider/>
+      <image src="minecraft:items/diamond_sword" tw="50" th="50"/>
+      <p> </p>
+      <p scale="1.15"> - Example: You crafted the diamond sword above, then hovered your mouse over it before seeing a text that states: "Quality: Thin". Then, you see below that the sword will have +10% attack speed, but will also have -5% damage, compared to other diamond swords.</p>
+    <divider/>
+      <image src="minecraft:items/diamond_sword" tw="50" th="50"/>
+      <p> </p>
+      <p scale="1.15"> - In this other case, you get the quality "Worthless", meaning that your sword will have a deficiency on pretty much all of its stats (-10% dig speed, attack damage and speed and -1 reach).</p>
+    <divider/>
+      <p space="8" scale="1.15">As stated above, the quality of your weapon/tool will be decided randomly. Furthermore, it will only receive the quality once it gets into your inventory.</p>
+    </section>
+    <section condition="default">
+      <p> </p>
+      <p scale="1.2" space="8" align="center" underline="true" bold="true">Armor Qualities</p>
+      <p space="20" scale="1.15">Armor equipment doesn't have a randomly chosen quality. It instead has a scripted quality that will always be the same, even if you reforge it.</p>
+      <p scale="1.2" space="8" align="center" underline="true" bold="true">Reforging</p>
+      <p scale="1.15">You can change the quality of your items with the Reforging Station by placing the item and its main crafting material into it. Alternatively, you can use Devout Crystals as universal reforging materials, if there's no main material for your item or if you prefer not to waste it.</p>
+      <image src="ebwizardry:items/crystal_magic" tw="50" th="50"/>
+    <divider/>
+    <recipe type="shaped" space="8">
+      <recipe.result space="8">
+        <stack item="qualitytools:reforging_station"/>
+      </recipe.result>
+    </recipe>
+    <divider/>
+    </section>
+    <section condition="default" id="rarities">
+      <page_title>
+        <title scale="1.15">Rarities</title>
+      </page_title>
+      <p scale="1.15">Rarities are like Qualities, except that they give random positive stat tweaks and no negatives, but cannot be changed with reforges.</p>
+      <p scale="1.15">For weapons, higher rarities increase damage. For Armor, rarities provide more damage reduction.</p>
+      <p scale="1.15">All avaliable rarities are seen below:</p>
+      <p> </p>
+      <p space="8" indent="10" color="#474747" scale="1.15"> - Basic (does nothing)</p>
+      <p space="8" indent="10" color="#258716" scale="1.15"> - Uncommon (+0.025 effectiveness)</p>
+      <p space="8" indent="10" color="#168587" scale="1.15"> - Rare (+0.05 effectiveness)</p>
+      <p space="8" indent="10" color="#701687" scale="1.15"> - Ultra Rare (+0.075 effectiveness)</p>
+      <p space="8" indent="10" color="#877816" scale="1.15"> - Legendary (+0.1 effectiveness)</p>
+      <p space="8" indent="10" color="#871683" scale="1.15"> - Ancient (+0.175 effectiveness)</p>
+    </section>
+  </chapter>
+  <chapter id="movement">
+    <section condition="default">
+      <space height="10%" />
+        <p space="0" align="center" scale="2">Player</p>
+        <p space="0" align="center" scale="2">Mechanics</p>
+        <p space="12" align="center" scale="2">____________________</p>
+        <p space="12" align="center" scale="1.15">Various changes to the player's features.</p>
+        <p space="8" underline="true" align="center" scale="1.15">Content:</p>
+        <p align="center" underline="true" scale="1.15">Movement</p>
+        <link align="center" ref=":walljumps" scale="1.15">Combat</link>
+    </section>
+    <section condition="default" id="dodges">
+      <page_title>
+        <title scale="1.15">Movement</title>
+      </page_title>
+      <p space="10" align="center" underline="true" bold="true" scale="1.5">Dodges:</p>
+      <p space="10" align="center"><image src="elenaidodge2:unlockables/dodge" tw="80" th="80"/></p>
+      <p space="8" scale="1.15">In the game, you can dodge by pressing "alt" or double-tapping any direction key except forwards. Dodges shoot you in the direction you're moving, with varying strength based on potions and dimension. You'll move half a block higher with half a second of invincibility. Dodges aren't usable while blocking with a shield.</p>
+      <p space="8" scale="1.15">Dodges consume 'feathers' from your hotbar (shown as (10) feathers). Air dodges use 1.5 feathers, while ground dodges use 1 feather.</p>
+      <p space="8" scale="1.15">Hunger also affects your ability to dodge, making it impossible to do so if you have only five hunger points left.</p>
+      <p space="10" bold="true" underline="true" scale="1.15">Weight:</p>
+      <p space="8" scale="1.15">Wearing specific armor sets disables feathers due to added weight. To avoid this, use Hell for Leather class armor or apply "Lightweight" enchantments on your gear to reduce weight.</p>
+    </section>
+    <section condition="default">
+      <p space="10" underline="true" bold="true" scale="1.2">Wall Jumps:</p>
+      <p space="8" scale="1.15">Jump while pressed onto a wall, then crouch. This will make you grip onto the surface of the block. Then, look in the opposite direction and release your crouch button to jump off the wall!</p>
+      <p space="8" scale="1.15">Wall jumps enable you to clear two-block heights, scale parallel structures, and avoid fall damage.</p>
+      <p space="8" scale="1.15">Clinging into a wall for too long will make you slide down it.</p>
+      <p space="10" underline="true" bold="true" scale="1.2">Hunger:</p>
+      <p space="8" scale="1.15">Hunger has been revamped. Eating food grants a "Well Fed" effect that scales with food quality, providing increased healing. Smaller foods like berries offer minimal health regeneration but are quicker to consume than larger meals.</p>
+      <p space="10" bold="true" underline="true" scale="1.15">Morsels n' Meals:</p>
+      <p space="8" scale="1.15">Food items will now have tooltips indicating their meal quality. The lowest is a "Morsel" and the highest is a "Large Meal." If a food is "Hearty," it has excellent saturation, making the best option a "Hearty Large Meal."</p>
+    </section>
+    <section condition="default" id="walljumps">
+      <page_title>
+        <title scale="1.15">Combat</title>
+      </page_title>
+      <p space="10" underline="true" bold="true" scale="1.2">Attack Speed:</p>
+      <p space="8" scale="1.15">The revamped attack speed mechanics now require waiting for the cooldown to fully expire before attacking. This allows for balanced weapons with lower attack speed but higher damage. The improved immunity-frame system enables faster attacks on mobs without prolonged immunity, promoting team ambushes and higher attack speeds.</p>
+      <p space="10" underline="true" bold="true" scale="1.2">Shield Blocking:</p>
+      <p space="8" scale="1.15">Shields have a cooldown when hit, based on the weapon's damage. To avoid this, perform a parry by blocking right before getting attacked. This allows you to block again without a cooldown.</p>
+      <p space="10" underline="true" bold="true" scale="1.2">Head Shots:</p>
+      <p space="8" scale="1.15">Headshots are a new feature in ranged weapons. Aim for the top of the monster's body. Headshots deal significant damage to the target's helmet, if worn.</p>
+    </section>
+    <section condition="default">
+      <p space="10" align="center" underline="true" bold="true" scale="1.5">Stealth:</p>
+      <p space="8" scale="1.15">The game features stealth mechanics such as crouching, hiding in the dark, using invisibility potions, being without armor, staying still, or positioning yourself behind mobs. There's also a light meter on the bottom left of your screen that lets you know your current light level.</p>
+      <p space="8" scale="1.15">Monsters can have effects like Soulsight or Glowing to spot you more easily, or Blindness to spot you less easily. Some monsters have better vision in dark places and will spawn if you stay in the dark for too long.</p>
+      <p space="10" bold="true" underline="true" scale="1.15">Crosshair:</p>
+      <p space="8" scale="1.15">The crosshair now appears regardless of the player's perspective change ("f5"). It also serves as an indicator when mobs spot you, transforming into an eye. However, the eye has various animations, so if it's not fully open, the monster may not have seen you yet.</p>
+      <p space="10" bold="true" underline="true" scale="1.15">Sneaking:</p>
+      <p space="8" scale="1.15">With the new stealth system, you can perform a 'Stealth Strike' on enemies, multiplying your damage by 1.5. This stacks with Critical Strikes. Be cautious, as mobs can also perform Stealth Strikes on you. If you manage to kill an entity with a Stealth Strike, you'll trigger an 'Assassination' and gain Strength and Invisibility buffs briefly, aiding you in claiming another victim.</p>
+      <p space="8" scale="1.15">Finally, monsters will now flee from a battle if they are left at roughly 1% of their original health. If they flee and calm down, they'll get a Regeneration V buff. If they happen to heal while fleeing, they'll get a Resistance III buff.</p>
+    </section>
+  </chapter>
+  <chapter id="Tips">
+    <section condition="default">
+      <space height="10%" />
+        <p space="0" align="center" scale="2">All</p>
+        <p space="0" align="center" scale="2">Tips</p>
+        <p space="12" align="center" scale="2">____________________</p>
+        <p space="12" align="center" scale="1.15">All the tips from the loading screens (for those who want more info).</p>
+        <p space="8" underline="true" align="center" scale="1.15">Content:</p>
+        <p align="center" underline="true" scale="1.15">Tips</p>
+    </section>
+    <section condition="default">
+      <page_title>
+        <title scale="1.15">All Tips</title>
+      </page_title>
+        <p space="10" indent="8" scale="1.15"> - You can combine dodges and wall jumps to climb almost any structure.</p>
+        <p space="10" indent="8" scale="1.15"> - You can parry attacks and projectiles if you block at the right time.</p>
+        <p space="10" indent="8" scale="1.15"> - Mobs will not spot you while you are crouching or hiding in the darkness.</p>
+        <p space="10" indent="8" scale="1.15"> - You can hide from mobs in the darkness of the caves. But beware of the Grues, Shades, Darklings or eyedrudens.</p>
+        <p space="10" indent="8" scale="1.15"> - Some mobs can see you in the dark, but cannot see you in the light.</p>
+        <p space="10" indent="8" scale="1.15"> - You can deal Stealth strikes if you hit an enemy without it seeing you.</p>
+        <p space="10" indent="8" scale="1.15"> - Using a torch in the offhand helps while exploring caves.</p>
+        <p space="10" indent="8" scale="1.15"> - All dimensions are very dark. Bring torches.</p>
+        <p space="10" indent="8" scale="1.15"> - Some plants drop food when broken.</p>
+        <p space="10" indent="8" scale="1.15"> - Leaves can cushion some fall damage.</p>
+        <p space="10" indent="8" scale="1.15"> - Cactus plants have magical properties.</p>
+        <p space="10" indent="8" scale="1.15"> - The grave key lets you know where you died.</p>
+        <p space="10" indent="8" scale="1.15"> - Graves are useful to harness the power of souls.</p>
+        <p space="10" indent="8" scale="1.15"> - You can make alloys of some metals.</p>
+        <p space="10" indent="8" scale="1.15"> - Olive oil increases the amount of food provided by items.</p>
+        <p space="10" indent="8" scale="1.15"> - Olive trees can be found and used to make olive oil.</p>
+        <p space="10" indent="8" scale="1.15"> - Ironwood trees can be found and used for alchemy.</p>
+        <p space="10" indent="8" scale="1.15"> - Monsters can drop bandages on death.</p>
+        <p space="10" indent="8" scale="1.15"> - Search the name of your class in JEI. It will show all avaliable armors.</p>
+        <p space="10" indent="8" scale="1.15"> - Belt Baubles can be found in a special structure, in the Overworld.</p>
+        <p space="10" indent="8" scale="1.15"> - Dimensions increase the stats of all monsters, so do not enter them without the proper gear!</p>
+        <p space="10" indent="8" scale="1.15"> - If you dodge before immediately jumping, you can get the same speed boost of an air dodge while only wasting one feather.</p>
+        <p space="10" indent="8" scale="1.15"> - Dodges give you invulnerability, even if you are not moving, so if you are stunned or cannot move for any reason, dodge to prevent getting hit.</p>
+        <p space="10" indent="8" scale="1.15"> - Dodging underwater will help you move faster.</p>
+        <p space="10" indent="8" scale="1.15"> - Even if your class is not good with a certain weapon, still try to have it, to ensure that you never have a disadvantage in melee or ranged combat situations.</p>
+        <p space="10" indent="8" scale="1.15"> - Spells are meant to be used as side weapons. Make sure to use them alongside your main weapons.</p>
+        <p space="10" indent="8" scale="1.15"> - Summoning staffs exist. Craft them.</p>
+        <p space="10" indent="8" scale="1.15"> - Filling the End with torches gets rid of the Eyedruden problem.</p>
+        <p space="10" indent="8" scale="1.15"> - The Builders Bag is a small storage upgrade that also eases some of the pains of building.</p>
+        <p space="10" indent="8" scale="1.15"> - You can quickly place blocks if you leave the "place" button pressed while building.</p>
+        <p space="10" indent="8" scale="1.15"> - Spartan weaponry will most certainly always be the main set of weapons, but other swords can be used as side weapons with their abilities.</p>
+        <p space="10" indent="8" scale="1.15"> - Monster charges can be turned into xp bottles in the Equipment Infuser.</p>
+        <p space="10" indent="8" scale="1.15"> - Monster parts can be turned into weapons using the Equipment Forge.</p>
+        <p space="10" indent="8" scale="1.15"> - Monster parts can be upgraded using their respective charge in the Equipment Infuser.</p>
+        <p space="10" indent="8" scale="1.15"> - Devout Crystals can be crafted using a flower, found in the world, or even mined in the Deep Caverns.</p>
+        <p space="10" indent="8" scale="1.15"> - Crystal shards can be used to upgrade your health. Find them through killing mobs, bosses, or mining the ore in the Deep Caverns.</p>
+        <p space="10" indent="8" scale="1.15"> - It is technically possible to fish in the Midnight and find the rings from the End dungeons, as well as the secret weapons from the Midnight dungeons.</p>
+        <p space="10" indent="8" scale="1.15"> - The Erebus is full of parasites and insects which all give useful loot.</p>
+        <p space="10" indent="8" scale="1.15"> - The most useful biome in the End is the Volcanic Plains. If you find them, mark their location.</p>
+        <p space="10" indent="8" scale="1.15"> - Slime can be found as loot from intestines, meaning that almost all entities can drop slime.</p>
+        <p space="10" indent="8" scale="1.15"> - The Deep Caverns are meant to be a "run-and-loot" type of section, meaning that running is many times better than fighting.</p>
+        <p space="10" indent="8" scale="1.15"> - Even though the Deep Caverns are dark, light sources can help you see from further away, making torch placement a great strategy for survival.</p>
+        <p space="10" indent="8" scale="1.15"> - If your subclass attacks slowly, you can compensate you lack of crowd control with other weapons that are not affected by your armor ability.</p>
+        <p space="10" indent="8" scale="1.15"> - Heart Containers can be turned into dust, which can be used to craft bandages.</p>
+        <p space="10" indent="8" scale="1.15"> - A funny thing happens when you hold an iron stick with the copper armor set.</p>
+        <p space="10" indent="8" scale="1.15"> - Ruined structures are very likely to have chests with unobtainable potions and tipped arrows.</p>
+        <p space="10" indent="8" scale="1.15"> - The empty pendant can be used to make a variety of pendant-based baubles that vary in abilities.</p>
+        <p space="10" indent="8" scale="1.15"> - Monsters drop scrolls that give you random effects.</p>
+        <p space="10" indent="8" scale="1.15"> - The Flamethrower can be crafted after killing the first set of bosses.</p>
+        <p space="10" indent="8" scale="1.15"> - The Crusher can be used to crush ores, which will turn the metal into a dust that can be smelted into more ingots.</p>
+        <p space="10" indent="8" scale="1.15"> - The Alloyer, as the name suggests, helps make alloys in a more cost efficient way.</p>
+        <p space="10" indent="8" scale="1.15"> - If weaker weapons that you found have enchantments that you might like, you can extract them using the Book of Disenchanting.</p>
+        <p space="10" indent="8" scale="1.15"> - Wild wolves and bears drop their fur, which can be crafted into an armor bauble.</p>
+        <p space="10" indent="8" scale="1.15"> - Many of the different crops have a variety of other uses besides food.</p>
+        <p space="10" indent="8" scale="1.15"> - In the Erebus, none of the insects are affected by the stealth system, but the parasites are.</p>
+        <p space="10" indent="8" scale="1.15"> - Bosses are not affected by the stealth system, so do not try to sneak up on them.</p>
+        <p space="10" indent="8" scale="1.15"> - Many accessories and items give you resistance to fire damage. Try to have any of them before traveling to the Nether.</p>
+        <p space="10" indent="8" scale="1.15"> - A compass will display your coordinates in your screen, even if it is not in your main hand.</p>
+        <p space="10" indent="8" scale="1.15"> - A clock will display your current time in your screen, even if it is not in your main hand.</p>
+        <p space="10" indent="8" scale="1.15"> - Pigs drop tallow on death, which can be used to smelt items.</p>
+        <p space="10" indent="8" scale="1.15"> - All Cattle mobs have a chance to drop a Forbidden Fruit.</p>
+        <p space="10" indent="8" scale="1.15"> - All poisonous mobs have a chance to drop a Bezoar.</p>
+        <p space="10" indent="8" scale="1.15"> - Most Lycanites mobs that are related to cold temperatures, can drop the Ring of Overclocking.</p>
+        <p space="10" indent="8" scale="1.15"> - Mobs that give weakness can drop Vitamins.</p>
+        <p space="10" indent="8" scale="1.15"> - The Black Elytra, which can be crafted using dragon scales, is a reforgeable version of the regular Elytra.</p>
+        <p space="10" indent="8" scale="1.15"> - You can grab storage and some passive mobs with your hands by Shift-right-clicking them with an empty hand and offhand.</p>
+        <p space="10" indent="8" scale="1.15"> - Some parasites can adapt to certain damage sources, so try to be able to deal all damage types possible before you fight the parasites.</p>
+        <p space="10" indent="8" scale="1.15"> - If you want to randomize a selection of blocks to place, craft a Trowel. With it, you will randomly place any block from your offhand.</p>
+        <p space="10" indent="8" scale="1.15"> - Side weapons can be used to stack effects alongside your main weapon, increasing the overall damage output and/or survivability if you create a good combo.</p>
+        <p space="10" indent="8" scale="1.15"> - You can build relations with villagers, making them loyal to you and willing to fight alongside you.</p>
+        <p space="10" indent="8" scale="1.15"> - There are more than just wolves to tame. So try to find a possibly tamable animal.</p>
+        <p space="10" indent="8" scale="1.15"> - You can view the description of enchantments by pressing "Ctrl".</p>
+        <p space="10" indent="8" scale="1.15"> - The durability of your equipment can be seen on the top-left of your screen, along with your main hand.</p>
+        <p space="10" indent="8" scale="1.15"> - If you reach the build limit, The Rift will start to suck you up and kill you with radiation.</p>
+        <p space="10" indent="8" scale="1.15"> - Creeper explosions can be dodged with the "Dodge" ability.</p>
+        <p space="10" indent="8" scale="1.15"> - String can be turned into wool, which can be later turned back, making wool a compact storage of string.</p>
+        <p space="10" indent="8" scale="1.15"> - Mobs with yellow, red, or purple particle effects, can drop a variety of enchanted books as well as baubles and unique weapons.</p>
+        <p space="10" indent="8" scale="1.15"> - If you or another mob has the "Call of the Hive" effect, they will turn into parasites on death.</p>
+        <p space="10" indent="8" scale="1.15"> - Beckons can create/expand the Parasite Biome, so kill them before they do so.</p>
+        <p space="10" indent="8" scale="1.15"> - Red boulders can be spotted in the parasite biome. Remove their core to prevent the biome from spreading.</p>
+        <p space="10" indent="8" scale="1.15"> - You can increase the amount of mana you can use on your baubles with the Mana Crystals.</p>
+        <p space="10" indent="8" scale="1.15"> - Magic Wands need to be charged with "Power", by using devout crystals to make power flasks.</p>
+        <p space="10" indent="8" scale="1.15"> - The inside of leaves is dark, making them a viable option for hiding from mobs.</p>
+        <p space="10" indent="8" scale="1.15"> - Runes give a different color to the enchantment glint of an item, if you put the rune with the item on an anvil.</p>
+        <p space="10" indent="8" scale="1.15"> - Recall and Wormhole potions can be found on main dungeons as well as ruined structures around the world.</p>
+        <p space="10" indent="8" scale="1.15"> - If you are playing in hard mode, kill an Eye Druden with an anvil.</p>
+        <p space="10" indent="8" scale="1.15"> - Elytras can be equiped as baubles.</p>
+        <p space="10" indent="8" scale="1.15"> - Crushers can be naturally found in a small andesite structure.</p>
+        <p space="10" indent="8" scale="1.15"> - All classes deal -30 percent of the damage type of other classes, making melee-based classes deal less ranged damage, and ranged-based classes deal less melee damage.</p>
+        <p space="10" indent="8" scale="1.15"> - Blindness on mobs will make them less likely to spot you.</p>
+        <p space="10" indent="8" scale="1.15"> - Throw torches into a dark pit to see exactly how deep it is.</p>
+        <p space="10" indent="8" scale="1.15"> - Try saving all your effect scrolls to use them during a boss battle.</p>
+        <p space="10" indent="8" scale="1.15"> - More armor points mean less stealth.</p>
+        <p space="10" indent="8" scale="1.15"> - You cannot wall jump on ice.</p>
+        <p space="10" indent="8" scale="1.15"> - You can craft different arrows that all have different abilities.</p>
+        <p space="10" indent="8" scale="1.15"> - More rows of hearts/armor are determined by the color they are displayed in.</p>
+        <p space="10" indent="8" scale="1.15"> - Heart crystals are the fastest method of healing.</p>
+        <p space="10" indent="8" scale="1.15"> - All helmets are damaged greatly with headshots, but many give resistance to headshot damage.</p>
+        <p space="10" indent="8" scale="1.15"> - Sneaking near items will let you automatically pick them up.</p>
+        <p space="10" indent="8" scale="1.15"> - Right-clicking an item from atmost two blocks away will let you pick it up.</p>
+        <p space="10" indent="8" scale="1.15"> - Hotspring water gives you regeneration.</p>
+        <p space="10" indent="8" scale="1.15"> - Dodging right before landing from a fall, will not negate fall damage. But doing so with a bucket in hand, will make water clutches easier to perform.</p>
+        <p space="10" indent="8" scale="1.15"> - Silk worms can be used to farm an alternative of string.</p>
+        <p space="10" indent="8" scale="1.15"> - If any harvestable block feels too rewarding to obtain, this might mean that such block has a chance to spawn a monster when broken.</p>
+        <p space="10" indent="8" scale="1.15"> - You can try to roll for a better quality on an item, if you repair them in your inventory.</p>
+        <p space="10" indent="8" scale="1.15"> - Entities will dissapear from your screen if they are successfuly hidden with the stealth system.</p>
+        <p space="10" indent="8" scale="1.15"> - Sleeping triggers a timelapse, instead of skipping the night.</p>
+        <p space="10" indent="8" scale="1.15"> - Beware the Rifters! They will drag you towards a Rift.</p>
+        <p space="10" indent="8" scale="1.15"> - Natural dissasters cannot destroy your base.</p>
+        <p space="10" indent="8" scale="1.15"> - Cactus wood can be insta-mined, making it good for building your way out of a situation.</p>
+        <p space="10" indent="8" scale="1.15"> - Some non-main dungeons are very good xp farms.</p>
+        <p space="10" indent="8" scale="1.15"> - The most common main dungeons from early game can be found in the ocean.</p>
+        <p space="10" indent="8" scale="1.15"> - Lycanites dungeons are the main structures for the other dimensions.</p>
+        <p space="10" indent="8" scale="1.15"> - Metal detectors can help you find ores more easily.</p>
+        <p space="10" indent="8" scale="1.15"> - Molten metals can be found in the Deep Caverns.</p>
+        <p space="10" indent="8" scale="1.15"> - Mimicrabs are more commonly found where you died.</p>
+        <p space="10" indent="8" scale="1.15"> - Every time you summon the Ender Dragon or the Wither, the fight will get harder.</p>
+        <p space="10" indent="8" scale="1.15"> - Dodges work differently in other dimensions.</p>
+        <p space="10" indent="8" scale="1.15"> - Crystals from Crystal Caves can be crafted into cosmetic runes.</p>
+        <p space="10" indent="8" scale="1.15"> - All metals can be turned into different building blocks.</p>
+        <p space="10" indent="8" scale="1.15"> - Many structures have traps.</p>
+        <p space="10" indent="8" scale="1.15"> - Darkness damages you in the Deep Caverns.</p>
+        <p space="10" indent="8" scale="1.15"> - You can use Devout Crystals to reforge items in the Reforging Station.</p>
+        <p space="10" indent="8" scale="1.15"> - You do not have to find a village immediately after starting your playthrough.</p>
+    </section>
+  </chapter>
+</book>

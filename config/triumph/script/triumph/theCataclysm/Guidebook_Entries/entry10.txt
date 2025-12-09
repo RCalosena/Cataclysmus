@@ -1,0 +1,17 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("The Deterrent")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/chalice")
+
+criteria = addCriteria("chalice", "minecraft:inventory_changed")
+criteria.addItem("everlastingabilities:ability_bottle")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,196)

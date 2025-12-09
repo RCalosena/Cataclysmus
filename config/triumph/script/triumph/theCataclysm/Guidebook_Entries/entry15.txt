@@ -1,0 +1,17 @@
+setTitle("Manual Chapter Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("Post Game")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:theCataclysm/vile_shell")
+
+criteria = addCriteria("vileS", "minecraft:inventory_changed")
+criteria.addItem("srparasites:vile_shell")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(56,430)

@@ -2,6 +2,7 @@
 
 import mods.vanillaanvilrepair.addRepairEntry;
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 
             #######################
             ## All Anvil Recipes ##
@@ -49,9 +50,48 @@ for item in plateArray{
      addRepairEntry(item, plate);
 }
 
-var jade = <ore:gemJade>;
 
 //addRepairEntry(IIngredient repairedItems, IIngredient materials)
+
+var flint = <minecraft:flint>;
+
+val flintArray = [
+    <spartanweaponry:dagger_wood>,
+    <spartanweaponry:longsword_wood>,
+    <spartanweaponry:katana_wood>,
+    <spartanweaponry:saber_wood>,
+    <spartanweaponry:rapier_wood>,
+    <spartanweaponry:greatsword_wood>,
+    <spartanweaponry:hammer_wood>,
+    <spartanweaponry:warhammer_wood>,
+    <spartanweaponry:spear_wood>,
+    <spartanweaponry:staff>,
+    <spartanweaponry:glaive_wood>,
+    <spartanweaponry:mace_wood>,
+    <spartanweaponry:battleaxe_wood>,
+    <spartanweaponry:halberd_wood>,
+    <spartanweaponry:pike_wood>,
+    <spartanweaponry:lance_wood>,
+    <spartanweaponry:longbow_wood>,
+    <spartanweaponry:crossbow_wood>,
+    <spartanweaponry:throwing_knife_wood>,
+    <spartanweaponry:throwing_axe_wood>,
+    <spartanweaponry:javelin_wood>,
+    <spartanweaponry:boomerang_wood>,
+    <spartanweaponry:scythe_wood>,
+    <mujmajnkraftsbettersurvival:itemwoodnunchaku>,
+    <minecraft:wooden_axe>,
+    <minecraft:wooden_sword>,
+    <minecraft:wooden_hoe>,
+    <minecraft:wooden_shovel>,
+    <minecraft:wooden_pickaxe>,
+] as IItemStack[];
+
+for item in flintArray{
+    addRepairEntry(item, flint);
+}
+
+var jade = <ore:gemJade>;
 
 val jadeArray = [
     <spartanweaponry:dagger_copper>,
@@ -76,11 +116,13 @@ val jadeArray = [
     <spartanweaponry:throwing_axe_copper>,
     <spartanweaponry:javelin_copper>,
     <spartanweaponry:boomerang_copper>,
-] as IIngredient[];
+    <spartanweaponry:scythe_copper>,
+] as IItemStack[];
 
 for item in jadeArray{
      addRepairEntry(item, jade);
 }
+addRepairEntry(<mujmajnkraftsbettersurvival:itemsilvernunchaku>, jade);
 
 var vulcanite = <ore:ingotVulcanite>;
 
@@ -109,11 +151,13 @@ val vulArray = [
     <spartanweaponry:mace_platinum>,
     <spartanweaponry:glaive_platinum>,
     <spartanweaponry:staff_platinum>,
-] as IIngredient[];
+    <spartanweaponry:scythe_platinum>,
+] as IItemStack[];
 
 for item in vulArray{
      addRepairEntry(item, vulcanite);
 }
+addRepairEntry(<mujmajnkraftsbettersurvival:itemcoppernunchaku>, vulcanite);
 
 var star = <ore:netherStar>;
 
@@ -142,11 +186,13 @@ val starArray = [
     <spartanweaponry:throwing_axe_nickel>,
     <spartanweaponry:javelin_nickel>,
     <spartanweaponry:boomerang_nickel>,
+    <spartanweaponry:scythe_nickel>,
 ] as IIngredient[];
 
 for item in starArray{
      addRepairEntry(item, star);
 }
+addRepairEntry(<mujmajnkraftsbettersurvival:itemelectrumnunchaku>, star);
 
 var scaleDragon = <ore:scaleDragonEnder>;
 
@@ -175,8 +221,56 @@ val draArray = [
     <spartanweaponry:throwing_axe_lead>,
     <spartanweaponry:javelin_lead>,
     <spartanweaponry:boomerang_lead>,
+    <spartanweaponry:scythe_lead>,
 ] as IIngredient[];
 
 for item in draArray{
      addRepairEntry(item, scaleDragon);
 }
+addRepairEntry(<mujmajnkraftsbettersurvival:itemsteelnunchaku>, scaleDragon);
+
+// Remove recipes for previous materials
+events.register(function(event as crafttweaker.event.PlayerAnvilUpdateEvent){
+        var leftItem = event.leftItem;
+        val ores = event.rightItem.ores;
+
+    for ore in ores {
+        for flints in flintArray {
+            if (flints.anyDamage().matches(leftItem) && ore.name.contains(<ore:plankWood>.name)) {
+                event.cancel();
+                return;
+            }
+        }
+        
+        for jades in jadeArray {
+            if (jades.anyDamage().matches(leftItem) && ore.name == <ore:ingotCopper>.name) {
+                event.cancel();
+                return;
+            }
+        }
+
+        for vulcs in vulArray {
+            if (vulcs.anyDamage().matches(leftItem) && ore.name.contains(<ore:ingotPlatinum>.name)) {
+                event.cancel();
+                return;
+            }
+        }
+
+        if (<mujmajnkraftsbettersurvival:itemsteelnunchaku>.anyDamage().matches(leftItem) && ore.name.contains(<ore:ingotSteel>.name)) { 
+            event.cancel();
+            return;
+        }
+        if (<mujmajnkraftsbettersurvival:itemelectrumnunchaku>.anyDamage().matches(leftItem) && ore.name.contains(<ore:ingotElectrum>.name)) { 
+            event.cancel();
+            return;
+        }
+        if (<mujmajnkraftsbettersurvival:itemcoppernunchaku>.anyDamage().matches(leftItem) && ore.name.contains(<ore:ingotCopper>.name)) { 
+            event.cancel();
+            return;
+        }
+        if (<mujmajnkraftsbettersurvival:itemsilvernunchaku>.anyDamage().matches(leftItem) && ore.name.contains(<ore:ingotSilver>.name)) { 
+            event.cancel();
+            return;
+        }
+    }
+});

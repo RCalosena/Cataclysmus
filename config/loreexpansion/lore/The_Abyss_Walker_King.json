@@ -1,0 +1,18 @@
+{
+  "key": {
+    "id": "The_Abyss_Walker_King",
+    "category": "global"
+  },
+  "content": {
+    "title": "The Abyss Walker King",
+    "body": "---    
+    ",
+    "autoplay": false
+  },
+  "sortingIndex": 5,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "trigger": null,
+  "action": null
+}

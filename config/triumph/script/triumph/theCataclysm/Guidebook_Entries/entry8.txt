@@ -1,0 +1,17 @@
+setTitle("Manual Entry Unlocked!")
+setIcon(<minecraft:book>)
+setDescription("Dragon Slayer")
+setFrameType("GOAL")
+
+setCompletedIconColor(#2bff00)
+setCompletedTitleColor(#00FF80)
+
+addParent("triumph:vanilla/story/follow_ender_eye")
+
+criteria = addCriteria("in_stronghold", "minecraft:location")
+criteria.setFeature("Stronghold")
+
+setRewardFunction("triumph:great")
+
+setRequirements("any")
+setPos(224,68)

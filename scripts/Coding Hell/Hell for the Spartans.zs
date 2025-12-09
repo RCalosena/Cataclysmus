@@ -90,6 +90,7 @@ recipes.addShapedMirrored(<spartanweaponry:saber_nickel>, [[null, <minecraft:net
 recipes.addShapedMirrored(<spartanweaponry:katana_nickel>, [[null, null, <minecraft:nether_star>],[null, <minecraft:nether_star>, null], [<spartanweaponry:material>, null, null]]);
 recipes.addShaped(<spartanweaponry:longsword_nickel>, [[null, <minecraft:nether_star>, null],[null, <minecraft:nether_star>, null], [<minecraft:nether_star>, <spartanweaponry:material>, <minecraft:nether_star>]]);
 recipes.addShaped(<spartanweaponry:dagger_nickel>, [[null, <minecraft:nether_star>, null],[null, <spartanweaponry:material>, null]]);
+recipes.addShaped(<spartanweaponry:pike_nickel>, [[null, <minecraft:nether_star>, null],[null, <spartanweaponry:material:1>, null], [null, <spartanweaponry:material:1>, null]]);
 
 recipes.addShapedMirrored(<spartanweaponry:throwing_knife_wood>, [[<spartanweaponry:material>, <minecraft:flint>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:throwing_axe_wood>, [[<spartanweaponry:material>, <minecraft:flint>, null],[null, <minecraft:flint>, null]]);
