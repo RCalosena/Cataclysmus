@@ -14,9 +14,9 @@
   "element": "healing",
   "type": "utility",
   "cost": 8,
-  "chargeup": 0,
+  "chargeup": 10,
   "cooldown": 5,
   "base_properties": {
-    "evade_velocity": 2
+    "evade_velocity": 3
   }
 }

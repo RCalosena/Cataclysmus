@@ -1,4 +1,3 @@
-#modloaded 
 #loader mixin
 #sideonly client
 

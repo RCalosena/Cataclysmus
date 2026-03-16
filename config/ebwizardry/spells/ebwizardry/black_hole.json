@@ -14,8 +14,8 @@
   "element": "sorcery",
   "type": "construct",
   "cost": 195,
-  "chargeup": 25,
-  "cooldown": 400,
+  "chargeup": 65,
+  "cooldown": 350,
   "base_properties": {
     "duration": 500,
     "range": 10,

@@ -14,13 +14,13 @@
   "element": "ice",
   "type": "construct",
   "cost": 10,
-  "chargeup": 0,
+  "chargeup": 40,
   "cooldown": 20,
   "base_properties": {
     "range": 10,
     "effect_radius": 1,
     "damage": 10,
-    "effect_duration": 200,
+    "effect_duration": 220,
     "effect_strength": 1
   }
 }

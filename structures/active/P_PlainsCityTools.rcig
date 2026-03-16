@@ -70,6 +70,34 @@
                 },
                 "id": {
                   "nbtType": "string",
+                  "nbt": "Critbow"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "weight": 0.5,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "loreexpansion:lore_scrap",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "lore": {
+              "nbtType": "compound",
+              "nbt": {
+                "category": {
+                  "nbtType": "string",
+                  "nbt": "Lost"
+                },
+                "id": {
+                  "nbtType": "string",
                   "nbt": "Prings"
                 }
               }

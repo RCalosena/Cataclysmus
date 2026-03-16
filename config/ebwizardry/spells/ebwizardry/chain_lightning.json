@@ -14,15 +14,15 @@
   "element": "lightning",
   "type": "attack",
   "cost": 33,
-  "chargeup": 5,
-  "cooldown": 50,
+  "chargeup": 40,
+  "cooldown": 60,
   "base_properties": {
-    "primary_damage": 10,
+    "primary_damage": 12,
     "secondary_damage": 10,
     "tertiary_damage": 8,
-    "range": 15,
-    "secondary_range": 7,
-    "tertiary_range": 7,
+    "range": 20,
+    "secondary_range": 10,
+    "tertiary_range": 5,
     "secondary_max_targets": 10,
     "tertiary_max_targets": 6
   }

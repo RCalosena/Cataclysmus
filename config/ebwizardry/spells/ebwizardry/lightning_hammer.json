@@ -14,7 +14,7 @@
   "element": "lightning",
   "type": "attack",
   "cost": 130,
-  "chargeup": 25,
+  "chargeup": 60,
   "cooldown": 300,
   "base_properties": {
     "range": 40,

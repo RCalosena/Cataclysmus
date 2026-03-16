@@ -14,11 +14,11 @@
   "element": "healing",
   "type": "attack",
   "cost": 130,
-  "chargeup": 25,
+  "chargeup": 50,
   "cooldown": 200,
   "base_properties": {
     "range": 40,
-    "effect_radius": 3,
+    "effect_radius": 4,
     "damage": 35,
     "burn_duration": 10
   }

@@ -41,9 +41,9 @@ recipes.addShaped(<mod_lavacow:faminearmor_boots>, [[null, <erebus:materials:39>
 recipes.addShaped(<mod_lavacow:faminearmor_leggings>, [[<mod_lavacow:foul_bristle>, <erebus:materials:39>, <mod_lavacow:foul_bristle>],[<mod_lavacow:foul_bristle>, null, <mod_lavacow:foul_bristle>], [<mod_lavacow:foul_bristle>, null, <mod_lavacow:foul_bristle>]]);
 recipes.addShaped(<mod_lavacow:faminearmor_helmet>, [[<mod_lavacow:sharptooth>, <erebus:materials:39>, <mod_lavacow:sharptooth>],[<mod_lavacow:foul_bristle>, <tombstone:crafting_ingredient:4>, <mod_lavacow:foul_bristle>]]);
 
-recipes.addShaped(<erebus:rein_compound_goggles>, [[null, null, null],[<erebus:materials:15>, <erebus:materials:64>, <erebus:materials:15>], [<erebus:materials:15>, <erebus:compound_goggles>, <erebus:materials:15>]]);
-recipes.addShaped(<erebus:glider_chestplate_powered>, [[<erebus:materials:27>, <erebus:materials:64>, <erebus:materials:27>],[<erebus:materials:9>, <erebus:glider_chestplate>, <erebus:materials:9>], [null, <erebus:velocity_block>, null]]);
-recipes.addShaped(<erebus:sprint_leggings>, [[<erebus:materials:8>, <erebus:materials:64>, <erebus:materials:8>],[<erebus:materials:8>, <erebus:rein_exoskeleton_leggings>, <erebus:materials:8>], [<erebus:materials:8>, <erebus:materials:8>, <erebus:materials:8>]]);
+recipes.addShaped(<erebus:rein_exoskeleton_helmet>, [[<erebus:materials:15>, <erebus:materials:64>, <erebus:materials:15>], [<erebus:materials:15>, null, <erebus:materials:15>]]);
+recipes.addShaped(<erebus:rein_exoskeleton_chestplate>, [[<erebus:materials:15>, null, <erebus:materials:15>],[<erebus:materials:15>, <erebus:materials:64>, <erebus:materials:15>], [null, <erebus:materials:15>, null]]);
+recipes.addShaped(<erebus:rein_exoskeleton_leggings>, [[<erebus:materials:15>, <erebus:materials:64>, <erebus:materials:15>],[<erebus:materials:15>, null, <erebus:materials:15>], [<erebus:materials:15>, null, <erebus:materials:15>]]);
 recipes.addShaped(<erebus:rein_exoskeleton_boots>, [[null, <erebus:materials:64>, null],[<erebus:materials:15>, null, <erebus:materials:15>], [<erebus:materials:15>, null, <erebus:materials:15>]]);
 
 recipes.addShaped(<metallurgy:tartarite_chestplate>, [[<metallurgy:tartarite_ingot>, null, <metallurgy:tartarite_ingot>],[<metallurgy:tartarite_ingot>, <biomesoplenty:gem>, <metallurgy:tartarite_ingot>], [null, <metallurgy:tartarite_ingot>, null]]);

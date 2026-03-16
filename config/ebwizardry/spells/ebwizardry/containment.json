@@ -14,7 +14,7 @@
   "element": "sorcery",
   "type": "alteration",
   "cost": 52,
-  "chargeup": 5,
+  "chargeup": 10,
   "cooldown": 60,
   "base_properties": {
     "range": 10,

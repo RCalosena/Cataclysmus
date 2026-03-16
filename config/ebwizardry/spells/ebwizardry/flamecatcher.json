@@ -14,12 +14,12 @@
   "element": "fire",
   "type": "utility",
   "cost": 130,
-  "chargeup": 20,
+  "chargeup": 60,
   "cooldown": 150,
   "base_properties": {
-    "item_lifetime": 900,
+    "item_lifetime": 1000,
     "range": 40,
-    "shot_count": 5,
+    "shot_count": 7,
     "damage": 22,
     "burn_duration": 15
   }

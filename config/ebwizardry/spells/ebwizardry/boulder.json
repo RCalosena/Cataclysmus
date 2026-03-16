@@ -14,12 +14,12 @@
   "element": "earth",
   "type": "attack",
   "cost": 163,
-  "chargeup": 25,
-  "cooldown": 350,
+  "chargeup": 60,
+  "cooldown": 300,
   "base_properties": {
     "duration": 200,
     "speed": 0.33,
-    "damage": 33,
+    "damage": 40,
     "knockback_strength": 1
   }
 }

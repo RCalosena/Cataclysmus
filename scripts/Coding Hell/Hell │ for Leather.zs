@@ -32,12 +32,12 @@ recipes.addShaped(<metallurgy:quicksilver_leggings>, [[<metallurgy:quicksilver_i
 recipes.addShaped(<metallurgy:quicksilver_chestplate>, [[<metallurgy:quicksilver_ingot>, null, <metallurgy:quicksilver_ingot>],[<metallurgy:quicksilver_ingot>, <mod_lavacow:emblem_of_king>, <metallurgy:quicksilver_ingot>], [null, <metallurgy:quicksilver_ingot>, null]]);
 recipes.addShaped(<metallurgy:quicksilver_helmet>, [[<metallurgy:quicksilver_ingot>, <mod_lavacow:emblem_of_king>, <metallurgy:quicksilver_ingot>],[<metallurgy:quicksilver_ingot>, null, <metallurgy:quicksilver_ingot>]]);
 
-recipes.addShaped(<mysticalworld:copper_boots>, [[null, null, null],[<ore:ingotCopper>, null, <ore:ingotCopper>], [<ore:ingotCopper>, null, <ore:ingotCopper>]]);
+recipes.addShaped(<mysticalworld:copper_boots>, [[<ore:ingotCopper>, null, <ore:ingotCopper>], [<ore:ingotCopper>, null, <ore:ingotCopper>]]);
 recipes.addShaped(<mysticalworld:copper_leggings>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],[<ore:ingotCopper>, null, <ore:ingotCopper>], [<ore:ingotCopper>, null, <ore:ingotCopper>]]);
 recipes.addShaped(<mysticalworld:copper_chestplate>, [[<ore:ingotCopper>, null, <ore:ingotCopper>],[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 recipes.addShaped(<mysticalworld:copper_helmet>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],[<ore:ingotCopper>, null, <ore:ingotCopper>]]);
 
-recipes.addShaped(<cqrepoured:boots_slime>, [[null, null, null],[<cqrepoured:ball_slime>, null, <cqrepoured:ball_slime>], [<cqrepoured:ball_slime>, null, <cqrepoured:ball_slime>]]);
+recipes.addShaped(<cqrepoured:boots_slime>, [[<cqrepoured:ball_slime>, null, <cqrepoured:ball_slime>], [<cqrepoured:ball_slime>, null, <cqrepoured:ball_slime>]]);
 recipes.addShaped(<cqrepoured:leggings_slime>, [[<cqrepoured:ball_slime>, <cqrepoured:ball_slime>, <cqrepoured:ball_slime>],[<cqrepoured:ball_slime>, null, <cqrepoured:ball_slime>], [<cqrepoured:ball_slime>, null, <cqrepoured:ball_slime>]]);
 recipes.addShaped(<cqrepoured:chestplate_slime>, [[<cqrepoured:ball_slime>, null, <cqrepoured:ball_slime>],[<cqrepoured:ball_slime>, <cqrepoured:ball_slime>, <cqrepoured:ball_slime>], [<cqrepoured:ball_slime>, <cqrepoured:ball_slime>, <cqrepoured:ball_slime>]]);
 recipes.addShaped(<cqrepoured:helmet_slime>, [[<cqrepoured:ball_slime>, <cqrepoured:ball_slime>, <cqrepoured:ball_slime>],[<cqrepoured:ball_slime>, null, <cqrepoured:ball_slime>]]);

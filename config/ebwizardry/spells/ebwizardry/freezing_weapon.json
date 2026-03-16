@@ -14,9 +14,9 @@
   "element": "ice",
   "type": "utility",
   "cost": 46,
-  "chargeup": 0,
+  "chargeup": 60,
   "cooldown": 70,
   "base_properties": {
-    "effect_duration": 900
+    "effect_duration": 1000
   }
 }

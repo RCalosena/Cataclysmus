@@ -14,11 +14,11 @@
   "element": "necromancy",
   "type": "attack",
   "cost": 46,
-  "chargeup": 10,
+  "chargeup": 20,
   "cooldown": 75,
   "base_properties": {
-    "range": 10,
-    "effect_duration": 200,
-    "damage_interval": 14
+    "range": 12,
+    "effect_duration": 250,
+    "damage_interval": 15
   }
 }

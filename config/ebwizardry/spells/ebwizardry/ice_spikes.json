@@ -14,13 +14,13 @@
   "element": "ice",
   "type": "attack",
   "cost": 39,
-  "chargeup": 0,
+  "chargeup": 30,
   "cooldown": 75,
   "base_properties": {
     "range": 20,
-    "effect_radius": 3.0,
-    "ice_spike_count": 20,
-    "damage": 7,
+    "effect_radius": 4.0,
+    "ice_spike_count": 22,
+    "damage": 8,
     "effect_duration": 100,
     "effect_strength": 0
   }

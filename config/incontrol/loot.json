@@ -87,8 +87,8 @@
   {
     "hostile": "true",
     "mod": "lycanitesmobs",
-    "player": "true",
-    "item": "tombstone:crafting_ingredient@3"
+    "item": "tombstone:crafting_ingredient@3",
+    "itemcount": "1-10/3-12/5-15"
   },
   {
     "mod": "mod_lavacow",

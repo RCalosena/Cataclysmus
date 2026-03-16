@@ -14,11 +14,11 @@
   "element": "fire",
   "type": "attack",
   "cost": 46,
-  "chargeup": 0,
+  "chargeup": 20,
   "cooldown": 40,
   "base_properties": {
-    "range": 10,
-    "damage": 10,
+    "range": 12,
+    "damage": 12,
     "burn_duration": 10,
     "ember_lifetime": 300,
     "ember_count": 12

@@ -4,7 +4,6 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.item.IItemStack;
 import crafttweaker.potions.IPotion;
 import crafttweaker.player.IPlayer;
-import crafttweaker.damage.IDamageSource;
 
 val milks = [
 	<betteranimalsplus:goatmilk>,
@@ -12,7 +11,7 @@ val milks = [
 	<erebus:bambucket>.withTag({Fluid: {FluidName: "milk", Amount: 1000}})
 ] as IItemStack[];
 
-//Ghostly Shape Fall Nerf
+//Ghostly Shape Fall Damage Nerf
 events.register(function(event as crafttweaker.event.EntityLivingFallEvent){
 if event.entityLivingBase.world.isRemote() return;
 if !event.entityLivingBase instanceof IPlayer return;
@@ -31,9 +30,10 @@ events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){
 if event.entityLivingBase.world.isRemote() return;
 if !event.entityLivingBase instanceof IPlayer return;
 });
-//Ghostly Shape Fall Nerf
+//Ghostly Shape Fall Damage Nerf
 
 //Invisibility
+//can have an amplifier of II now
 events.register(function(event1 as crafttweaker.event.PotionEffectAddedEvent){
     if event1.entityLivingBase.world.isRemote() { return; }
 	if event1.potionEffect.effectName != "effect.invisibility" { return; }
@@ -126,6 +126,7 @@ events.register(function(event3 as crafttweaker.event.PlayerTickEvent){
 //Invisibility
 
 //Insomnia
+//cannot be cured with milk now
 events.onEntityLivingUseItemFinish(function(event5 as crafttweaker.event.EntityLivingUseItemEvent.Finish){
 var player = event5.player;
 
@@ -150,6 +151,7 @@ events.register(function(event6 as crafttweaker.event.EntityLivingAttackedEvent)
 
 	if !attacker.isPotionActive(<potion:mod_lavacow:corroded>) { return; }
 
+	//contagious now
 	event6.entityLivingBase.addPotionEffect(<potion:mod_lavacow:corroded>.makePotionEffect(attacker.getActivePotionEffect(<potion:mod_lavacow:corroded>).duration, attacker.getActivePotionEffect(<potion:mod_lavacow:corroded>).amplifier));
 });
 //Corroded
@@ -159,6 +161,7 @@ events.register(function(event1 as crafttweaker.event.PotionEffectAddedEvent){
     if event1.entityLivingBase.world.isRemote() { return; }
 	if event1.potionEffect.effectName != "mob_effect.srparasites:rage" { return; }
 
+	//heals the player when activated
 	if (event1.potionEffect.amplifier == 0) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.15)); }
 	if (event1.potionEffect.amplifier == 1) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.225)); }
 	if (event1.potionEffect.amplifier == 2) { event1.entityLivingBase.heal((event1.entityLivingBase.maxHealth * 0.3)); }

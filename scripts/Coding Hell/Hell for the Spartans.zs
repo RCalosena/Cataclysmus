@@ -12,9 +12,9 @@ recipes.addShapedMirrored(<spartanweaponry:glaive_copper>, [[null, <erebus:mater
 recipes.addShapedMirrored(<spartanweaponry:staff_copper>, [[null, null, <erebus:materials:1>],[null, <spartanweaponry:material:1>, null], [<erebus:materials:1>, null, null]]);
 recipes.addShaped(<spartanweaponry:dagger_copper>, [[null, <erebus:materials:1>, null],[null, <spartanweaponry:material>, null]]);
 recipes.addShaped(<spartanweaponry:battleaxe_copper>, [[<erebus:materials:1>, <erebus:materials:1>, <erebus:materials:1>],[<erebus:materials:1>, <ore:voodooPoppetProtectionLightning>, <erebus:materials:1>], [null, <spartanweaponry:material>, null]]);
-recipes.addShapedMirrored(<spartanweaponry:javelin_copper>, [[null, null, null],[<spartanweaponry:material:1>, <erebus:materials:1>, null]]);
+recipes.addShapedMirrored(<spartanweaponry:javelin_copper>, [[<spartanweaponry:material:1>, <erebus:materials:1>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:throwing_axe_copper>, [[<spartanweaponry:material>, <erebus:materials:1>, null],[null, <erebus:materials:1>, null]]);
-recipes.addShapedMirrored(<spartanweaponry:throwing_knife_copper>, [[null, null, null],[<spartanweaponry:material>, <erebus:materials:1>, null]]);
+recipes.addShapedMirrored(<spartanweaponry:throwing_knife_copper>, [[<spartanweaponry:material>, <erebus:materials:1>, null]]);
 recipes.addShaped(<spartanweaponry:lance_copper>, [[null, <erebus:materials:1>, null],[null, <spartanweaponry:material:1>, null], [null, <spartanweaponry:material>, null]]);
 recipes.addShaped(<spartanweaponry:pike_copper>, [[null, <erebus:materials:1>, null],[null, <spartanweaponry:material:1>, null], [null, <spartanweaponry:material:1>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:halberd_copper>, [[null, <erebus:materials:1>, null],[<erebus:materials:1>, <erebus:materials:1>, null], [<erebus:materials:1>, <spartanweaponry:material:1>, null]]);
@@ -36,9 +36,9 @@ recipes.addShaped(<spartanweaponry:dagger_lead>, [[null, <ore:scaleDragonEnder>,
 recipes.addShapedMirrored(<spartanweaponry:glaive_lead>, [[null, <ore:scaleDragonEnder>, null],[null, <ore:scaleDragonEnder>, null], [<ore:scaleDragonEnder>, <spartanweaponry:material:1>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:mace_lead>, [[null, <ore:scaleDragonEnder>, <ore:scaleDragonEnder>],[null, <ore:voodooPoppetProtectionLightning>, <ore:scaleDragonEnder>], [<spartanweaponry:material>, null, null]]);
 recipes.addShaped(<spartanweaponry:battleaxe_lead>, [[<ore:scaleDragonEnder>, <ore:scaleDragonEnder>, <ore:scaleDragonEnder>],[<ore:scaleDragonEnder>, <ore:voodooPoppetProtectionLightning>, <ore:scaleDragonEnder>], [null, <spartanweaponry:material>, null]]);
-recipes.addShapedMirrored(<spartanweaponry:javelin_lead>, [[null, null, null],[<spartanweaponry:material:1>, <ore:scaleDragonEnder>, null]]);
+recipes.addShapedMirrored(<spartanweaponry:javelin_lead>, [[<spartanweaponry:material:1>, <ore:scaleDragonEnder>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:throwing_axe_lead>, [[<spartanweaponry:material>, <ore:scaleDragonEnder>, null],[null, <ore:scaleDragonEnder>, null]]);
-recipes.addShapedMirrored(<spartanweaponry:throwing_knife_lead>, [[null, null, null],[<spartanweaponry:material>, <ore:scaleDragonEnder>, null]]);
+recipes.addShapedMirrored(<spartanweaponry:throwing_knife_lead>, [[<spartanweaponry:material>, <ore:scaleDragonEnder>, null]]);
 recipes.addShaped(<spartanweaponry:lance_lead>, [[null, <ore:scaleDragonEnder>, null],[null, <spartanweaponry:material:1>, null], [null, <spartanweaponry:material>, null]]);
 recipes.addShaped(<spartanweaponry:pike_lead>, [[null, <ore:scaleDragonEnder>, null],[null, <spartanweaponry:material:1>, null], [null, <spartanweaponry:material:1>, null]]);
 recipes.addShaped(<spartanweaponry:halberd_lead>, [[null, <ore:scaleDragonEnder>, null],[<ore:scaleDragonEnder>, <ore:scaleDragonEnder>, null], [<ore:scaleDragonEnder>, <spartanweaponry:material:1>, null]]);
@@ -62,9 +62,9 @@ recipes.addShapedMirrored(<spartanweaponry:glaive_platinum>, [[null, <ore:ingotV
 recipes.addShapedMirrored(<spartanweaponry:mace_platinum>, [[null, <ore:ingotVulcanite>, <ore:ingotVulcanite>],[null, <ore:voodooPoppetProtectionLightning>, <metallurgy:vulcanite_ingot>], [<spartanweaponry:material>, null, null]]);
 recipes.addShaped(<spartanweaponry:battleaxe_platinum>, [[<metallurgy:vulcanite_ingot>, <ore:ingotVulcanite>, <ore:ingotVulcanite>],[<ore:ingotVulcanite>, <ore:voodooPoppetProtectionLightning>, <metallurgy:vulcanite_ingot>], [null, <spartanweaponry:material>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:boomerang_platinum>, [[<metallurgy:vulcanite_ingot>, <ore:plankWood>, <ore:plankWood>],[<ore:plankWood>, null, null], [<ore:plankWood>, null, null]]);
-recipes.addShapedMirrored(<spartanweaponry:javelin_platinum>, [[null, null, null],[<spartanweaponry:material:1>, <metallurgy:vulcanite_ingot>, null]]);
+recipes.addShapedMirrored(<spartanweaponry:javelin_platinum>, [[<spartanweaponry:material:1>, <metallurgy:vulcanite_ingot>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:throwing_axe_platinum>, [[<spartanweaponry:material>, <metallurgy:vulcanite_ingot>, null],[null, <metallurgy:vulcanite_ingot>, null]]);
-recipes.addShapedMirrored(<spartanweaponry:throwing_knife_platinum>, [[null, null, null],[<spartanweaponry:material>, <metallurgy:vulcanite_ingot>, null]]);
+recipes.addShapedMirrored(<spartanweaponry:throwing_knife_platinum>, [[<spartanweaponry:material>, <metallurgy:vulcanite_ingot>, null]]);
 recipes.addShaped(<spartanweaponry:lance_platinum>, [[null, <metallurgy:vulcanite_ingot>, null],[null, <spartanweaponry:material:1>, null], [null, <spartanweaponry:material>, null]]);
 recipes.addShaped(<spartanweaponry:pike_platinum>, [[null, <metallurgy:vulcanite_ingot>, null],[null, <spartanweaponry:material:1>, null], [null, <spartanweaponry:material:1>, null]]);
 recipes.addShapedMirrored(<spartanweaponry:halberd_platinum>, [[null, <metallurgy:vulcanite_ingot>, null],[<metallurgy:vulcanite_ingot>, <metallurgy:vulcanite_ingot>, null], [<metallurgy:vulcanite_ingot>, <spartanweaponry:material:1>, null]]);

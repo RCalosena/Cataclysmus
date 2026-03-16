@@ -14,11 +14,11 @@
   "element": "ice",
   "type": "projectile",
   "cost": 10,
-  "chargeup": 0,
-  "cooldown": 15,
+  "chargeup": 20,
+  "cooldown": 10,
   "base_properties": {
     "range": 20,
-    "damage": 6,
+    "damage": 7,
     "effect_duration": 100,
     "effect_strength": 0
   }

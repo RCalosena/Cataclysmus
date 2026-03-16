@@ -1,18 +1,13 @@
 #reloadable
 
 import crafttweaker.block.IBlock;
-import crafttweaker.block.IBlockState;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.player.IPlayer;
-import mods.ctintegration.scalinghealth.DifficultyManager;
-import crafttweaker.world.IFacing;
 import crafttweaker.util.Math;
 import crafttweaker.data.IData;
 import crafttweaker.enchantments.IEnchantmentDefinition;
 import crafttweaker.entity.IEntityThrowable;
 import crafttweaker.dispenser.DispenserSound;
-import crafttweaker.liquid.ILiquidDefinition;
-import crafttweaker.item.IItemStack;
 
 function isBlocks(wood as IBlock, plank as IBlock) as bool {
     var condition = 0;
@@ -52,6 +47,7 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
 events.register(function(event2 as crafttweaker.event.PlayerTickEvent){
 if event2.side == "CLIENT" { return; }
 if (event2.phase == "START") { return; }
+if !event2.player.hasGameStage("seencutscene") { return; }
 if event2.player.hasGameStage("dayone") { return; }
 
 var player = event2.player;
@@ -76,6 +72,7 @@ events.register(function(event as crafttweaker.event.PlayerSleepInBedEvent) {
 //Log and plank unmineable
 events.register(function(event1 as crafttweaker.event.BlockBreakEvent){
 if event1.world.isRemote() { return; }
+if event1.block.definition.id == "minecraft:chest" return;
 
 if (isBlocks(event1.block, event1.block) || event1.block.definition.getHarvestTool(event1.block.definition.defaultState) == "axe") {
     if !isNull(event1.player.currentItem) {
@@ -91,26 +88,32 @@ event1.world.destroyBlock(event1.position, false);
 //Leaves Stick Drop && Gravel Flint Drop && Ores Dust Drop
 events.register(function(event2 as crafttweaker.event.BlockHarvestDropsEvent){
     if event2.world.isRemote() { return; }
+    if !event2.isPlayer return;
+
     var bDef = event2.block.definition;
 
+    var luckModifier = (event2.player.getAttribute("generic.luck").getAttributeValue() * 0.1) as float;
+    var totalChance = (0.25 + luckModifier) as float;
+
     for leves in <ore:treeLeaves>.items {
-        if (bDef.id == leves.asBlock().definition.id) { event2.drops += <minecraft:stick> % 20; }
+        if (bDef.id == leves.asBlock().definition.id) { event2.drops += <minecraft:stick> % (20 + (luckModifier * 100)); }
     }
-        if event2.world.random.nextInt(0, 3) == 3 {
+
+        if (event2.world.random.nextFloat() <= totalChance && !event2.silkTouch) {
 
             if (bDef.id == "minecraft:gravel") { event2.drops = [<minecraft:flint>.weight(1.0)]; }
 
             for copper in <ore:oreCopper>.items {
-                if (bDef.id == copper.asBlock().definition.id) { event2.drops = [<metallurgy:copper_dust>.weight(1.0), <metallurgy:copper_dust>.weight(0.5)]; }
+                if (bDef.id == copper.asBlock().definition.id) { event2.drops = [<metallurgy:copper_dust>.weight(1.0), <metallurgy:copper_dust>.weight(0.5 + luckModifier)]; }
             }
             for manganese in <ore:oreManganese>.items {
-                if (bDef.id == manganese.asBlock().definition.id) { event2.drops = [<metallurgy:manganese_dust>.weight(1.0), <metallurgy:manganese_dust>.weight(0.5)]; }
+                if (bDef.id == manganese.asBlock().definition.id) { event2.drops = [<metallurgy:manganese_dust>.weight(1.0), <metallurgy:manganese_dust>.weight(0.5 + luckModifier)]; }
             }
             for tin in <ore:oreTin>.items {
-                if (bDef.id == tin.asBlock().definition.id) { event2.drops = [<metallurgy:tin_dust>.weight(1.0), <metallurgy:tin_dust>.weight(0.5)]; }
+                if (bDef.id == tin.asBlock().definition.id) { event2.drops = [<metallurgy:tin_dust>.weight(1.0), <metallurgy:tin_dust>.weight(0.5 + luckModifier)]; }
             }
             for iron in <ore:oreIron>.items {
-                if (bDef.id == iron.asBlock().definition.id) { event2.drops = [<metallurgy:iron_dust>.weight(1.0), <metallurgy:iron_dust>.weight(0.5)]; }
+                if (bDef.id == iron.asBlock().definition.id) { event2.drops = [<metallurgy:iron_dust>.weight(1.0), <metallurgy:iron_dust>.weight(0.5 + luckModifier)]; }
             }
         }
 });
@@ -158,6 +161,8 @@ events.register(function(event as crafttweaker.event.PlayerSleepInBedEvent) {
         event.result = "OTHER_PROBLEM";
         if !player.world.isDayTime() { player.sendStatusMessage("You don't feel tired"); }
 });
+
+
 //Stagnant Sky
 
 //Deep Caverns Lock
@@ -847,3 +852,15 @@ if (world.getBlock(source.pos.getOffset(source.facing, 1)).definition.id == "min
     <metallurgy:vyroxeres_ore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
     <metallurgy:sanguinite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
 //Ore Harvest Levels
+
+
+/*
+events.register(function(event as crafttweaker.event.ExplosionStartEvent){
+    if event.explosion.placedBy instanceof IPlayer {
+        print("player");
+        return;
+    }
+
+    print(event.explosion.placedBy.definition.id);
+});
+*/

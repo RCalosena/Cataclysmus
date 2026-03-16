@@ -14,11 +14,11 @@
   "element": "sorcery",
   "type": "projectile",
   "cost": 26,
-  "chargeup": 0,
+  "chargeup": 30,
   "cooldown": 20,
   "base_properties": {
     "range": 10,
-    "damage": 7,
+    "damage": 9,
     "blast_radius": 6
   }
 }

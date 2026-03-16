@@ -2,7 +2,6 @@
 
 import mods.ItemStages.addItemStage;
 import mods.ItemStages.stageEnchant;
-import mods.ItemStages.setUnfamiliarName;
 import crafttweaker.item.IIngredient;
 import crafttweaker.enchantments.IEnchantmentDefinition;
     

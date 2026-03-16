@@ -14,11 +14,11 @@
   "element": "earth",
   "type": "attack",
   "cost": 98,
-  "chargeup": 15,
+  "chargeup": 40,
   "cooldown": 200,
   "base_properties": {
     "effect_radius": 5,
-    "damage": 18,
+    "damage": 20,
     "effect_duration": 140,
     "effect_strength": 3
   }

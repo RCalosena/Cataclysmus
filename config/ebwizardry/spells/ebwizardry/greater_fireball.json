@@ -14,11 +14,11 @@
   "element": "fire",
   "type": "projectile",
   "cost": 26,
-  "chargeup": 5,
+  "chargeup": 20,
   "cooldown": 30,
   "base_properties": {
     "range": 25,
-    "damage": 8,
+    "damage": 10,
     "explosion_power": 2
   }
 }

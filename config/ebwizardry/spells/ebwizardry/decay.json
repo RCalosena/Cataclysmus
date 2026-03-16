@@ -14,10 +14,10 @@
   "element": "necromancy",
   "type": "attack",
   "cost": 65,
-  "chargeup": 10,
+  "chargeup": 20,
   "cooldown": 200,
   "base_properties": {
-    "range": 12,
+    "range": 15,
     "duration": 400,
     "effect_duration": 400,
     "decay_patches_spawned": 5

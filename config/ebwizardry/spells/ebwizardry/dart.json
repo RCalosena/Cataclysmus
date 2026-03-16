@@ -14,11 +14,11 @@
   "element": "earth",
   "type": "projectile",
   "cost": 5,
-  "chargeup": 0,
+  "chargeup": 10,
   "cooldown": 10,
   "base_properties": {
-    "range": 15,
-    "damage": 5,
+    "range": 20,
+    "damage": 6,
     "effect_duration": 200,
     "effect_strength": 1
   }

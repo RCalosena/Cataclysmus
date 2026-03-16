@@ -14,12 +14,12 @@
 	"element": "lightning",
 	"type": "attack",
 	"cost": 20,
-	"chargeup": 0,
-	"cooldown": 50,
+	"chargeup": 20,
+	"cooldown": 60,
 	"base_properties": {
 		"charge_speed": 2.0,
 		"duration": 10,
-		"damage": 8,
-		"knockback_strength": 1.5
+		"damage": 10,
+		"knockback_strength": 1.8
 	}
 }

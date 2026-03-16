@@ -56,6 +56,9 @@ neat.keybind.toggle
 key.togglePerspective
 of.key.zoom
 
+key.aquaacrobatics.category
+key.aquaacrobatics.toggle_crawling
+
 key.categories.backpack
 key.personalBackpack
 

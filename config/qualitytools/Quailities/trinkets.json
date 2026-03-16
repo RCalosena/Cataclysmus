@@ -79,7 +79,7 @@
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": -0.2,
+            "amount": -0.5,
             "operation": 0
           }
         ]
@@ -95,7 +95,7 @@
         "attributes": [
           {
             "name": "generic.luck",
-            "amount": 0.2,
+            "amount": 0.5,
             "operation": 0
           }
         ]
@@ -348,6 +348,11 @@
           {
             "name": "potioncore.magicShielding",
             "amount": 1,
+            "operation": 0
+          },
+          {
+            "name": "generic.luck",
+            "amount": 0.5,
             "operation": 0
           }
         ]

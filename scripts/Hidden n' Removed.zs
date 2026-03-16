@@ -1,11 +1,5 @@
 import crafttweaker.item.IIngredient;
 
-            #########################
-            ## All removed recipes ##
-            #########################
-
-
-
 val Array = [
     <spartanweaponry:arrow_wood>,
     <metallurgy:copper_shovel>,
@@ -267,7 +261,6 @@ val Array = [
     <mujmajnkraftsbettersurvival:itemgolddagger>,
     <spartanweaponry:scythe_copper>,
     <spartanweaponry:scythe_lead>,
-    <spartanweaponry:scythe_nickel>,
     <spartanweaponry:scythe_platinum>,
     <spartanweaponry:scythe_iron>,
     <spartanweaponry:scythe_stone>,
@@ -449,10 +442,10 @@ val Array = [
     <metallurgy:krik_boots>,
     <metallurgy:krik_chestplate>,
     <metallurgy:krik_helmet>,
-    <erebus:sprint_leggings>,
-    <erebus:glider_chestplate_powered>,
+    <erebus:rein_exoskeleton_helmet>,
+    <erebus:rein_exoskeleton_chestplate>,
+    <erebus:rein_exoskeleton_leggings>,
     <erebus:rein_exoskeleton_boots>,
-    <erebus:rein_compound_goggles>,
     <mod_lavacow:faminearmor_boots>,
     <mod_lavacow:faminearmor_leggings>,
     <mod_lavacow:faminearmor_chestplate>,

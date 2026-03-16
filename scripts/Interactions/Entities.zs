@@ -2,7 +2,6 @@
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntity;
-import crafttweaker.entity.IEntityMob;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.entity.IEntityItem;
@@ -694,7 +693,6 @@ if event.entityLivingBase.world.isRemote() return;
 if isNull(event.entityLivingBase.nbt) return;
 if isNull(event.entityLivingBase.nbt.OwnerUUID) return;
 if (event.entity.nbt.OwnerUUID.asString().contains("-")) {
-    print("drop!");
     event.cancel();
 }
 });

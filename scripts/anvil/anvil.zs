@@ -17,8 +17,6 @@ for item in woolArray{
      addRepairEntry(item, <minecraft:wool:*>);
 }
 
-var vile = <srparasites:vile_shell>;
-
 //addRepairEntry(IIngredient repairedItems, IIngredient materials)
 
 val vileArray = [
@@ -33,10 +31,8 @@ val vileArray = [
 ] as IIngredient[];
 
 for item in vileArray{
-     addRepairEntry(item, vile);
+     addRepairEntry(item, <srparasites:vile_shell>);
 }
-
-var plate = <erebus:materials:15>;
 
 //addRepairEntry(IIngredient repairedItems, IIngredient materials)
 
@@ -47,13 +43,11 @@ val plateArray = [
 ] as IIngredient[];
 
 for item in plateArray{
-     addRepairEntry(item, plate);
+     addRepairEntry(item, <erebus:materials:15>);
 }
 
 
 //addRepairEntry(IIngredient repairedItems, IIngredient materials)
-
-var flint = <minecraft:flint>;
 
 val flintArray = [
     <spartanweaponry:dagger_wood>,
@@ -88,10 +82,8 @@ val flintArray = [
 ] as IItemStack[];
 
 for item in flintArray{
-    addRepairEntry(item, flint);
+    addRepairEntry(item, <minecraft:flint>);
 }
-
-var jade = <ore:gemJade>;
 
 val jadeArray = [
     <spartanweaponry:dagger_copper>,
@@ -120,11 +112,9 @@ val jadeArray = [
 ] as IItemStack[];
 
 for item in jadeArray{
-     addRepairEntry(item, jade);
+     addRepairEntry(item, <ore:gemJade>);
 }
-addRepairEntry(<mujmajnkraftsbettersurvival:itemsilvernunchaku>, jade);
-
-var vulcanite = <ore:ingotVulcanite>;
+addRepairEntry(<mujmajnkraftsbettersurvival:itemsilvernunchaku>, <ore:gemJade>);
 
 //addRepairEntry(IIngredient repairedItems, IIngredient materials)
 
@@ -155,11 +145,9 @@ val vulArray = [
 ] as IItemStack[];
 
 for item in vulArray{
-     addRepairEntry(item, vulcanite);
+     addRepairEntry(item, <ore:ingotVulcanite>);
 }
-addRepairEntry(<mujmajnkraftsbettersurvival:itemcoppernunchaku>, vulcanite);
-
-var star = <ore:netherStar>;
+addRepairEntry(<mujmajnkraftsbettersurvival:itemcoppernunchaku>, <ore:ingotVulcanite>);
 
 //addRepairEntry(IIngredient repairedItems, IIngredient materials)
 
@@ -190,11 +178,9 @@ val starArray = [
 ] as IIngredient[];
 
 for item in starArray{
-     addRepairEntry(item, star);
+     addRepairEntry(item, <ore:netherStar>);
 }
-addRepairEntry(<mujmajnkraftsbettersurvival:itemelectrumnunchaku>, star);
-
-var scaleDragon = <ore:scaleDragonEnder>;
+addRepairEntry(<mujmajnkraftsbettersurvival:itemelectrumnunchaku>, <ore:netherStar>);
 
 //addRepairEntry(IIngredient repairedItems, IIngredient materials)
 
@@ -225,16 +211,15 @@ val draArray = [
 ] as IIngredient[];
 
 for item in draArray{
-     addRepairEntry(item, scaleDragon);
+     addRepairEntry(item, <ore:scaleDragonEnder>);
 }
-addRepairEntry(<mujmajnkraftsbettersurvival:itemsteelnunchaku>, scaleDragon);
+addRepairEntry(<mujmajnkraftsbettersurvival:itemsteelnunchaku>, <ore:scaleDragonEnder>);
 
 // Remove recipes for previous materials
 events.register(function(event as crafttweaker.event.PlayerAnvilUpdateEvent){
         var leftItem = event.leftItem;
-        val ores = event.rightItem.ores;
 
-    for ore in ores {
+    for ore in event.rightItem.ores {
         for flints in flintArray {
             if (flints.anyDamage().matches(leftItem) && ore.name.contains(<ore:plankWood>.name)) {
                 event.cancel();

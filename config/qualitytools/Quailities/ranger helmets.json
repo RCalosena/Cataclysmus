@@ -45,7 +45,7 @@
         "item": "nyx:meteor_helm"
       },
       {
-        "item": "erebus:rein_compound_goggles"
+        "item": "erebus:rein_exoskeleton_helmet"
       }
     ],
     "blacklist": [
@@ -58,7 +58,7 @@
         "attributes": [
           {
             "name": "potioncore.projectileDamage",
-            "amount": 0.05,
+            "amount": 0.1,
             "operation": 2
           }
         ]

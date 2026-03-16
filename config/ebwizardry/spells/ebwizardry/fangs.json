@@ -14,9 +14,9 @@
   "element": "earth",
   "type": "attack",
   "cost": 52,
-  "chargeup": 5,
+  "chargeup": 40,
   "cooldown": 60,
   "base_properties": {
-    "range": 10
+    "range": 12
   }
 }

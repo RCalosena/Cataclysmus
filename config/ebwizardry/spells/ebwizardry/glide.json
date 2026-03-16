@@ -14,7 +14,7 @@
   "element": "earth",
   "type": "utility",
   "cost": 8,
-  "chargeup": 0,
+  "chargeup": 10,
   "cooldown": 0,
   "base_properties": {
     "speed": 0.4,

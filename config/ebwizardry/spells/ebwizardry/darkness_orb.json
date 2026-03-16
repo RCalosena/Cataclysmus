@@ -14,12 +14,12 @@
   "element": "necromancy",
   "type": "projectile",
   "cost": 26,
-  "chargeup": 0,
+  "chargeup": 60,
   "cooldown": 20,
   "base_properties": {
     "range": 40,
     "damage": 10,
-    "effect_duration": 150,
+    "effect_duration": 200,
     "effect_strength": 1
   }
 }

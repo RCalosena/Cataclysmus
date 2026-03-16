@@ -14,7 +14,7 @@
   "element": "healing",
   "type": "construct",
   "cost": 53,
-  "chargeup": 15,
+  "chargeup": 30,
   "cooldown": 225,
   "base_properties": {
     "duration": 600,

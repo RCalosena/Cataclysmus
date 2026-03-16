@@ -1,7 +1,5 @@
-
-
-import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import scripts.classes.wildcards;
 
         # Stealth Descriptions #
 
@@ -82,7 +80,6 @@ import crafttweaker.item.IItemStack;
 <mujmajnkraftsbettersurvival:itemstonedagger>.addTooltip(format.yellow("Treasure Loot"));
 <mujmajnkraftsbettersurvival:itemstonespear>.addTooltip(format.yellow("Treasure Loot"));
 <mujmajnkraftsbettersurvival:itemstonehammer>.addTooltip(format.yellow("Treasure Loot"));
-<minecraft:stone_axe>.addTooltip(format.yellow("Treasure Loot"));
 <minecraft:stone_sword>.addTooltip(format.yellow("Treasure Loot"));
 
 <mujmajnkraftsbettersurvival:itemironnunchaku>.addTooltip(format.aqua("Rare Treasure Loot"));
@@ -91,7 +88,6 @@ import crafttweaker.item.IItemStack;
 <mujmajnkraftsbettersurvival:itemironspear>.addTooltip(format.aqua("Rare Treasure Loot"));
 <mujmajnkraftsbettersurvival:itemironhammer>.addTooltip(format.aqua("Rare Treasure Loot"));
 <minecraft:iron_sword>.addTooltip(format.aqua("Rare Treasure Loot"));
-<minecraft:iron_axe>.addTooltip(format.aqua("Rare Treasure Loot"));
 <spartanweaponry:staff_iron>.addTooltip(format.aqua("Rare Treasure Loot"));
 <spartanweaponry:glaive_iron>.addTooltip(format.aqua("Rare Treasure Loot"));
 <spartanweaponry:mace_iron>.addTooltip(format.aqua("Rare Treasure Loot"));
@@ -122,11 +118,114 @@ import crafttweaker.item.IItemStack;
 <mod_lavacow:dreamcatcher:20>.clearTooltip(true);
 <mod_lavacow:dreamcatcher:20>.addTooltip(format.yellow("Hold it in your hand while sleeping to attract creatures"));
 
-<minecraft:elytra>.clearTooltip(true);
-<minecraft:elytra>.displayName = "Elytra";
-<minecraft:elytra>.anyDamage().addTooltip(format.yellow("Works with any subclass"));
+var archDesc = [
+        "When worn, ores guarantee their dust drop.",
+        "+50% chance to drop an extra dust.",
+        " "
+] as string[];
 
+for desc in archDesc {
+        <quark:archaeologist_hat>.anyDamage().addTooltip(format.white(desc));
+}
 
+var pirateDesc = [
+        "Greatly increases the speed of boats",
+        "and aquatic mounts while equipped.",
+        " "
+] as string[];
+
+for desc in pirateDesc {
+        <quark:pirate_hat>.anyDamage().addTooltip(format.white(desc));
+}
+
+var witchHatDesc = [
+        "Increases the wearer's buff durations.",
+        "Victims get greater debuff durations.",
+        " "
+] as string[];
+
+for desc in witchHatDesc {
+        <quark:witch_hat>.anyDamage().addTooltip(format.white(desc));
+}
+
+var dragonHeadDesc = [
+        "When equipped, dodges cut swiftly",
+        "through the air while flying.",
+        " "
+] as string[];
+
+for desc in dragonHeadDesc {
+        <minecraft:skull:5>.addTooltip(format.white(desc));
+}
+
+var mobHeadDesc = [
+        "Enemies with matching skulls become",
+        "neutral, but suspicious of the wearer.",
+        " "
+] as string[];
+
+for desc in mobHeadDesc {
+        <minecraft:skull>.addTooltip(format.white(desc));
+        <minecraft:skull:1>.addTooltip(format.white(desc));
+        <minecraft:skull:2>.addTooltip(format.white(desc));
+        <minecraft:skull:4>.addTooltip(format.white(desc));
+}
+
+var elytraDesc = [
+        "Allows the wearer to glide at great speeds.",
+        "Jump in the air to start gliding.",
+        " "
+] as string[];
+
+for desc in elytraDesc {
+        <minecraft:elytra>.anyDamage().addTooltip(format.white(desc));
+}
+
+var antlerDesc = [
+        "Grants health at the expense of durability.",
+        "Enemy souls repair your equipment.",
+        " "
+] as string[];
+
+for desc in antlerDesc {
+        <mysticalworld:antler_hat>.anyDamage().addTooltip(format.white(desc));
+}
+
+var beetleDesc = [
+        "May retaliate from the wearer's attackers.",
+        "Retaliation damage scales if it isn't dealt.",
+        " "
+] as string[];
+
+for desc in beetleDesc {
+        <mysticalworld:beetle_mask>.anyDamage().addTooltip(format.white(desc));
+}
+
+var goldCrownDesc = [
+        "While equipped, a full health bar grants",
+        "a chance of negating damage.",
+        " "
+] as string[];
+
+for desc in goldCrownDesc {
+        <bountifulbaubles:crowngold>.anyDamage().addTooltip(format.white(desc));
+}
+
+var hirschDesc = [
+        "When worn, emits a pale glow, warding against void",
+        "creatures. After 6 uses, the light dissipates for 10 seconds.",
+        " "
+] as string[];
+
+for desc in hirschDesc {
+        <betteranimalsplus:hirschgeistskullwearable>.anyDamage().addTooltip(format.white(desc));
+}
+
+//Wildcards
+for wildcard in wildcards.getWildcards() {
+        wildcard.anyDamage().addShiftTooltip(format.white("You keep your class ability while wearing this item."),format.white(format.bold("Wildcard")));
+        wildcard.anyDamage().addShiftTooltip(format.white("Only two pieces may be equipped at once."));
+}
 //armor set descriptions
 val assassin = [
         <metallurgy:amordrine_helmet>,
@@ -373,19 +472,19 @@ val keen_eyes = [
         <metallurgy:tartarite_helmet>,
         <metallurgy:deep_iron_helmet>,
         <metallurgy:celenegil_helmet>,
-        <erebus:rein_compound_goggles>,
+        <erebus:rein_exoskeleton_helmet>,
         <metallurgy:brass_chestplate>,
         <metallurgy:kalendrite_chestplate>,
         <metallurgy:tartarite_chestplate>,
         <metallurgy:deep_iron_chestplate>,
         <metallurgy:celenegil_chestplate>,
-        <erebus:glider_chestplate_powered>,
+        <erebus:rein_exoskeleton_chestplate>,
         <metallurgy:brass_leggings>,
         <metallurgy:kalendrite_leggings>,
         <metallurgy:tartarite_leggings>,
         <metallurgy:deep_iron_leggings>,
         <metallurgy:celenegil_leggings>,
-        <erebus:sprint_leggings>,
+        <erebus:rein_exoskeleton_leggings>,
         <metallurgy:brass_boots>,
         <metallurgy:kalendrite_boots>,
         <metallurgy:tartarite_boots>,

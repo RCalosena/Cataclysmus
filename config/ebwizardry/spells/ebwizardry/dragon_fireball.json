@@ -14,9 +14,9 @@
   "element": "necromancy",
   "type": "attack",
   "cost": 39,
-  "chargeup": 0,
+  "chargeup": 20,
   "cooldown": 40,
   "base_properties": {
-    "acceleration": 0.3
+    "acceleration": 0.4
   }
 }

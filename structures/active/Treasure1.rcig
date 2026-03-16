@@ -103,6 +103,16 @@
       }
     },
     {
+      "weight": 1.2,
+      "min": 1,
+      "max": 9,
+      "item": {
+        "id": "switchbow:arrowpiercing",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
       "weight": 0.8473554849624634,
       "min": 1,
       "max": 4,

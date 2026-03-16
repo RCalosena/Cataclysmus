@@ -1,5 +1,3 @@
-
-
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
@@ -208,9 +206,9 @@ val Array3 = [
         <cqrepoured:boots_spider>,
         <mod_lavacow:faminearmor_boots>,
         <nyx:meteor_boots>,
-        <erebus:glider_chestplate_powered>,
-        <erebus:rein_compound_goggles>,
-        <erebus:sprint_leggings>,
+        <erebus:rein_exoskeleton_chestplate>,
+        <erebus:rein_exoskeleton_helmet>,
+        <erebus:rein_exoskeleton_leggings>,
         <erebus:rein_exoskeleton_boots>,
         <srparasites:armor_helm_sentient>.withTag({arcum: 1}),
         <srparasites:armor_chest_sentient>.withTag({arcum: 1}),

@@ -14,11 +14,11 @@
   "element": "lightning",
   "type": "attack",
   "cost": 33,
-  "chargeup": 0,
+  "chargeup": 20,
   "cooldown": 75,
   "base_properties": {
-    "effect_radius": 4,
-    "damage": 10,
+    "effect_radius": 5,
+    "damage": 13,
     "repulsion_velocity": 0.9
   }
 }

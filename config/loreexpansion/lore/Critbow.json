@@ -1,0 +1,22 @@
+{
+  "key": {
+    "id": "Critbow",
+    "category": "Lost"
+  },
+  "content": {
+    "title": "Whistling Arrows",
+    "body": "§o\"A torn page from Ancient Battle Techniques\"§r 
+    
+    ...The iconic §o\"Whistling Arrows\"§r of the Arcum knights can be achieved with proper timing between dodges and arrows shot...
+    ...§ododging right before releasing an arrow§r feeds it the extra strength necessary to reproduce the whistling noise. The sheer power of the resulting traveling projectile will make it reach further, and push back the enemy on impact. 
+    Although this technique allows to efficiently keep a distance to the attacker, missing a shot means the projectile will break, and hence, be unrecoverable, which discourages newcomers from using this technique.", 
+    "autoplay": false
+  },
+  "sortingIndex": 2,
+  "requirements": [],
+  "autoAdd": true,
+  "defaultLore": false,
+  "notify": true,
+  "trigger": null,
+  "action": null
+}

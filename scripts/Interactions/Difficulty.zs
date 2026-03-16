@@ -168,6 +168,7 @@ events.register(function(event as crafttweaker.event.EntityLivingHurtEvent){
     if !event.entityLivingBase instanceof IPlayer { return; }
     if isNull(event.damageSource.trueSource) { return; }
     if event.damageSource.trueSource instanceof IPlayer { return; }
+    if (event.damageSource.isFireDamage() || event.damageSource.damageType == "fall") return;
 
     if event.entityLivingBase.world.getWorldInfo().difficulty == "EASY" {
     event.amount *= 0.7; 

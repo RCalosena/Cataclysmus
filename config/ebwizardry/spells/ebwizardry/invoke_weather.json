@@ -14,7 +14,7 @@
   "element": "lightning",
   "type": "utility",
   "cost": 39,
-  "chargeup": 15,
+  "chargeup": 80,
   "cooldown": 100,
   "base_properties": {
     "thunderstorm_chance": 0.2

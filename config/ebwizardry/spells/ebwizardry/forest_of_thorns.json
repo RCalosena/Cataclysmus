@@ -14,7 +14,7 @@
 	"element": "earth",
 	"type": "construct",
 	"cost": 130,
-	"chargeup": 20,
+	"chargeup": 30,
 	"cooldown": 250,
 	"base_properties": {
 		"effect_radius": 5,

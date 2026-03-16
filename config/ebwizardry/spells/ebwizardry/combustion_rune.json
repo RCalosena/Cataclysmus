@@ -14,10 +14,10 @@
   "element": "fire",
   "type": "construct",
   "cost": 39,
-  "chargeup": 0,
-  "cooldown": 50,
+  "chargeup": 60,
+  "cooldown": 60,
   "base_properties": {
     "range": 20,
-    "blast_radius": 3
+    "blast_radius": 6
   }
 }

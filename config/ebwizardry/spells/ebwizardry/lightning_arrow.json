@@ -14,10 +14,10 @@
   "element": "lightning",
   "type": "projectile",
   "cost": 15,
-  "chargeup": 0,
+  "chargeup": 20,
   "cooldown": 20,
   "base_properties": {
     "range": 25,
-    "damage": 8
+    "damage": 9
   }
 }

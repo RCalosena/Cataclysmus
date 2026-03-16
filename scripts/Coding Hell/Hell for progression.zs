@@ -1,4 +1,3 @@
-import crafttweaker.item.IItemStack;
 
          ### All recipes that are not related to any specific class ###
 
