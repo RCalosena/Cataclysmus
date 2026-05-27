@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 340,
   "generalSettings": {
     "detectATLauncherInstance": true,
@@ -101,8 +101,7 @@
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": true
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "en_us",
@@ -117,30 +116,29 @@
       "useAsMain": false,
       "isInstance": false,
       "activityType": 0,
+      "statusDisplayType": 0,
       "partyPrivacy": 1,
       "details": "{getFirst(menu.message, dimension.message)}",
+      "detailsUrl": "",
       "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "gameStateUrl": "",
+      "appName": "",
       "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
       "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "largeImageUrl": "",
       "smallImageKey": "{getFirst(server.icon, pack.icon)}",
       "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "smallImageUrl": "",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
       "RCalosena": "https://mc-heads.net/avatar/26aab4cdb91c4180a130485e9cbc7d01",
-      "default": "https://via.placeholder.com/256.png",
       "149.56.117.146": "https://api.mcsrvstat.us/icon/149.56.117.146",
       "169.155.126.59": "https://api.mcsrvstat.us/icon/169.155.126.59"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",

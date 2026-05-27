@@ -112,7 +112,6 @@ key_Granis Soul Dash:56:CONTROL
 key_walljump.key.walljump:19:NONE
 key_key.pickup.item:0:NONE
 key_smoothfont.key.guiOpen:0:NONE
-key_key.aquaacrobatics.toggle_crawling:58:CONTROL
 key_key.jei.toggleOverlay:0:NONE
 key_key.jei.focusSearch:0:NONE
 key_key.jei.toggleCheatMode:0:NONE
